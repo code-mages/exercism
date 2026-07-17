@@ -1,34 +1,6 @@
-# Load config/secret overrides from a YAML file (keys under "config:" and
-# "secrets:"). In development this is config/settings.local.yml; in other
-# environments point EXERCISM_SETTINGS_FILE at a mounted file (e.g. a k8s
-# Secret). This lets the self-hosted deploy run RAILS_ENV=production while
-# sourcing config from a file instead of AWS (the exercism-config gem only hits
-# AWS Secrets Manager when EXERCISM_ENV is 'production').
-settings_files =
-  if Rails.env.development?
-    [Rails.root / "config/settings.local.yml"]
-  else
-    # Baked defaults (dummy values for every key) first, so boot never hits an
-    # undefined config/secret key, then the real overrides from the mounted file.
-    [Rails.root / "config/settings.defaults.yml", ENV["EXERCISM_SETTINGS_FILE"]]
-  end
-
-settings_files.compact.each do |settings_file|
-  next unless File.exist?(settings_file)
-
-  YAML.load_file(settings_file).tap do |settings|
-    (settings["config"] || {}).each do |key, value|
-      Exercism.config.send("#{key}=", value.freeze)
-    end
-    (settings["secrets"] || {}).each do |key, value|
-      Exercism.secrets.send("#{key}=", value.freeze)
-    end
-  end
-end
-
-# In development the API host is always local; elsewhere it comes from the
-# settings file above (api_host key).
-Exercism.config.api_host = "http://local.exercism.io:3020/api".freeze if Rails.env.development?
+# NOTE: Exercism.config / Exercism.secrets are populated earlier than this, in
+# config/load_exercism_settings.rb (required from config/application.rb), because
+# the environment config reads them during boot before initializers run.
 
 module Exercism
   # We'll store the request context for easy access from commands

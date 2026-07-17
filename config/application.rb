@@ -6,6 +6,10 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+# Populate Exercism.config / Exercism.secrets before the environment config and
+# initializers read them during boot (see the file for details).
+require_relative "load_exercism_settings"
+
 module Website
   class Application < Rails::Application
     config.load_defaults 7.0
