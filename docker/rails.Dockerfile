@@ -5,6 +5,11 @@ ARG GEOIP_LICENSE_KEY
 ARG GEOIP_CACHE_BUSTER
 ARG BUNDLER_VERSION
 ENV RAILS_ENV=production
+# EXERCISM_ENV drives the exercism-config gem's config/secret source. Anything
+# other than 'production' loads the gem's bundled settings/*.yml instead of AWS
+# Secrets Manager, so the app boots during build (monitor-manifest, assets
+# precompile) and at runtime without AWS. Overrides come from EXERCISM_SETTINGS_FILE.
+ENV EXERCISM_ENV=development
 ENV NODE_ENV=production
 ENV NODE_OPTIONS="--max-old-space-size=6144"
 ENV NODE_MAJOR=20
@@ -79,6 +84,9 @@ RUN bin/cleanup-css
 FROM ruby:3.4.4-bullseye AS runtime
 
 ENV RAILS_ENV=production
+# See build stage: keeps the exercism-config gem off AWS. Kubernetes overrides
+# individual values via EXERCISM_SETTINGS_FILE (a mounted Secret).
+ENV EXERCISM_ENV=development
 ENV NODE_ENV=production
 
 RUN apt-get update && \
