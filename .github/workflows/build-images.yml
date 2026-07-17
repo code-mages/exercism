@@ -1,0 +1,72 @@
+name: Build images
+
+# Builds the container images this fork deploys to k3s and pushes them to the
+# GitHub Container Registry under the org (ghcr.io/code-mages/exercism-*).
+# The anycable-go component uses the upstream `anycable/anycable-go` image
+# unchanged, so it is not built here.
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+
+env:
+  REGISTRY: ghcr.io
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - component: rails
+            dockerfile: docker/rails.Dockerfile
+          - component: nginx
+            dockerfile: docker/nginx.Dockerfile
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Docker metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ github.repository_owner }}/exercism-${{ matrix.component }}
+          tags: |
+            type=sha,format=long
+            type=ref,event=branch
+            type=ref,event=tag
+            type=raw,value=latest,enable={{is_default_branch}}
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ${{ matrix.dockerfile }}
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha,scope=${{ matrix.component }}
+          cache-to: type=gha,mode=max,scope=${{ matrix.component }}
+          # BUNDLER_VERSION matches Gemfile.lock. GEOIP_* are optional: if the
+          # secrets are unset the rails image still builds (geolocation off).
+          build-args: |
+            BUNDLER_VERSION=2.6.9
+            GEOIP_ACCOUNT_ID=${{ secrets.GEOIP_ACCOUNT_ID }}
+            GEOIP_LICENSE_KEY=${{ secrets.GEOIP_LICENSE_KEY }}

@@ -49,11 +49,17 @@ RUN bundle install
 COPY package.json yarn.lock ./
 RUN yarn install
 
-# Pause to download GeoIP
+# Download the GeoIP city database when MaxMind credentials are provided.
+# Optional: without creds the build still succeeds and IP geolocation is simply
+# disabled (Geocoder opens the DB lazily, so a missing file doesn't break boot).
 WORKDIR /usr/share/GeoIP
-RUN curl -J -L -u "${GEOIP_ACCOUNT_ID}:${GEOIP_LICENSE_KEY}" --output geolite2-city.tar.gz 'https://download.maxmind.com/geoip/databases/GeoLite2-City/download?suffix=tar.gz' && \
-    tar -xvf geolite2-city.tar.gz --strip-components=1 --wildcards '*/GeoLite2-City.mmdb' && \
-    rm geolite2-city.tar.gz
+RUN if [ -n "${GEOIP_ACCOUNT_ID}" ] && [ -n "${GEOIP_LICENSE_KEY}" ]; then \
+      curl -J -L -u "${GEOIP_ACCOUNT_ID}:${GEOIP_LICENSE_KEY}" --output geolite2-city.tar.gz 'https://download.maxmind.com/geoip/databases/GeoLite2-City/download?suffix=tar.gz' && \
+      tar -xvf geolite2-city.tar.gz --strip-components=1 --wildcards '*/GeoLite2-City.mmdb' && \
+      rm geolite2-city.tar.gz ; \
+    else \
+      echo "GEOIP creds not set; skipping GeoLite2-City.mmdb download (IP geolocation disabled)." ; \
+    fi
 
 # Copy everything over now
 WORKDIR /opt/exercism/website
