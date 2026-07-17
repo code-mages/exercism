@@ -27,9 +27,11 @@ config:
   snippet_generator_url: http://localhost
   tooling_orchestrator_url: http://localhost
   tooling_redis_url: redis://localhost:6379/3
-  website_assets_host: http://localhost
-  website_avatars_host: http://localhost
-  website_icons_host: http://localhost
+  # Empty so compiled JS (esbuild bakes WEBSITE_ASSETS_HOST at build time) and
+  # server-rendered asset URLs are relative to the serving host, not a dummy.
+  website_assets_host: ""
+  website_avatars_host: ""
+  website_icons_host: ""
   website_url: http://localhost
   websockets_url: ws://localhost
 secrets:

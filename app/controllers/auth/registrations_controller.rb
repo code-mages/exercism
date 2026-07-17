@@ -2,19 +2,18 @@ module Auth
   class RegistrationsController < Devise::RegistrationsController
     skip_before_action :authenticate_user!
     before_action :configure_permitted_parameters
-    before_action :verify_turnstile!, only: [:create]
 
     rescue_from ActionController::InvalidAuthenticityToken, with: :handle_csrf_failure
 
+    # GitHub-only: local email/password sign-up is disabled. New accounts are
+    # created via the GitHub OAuth callback (User::AuthenticateFromOmniauth).
+    def new
+      redirect_to new_user_session_path
+    end
+
     def create
-      super do |user|
-        if user.persisted?
-          User::Bootstrap.(
-            user,
-            course_access_code: session[:course_access_code]
-          )
-        end
-      end
+      flash[:alert] = "Sign-up is via GitHub only." if is_navigational_format?
+      redirect_to new_user_session_path
     end
 
     def configure_permitted_parameters

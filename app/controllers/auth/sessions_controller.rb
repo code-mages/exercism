@@ -8,13 +8,9 @@ module Auth
 
     rescue_from ActionController::InvalidAuthenticityToken, with: :handle_csrf_failure
 
+    # GitHub-only: password login is disabled. Log in with GitHub instead.
     def create
-      super do |user|
-        remember_me(user)
-      end
-    rescue BCrypt::Errors::InvalidHash
-      set_flash_message(:alert, :invalid_hash) if is_navigational_format?
-
+      flash[:alert] = "Password login is disabled. Please log in with GitHub." if is_navigational_format?
       redirect_to new_user_session_path
     end
 
