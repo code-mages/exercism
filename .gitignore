@@ -60,6 +60,10 @@ config/settings.local.yml
 app/javascript/i18n/.env
 vendor/bundle/
 
+# Nix dev shell artifacts (flake.nix / flake.lock / .envrc are tracked)
+.nix-gems/
+.direnv/
+
 # Claude local settings
 .claude/settings.local.json
 

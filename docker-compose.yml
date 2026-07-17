@@ -1,0 +1,95 @@
+# Local development backing services for the Exercism website fork.
+#
+# The Ruby/Node app processes themselves run on the host inside the Nix dev
+# shell (`nix develop`), mirroring the repo's own bin/dev flow. This file only
+# provides the stateful services the app talks to. The same service boundaries
+# map 1:1 onto k3s Deployments/StatefulSets later.
+#
+# Usage:
+#   docker compose up -d --wait      # start + wait until healthy
+#   docker compose down              # stop (keep data)
+#   docker compose down -v           # stop + wipe data volumes
+#
+# Image tags are pinned to match .dockerimages.json / the production stack.
+
+services:
+  mysql:
+    image: mysql:5.7
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: exercism
+      MYSQL_PASSWORD: exercism
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./docker/dev/mysql-init.sql:/docker-entrypoint-initdb.d/00-databases.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uexercism", "-pexercism"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  opensearch:
+    image: opensearchproject/opensearch:2.11.0
+    environment:
+      discovery.type: single-node
+      DISABLE_SECURITY_PLUGIN: "true"
+      DISABLE_INSTALL_DEMO_CONFIG: "true"
+      OPENSEARCH_JAVA_OPTS: "-Xms512m -Xmx512m"
+      bootstrap.memory_lock: "true"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9200/_cluster/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  # LocalStack backs the AWS services (S3, SQS, DynamoDB) the app uses.
+  # The exercism-config gem's development profile expects LocalStack's 4566
+  # gateway on host ports 3040 and 3041, and the web UI on 3042 (see bin/dev).
+  localstack:
+    image: localstack/localstack:2.3.2
+    environment:
+      SERVICES: "s3,sqs,dynamodb"
+      DEBUG: "0"
+    ports:
+      - "3040:4566"
+      - "3041:4566"
+      - "3042:8080"
+    volumes:
+      - localstack-data:/var/lib/localstack
+      - /var/run/docker.sock:/var/run/docker.sock
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:4566/_localstack/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  mysql-data:
+  redis-data:
+  opensearch-data:
+  localstack-data:

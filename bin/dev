@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 rm -rf .built-assets
 
-docker run -dp 3042:8080 -p 3040:4566 -p 3041:4566 $(jq -r '.localstack' .dockerimages.json)
-docker run -dp 9200:9200 -e "discovery.type=single-node" $(jq -r '.opensearch' .dockerimages.json)
+# Backing services (MySQL, Redis, OpenSearch, LocalStack) run via docker-compose.
+# The app processes below run on the host inside the Nix dev shell.
+docker compose up -d --wait
+
 yarn install
 hivemind Procfile.dev

@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '3.4.4'
+# Relaxed from an exact '3.4.4' pin so the Nix dev shell's 3.4.x is accepted.
+# Production still runs 3.4.4 via docker/rails.Dockerfile (ruby:3.4.4-bullseye).
+ruby '~> 3.4.0'
 
 # Service/framework dependencies
 gem 'rails', '~> 7.1.0'

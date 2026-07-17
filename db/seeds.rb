@@ -124,20 +124,24 @@ bob.confirm
 bob.update!(accepted_privacy_policy_at: Time.current, accepted_terms_at: Time.current)
 bob.auth_tokens.create!
 
-track_slugs = %w[05ab1e 8th abap ada arm64-assembly awk babashka ballerina bash c ceylon cfml clojure clojurescript cobol coffeescript
-                 common-lisp coq cpp crystal csharp d dart delphi elixir elm emacs-lisp erlang factor forth fortran free-pascal fsharp gleam gnu-apl gnucobol go groovy haskell haxe idris io j java javascript javascript-legacy julia kotlin lfe lua mips nim nix objective-c ocaml perl5 pharo-smalltalk php plsql pony powershell prolog purescript python qsharp r racket raku reasonml red research_experiment_1 ruby rust scala scheme shen sml solidity swift system-verilog tcl typescript unison vbnet vimscript vlang wasm wren x86-64-assembly zig]
-track_slugs.each do |track_slug|
-  next unless %w[ruby csharp elixir javascript prolog].include?(track_slug)
+# This instance ships with NO default (upstream Exercism) tracks. It only hosts
+# custom tracks. Provide your own track content repos via env vars:
+#
+#   SEED_TRACK_SLUGS  comma-separated track slugs, e.g. "my-track,another-track"
+#   SEED_TRACK_REPOS  (optional) comma-separated git repo URLs, positionally
+#                     matched to the slugs above. When omitted for a slug,
+#                     Track::Create defaults to https://github.com/exercism/<slug>.
+#
+# Leaving SEED_TRACK_SLUGS unset (the default) seeds zero tracks.
+custom_track_slugs = ENV.fetch("SEED_TRACK_SLUGS", "").split(",").map(&:strip).reject(&:blank?)
+custom_track_repos = ENV.fetch("SEED_TRACK_REPOS", "").split(",").map(&:strip)
 
-  begin
-    puts "Adding Track: #{track_slug}"
-    Track::Create.(track_slug)
-  rescue StandardError => e
-    # puts e.message
-    # puts e.backtrace
-    puts "Error seeding Track #{track_slug}: #{e.message}"
-    puts e.backtrace
-  end
+custom_track_slugs.each_with_index do |track_slug, idx|
+  puts "Adding custom track: #{track_slug}"
+  Track::Create.(track_slug, repo_url: custom_track_repos[idx].presence)
+rescue StandardError => e
+  puts "Error seeding Track #{track_slug}: #{e.message}"
+  puts e.backtrace
 end
 
 Git::SyncBlog.()
@@ -149,6 +153,13 @@ puts "exercism configure -a http://local.exercism.io:3020/api/v1 -t #{auth_token
 puts ""
 
 ruby = Track.find_by_slug(:ruby)
+
+# The demo, mentoring, reputation and site-update fixtures below are built on
+# the upstream `ruby` track and are only useful for local development. On a
+# custom-only instance that track will not exist, so we stop here and leave the
+# core seeds above (users, auth token) in place.
+return unless ruby
+
 user_track = UserTrack.create_or_find_by!(user: iHiD, track: ruby)
 solution = Solution::Create.(
   iHiD,

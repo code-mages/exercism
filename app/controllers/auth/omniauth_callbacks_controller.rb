@@ -23,11 +23,6 @@ module Auth
       end
     end
 
-    def discord
-      User::LinkWithDiscord.(current_user, request.env["omniauth.auth"])
-      redirect_to integrations_settings_path
-    end
-
     def failure
       set_flash_message(:alert, :failure, kind: OmniAuth::Utils.camelize(failed_strategy.name))
 

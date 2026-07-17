@@ -18,7 +18,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
     :recoverable, :rememberable,
     :confirmable, :validatable,
-    :omniauthable, omniauth_providers: %i[github discord]
+    :omniauthable, omniauth_providers: %i[github]
 
   has_many :auth_tokens, dependent: :destroy
   has_one :github_solution_syncer, dependent: :destroy
