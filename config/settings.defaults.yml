@@ -1,0 +1,72 @@
+# Baked default values for every Exercism.config / Exercism.secrets key the app
+# reads. Loaded (in non-development environments) before the real overrides from
+# EXERCISM_SETTINGS_FILE, so the app can boot without AWS/config even when a key
+# is not explicitly set. Real values come from the mounted settings file (k8s
+# Secret); anything left at a dummy here just disables that integration.
+config:
+  anycable_redis_url: redis://localhost:6379/2
+  anycable_rpc_host: localhost:50051
+  api_host: http://localhost/api
+  aws_attachments_bucket: exercism-attachments
+  aws_attachments_region: us-east-1
+  aws_submissions_bucket: exercism-submissions
+  cache_redis_url: redis://localhost:6379/1
+  chatgpt_proxy_url: http://localhost
+  efs_repositories_mount_point: /mnt/efs/repos
+  efs_tooling_jobs_mount_point: /mnt/efs/tooling-jobs
+  github_bot_username: exercism-bot
+  github_organization: exercism
+  language_server_url: http://localhost
+  lines_of_code_counter_url: http://localhost
+  mysql_master_endpoint: localhost
+  mysql_port: 3306
+  paypal_api_url: http://localhost
+  paypal_url: http://localhost
+  sentry_rails_dsn: ""
+  sidekiq_redis_url: redis://localhost:6379/0
+  snippet_generator_url: http://localhost
+  tooling_orchestrator_url: http://localhost
+  tooling_redis_url: redis://localhost:6379/3
+  website_assets_host: http://localhost
+  website_avatars_host: http://localhost
+  website_icons_host: http://localhost
+  website_url: http://localhost
+  websockets_url: ws://localhost
+secrets:
+  coinbase_webhooks_secret: ""
+  discord_bot_token: ""
+  discourse_oauth_secret: ""
+  github_omniauth_app_id: ""
+  github_omniauth_app_secret: ""
+  github_solution_syncer_app_id: ""
+  github_solution_syncer_private_key: ""
+  github_webhooks_secret: ""
+  google_api_key: ""
+  jiki_api_key: ""
+  jiki_webhook_secret: ""
+  jiki_webhook_url: ""
+  key_api: ""
+  openai_tags_model: ""
+  paypal_client_id: ""
+  paypal_client_secret: ""
+  paypal_donation_hosted_button_id: ""
+  paypal_webhook_id: ""
+  recaptcha_site_key: ""
+  skylight_key: ""
+  stripe_endpoint_secret: ""
+  stripe_premium_lifetime_price_id: ""
+  stripe_premium_monthly_price_id: ""
+  stripe_premium_product_id: ""
+  stripe_premium_yearly_price_id: ""
+  stripe_publishable_key: ""
+  stripe_recurring_product_id: ""
+  stripe_secret_key: ""
+  transactional_smtp_address: ""
+  transactional_smtp_authentication: ""
+  transactional_smtp_password: ""
+  transactional_smtp_port: ""
+  transactional_smtp_sending_domain: ""
+  transactional_smtp_username: ""
+  turnstile_secret: ""
+  turnstile_site_key: ""
+  website_secret_key_base: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"

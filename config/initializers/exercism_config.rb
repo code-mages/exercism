@@ -4,14 +4,18 @@
 # Secret). This lets the self-hosted deploy run RAILS_ENV=production while
 # sourcing config from a file instead of AWS (the exercism-config gem only hits
 # AWS Secrets Manager when EXERCISM_ENV is 'production').
-settings_file =
+settings_files =
   if Rails.env.development?
-    Rails.root / "config/settings.local.yml"
+    [Rails.root / "config/settings.local.yml"]
   else
-    ENV["EXERCISM_SETTINGS_FILE"]
+    # Baked defaults (dummy values for every key) first, so boot never hits an
+    # undefined config/secret key, then the real overrides from the mounted file.
+    [Rails.root / "config/settings.defaults.yml", ENV["EXERCISM_SETTINGS_FILE"]]
   end
 
-if settings_file && File.exist?(settings_file)
+settings_files.compact.each do |settings_file|
+  next unless File.exist?(settings_file)
+
   YAML.load_file(settings_file).tap do |settings|
     (settings["config"] || {}).each do |key, value|
       Exercism.config.send("#{key}=", value.freeze)
