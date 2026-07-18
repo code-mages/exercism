@@ -1,12 +1,4 @@
 .lg-container
-  - if user_signed_in?
-    .nfp.mb-40.md:mb-58
-      = graphical_icon "exercism-face-gradient"
-      %h2.text-h2.mb-32= t('.nfp_section.title')
-      = render ReactComponents::Donations::FooterForm.new
-      %h3.text-h4.mt-32.mb-8= t('.nfp_section.subtitle')
-      %p.text-p-large= t('.nfp_section.description')
-
   %hr
   .site-links.mt-24.md:mt-56
     .grid.grid-cols-1.sm:grid-cols-2.md:grid-cols-3.lg:grid-cols-3.xl:grid-cols-6.gap-x-40

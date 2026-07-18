@@ -32,7 +32,8 @@ class User::Data < ApplicationRecord
   }, _suffix: true
 
   def insiders_status = super.to_sym
-  def insider? = insiders_status_active? || insiders_status_active_lifetime?
+  # Self-hosted instance: every user is an insider by default.
+  def insider? = true
   def lifetime_insider? = insiders_status_active_lifetime?
   def donated? = first_donated_at.present?
   def onboarded? = accepted_privacy_policy_at.present? && accepted_terms_at.present?

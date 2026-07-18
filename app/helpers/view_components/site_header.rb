@@ -40,22 +40,8 @@ module ViewComponents
     end
 
     def announcement_bar
-      # return downtime_announcement_bar if user_signed_in?
-
-      return coding_fundamentals_announcement_bar unless user_signed_in?
-      return front_end_fundamentals_announcement_bar if javascript_track? && current_user.seniority != :absolute_beginner
-      return coding_fundamentals_announcement_bar if current_user.junior?
-
-      return tag.span("") if current_user.current_subscription
-      return tag.span("") if current_user.donated_in_last_35_days?
-
-      link_to(Exercism::Routes.insiders_path, class: "announcement-bar md:block hidden") do
-        tag.div(class: "lg-container") do
-          tag.span("👋", class: 'emoji mr-6') +
-            tag.span("Enjoying Exercism? We need your help to survive…") +
-            tag.strong("Please donate if you can!")
-        end
-      end
+      # Self-hosted instance: no donation nudge / upstream course promos.
+      tag.span("")
     end
 
     def downtime_announcement_bar
