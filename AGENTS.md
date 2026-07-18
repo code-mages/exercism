@@ -20,15 +20,14 @@ diverges from upstream in important ways; read this before making changes.
   `method_missing` delegation).
 - **No donation prompts.** Footer `.nfp` plaque and the header `announcement_bar` removed.
 - **No server-side test-runner / tooling pipeline.** Learners solve locally with the CLI:
-  `exercism configure -a https://exercism.apps.aintools.ru/api/v2 -t <token>`
-  (token from `/settings/api_cli`). NOTE: base URL is **`/api/v2`**, not `/api/v1`.
-  The CLI uses ONE base URL for everything, but `config/routes/api.rb` split the API:
-  `download` needs `solutions/latest` (+ `files/*filepath`), historically under
-  `namespace :v1`; `submit` needs `solutions/:uuid/submissions` + `iterations`, only under
-  the `scope :v2` block. So neither `/api/v1` nor `/api/v2` alone worked. Fix: `solutions/latest`
-  is now aliased into v2 (`get :latest, to: "v1/solutions#latest"`), so `/api/v2` serves both
-  download and submit. (File downloads use an absolute `api_host/v1/.../files/` URL from the
-  solution response, so they work regardless of base.)
+  `exercism configure -a https://exercism.apps.aintools.ru/api/v1 -t <token>`
+  (token from `/settings/api_cli`). Base URL is **`/api/v1`**: the exercism CLI (v3) speaks
+  the v1 API shape — `download` = `GET solutions/latest`, `submit` = `PATCH solutions/:uuid`
+  (multipart upload) — both implemented in `API::V1::SolutionsController`. The `scope :v2`
+  block (`solutions/:uuid/submissions` + `iterations`) is the React frontend's API, NOT the
+  CLI's; don't point the CLI there (its `update` action is absent → `PATCH` 404s).
+  (`solutions/latest` was additionally aliased into v2, harmless but unused by the CLI.)
+  If `submit` fails, it is almost always the S3 storage bridge below, not the URL.
 - **Submission storage = LocalStack S3 via a bridge.** `Submission::File`
   (`app/models/submission/file.rb`) uploads file content to `Exercism.s3_client`, whose
   endpoint the `exercism-config` gem **hardcodes** to `http://localhost:3040` for
