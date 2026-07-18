@@ -20,8 +20,20 @@ diverges from upstream in important ways; read this before making changes.
   `method_missing` delegation).
 - **No donation prompts.** Footer `.nfp` plaque and the header `announcement_bar` removed.
 - **No server-side test-runner / tooling pipeline.** Learners solve locally with the CLI:
-  `exercism configure -a https://exercism.apps.aintools.ru/api/v1 -t <token>`
-  (token from `/settings/api_cli`).
+  `exercism configure -a https://exercism.apps.aintools.ru/api/v2 -t <token>`
+  (token from `/settings/api_cli`). NOTE: base URL is **`/api/v2`**, not `/api/v1`.
+  The full CLI-facing API (`solutions/:uuid/submissions`, `iterations`, ...) is under the
+  `scope :v2` block in `config/routes/api.rb`; `/api/v1` only exposes a stripped-down
+  `solutions#show/update`, so `/api/v1` lets `download` work but makes `submit` 404 (HTML).
+- **Submission storage = LocalStack S3 via a bridge.** `Submission::File`
+  (`app/models/submission/file.rb`) uploads file content to `Exercism.s3_client`, whose
+  endpoint the `exercism-config` gem **hardcodes** to `http://localhost:3040` for
+  `EXERCISM_ENV=development` (ignoring `AWS_ENDPOINT_URL`). The cluster runs LocalStack
+  (`exercism-localstack:4566`, S3+SQS+DynamoDB, accepts the gem's `FAKE` creds). A `socat`
+  **`s3-bridge` sidecar** on `web` + `sidekiq` forwards `127.0.0.1:3040` → LocalStack, so
+  `exercism submit` uploads without an image rebuild. Buckets (`exercism-submissions`,
+  `exercism-attachments`) are created by the `exercism-aws-setup` Job. Without the bridge,
+  submit 500s with `Seahorse::Client::NetworkingError`.
 
 ## Repos & deployment
 
