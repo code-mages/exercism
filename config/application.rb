@@ -16,6 +16,10 @@ module Website
 
     config.active_job.queue_adapter = :sidekiq
 
+    # Russian-only instance
+    config.i18n.default_locale = :ru
+    config.i18n.available_locales = %i[ru en]
+
     config.time_zone = "UTC"
     config.active_record.default_timezone = :utc
     config.action_view.form_with_generates_remote_forms = false

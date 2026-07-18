@@ -53,8 +53,8 @@ class ApplicationController < ActionController::Base
   # rubocop:enable Naming/MemoizedInstanceVariableName
 
   def switch_locale!(&action)
-    locale = params[:locale] || I18n.default_locale
-    I18n.with_locale(locale, &action)
+    # Russian-only instance: force :ru regardless of params/browser.
+    I18n.with_locale(:ru, &action)
   end
 
   def ensure_onboarded!

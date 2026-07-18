@@ -1,25 +1,22 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import LanguageDetector from 'i18next-browser-languagedetector'
 
 import en from './en'
 import ru from './ru'
 
-// Initialize i18n at module load
+// Russian-only instance: force 'ru' and skip browser language detection.
+// 'en' is kept only as a silent fallback for any not-yet-translated key.
 if (!i18n.isInitialized) {
-  i18n
-    .use(LanguageDetector)
-    .use(initReactI18next)
-    .init({
-      fallbackLng: 'en',
-      lng: 'en',
-      debug: true,
-      interpolation: {
-        escapeValue: false,
-      },
-      resources: {
-        en,
-        ru,
-      },
-    })
+  i18n.use(initReactI18next).init({
+    fallbackLng: 'en',
+    lng: 'ru',
+    debug: false,
+    interpolation: {
+      escapeValue: false,
+    },
+    resources: {
+      en,
+      ru,
+    },
+  })
 }
