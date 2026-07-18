@@ -1,0 +1,157 @@
+ru:
+  activerecord:
+    attributes:
+      doorkeeper/application:
+        name: "Название"
+        redirect_uri: "URI перенаправления"
+    errors:
+      models:
+        doorkeeper/application:
+          attributes:
+            redirect_uri:
+              fragment_present: "не может содержать фрагмент."
+              invalid_uri: "должен быть корректным URI."
+              unspecified_scheme: "должен указывать схему."
+              relative_uri: "должен быть абсолютным URI."
+              secured_uri: "должен быть URI с HTTPS/SSL."
+              forbidden_uri: "запрещён сервером."
+            scopes:
+              not_match_configured: "не соответствует настроенным на сервере."
+
+  doorkeeper:
+    applications:
+      confirmations:
+        destroy: "Вы уверены?"
+      buttons:
+        edit: "Редактировать"
+        destroy: "Удалить"
+        submit: "Отправить"
+        cancel: "Отмена"
+        authorize: "Авторизовать"
+      form:
+        error: "Упс! Проверьте форму на наличие возможных ошибок"
+      help:
+        confidential: "Приложение будет использоваться там, где секрет клиента может храниться конфиденциально. Нативные мобильные приложения и одностраничные приложения считаются неконфиденциальными."
+        redirect_uri: "Используйте одну строку на каждый URI"
+        blank_redirect_uri: "Оставьте пустым, если вы настроили провайдера на использование Client Credentials, Resource Owner Password Credentials или любого другого типа авторизации, который не требует URI перенаправления."
+        scopes: "Разделяйте области доступа пробелами. Оставьте пустым, чтобы использовать области по умолчанию."
+      edit:
+        title: "Редактировать приложение"
+      index:
+        title: "Ваши приложения"
+        new: "Новое приложение"
+        name: "Название"
+        callback_url: "URL обратного вызова"
+        confidential: "Конфиденциальное?"
+        actions: "Действия"
+        confidentiality:
+          "yes": "Да"
+          "no": "Нет"
+      new:
+        title: "Новое приложение"
+      show:
+        title: "Приложение: %{name}"
+        application_id: "UID:"
+        secret: "Секрет:"
+        secret_hashed: "Секрет захеширован"
+        scopes: "Области доступа:"
+        confidential: "Конфиденциальное:"
+        callback_urls: "URL обратного вызова:"
+        actions: "Действия"
+        not_defined: "Не задано"
+
+    authorizations:
+      buttons:
+        authorize: "Авторизовать"
+        deny: "Отклонить"
+      error:
+        title: "Произошла ошибка"
+      new:
+        title: "Требуется авторизация"
+        prompt: "Разрешить приложению %{client_name} использовать вашу учётную запись?"
+        able_to: "Это приложение сможет:"
+      show:
+        title: "Код авторизации:"
+      form_post:
+        title: "Отправьте эту форму"
+
+    authorized_applications:
+      confirmations:
+        revoke: "Вы уверены?"
+      buttons:
+        revoke: "Отозвать"
+      index:
+        title: "Ваши авторизованные приложения"
+        application: "Приложение"
+        created_at: "Создано"
+        date_format: "%Y-%m-%d %H:%M:%S"
+
+    pre_authorization:
+      status: "Предварительная авторизация"
+
+    errors:
+      messages:
+        # Common error messages
+        invalid_request:
+          unknown: "В запросе отсутствует обязательный параметр, содержится недопустимое значение параметра либо запрос сформирован некорректно."
+          missing_param: "Отсутствует обязательный параметр: %{value}."
+          request_not_authorized: "Запрос должен быть авторизован. Обязательный параметр для авторизации запроса отсутствует или недействителен."
+          invalid_code_challenge: "Требуется code challenge."
+        invalid_redirect_uri: "Запрошенный URI перенаправления сформирован некорректно или не соответствует URI перенаправления клиента."
+        unauthorized_client: "Клиент не авторизован для выполнения этого запроса данным методом."
+        access_denied: "Владелец ресурса или сервер авторизации отклонил запрос."
+        invalid_scope: "Запрошенная область доступа недействительна, неизвестна или сформирована некорректно."
+        invalid_code_challenge_method:
+          zero: "Сервер авторизации не поддерживает PKCE, так как отсутствуют допустимые значения code_challenge_method."
+          one: "Значение code_challenge_method должно быть %{challenge_methods}."
+          few: "Значение code_challenge_method должно быть одним из %{challenge_methods}."
+          many: "Значение code_challenge_method должно быть одним из %{challenge_methods}."
+          other: "Значение code_challenge_method должно быть одним из %{challenge_methods}."
+        server_error: "Сервер авторизации столкнулся с непредвиденным состоянием, которое помешало ему выполнить запрос."
+        temporarily_unavailable: "Сервер авторизации в настоящее время не может обработать запрос из-за временной перегрузки или технического обслуживания сервера."
+
+        # Configuration error messages
+        credential_flow_not_configured: "Поток Resource Owner Password Credentials не выполнен, так как Doorkeeper.configure.resource_owner_from_credentials не настроен."
+        resource_owner_authenticator_not_configured: "Поиск владельца ресурса не выполнен, так как Doorkeeper.configure.resource_owner_authenticator не настроен."
+        admin_authenticator_not_configured: "Доступ к панели администратора запрещён, так как Doorkeeper.configure.admin_authenticator не настроен."
+
+        # Access grant errors
+        unsupported_response_type: "Сервер авторизации не поддерживает этот тип ответа."
+        unsupported_response_mode: "Сервер авторизации не поддерживает этот режим ответа."
+
+        # Access token errors
+        invalid_client: "Аутентификация клиента не удалась из-за неизвестного клиента, отсутствия аутентификации клиента или неподдерживаемого метода аутентификации."
+        invalid_grant: "Предоставленный грант авторизации недействителен, истёк, отозван, не соответствует URI перенаправления, использованному в запросе авторизации, или был выдан другому клиенту."
+        unsupported_grant_type: "Тип гранта авторизации не поддерживается сервером авторизации."
+
+        invalid_token:
+          revoked: "Токен доступа был отозван"
+          expired: "Срок действия токена доступа истёк"
+          unknown: "Токен доступа недействителен"
+        revoke:
+          unauthorized: "У вас нет прав на отзыв этого токена"
+
+        forbidden_token:
+          missing_scope: 'Для доступа к этому ресурсу требуется область "%{oauth_scopes}".'
+
+    flash:
+      applications:
+        create:
+          notice: "Приложение создано."
+        destroy:
+          notice: "Приложение удалено."
+        update:
+          notice: "Приложение обновлено."
+      authorized_applications:
+        destroy:
+          notice: "Приложение отозвано."
+
+    layouts:
+      admin:
+        title: "Doorkeeper"
+        nav:
+          oauth2_provider: "Провайдер OAuth2"
+          applications: "Приложения"
+          home: "Главная"
+      application:
+        title: "Требуется авторизация OAuth"

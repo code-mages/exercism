@@ -1,0 +1,48 @@
+en:
+  courses:
+    pay:
+      coding_fundamentals:
+        exercises_projects_html: Hundreds of hours of fun <strong>exercises and
+          projects</strong> that will help your brain really master the
+          fundamentals!
+        teaching_videos_html:
+          Over 35 hours of <strong>teaching videos</strong> (that
+          you can watch back forever).
+        diagrams_html:
+          <strong>Beatifully illustrated diagrams</strong> that make coding
+          make sense.
+        interface_html:
+          A <strong>specially designed interface</strong> that gives you a
+          ton of tools to make your life easier and get you focusing on the bits
+          that matter!
+        answer_questions_html: Weekly sessions to <strong>answer your questions.</strong>
+        community_html:
+          A <strong>community</strong> Discord server and forum, with
+          friendly mentors.
+        certificate_html:
+          An <strong>official certificate</strong> of completion to put
+          on your resume.
+ru:
+  courses:
+    pay:
+      coding_fundamentals:
+        exercises_projects_html: Сотни часов увлекательных <strong>упражнений и
+          проектов</strong>, которые помогут вашему мозгу по-настоящему освоить
+          основы!
+        teaching_videos_html:
+          Более 35 часов <strong>обучающих видео</strong> (которые
+          вы сможете пересматривать сколько угодно).
+        diagrams_html:
+          <strong>Красиво оформленные схемы</strong>, благодаря которым
+          программирование становится понятным.
+        interface_html:
+          <strong>Специально разработанный интерфейс</strong>, который даёт вам
+          массу инструментов, чтобы упростить жизнь и сосредоточиться на
+          действительно важном!
+        answer_questions_html: Еженедельные встречи, чтобы <strong>ответить на ваши вопросы.</strong>
+        community_html:
+          <strong>Сообщество</strong> на сервере Discord и форуме, с
+          дружелюбными наставниками.
+        certificate_html:
+          <strong>Официальный сертификат</strong> о прохождении курса, который
+          можно добавить в резюме.

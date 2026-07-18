@@ -6,12 +6,12 @@
 
     %hr.my-32.border-borderColor5
 
-    %h2.text-h2.mb-12 Perks
+    %h2.text-h2.mb-12= t('.perks')
     %table.mb-12.c-admin-table
       %tr
-        %th Perk
-        %th Status
-        %th Clicks
+        %th= t('.perk')
+        %th= t('.status')
+        %th= t('.clicks')
         %th{ colspan: 2 }
       - @partner.perks.each do |perk|
         %tr
@@ -20,21 +20,21 @@
           %td.w-arbitary
             %span{ class: "c-perk-status-tag #{perk.status}" }= perk.status.titleize
           %td.w-arbitary= perk.num_clicks
-          %td.w-arbitary= link_to "Details", admin_partner_perk_path(@partner, perk)
-          %td.w-arbitary= link_to "Edit", edit_admin_partner_perk_path(@partner, perk)
+          %td.w-arbitary= link_to t('.details'), admin_partner_perk_path(@partner, perk)
+          %td.w-arbitary= link_to t('.edit'), edit_admin_partner_perk_path(@partner, perk)
     .flex
-      = link_to "Add new perk", new_admin_partner_perk_path(@partner), class: 'btn btn-primary btn-base'
+      = link_to t('.add_new_perk'), new_admin_partner_perk_path(@partner), class: 'btn btn-primary btn-base'
 
     %hr.my-32.border-borderColor5
 
-    %h2.text-h2.mb-12 Adverts
+    %h2.text-h2.mb-12= t('.adverts')
     %table.mb-12.c-admin-table
       %tr
-        %th Advert
-        %th Status
-        %th Track Slugs
-        %th Impressions
-        %th Clicks
+        %th= t('.advert')
+        %th= t('.status')
+        %th= t('.track_slugs')
+        %th= t('.impressions')
+        %th= t('.clicks')
         %th{ colspan: 2 }
       - @partner.adverts.each do |advert|
         %tr
@@ -44,13 +44,13 @@
           %td.w-arbitary= advert.track_slugs
           %td.w-arbitary= advert.num_impressions
           %td.w-arbitary= advert.num_clicks
-          %td.w-arbitary= link_to "Details", admin_partner_advert_path(@partner, advert)
-          %td.w-arbitary= link_to "Edit", edit_admin_partner_advert_path(@partner, advert)
+          %td.w-arbitary= link_to t('.details'), admin_partner_advert_path(@partner, advert)
+          %td.w-arbitary= link_to t('.edit'), edit_admin_partner_advert_path(@partner, advert)
     .flex
-      = link_to "Add new advert", new_admin_partner_advert_path(@partner), class: 'btn btn-primary btn-base'
+      = link_to t('.add_new_advert'), new_admin_partner_advert_path(@partner), class: 'btn btn-primary btn-base'
 
     %hr.my-32.border-borderColor5
 
     .flex.gap-16.mt-32
-      = link_to "Edit this partner", edit_admin_partner_path(@partner), class: 'btn btn-standard btn-base'
-      = link_to "Back to partners", admin_partners_path, class: 'btn btn-standard btn-base'
+      = link_to t('.edit_this_partner'), edit_admin_partner_path(@partner), class: 'btn btn-standard btn-base'
+      = link_to t('.back_to_partners'), admin_partners_path, class: 'btn btn-standard btn-base'

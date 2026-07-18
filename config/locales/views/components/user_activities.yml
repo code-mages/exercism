@@ -7,3 +7,12 @@ en:
         time_ago: "%{time_ago} ago"
       submitted_iteration:
         time_ago: "%{time_ago} ago"
+ru:
+  components:
+    user_activities:
+      completed_exercise:
+        time_ago: "%{time_ago} назад"
+      started_exercise:
+        time_ago: "%{time_ago} назад"
+      submitted_iteration:
+        time_ago: "%{time_ago} назад"

@@ -3,3 +3,8 @@ en:
     payment_pending:
       insiders_title: Exercism Insiders
       payment_pending_message: Waiting for confirmation from your payment provider.
+ru:
+  insiders:
+    payment_pending:
+      insiders_title: Exercism Insiders
+      payment_pending_message: Ожидание подтверждения от вашего платёжного провайдера.

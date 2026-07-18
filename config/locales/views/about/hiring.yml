@@ -1,0 +1,14 @@
+en:
+  about:
+    hiring:
+      meta_title: "Exercism's Hiring!"
+      meta_description: "Come and join a passionate team making programming education fun and effective. Here are some of the roles we’re hiring for."
+      not_hiring: We're not currently hiring.
+      check_back: Please check back in the future for new roles!
+ru:
+  about:
+    hiring:
+      meta_title: "Exercism набирает сотрудников!"
+      meta_description: "Присоединяйтесь к увлечённой команде, которая делает обучение программированию интересным и эффективным. Вот некоторые из вакансий, которые мы открываем."
+      not_hiring: Сейчас у нас нет открытых вакансий.
+      check_back: Загляните позже, чтобы узнать о новых вакансиях!

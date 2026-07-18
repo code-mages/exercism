@@ -1,0 +1,50 @@
+en:
+  tracks:
+    exercises:
+      show:
+        action_box_dig_deeper_mentoring:
+          code_review_finished:
+            title: Code review complete
+            description_html: You had a code review with <strong>%{mentor_handle}</strong>. %{link}
+            link_text: Revisit the discussion
+          code_review_in_progress:
+            title: Code review in progress
+            mentor_finished_description: '%{mentor_handle} has finished the code review.'
+            finish_discussion_button: Finish the discussion
+            awaiting_mentor_description: You're waiting for %{mentor_handle} to respond
+            go_to_code_review_link: Go to the code review
+            your_turn_description_html: It's <strong>your turn</strong> to respond in the code review.
+            go_to_code_review_button: Go to the code review
+          code_review_requested:
+            title: Code review requested
+            description: You've requested a code review.
+            view_mentoring_request_link: View your request
+          request_code_review:
+            title: Request a code review
+            description: Get feedback on your solution from a real person.
+            button: Request a code review
+ru:
+  tracks:
+    exercises:
+      show:
+        action_box_dig_deeper_mentoring:
+          code_review_finished:
+            title: Код-ревью завершено
+            description_html: У вас было код-ревью с <strong>%{mentor_handle}</strong>. %{link}
+            link_text: Вернуться к обсуждению
+          code_review_in_progress:
+            title: Код-ревью в процессе
+            mentor_finished_description: '%{mentor_handle} завершил(а) код-ревью.'
+            finish_discussion_button: Завершить обсуждение
+            awaiting_mentor_description: Вы ждёте ответа от %{mentor_handle}
+            go_to_code_review_link: Перейти к код-ревью
+            your_turn_description_html: Теперь <strong>ваша очередь</strong> ответить в код-ревью.
+            go_to_code_review_button: Перейти к код-ревью
+          code_review_requested:
+            title: Код-ревью запрошено
+            description: Вы запросили код-ревью.
+            view_mentoring_request_link: Посмотреть ваш запрос
+          request_code_review:
+            title: Запросить код-ревью
+            description: Получите отзыв о вашем решении от живого человека.
+            button: Запросить код-ревью

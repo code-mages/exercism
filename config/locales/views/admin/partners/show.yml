@@ -1,0 +1,36 @@
+en:
+  admin:
+    partners:
+      show:
+        perks: Perks
+        perk: Perk
+        status: Status
+        clicks: Clicks
+        details: Details
+        edit: Edit
+        add_new_perk: Add new perk
+        adverts: Adverts
+        advert: Advert
+        track_slugs: Track Slugs
+        impressions: Impressions
+        add_new_advert: Add new advert
+        edit_this_partner: Edit this partner
+        back_to_partners: Back to partners
+ru:
+  admin:
+    partners:
+      show:
+        perks: Бонусы
+        perk: Бонус
+        status: Статус
+        clicks: Клики
+        details: Подробнее
+        edit: Редактировать
+        add_new_perk: Добавить бонус
+        adverts: Объявления
+        advert: Объявление
+        track_slugs: Слаги треков
+        impressions: Показы
+        add_new_advert: Добавить объявление
+        edit_this_partner: Редактировать партнёра
+        back_to_partners: Назад к партнёрам

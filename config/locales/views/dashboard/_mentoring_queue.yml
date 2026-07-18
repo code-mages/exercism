@@ -4,3 +4,9 @@ en:
       title: Your workspace is clear.
       description: Do you have time to start mentoring some more students?
       link: See mentoring queue
+ru:
+  dashboard:
+    mentoring_queue:
+      title: Ваше рабочее пространство свободно.
+      description: Есть ли у вас время, чтобы взять на менторство ещё несколько студентов?
+      link: Посмотреть очередь менторства

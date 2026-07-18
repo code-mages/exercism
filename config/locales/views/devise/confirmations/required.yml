@@ -1,0 +1,28 @@
+en:
+  devise:
+    confirmations:
+      required:
+        exercism_logo_alt: Exercism's Logo
+        welcome_check_email_title: Welcome! Check your email.
+        welcome_message: Welcome to Exercism. We've sent you an email to confirm you're a human.
+        validation_explanation_message:
+          To protect us from abuse, we validate all email
+          addresses are valid. If you check your email now, it should already be
+          there. If you can't see it, check spam, and then give it 10 minutes in
+          case things are running slowly.
+        resend_link_message_html: If it's not turned up soon, %{resend_link}.
+        resend_it_link: we can resend it
+ru:
+  devise:
+    confirmations:
+      required:
+        exercism_logo_alt: Логотип Exercism
+        welcome_check_email_title: Добро пожаловать! Проверьте почту.
+        welcome_message: Добро пожаловать в Exercism. Мы отправили вам письмо, чтобы подтвердить, что вы человек.
+        validation_explanation_message:
+          Чтобы защититься от злоупотреблений, мы проверяем, что все
+          адреса электронной почты действительны. Если вы проверите почту прямо сейчас, письмо уже должно
+          быть там. Если вы его не видите, проверьте спам, а затем подождите 10 минут
+          на случай, если всё работает медленно.
+        resend_link_message_html: Если оно не придёт в ближайшее время, %{resend_link}.
+        resend_it_link: мы можем отправить его повторно

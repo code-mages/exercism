@@ -1,0 +1,532 @@
+en:
+  courses:
+    front_end_fundamentals:
+      nav:
+        bootcamps: Bootcamps
+        enroll_now: Enroll now 👉
+      hero:
+        title_learn: Learn
+        title_front_end: Front-end
+        title_fundamentals: Fundamentals
+        tagline_learn_how: Learn how to make
+        tagline_websites: beautiful, interactive websites
+        tagline_with: with
+        tagline_live_teaching: live teaching
+        tagline_and_hours: and 100s of hours of
+        tagline_fun_projects: fun projects!
+      bubbles:
+        live: Live
+        teaching: Teaching
+        fun: Fun
+        projects: projects
+        helpful: Helpful
+        mentors: mentors
+      supported_by:
+        heading: "Exercism's supporters include:"
+      welcome:
+        hi_there: Hi there!
+        im_jeremy: I'm Jeremy, and I've helped over
+        two_million_people: two million people
+        level_up: level up their coding skills.
+        photo_caption_short: "1998: Me making the first website I ever got paid for."
+        photo_caption_long: "1998: Me and Rhodri making the first website we ever got paid for."
+        para_first_lines: When I first wrote my first lines of JavaScript over 25 years ago, almost no-one knew how to code. If you could make even the simplest of websites, you were a wizard! 🧙
+        para_competitive_prefix: But now-a-days, web development is a very
+        para_competitive_strong: competitive market.
+        para_competitive_suffix: Standing out from the crowd is much tougher.
+        para_standout_prefix: Lots of people think you stand out by knowing the
+        para_standout_strong: most languages or the most frameworks.
+        para_standout_suffix: But that's not true! When I'm hiring, I look for one thing...
+        mindset_heading: Do you have the coding mindset?  🧠
+        para_thrive_prefix: The people that thrive at coding, the ones that get the best jobs and enjoy the work the most share one thing. They have the
+        para_thrive_coder_mindset: coder mindset.
+        para_thrive_great_at: They are great at
+        para_thrive_critical_thinking: critical thinking,
+        para_thrive_great_at2: great at
+        para_thrive_problem_solving: problem solving.
+        para_think_prefix: To become a good developer you need to learn how to think like a coder. And the secret to that is to
+        para_think_practice: practice making real things,
+        para_think_with_right: with the right
+        para_think_guidance: guidance, support and mentoring.
+        what_course_heading: What is this course?
+        para_new_type_prefix: This is a new type of course, that teaches you the fundamentals of web development - things like CSS and JavaScript - but does it differently, focussed on getting you
+        para_new_type_building: building fun things.
+        para_new_type_games_prefix: In the first few weeks, you'll be building games like
+        para_new_type_games_strong: Space Invaders, Tic Tac Toe, and
+        para_new_type_breakout: Breakout.
+        para_new_type_bots_prefix: You'll be building bots that can solve mazes, and talking to real APIs like
+        para_new_type_chatgpt: ChatGPT
+        para_new_type_suffix: to build useful real-world projects.
+        make_all_these: ☝️☝️☝️ You'll make all these in JavaScript, HTML and CSS from scratch!
+        bootcamp_style_heading: Bootcamp Style!
+        para_once_prefix: And once (just once!) we're going to run the course as an
+        para_once_interactive: interactive bootcamp,
+        para_once_where: where
+        para_once_guide: I'll be there to guide you.
+        para_once_suffix: I'll be there to explore ideas with you, help you if you get stuck, and have fun with you! ✨
+        para_three_months_prefix: For 3 months, I'll teach you the fundamentals of web development, and help you
+        para_three_months_strong: to think like a coder.
+        para_mentors: And even more, we have world-class mentors to help you out. Some who have worked in web-dev for decades and others who have worked at places like Google. They'll be there to help nudge you in the right directions and challenge you even more!
+        para_exciting_prefix: If that sounds exciting, then
+        para_exciting_strong: I'd love for you to join us! 💙
+      syllabus:
+        tag: What you'll Learn
+        menu_prefix: What's on the
+        menu_strong: Menu?
+        intro_prefix: We've put together a course that teaches all the things you need to be able to make
+        intro_strong: beautiful, interactive websites.
+        part_heading: Front-End Web Development 🧑‍💻
+        part_intro_prefix: From April to July, you'll gain the skills you need to build
+        part_intro_strong: beautiful, interactive websites
+        part_intro_suffix: and kickstart your career.
+        js_strong: Get comfortable with JavaScript.
+        js_text: We'll be looking at the core JavaScript programming techniques essential for web development and building your confidence with the language.
+        html_strong: Learn HTML and CSS.
+        html_text: These two languages are the other fundamentals of web development. You'll learn both and use them to create beautiful websites.
+        vscode_strong: Learn Visual Studio Code and Git.
+        vscode_text: Master these important tools, and how to use them to make your life easier.
+        portfolio_strong: Build a portfolio of projects.
+        portfolio_text: Create projects to showcase to potential employers while practicing your skills.
+        dates: April - July 2025
+      schedule:
+        heading: What your week will look like 🔎
+        hours_teaching: 2 hours teaching
+        hours_project: 6 hours project work
+        intro: Each week we'll have a mix of live sessions and fun projects for you to work on!
+        teaching_title: 1x 120min teaching sessions 🧑‍🏫
+        teaching_text: In these core sessions, I'll slowly and carefully go through the next core concepts making sure everyone understands what I'm teaching. Join live to participate or watch back on demand.
+        coding_title: 6+ hours of having fun coding 🧑‍💻
+        coding_text: The most important part of the bootcamp! The more you code, the better your brain starts to piece everything together. If you get too busy in a week to do everything, this is the bit to focus on!
+        labs_title: 1x 120min "Labs" session 💊
+        labs_text: No-one's getting stuck in this bootcamp! Each week we'll dedicate time to working through people's problems together. If you can't attend, message me where you're stuck and then watch back later!
+        discuss_title: 1 hour of discussing code 🗣️
+        discuss_text: Discussing code is another great way to reinforce your skills. Invest some time into answering questions and helping other students get unstuck, and you'll quickly level up your own knowledge.
+      portfolio:
+        heading: A few things we'll build together ✨
+        sideheading: Build your portfolio during the bootcamp!
+        intro: Our focus from day one is to get you building fun things. You'll make classic games (and bots to beat them!), interesting websites, and integrate with APIs like ChatGPT to make cutting edge projects!
+        snake_prefix: Recreate the classic
+        snake_strong: Nokia Snake
+        snake_suffix: game
+        tetris_prefix: Create a
+        tetris_strong: Tetris
+        tetris_suffix: clone. A tricky one!
+        breakout_prefix: "Recreate my childhood favourite:"
+        breakout_strong: Breakout
+        ttt_prefix: Create your first bot to beat
+        ttt_strong: Tic Tac Toe
+        weather_prefix: Design a responsive
+        weather_strong: Weather App
+        story_prefix: Create a story along with
+        story_strong: ChatGPT
+        positive_prefix: Calm your world with a
+        positive_strong: Positive news
+        positive_suffix: filter
+        piano_prefix: Get musical with a
+        piano_strong: Piano Composer
+        piano_suffix: app
+      certificate:
+        bubble: Celebrate your new skills!
+        heading: Get a verified certificate
+        para1: At the end of the Bootcamp, we'll issue you an official certificate to recognise your participation and completion of the course.
+        para2: Show off your skills on your resume and in the Certifications section of your LinkedIn profile.
+        linkedin: Share your certificate in your network
+      signup:
+        choose_prefix: Choose your
+        choose_path: Path
+        intro: Sign up now to secure your spot on the bootcamp starting on April 26th. There are limited spaces available so don't miss out!
+        discount_everyone: Everyone in %{country_name} gets a
+        discount_percent: "%{percentage}% discount!"
+        vpn_prefix: 🌐 Many countries have
+        vpn_discounts: discounts
+        vpn_affordable: that make this course more affordable
+        vpn_globally: globally! 🌐
+        vpn_please: Please
+        vpn_disable: disable your VPN
+        vpn_refresh: and refresh the page to see if you're eligible.
+      course_card:
+        bubble_prefix: Front-End
+        bubble_strong: only
+        title_prefix: Front-end
+        title_strong: Fundamentals
+        subtitle: Designed for students who understand the fundamentals of coding.
+        discount_includes: Includes a
+        discount_percent: "%{percentage}% discount"
+        discount_for: for
+        discount_friends: our friends in
+        who_title: Who's it for? 🧑🏽
+        who_prefix: Anyone who understands coding fundamentals and wants to become a
+        who_strong: web developer
+        who_suffix: or add front-end skills to their repertoire.
+        duration_title: Duration ⏳
+        duration_text: 3 months, part-time.
+        end_title: Where you'll be by the end 🎉
+        end_prefix: You'll be confident creating
+        end_strong: website front-ends from scratch
+        end_suffix: and well on your way to a career in web development.
+        included_title: What's included? 🔎
+        inc_teaching_prefix: Over
+        inc_teaching_strong: 35 hours
+        inc_teaching_suffix: of live teaching - yours forever!
+        inc_weekly_strong: Weekly sessions
+        inc_weekly_suffix: to answer your questions.
+        inc_hundreds_strong: Hundreds of hours
+        inc_hundreds_suffix: of fun and interesting exercises and projects.
+        inc_discord_prefix: A dedicated,
+        inc_discord_strong: active
+        inc_discord_suffix: community Discord server.
+        inc_cert_prefix: An official
+        inc_cert_strong: certificate
+        inc_cert_suffix: of completion.
+        button: Learn Front-End 👉
+      bundle_card:
+        bubble_prefix: The Fundamentals
+        bubble_strong: Bundle
+        title_learn: Learn to
+        title_code: Code
+        title_frontend: Front-End
+        subtitle: Designed for total beginners. The best way to learn to code on the internet.
+        discount_includes: Includes a
+        discount_percent: "%{percentage}% discount"
+        discount_for: for
+        discount_friends: our friends in
+        who_title: Who's it for? 🧑🏽
+        who_prefix: Anyone looking to develop rock solid
+        who_coding: coding fundamentals
+        who_and: and
+        who_webdev: web-dev skils.
+        who_designed_for: Designed for
+        who_beginners: absolute beginners
+        who_suffix: or newer devs.
+        duration_title: Duration ⏳
+        duration_text: 6 months, part-time.
+        end_title: Where you'll be by the end 🎉
+        end_prefix: You'll have a solid understanding of
+        end_coding: coding fundamentals
+        end_confident: and be confident making
+        end_beautiful: beautiful, functional
+        end_suffix: front-ends for websites.
+        included_title: What's included? 🔎
+        inc_everything_prefix: Everything in Front-End Fundamentals;
+        inc_everything_strong: PLUS...
+        inc_videos_prefix: An extra
+        inc_videos_strong: 40 hours
+        inc_videos_suffix: of videos - yours forever!
+        inc_hundreds_prefix: Hundreds hours more
+        inc_hundreds_strong: of exercises and projects.
+        inc_interface_prefix: A
+        inc_interface_strong: specially designed interface
+        inc_interface_suffix: for beginners that makes programming easier and more fun.
+        inc_cert_prefix: An extra official
+        inc_cert_strong: certificate
+        inc_cert_suffix: of completion.
+        button: Learn to Code + Front-End 👉
+      exercism:
+        heading: What makes Exercism special?
+        intro_prefix: Exercism is a
+        intro_nonprofit: longstanding nonprofit
+        intro_helped: that's helped over
+        intro_people: 2 million people
+        intro_suffix: level-up their coding skills.
+        students_title: Exercism students
+        students_text: We've grown entirely by word of mouth. Good friends tell their friends about Exercism!
+        testimonials_title: Testimonials
+        testimonials_text: We've been one of the most trusted resources for coding education for over a decade.
+        exercises_title: Exercises Solved
+        exercises_text: Our exercises are trusted by the coding community as the perfect way to level up!
+        mentoring_title: Mentoring Sessions
+        mentoring_text: Our unique mentoring program is one of the best ways to get tips from experts!
+      faqs:
+        heading: Frequently Asked Questions
+        intro: These are the questions we get asked the most. Your question not answered here?
+        intro_email_link: Ping us an email!
+        start_q: When does the Bootcamp start?
+        start_a: The first session of Front-End Fundamentals be on April 26th 2025. If you buy the bundle with Coding Fundamentals, you can access all that content immediately!
+        time_q: How much time will I need to spend each week on the bootcamp?
+        time_a: We're aiming for about 8 hours per week (See the "What your week will look like" for more details). If you can put in an hour per day, that will be enough for you to get through the main work. If you can invest an extra few hours per week, you'll be able to also complete any more advanced exercises.
+        missed_q: I missed the first part of the Bootcamp? Can I do join now?
+        missed_a: The first part of the Bootcamp is now called "Coding Fundamentals" and is available for you to buy as part of the bundle above.
+        group_q: Are there group activities and do I have to take part?
+        group_a: There are no formal group activities. However, we encourage everyone to share their journey and explore programming together in our Discord server. Exploring other people's code is one of the best ways to improve your programming skills. Some students get together (virtually) for study sessions. You can choose to opt-out of the community aspects if you prefer.
+        languages_q: What specific programming languages/techniques will be taught in Front-End Fundamentals?
+        languages_a: We'll be teaching JavaScript, CSS and HTML. We'll be teaching modern JavaScript. We'll teach both a functional approach and also Object Oriented Programming, so you'll get a mixture of the things you see in the wild!
+        limit_q: Is there a limit to the number of students who can join the live sessions?
+        limit_a: No, the sessions will be streamed online and everyone will be able to ask questions and participate. You can watch them back at any time in the future.
+        graded_q: Are the exercises graded or just for practice? Is there any form of assessment?
+        graded_a: Most exercises can be completed by reaching a certain objective. However, they are not graded and your code isn't assessed or marked. We will explore some (anonymised) code in the weekly sessions and discuss how it could be improved, but our philosophy is that you should be in the trenches coding, not worrying about passing tests.
+        discount_q: How does the discount for %{country_name} work?
+        discount_a: We understand that $%{full_price} is a significant amount of money in countries with currencies that are weak against the dollar. So we're offering a %{discount_percentage}% discount to people in %{country_name} to ensure they can take part.
+        discount_a2: Simply click the "Enroll now" button and the discount will be automatically applied at checkout.
+        no_discount_q: Do you offer any discounts for students, unemployed or people in countries with weak currencies?
+        no_discount_a_html: Yes, we do. We want to ensure as many people can benefit from this bootcamp as possible. Email %{email}, tell me your situation, and I'll see what we can do for you.
+        signed_up_q: I've signed up but not received anything.
+        signed_up_a_html: Please check your email. The first live session is on April 26th 2025, so you won't have access to anything until then. However, you should receive emails giving you more information. If you don't receive those, please email %{email} and we'll check everything for you.
+      legals:
+        is_registered: is a registered
+        nonprofit: not-for-profit organisation.
+ru:
+  courses:
+    front_end_fundamentals:
+      nav:
+        bootcamps: Буткемпы
+        enroll_now: Записаться 👉
+      hero:
+        title_learn: Изучите
+        title_front_end: Front-end
+        title_fundamentals: с основ
+        tagline_learn_how: Научитесь создавать
+        tagline_websites: красивые, интерактивные сайты
+        tagline_with: c
+        tagline_live_teaching: живым обучением
+        tagline_and_hours: и сотнями часов
+        tagline_fun_projects: увлекательных проектов!
+      bubbles:
+        live: Живое
+        teaching: обучение
+        fun: Увлекательные
+        projects: проекты
+        helpful: Отзывчивые
+        mentors: менторы
+      supported_by:
+        heading: "Exercism поддерживают:"
+      welcome:
+        hi_there: Привет!
+        im_jeremy: Я Джереми, и я помог более чем
+        two_million_people: двум миллионам человек
+        level_up: прокачать навыки программирования.
+        photo_caption_short: "1998: Я делаю первый сайт, за который мне заплатили."
+        photo_caption_long: "1998: Мы с Родри делаем первый сайт, за который нам заплатили."
+        para_first_lines: Когда я больше 25 лет назад написал свои первые строки на JavaScript, почти никто не умел программировать. Если вы могли сделать хотя бы простейший сайт, вы были волшебником! 🧙
+        para_competitive_prefix: Но в наши дни веб-разработка это очень
+        para_competitive_strong: конкурентный рынок.
+        para_competitive_suffix: Выделиться из толпы стало гораздо сложнее.
+        para_standout_prefix: Многие думают, что выделиться можно, зная
+        para_standout_strong: больше всего языков или больше всего фреймворков.
+        para_standout_suffix: Но это неправда! Когда я нанимаю людей, я ищу одно...
+        mindset_heading: Есть ли у вас мышление программиста?  🧠
+        para_thrive_prefix: У людей, которые преуспевают в программировании, получают лучшие вакансии и получают больше всего удовольствия от работы, есть кое-что общее. У них есть
+        para_thrive_coder_mindset: мышление программиста.
+        para_thrive_great_at: Они отлично умеют
+        para_thrive_critical_thinking: критически мыслить,
+        para_thrive_great_at2: отлично умеют
+        para_thrive_problem_solving: решать задачи.
+        para_think_prefix: Чтобы стать хорошим разработчиком, вам нужно научиться думать как программист. И секрет в том, чтобы
+        para_think_practice: практиковаться, создавая настоящие вещи,
+        para_think_with_right: c правильным
+        para_think_guidance: наставничеством, поддержкой и менторством.
+        what_course_heading: Что это за курс?
+        para_new_type_prefix: Это курс нового типа, который обучает основам веб-разработки (таким вещам как CSS и JavaScript), но делает это иначе, с упором на то, чтобы вы
+        para_new_type_building: создавали интересные вещи.
+        para_new_type_games_prefix: В первые несколько недель вы будете делать игры, такие как
+        para_new_type_games_strong: Space Invaders, Tic Tac Toe и
+        para_new_type_breakout: Breakout.
+        para_new_type_bots_prefix: Вы будете создавать ботов, которые решают лабиринты, и работать с реальными API, такими как
+        para_new_type_chatgpt: ChatGPT,
+        para_new_type_suffix: чтобы делать полезные реальные проекты.
+        make_all_these: ☝️☝️☝️ Всё это вы создадите на JavaScript, HTML и CSS с нуля!
+        bootcamp_style_heading: Формат буткемпа!
+        para_once_prefix: И один раз (только один раз!) мы проведём курс как
+        para_once_interactive: интерактивный буткемп,
+        para_once_where: где
+        para_once_guide: я буду рядом, чтобы направлять вас.
+        para_once_suffix: Я буду рядом, чтобы вместе исследовать идеи, помогать вам, если вы застряли, и получать удовольствие вместе с вами! ✨
+        para_three_months_prefix: В течение 3 месяцев я буду обучать вас основам веб-разработки и помогать вам
+        para_three_months_strong: думать как программист.
+        para_mentors: Более того, у нас есть менторы мирового уровня, готовые вам помочь. Некоторые из них десятилетиями работали в веб-разработке, другие работали в таких местах как Google. Они будут рядом, чтобы направить вас в нужную сторону и бросить вам ещё больший вызов!
+        para_exciting_prefix: Если это звучит увлекательно, то
+        para_exciting_strong: я буду очень рад видеть вас с нами! 💙
+      syllabus:
+        tag: Чему вы научитесь
+        menu_prefix: Что в
+        menu_strong: меню?
+        intro_prefix: Мы собрали курс, который обучает всему, что нужно, чтобы уметь создавать
+        intro_strong: красивые, интерактивные сайты.
+        part_heading: Front-end веб-разработка 🧑‍💻
+        part_intro_prefix: C апреля по июль вы получите навыки, необходимые, чтобы создавать
+        part_intro_strong: красивые, интерактивные сайты
+        part_intro_suffix: и дать старт своей карьере.
+        js_strong: Освойтесь c JavaScript.
+        js_text: Мы разберём основные приёмы программирования на JavaScript, необходимые для веб-разработки, и укрепим вашу уверенность в языке.
+        html_strong: Изучите HTML и CSS.
+        html_text: Эти два языка тоже относятся к основам веб-разработки. Вы изучите оба и будете использовать их для создания красивых сайтов.
+        vscode_strong: Изучите Visual Studio Code и Git.
+        vscode_text: Освойте эти важные инструменты и научитесь использовать их, чтобы облегчить себе жизнь.
+        portfolio_strong: Создайте портфолио проектов.
+        portfolio_text: Создавайте проекты, чтобы показать их потенциальным работодателям, попутно оттачивая навыки.
+        dates: Апрель - июль 2025
+      schedule:
+        heading: Как будет выглядеть ваша неделя 🔎
+        hours_teaching: 2 часа обучения
+        hours_project: 6 часов работы над проектами
+        intro: Каждую неделю у нас будет сочетание живых сессий и увлекательных проектов, над которыми вы будете работать!
+        teaching_title: 1x 120-минутные учебные сессии 🧑‍🏫
+        teaching_text: На этих ключевых сессиях я буду медленно и внимательно разбирать следующие основные концепции, следя за тем, чтобы все понимали то, что я объясняю. Подключайтесь вживую, чтобы участвовать, или смотрите в записи.
+        coding_title: 6+ часов увлекательного программирования 🧑‍💻
+        coding_text: Самая важная часть буткемпа! Чем больше вы программируете, тем лучше ваш мозг начинает складывать всё воедино. Если на какой-то неделе вы слишком заняты, чтобы сделать всё, то сосредоточьтесь именно на этом!
+        labs_title: 1x 120-минутная сессия "Лаборатория" 💊
+        labs_text: В этом буткемпе никто не останется застрявшим! Каждую неделю мы будем выделять время, чтобы вместе разбирать проблемы участников. Если вы не можете присутствовать, напишите мне, где вы застряли, и посмотрите разбор позже!
+        discuss_title: 1 час обсуждения кода 🗣️
+        discuss_text: Обсуждение кода это ещё один отличный способ закрепить навыки. Уделите время ответам на вопросы и помощи другим студентам, и вы быстро прокачаете и собственные знания.
+      portfolio:
+        heading: Немного из того, что мы создадим вместе ✨
+        sideheading: Соберите портфолио прямо во время буткемпа!
+        intro: C первого дня наш фокус на том, чтобы вы создавали интересные вещи. Вы сделаете классические игры (и ботов, чтобы их обыгрывать!), интересные сайты и интегрируетесь c API вроде ChatGPT, чтобы делать передовые проекты!
+        snake_prefix: Воссоздайте классическую игру
+        snake_strong: Nokia Snake
+        snake_suffix: (Змейка)
+        tetris_prefix: Создайте клон
+        tetris_strong: Tetris
+        tetris_suffix: (Тетрис). Задачка непростая!
+        breakout_prefix: "Воссоздайте любимую игру моего детства:"
+        breakout_strong: Breakout
+        ttt_prefix: Создайте своего первого бота, чтобы обыграть
+        ttt_strong: Tic Tac Toe
+        weather_prefix: Спроектируйте адаптивное
+        weather_strong: приложение погоды
+        story_prefix: Сочините историю вместе c
+        story_strong: ChatGPT
+        positive_prefix: Сделайте свой мир спокойнее c
+        positive_strong: фильтром позитивных новостей
+        positive_suffix: (Positive news)
+        piano_prefix: Займитесь музыкой c
+        piano_strong: приложением-композитором для пианино
+        piano_suffix: (Piano Composer)
+      certificate:
+        bubble: Отметьте свои новые навыки!
+        heading: Получите проверенный сертификат
+        para1: В конце буткемпа мы выдадим вам официальный сертификат, подтверждающий ваше участие и прохождение курса.
+        para2: Покажите свои навыки в резюме и в разделе Сертификаты вашего профиля LinkedIn.
+        linkedin: Поделитесь сертификатом со своей сетью контактов
+      signup:
+        choose_prefix: Выберите свой
+        choose_path: путь
+        intro: Записывайтесь сейчас, чтобы забронировать место на буткемпе, который стартует 26 апреля. Мест ограниченное количество, так что не упустите!
+        discount_everyone: Все в стране %{country_name} получают
+        discount_percent: "скидку %{percentage}%!"
+        vpn_prefix: 🌐 Во многих странах есть
+        vpn_discounts: скидки,
+        vpn_affordable: которые делают этот курс доступнее
+        vpn_globally: по всему миру! 🌐
+        vpn_please: Пожалуйста,
+        vpn_disable: отключите VPN
+        vpn_refresh: и обновите страницу, чтобы проверить, подходите ли вы.
+      course_card:
+        bubble_prefix: Только
+        bubble_strong: front-end
+        title_prefix: Front-end
+        title_strong: c основ
+        subtitle: Для студентов, которые понимают основы программирования.
+        discount_includes: Включает
+        discount_percent: "скидку %{percentage}%"
+        discount_for: для
+        discount_friends: наших друзей в стране
+        who_title: Для кого это? 🧑🏽
+        who_prefix: Для всех, кто понимает основы программирования и хочет стать
+        who_strong: веб-разработчиком
+        who_suffix: или добавить front-end навыки в свой арсенал.
+        duration_title: Длительность ⏳
+        duration_text: 3 месяца, неполная занятость.
+        end_title: Где вы окажетесь к концу 🎉
+        end_prefix: Вы будете уверенно создавать
+        end_strong: front-end сайтов c нуля
+        end_suffix: и будете на верном пути к карьере в веб-разработке.
+        included_title: Что включено? 🔎
+        inc_teaching_prefix: Более
+        inc_teaching_strong: 35 часов
+        inc_teaching_suffix: живого обучения, ваши навсегда!
+        inc_weekly_strong: Еженедельные сессии,
+        inc_weekly_suffix: чтобы отвечать на ваши вопросы.
+        inc_hundreds_strong: Сотни часов
+        inc_hundreds_suffix: увлекательных и интересных упражнений и проектов.
+        inc_discord_prefix: Отдельный,
+        inc_discord_strong: активный
+        inc_discord_suffix: Discord-сервер сообщества.
+        inc_cert_prefix: Официальный
+        inc_cert_strong: сертификат
+        inc_cert_suffix: о прохождении.
+        button: Изучить Front-End 👉
+      bundle_card:
+        bubble_prefix: Комплект
+        bubble_strong: Основы
+        title_learn: Научитесь
+        title_code: программировать
+        title_frontend: Front-End
+        subtitle: Для абсолютных новичков. Лучший способ научиться программировать в интернете.
+        discount_includes: Включает
+        discount_percent: "скидку %{percentage}%"
+        discount_for: для
+        discount_friends: наших друзей в стране
+        who_title: Для кого это? 🧑🏽
+        who_prefix: Для всех, кто хочет развить надёжные
+        who_coding: основы программирования
+        who_and: и
+        who_webdev: навыки веб-разработки.
+        who_designed_for: Рассчитано на
+        who_beginners: абсолютных новичков
+        who_suffix: или начинающих разработчиков.
+        duration_title: Длительность ⏳
+        duration_text: 6 месяцев, неполная занятость.
+        end_title: Где вы окажетесь к концу 🎉
+        end_prefix: Вы будете уверенно понимать
+        end_coding: основы программирования
+        end_confident: и уверенно создавать
+        end_beautiful: красивые, функциональные
+        end_suffix: front-end для сайтов.
+        included_title: Что включено? 🔎
+        inc_everything_prefix: Всё из Front-End Fundamentals;
+        inc_everything_strong: ПЛЮС...
+        inc_videos_prefix: Дополнительные
+        inc_videos_strong: 40 часов
+        inc_videos_suffix: видео, ваши навсегда!
+        inc_hundreds_prefix: Ещё сотни часов
+        inc_hundreds_strong: упражнений и проектов.
+        inc_interface_prefix: Специально
+        inc_interface_strong: спроектированный интерфейс
+        inc_interface_suffix: для новичков, который делает программирование проще и интереснее.
+        inc_cert_prefix: Ещё один официальный
+        inc_cert_strong: сертификат
+        inc_cert_suffix: о прохождении.
+        button: Научиться программировать + Front-End 👉
+      exercism:
+        heading: Что делает Exercism особенным?
+        intro_prefix: Exercism это
+        intro_nonprofit: давно существующая некоммерческая организация,
+        intro_helped: которая помогла более чем
+        intro_people: 2 миллионам человек
+        intro_suffix: прокачать навыки программирования.
+        students_title: студентов Exercism
+        students_text: Мы выросли исключительно за счёт сарафанного радио. Хорошие друзья рассказывают друзьям об Exercism!
+        testimonials_title: отзывов
+        testimonials_text: Уже более десяти лет мы один из самых надёжных ресурсов для обучения программированию.
+        exercises_title: решённых упражнений
+        exercises_text: Наши упражнения ценятся сообществом программистов как идеальный способ прокачаться!
+        mentoring_title: менторских сессий
+        mentoring_text: Наша уникальная программа менторства один из лучших способов получить советы от экспертов!
+      faqs:
+        heading: Часто задаваемые вопросы
+        intro: Это вопросы, которые нам задают чаще всего. Не нашли ответа на свой вопрос?
+        intro_email_link: Напишите нам письмо!
+        start_q: Когда начинается буткемп?
+        start_a: Первая сессия Front-End Fundamentals пройдёт 26 апреля 2025 года. Если вы купите комплект c Coding Fundamentals, то сможете получить доступ ко всему этому контенту сразу!
+        time_q: Сколько времени в неделю мне понадобится на буткемп?
+        time_a: Мы ориентируемся примерно на 8 часов в неделю (подробнее смотрите в разделе "Как будет выглядеть ваша неделя"). Если вы сможете уделять по часу в день, этого будет достаточно, чтобы пройти основную работу. Если вы сможете вкладывать ещё несколько часов в неделю, то сможете выполнять и более продвинутые упражнения.
+        missed_q: Я пропустил первую часть буткемпа? Могу ли я присоединиться сейчас?
+        missed_a: Первая часть буткемпа теперь называется "Coding Fundamentals" и доступна для покупки в составе комплекта выше.
+        group_q: Есть ли групповые активности и обязан ли я в них участвовать?
+        group_a: Формальных групповых активностей нет. Однако мы поощряем всех делиться своим путём и вместе исследовать программирование в нашем Discord-сервере. Изучение чужого кода один из лучших способов улучшить навыки программирования. Некоторые студенты собираются (виртуально) на совместные учебные сессии. Если хотите, вы можете отказаться от общественной части.
+        languages_q: Каким именно языкам программирования и техникам обучают в Front-End Fundamentals?
+        languages_a: Мы будем обучать JavaScript, CSS и HTML. Мы будем обучать современному JavaScript. Мы разберём как функциональный подход, так и объектно-ориентированное программирование, так что вы получите смесь того, что встречается в реальной жизни!
+        limit_q: Есть ли ограничение на число студентов, которые могут присоединиться к живым сессиям?
+        limit_a: Нет, сессии будут транслироваться онлайн, и каждый сможет задавать вопросы и участвовать. Вы сможете пересмотреть их в любое время в будущем.
+        graded_q: Упражнения оцениваются или они только для практики? Есть ли какая-то форма аттестации?
+        graded_a: Большинство упражнений можно выполнить, достигнув определённой цели. Однако они не оцениваются, и ваш код не проверяется и не аттестуется. Мы разберём часть (обезличенного) кода на еженедельных сессиях и обсудим, как его можно улучшить, но наша философия в том, что вы должны быть в гуще программирования, а не переживать о прохождении тестов.
+        discount_q: Как работает скидка для страны %{country_name}?
+        discount_a: Мы понимаем, что $%{full_price} это значительная сумма в странах c валютами, слабыми относительно доллара. Поэтому мы предлагаем скидку %{discount_percentage}% людям в стране %{country_name}, чтобы они могли принять участие.
+        discount_a2: Просто нажмите кнопку "Записаться", и скидка автоматически применится при оформлении.
+        no_discount_q: Предлагаете ли вы скидки студентам, безработным или людям из стран со слабыми валютами?
+        no_discount_a_html: Да, предлагаем. Мы хотим, чтобы как можно больше людей могли воспользоваться этим буткемпом. Напишите на %{email}, расскажите о своей ситуации, и я посмотрю, что мы можем для вас сделать.
+        signed_up_q: Я записался, но ничего не получил.
+        signed_up_a_html: Пожалуйста, проверьте свою почту. Первая живая сессия пройдёт 26 апреля 2025 года, так что доступа ни к чему до этого не будет. Однако вы должны получать письма c дополнительной информацией. Если вы их не получаете, напишите на %{email}, и мы всё для вас проверим.
+      legals:
+        is_registered: это зарегистрированная
+        nonprofit: некоммерческая организация.

@@ -163,3 +163,179 @@ en:
             Exercism is also supported by %{num_individual_supporters} generous
             individuals
           link_label: See all of our individual supporters
+ru:
+  about:
+    organisation_supporters:
+      meta:
+        title: Поддержка Exercism
+        description:
+          Может ли ваша организация помочь Exercism расти? Станьте топливом для
+          нашей миссии!
+      header:
+        title: Станьте <strong>топливом</strong> для нашей миссии
+        description:
+          Станьте нашим партнёром или сделайте пожертвование, чтобы поддержать
+          нашу миссию - сделать бесплатное обучение и практику программирования
+          доступными всему миру.
+      cta:
+        title: Хотите обсудить, как вы можете помочь Exercism?
+        description: Свяжитесь с <strong>Jeremy Walker</strong>,
+          генеральным директором Exercism.
+        email_label: jeremy@exercism.org
+      support_goals:
+        title: Поддержка наших спонсоров крайне важна для достижения целей Exercism
+        paragraph1:
+          Хотя значительная часть Exercism держится на нашем сообществе
+          волонтёров, сайтом и основной инфраструктурой управляет команда,
+          работающая на постоянной основе.
+        paragraph2:
+          Мы также берёмся за отдельные более крупные проекты, такие как
+          разработка наших автоматических анализаторов, которые требуют
+          преданной команды, интенсивно работающей над задачей в течение
+          определённого периода времени.
+        paragraph3:
+          Чтобы финансировать эту основную команду и эти продукты, мы полагаемся
+          на грантовую поддержку от компаний или организаций, которые хотят
+          внести вклад в наше видение - помочь обеспечить бесплатное обучение
+          программированию для каждого.
+      areas_of_collaboration:
+        title: Области, в которых организации поддержали нас на сегодняшний день
+        fundraising: Сбор средств
+        research_projects: Исследовательские проекты
+        track_development: Разработка треков
+        developing_automation: Разработка автоматизации
+        community_building: Развитие сообщества
+        servers_and_infrastructure: Серверы и инфраструктура
+      supporters_section:
+        title: Наши спонсоры
+        packt:
+          alt: Packt Publishing
+          description:
+            <strong>%{packt_publishing}</strong> являются ключевым партнёром
+            Exercism, помогая нам развивать как направление сбора средств, так и
+            контентную часть платформы. Они спонсировали нашу новую роль по
+            сбору средств, и сейчас мы развиваем более глубокое партнёрство,
+            которое запустим в начале 2022 года.
+        gobridge:
+          alt: GoBridge
+          description: В 2021 году мы стали официальной платформой менторства для
+            <strong>%{gobridge}</strong> и
+            <strong>%{go_developer_network}</strong>, в рамках чего они любезно
+            сделали значительное пожертвование в поддержку развития Exercism
+            Teams.
+          go_developer_network_text: Go Developer Network
+        chicago:
+          alt: University of Chicago
+          university_of_chicago_text: University of Chicago
+          the_sloan_foundation_text: The Sloan Foundation
+          description:
+            <strong>%{university_of_chicago}</strong> в партнёрстве с
+            <strong>%{the_sloan_foundation}</strong> профинансировали создание
+            Exercism v3 в рамках более широкого исследовательского проекта о том,
+            как люди развивают навыки и знания в программировании на нескольких
+            языках.
+        mozilla:
+          alt: Mozilla
+          description:
+            <strong>%{mozilla}</strong> поддержали нас в создании наших
+            автоматических анализаторов. Они профинансировали проектирование
+            продукта, прототип и инфраструктуру анализаторов, сэкономив тысячи
+            часов работы менторов и значительно сократив время ожидания для
+            учащихся.
+        learn_more: Узнать больше
+      individual_supporters:
+        alt: Отдельные спонсоры
+        title: Exercism также поддерживают щедрые частные лица
+        link_label: Посмотреть всех наших частных спонсоров (%{num_individual_supporters})
+    partners:
+      gobridge:
+        see_all_supporters: Посмотреть всех наших спонсоров
+        supported_by: Exercism поддерживается
+        gobridge_alt: GoBridge
+        how_gobridge_supports_exercism: Как GoBridge поддерживает Exercism
+        support_description:
+          В 2021 году GoBridge сделали значительное пожертвование в поддержку
+          развития Exercism Teams, что в частности позволило нам заложить
+          основы взаимодействия учащихся и менторов внутри нового редактора
+          Exercism.
+        about_gobridge_title: О GoBridge
+        about_gobridge_description:
+          Миссия <strong>%{gobridge_text}</strong> - дать возможность
+          меньшинствам в сфере технологий использовать Go как инструмент для
+          изучения и преподавания программирования и, в конечном итоге, помочь
+          недостаточно представленным группам в технологиях повысить
+          разнообразие в сообществе Go. Это идеально сочетается с нашей миссией
+          предоставлять возможности через развитие программирования, и поэтому
+          мы очень рады запустить это партнёрство. <strong>%{gobridge_text}</strong>
+          и <strong>%{go_developer_network_text}</strong> будут продвигать
+          Exercism в своих сообществах, а мы надеемся на большой приток как
+          менторов, так и учащихся по Go.
+        go_developer_network_text: Go Developer Network
+      index:
+        meta:
+          title: Поддержка Exercism
+          description:
+            Может ли ваша организация помочь Exercism расти? Станьте топливом для
+            нашей миссии!
+        header:
+          title: Станьте <strong>топливом</strong> для нашей миссии
+          description:
+            Станьте нашим партнёром или сделайте пожертвование, чтобы поддержать
+            нашу миссию - сделать бесплатное обучение и практику программирования
+            доступными всему миру.
+        cta:
+          title: Хотите обсудить, как вы можете помочь Exercism?
+          description: Свяжитесь с <strong>Jeremy Walker</strong>,
+            генеральным директором Exercism.
+          email_label: jeremy@exercism.org
+        support_goals:
+          title: Поддержка наших спонсоров крайне важна для достижения целей Exercism
+          paragraph1:
+            Хотя значительная часть Exercism держится на нашем сообществе
+            волонтёров, сайтом и основной инфраструктурой управляет команда,
+            работающая на постоянной основе.
+          paragraph2:
+            Мы также берёмся за отдельные более крупные проекты, такие как
+            разработка наших автоматических анализаторов, которые требуют
+            преданной команды, интенсивно работающей над задачей в течение
+            определённого периода времени.
+          paragraph3:
+            Чтобы финансировать эту основную команду и эти продукты, мы
+            полагаемся на грантовую поддержку от компаний или организаций,
+            которые хотят внести вклад в наше видение - помочь обеспечить
+            бесплатное обучение программированию для каждого.
+        areas_of_collaboration:
+          title: Области, в которых организации поддержали нас на сегодняшний день
+          fundraising: Сбор средств
+          research_projects: Исследовательские проекты
+          track_development: Разработка треков
+          developing_automation: Разработка автоматизации
+          community_building: Развитие сообщества
+          servers_and_infrastructure: Серверы и инфраструктура
+        supporters_section:
+          title: Наши спонсоры
+          chicago:
+            alt: University of Chicago
+            university_of_chicago_text: University of Chicago
+            the_sloan_foundation_text: The Sloan Foundation
+            description:
+              <strong>%{university_of_chicago}</strong> в партнёрстве с
+              <strong>%{the_sloan_foundation}</strong> профинансировали создание
+              Exercism v3 в рамках более широкого исследовательского проекта о
+              том, как люди развивают навыки и знания в программировании на
+              нескольких языках.
+          mozilla:
+            alt: Mozilla
+            description:
+              <strong>%{mozilla}</strong> поддержали нас в создании наших
+              автоматических анализаторов. Они профинансировали проектирование
+              продукта, прототип и инфраструктуру анализаторов, сэкономив тысячи
+              часов работы менторов и значительно сократив время ожидания для
+              учащихся.
+          learn_more: Узнать больше
+        individual_supporters:
+          alt: Отдельные спонсоры
+          title:
+            Exercism также поддерживают %{num_individual_supporters} щедрых
+            частных лиц
+          link_label: Посмотреть всех наших частных спонсоров

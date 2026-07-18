@@ -14,3 +14,21 @@ en:
         badges_owned:
           one: badge owned
           other: badges owned
+ru:
+  profiles:
+    badges:
+      meta_title: "Значки пользователя %{user_handle} на Exercism"
+      meta_description:
+        Посмотрите значки пользователя %{user_handle} на Exercism и узнайте,
+        каких из них не хватает вам
+      introducer:
+        title: Участники Exercism получают значки за классные достижения
+        description:
+          "Учиться на Exercism интересно и приятно: получайте значки прямо
+          в процессе обучения, менторства и участия в развитии Exercism."
+      summary:
+        badges_owned:
+          one: значок получен
+          few: значка получено
+          many: значков получено
+          other: значков получено

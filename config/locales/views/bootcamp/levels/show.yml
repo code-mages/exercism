@@ -1,0 +1,32 @@
+en:
+  bootcamp:
+    levels:
+      show:
+        levels: Levels
+        level_number: "Level %{idx}:"
+        completed_level: You've completed Level %{idx}
+        all_exercises_completed: All %{count} exercises completed
+        key_concepts: Key Concepts
+        key_concepts_intro: These concepts are all covered in the video session. Make sure you understand these concepts before moving on from this level.
+        core_exercises: Core Exercises
+        core_exercises_intro: Complete these exercises to complete this level.
+        brain_busters: Brain Busters
+        brain_busters_intro: Push your limits with these optional exercises!
+        major_project: Major Project 🎉
+        major_project_intro: Get started on this larger project, designed to be completed over multiple weeks.
+ru:
+  bootcamp:
+    levels:
+      show:
+        levels: Уровни
+        level_number: "Уровень %{idx}:"
+        completed_level: Вы прошли уровень %{idx}
+        all_exercises_completed: Все %{count} упражнений выполнены
+        key_concepts: Ключевые концепции
+        key_concepts_intro: Все эти концепции разбираются в видеоуроке. Убедитесь, что вы их поняли, прежде чем переходить к следующему уровню.
+        core_exercises: Основные упражнения
+        core_exercises_intro: Выполните эти упражнения, чтобы завершить уровень.
+        brain_busters: Задачи со звёздочкой
+        brain_busters_intro: Проверьте себя на прочность с помощью этих необязательных упражнений!
+        major_project: Большой проект 🎉
+        major_project_intro: Приступайте к этому крупному проекту, рассчитанному на несколько недель работы.

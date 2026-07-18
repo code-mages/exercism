@@ -1,0 +1,36 @@
+en:
+  cohorts:
+    show:
+      form:
+        get_registered: Get registered
+        sign_up_to_cohort: Sign up to the %{cohort_name}
+        login_or_signup_message: Please login or sign up to join the %{cohort_name}.
+        signup_button: Sign up
+        login_button: Log in
+        you_are_all_set: You're all set!
+        enrolled_message: You are enrolled in the %{cohort_name}. We'll be in touch soon with more details.
+        you_are_on_waiting_list: You're on the waiting list
+        waiting_list_message: You are currently %{position} on the waiting list for the %{cohort_name}. We'll let you know if a place becomes available.
+        registration_easy: Registering for the %{cohort_name} is easy. Just fill in the form below and we'll be in touch.
+        introduce_yourself_label: Introduce yourself
+        introduction_placeholder: Tell us a little about yourself and why you'd like to join the %{cohort_name}.
+        commit_to_participating: I commit to participating fully in the %{cohort_name}.
+        register_button: Register
+ru:
+  cohorts:
+    show:
+      form:
+        get_registered: Зарегистрироваться
+        sign_up_to_cohort: Записаться в %{cohort_name}
+        login_or_signup_message: Пожалуйста, войдите или зарегистрируйтесь, чтобы присоединиться к %{cohort_name}.
+        signup_button: Зарегистрироваться
+        login_button: Войти
+        you_are_all_set: Всё готово!
+        enrolled_message: Вы записаны в %{cohort_name}. Мы скоро свяжемся с вами и расскажем подробности.
+        you_are_on_waiting_list: Вы в списке ожидания
+        waiting_list_message: Сейчас вы занимаете %{position} место в списке ожидания на %{cohort_name}. Мы сообщим вам, если появится свободное место.
+        registration_easy: Записаться в %{cohort_name} очень просто. Просто заполните форму ниже, и мы свяжемся с вами.
+        introduce_yourself_label: Расскажите о себе
+        introduction_placeholder: Расскажите немного о себе и о том, почему вы хотите присоединиться к %{cohort_name}.
+        commit_to_participating: Я обязуюсь принимать полноценное участие в %{cohort_name}.
+        register_button: Записаться

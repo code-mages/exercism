@@ -1,0 +1,12 @@
+en:
+  admin:
+    streaming_events:
+      form:
+        error: error
+        prohibited: 'prohibited this streaming_event from being saved:'
+ru:
+  admin:
+    streaming_events:
+      form:
+        error: ошибка
+        prohibited: 'помешали сохранить это стриминг-событие:'

@@ -7,3 +7,12 @@ en:
       subtitle:
         Explore the docs of tracks you're learning, mentoring or helping to
         build.
+ru:
+  docs:
+    tracks:
+      meta_title: Документация треков Exercism
+      meta_description: Документация конкретных треков о том, как использовать язык вместе с Exercism
+      heading: Документация по трекам
+      subtitle:
+        Изучайте документацию треков, которые вы осваиваете, по которым
+        менторите или помогаете развивать.

@@ -10,3 +10,15 @@ en:
           See %{user_handle}'s published solutions from completing exercises
           on Exercism. Discover how they improved their solution over
           iterations.
+ru:
+  profiles:
+    solutions:
+      meta_title: "Решения пользователя %{user_handle} на Exercism"
+      meta_description: Изучите решения пользователя %{user_handle} на Exercism и
+        посмотрите всё, чему он научился.
+      introducer:
+        title: Демонстрация кода и улучшений
+        description:
+          Посмотрите опубликованные решения пользователя %{user_handle},
+          выполнившего задачи на Exercism. Узнайте, как он улучшал своё решение
+          от итерации к итерации.

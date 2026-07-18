@@ -1,0 +1,16 @@
+en:
+  admin:
+    partners:
+      form:
+        prohibited_from_saving: "prohibited this partner from being saved:"
+        headline: "Headline (appears on Perks page)"
+        description_markdown: "Description (Markdown. Appears on Perks page)"
+        support_markdown: "Support info (Optional. Markdown. Appears on Perks page)"
+ru:
+  admin:
+    partners:
+      form:
+        prohibited_from_saving: "не позволили сохранить этого партнёра:"
+        headline: "Заголовок (отображается на странице перков)"
+        description_markdown: "Описание (Markdown, отображается на странице перков)"
+        support_markdown: "Информация о поддержке (необязательно, Markdown, отображается на странице перков)"

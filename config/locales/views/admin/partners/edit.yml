@@ -1,0 +1,14 @@
+en:
+  admin:
+    partners:
+      edit:
+        editing: "Editing %{name}"
+        show_this_partner: "Show this partner"
+        back_to_partners: "Back to partners"
+ru:
+  admin:
+    partners:
+      edit:
+        editing: "Редактирование %{name}"
+        show_this_partner: "Показать этого партнёра"
+        back_to_partners: "Назад к партнёрам"

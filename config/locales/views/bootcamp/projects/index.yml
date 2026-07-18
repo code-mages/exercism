@@ -1,0 +1,18 @@
+en:
+  bootcamp:
+    projects:
+      index:
+        breadcrumb: Projects
+        heading: Projects
+        intro: >-
+          Throughout the bootcamp you'll build a variety of projects. Each contains multiple exercises that will unlock as the bootcamp progresses.
+          More projects will unlock as you progress.
+ru:
+  bootcamp:
+    projects:
+      index:
+        breadcrumb: Проекты
+        heading: Проекты
+        intro: >-
+          За время буткемпа вы соберёте самые разные проекты. В каждом из них несколько упражнений, которые открываются по мере прохождения буткемпа.
+          Новые проекты будут открываться по мере вашего прогресса.

@@ -11,3 +11,16 @@ en:
         solutions_submitted: "# Submitted solutions"
         solutions_completed: "# Completed solutions"
         prs_opened: "# Opened PRs"
+ru:
+  impact:
+    index:
+      page_title: Посмотрите, как Exercism влияет на мир
+      track_heading: "Трек: %{track_title}"
+      table_headers:
+        metric: Метрика
+        last_24_hours: За последние 24 часа
+        last_month: За последний месяц
+      table_data_labels:
+        solutions_submitted: "Кол-во отправленных решений"
+        solutions_completed: "Кол-во завершённых решений"
+        prs_opened: "Кол-во открытых PR"

@@ -3,3 +3,8 @@ en:
     claim_modal:
       continue_button_label: Continue to %{partner_website_domain}
       close_button_label: Close
+ru:
+  perks:
+    claim_modal:
+      continue_button_label: Перейти на %{partner_website_domain}
+      close_button_label: Закрыть

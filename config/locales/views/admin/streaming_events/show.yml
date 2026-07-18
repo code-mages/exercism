@@ -1,0 +1,34 @@
+en:
+  admin:
+    streaming_events:
+      show:
+        title_label: 'Title: %{value}'
+        description_label: 'Description: %{value}'
+        starts_at_label: 'Starts at: %{value}'
+        ends_at_label: 'Ends at: %{value}'
+        featured_label: 'Featured %{value}'
+        thumbnail_label: 'Thumbnail: %{value}'
+        youtube_id_label: 'YouTube ID: %{value}'
+        featured_yes: 'Yes'
+        featured_no: 'No'
+        edit: Edit this streaming event
+        destroy: Destroy this event
+        confirm: 'Are you sure? Destroy %{title}?'
+        back: Back to all streaming events
+ru:
+  admin:
+    streaming_events:
+      show:
+        title_label: 'Название: %{value}'
+        description_label: 'Описание: %{value}'
+        starts_at_label: 'Начало: %{value}'
+        ends_at_label: 'Окончание: %{value}'
+        featured_label: 'Рекомендуемое %{value}'
+        thumbnail_label: 'Превью: %{value}'
+        youtube_id_label: 'YouTube ID: %{value}'
+        featured_yes: 'Да'
+        featured_no: 'Нет'
+        edit: Изменить это стриминг-событие
+        destroy: Удалить это событие
+        confirm: 'Вы уверены? Удалить %{title}?'
+        back: Назад ко всем стриминг-событиям

@@ -64,3 +64,68 @@ en:
           title: "Get started with the %{track_title} track"
           description: "The best part, it’s 100% free for everyone."
           join_button: "Join the %{track_title} track"
+ru:
+  tracks:
+    about:
+      header:
+        title: "Хотите изучить и освоить %{track_title}?"
+        subtitle_html: |
+          Присоединяйтесь к треку %{track_title} на Exercism, чтобы получить доступ к
+          <em class="c-underline"><strong>%{num_exercises} упражнениям</strong></em>
+          %{concepts_clause}
+          с автоматическим анализом
+          вашего кода и
+          <em class="c-underline"><strong>персональным менторством</strong></em>,
+          и всё это <em class="c-underline"><strong>на 100% бесплатно</strong></em>.
+        concepts_part_course: "сгруппированным в %{num_concepts} концепций %{track_title},"
+        join_track_button: "Присоединиться к треку %{track_title}"
+        explore_concepts_button: "Изучить концепции"
+        explore_exercises_button: "Изучить упражнения"
+        gobridge_platform_html: |
+          ⭐ <span class="text-gradient">Exercism, официальная платформа менторства GoBridge &amp; GDN.</span>
+        learn_more_link_text: "Узнать больше."
+      about_section:
+        title: "О %{track_title}"
+        read_more_button_text: "Читать больше о %{track_title}"
+        read_less_button_text: "Свернуть"
+      exercises_section:
+        title_html: >
+          <em class="c-underline">%{num_exercises} упражнений по программированию</em>
+          для %{track_title} на Exercism.%{range_part}
+        range_part_present: " От %{first_exercise_title} до %{last_exercise_title}."
+        subtitle: "Становитесь лучше в программировании с помощью увлекательных и полезных упражнений, которые проверяют ваше понимание концепций вместе с Exercism."
+        all_exercises_link: "Смотреть все упражнения %{track_title} на Exercism"
+      concepts:
+        title: "Немного о концепциях, которые вы освоите"
+        see_all_concepts: "Смотреть все концепции для %{track_title}"
+      key_features:
+        title: "Ключевые особенности %{track_title}"
+      upsell:
+        mentoring_section:
+          title: "Менторство в стиле %{track_title}"
+          paragraph_html: |
+            У каждого языка свой подход к решению задач. %{track_title}
+            не исключение. Наши менторы помогут вам научиться думать как
+            разработчик на %{track_title} и писать идиоматичный код на
+            %{track_title}. Как только вы решите упражнение, отправьте его нашей
+            команде волонтёров, и они дадут вам подсказки, идеи и обратную связь о том,
+            как сделать код более привычным для
+            %{track_title}, они помогут вам открыть то, о чём вы даже не подозревали.
+          learn_more: "Узнать больше о менторстве"
+        exercises_section:
+          title: "Упражнения %{track_title} от сообщества"
+          paragraph_html:
+            one_concept: >
+              В треке %{track_title} на Exercism есть
+              %{num_concepts} концепция и %{track_num_exercises} упражнений, которые помогут вам писать лучший код.
+            many_concepts: >
+              В треке %{track_title} на Exercism есть
+              %{num_concepts} концепций и %{track_num_exercises} упражнений, которые помогут вам писать лучший код.
+            no_concepts: >
+              В треке %{track_title} на Exercism есть
+              %{track_num_exercises} упражнений, которые помогут вам писать лучший код.
+          see_all_exercises: "Смотреть все упражнения %{track_title}"
+        cta:
+          title: "Начните с трека %{track_title}"
+          description: "И самое лучшее: это на 100% бесплатно для всех."
+          join_button: "Присоединиться к треку %{track_title}"

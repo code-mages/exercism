@@ -1,0 +1,45 @@
+en:
+  about:
+    individual_supporters:
+      heading_html: Our <strong>generous</strong> individual donors
+      donor_count: "%{num} generous people have donated to Exercism"
+      cta:
+        title: Help us bring the joy of programming to everyone, everywhere!
+        description: Could you help support Exercism? Every little helps.
+        donate_now: Donate now
+      avatar_alt: "User-uploaded avatar of %{name}"
+      first_supported: "First supported %{time_ago} ago"
+      missing:
+        title: Why am I not on this page?
+        donations_settings_link: Donations Settings
+        body_html: >
+          This page aims to show all individuals who have financially supported
+          Exercism. Technically, it lists everyone who have been awarded the
+          Supporter badge and who have enabled the "Appear on supporters page?"
+          toggle in their %{donations_settings_link}. Donating through the
+          Exercism website should automatically award you the Supporter badge.
+          However, donating through a third party website (e.g. GitHub) may
+          require you to email %{donations_email_link} to ask us to manually
+          award the badge.
+ru:
+  about:
+    individual_supporters:
+      heading_html: Наши <strong>щедрые</strong> индивидуальные жертвователи
+      donor_count: "%{num} щедрых людей поддержали Exercism пожертвованиями"
+      cta:
+        title: Помогите нам подарить радость программирования всем и каждому, где бы они ни были!
+        description: Не могли бы вы поддержать Exercism? Любая помощь важна.
+        donate_now: Пожертвовать сейчас
+      avatar_alt: "Загруженный пользователем аватар %{name}"
+      first_supported: "Впервые поддержал(а) %{time_ago} назад"
+      missing:
+        title: Почему меня нет на этой странице?
+        donations_settings_link: настройках пожертвований
+        body_html: >
+          Эта страница показывает всех, кто финансово поддержал Exercism.
+          Технически здесь перечислены все, кто получил значок Supporter и
+          включил переключатель "Показывать на странице спонсоров?" в своих
+          %{donations_settings_link}. Пожертвование через сайт Exercism должно
+          автоматически выдать вам значок Supporter. Однако при пожертвовании
+          через сторонний сайт (например, GitHub) может потребоваться написать
+          на %{donations_email_link}, чтобы мы выдали значок вручную.

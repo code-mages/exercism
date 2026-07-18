@@ -1,0 +1,384 @@
+en:
+  about:
+    hiring_content:
+      meta_title: Become Exercism's Educational Content Creator!
+      meta_description: We need someone to create great educational content and support our team of content-creating volunteers as we create one of the best educational resources on the planet. Do you have a passion for programming? Do you enjoy writing engaging content? If so, this role might be perfect for you!
+      back_to_listings: Back to All Job Listings
+      job_title: Educational Content Creator
+      remote: 100% remote
+      salary: 'Salary: £50k (~$68k, ~€60k)'
+      intro:
+        heading: Become Exercism's Educational Content Creator!
+        body: >-
+          We need someone to create great educational content and support our team
+          of content-creating volunteers as we create one of the best educational
+          resources on the planet.
+          Do you have a passion for programming?
+          Do you enjoy writing engaging content?
+          Are you looking for a job that allows you to be creative and innovative?
+          If so, this role might be perfect for you!
+      summary:
+        title: Summary
+        about_link_text: '"About Exercism" pages'
+        paragraph_one_html: >-
+          Exercism is a not-for-profit organisation providing world-class programming
+          education to anyone for free.
+          Our online platform is centred around self-directed learning and volunteer
+          mentoring, and has nearly one million members.
+          Over the next 5 years, we want to become the defacto programming education
+          platform that anyone, anywhere can use for free.
+          Through our work we aim to improve the global standard of programming and
+          increase participation in tech from under-represented groups.
+          You can learn more about Exercism in our %{about_link}.
+        paragraph_two: >-
+          At the heart of Exercism is our content.
+          We currently have thousands of programming exercises across over 50
+          programming languages, designed to teach and enable practice of programming
+          concepts, nearly all of which has been written by our volunteer community.
+          We want to support those exercises with world-class explanations of
+          programming topics, written in an engaging, fun, conversational way.
+          We need someone to lead on this, creating great content and supporting our
+          volunteers in the content they create.
+          This is a hands-on role where you'll be writing and editing content, while
+          also working with our internal and senior community teams to design and plan
+          out our content strategy.
+        paragraph_three: >-
+          We are building an exceptional team of ambitious, passionate people who love
+          their work, excel at what they do, and have fun doing it.
+          The values of empathy, integrity and personal-growth are core to everything
+          we do.
+          If that sounds exciting to be part of, and you feel you have the skills to
+          help, we'd love for you to apply.
+      responsibilities:
+        title: Responsibilities
+        intro: Your role splits roughly into three areas.
+        strategic_intro: 'The first is strategic, which has the following key responsibilities:'
+        strategic_one: Work with our senior team to design a content strategy that enables the creation of hundreds of brilliant programming articles.
+        strategic_two: Work with our senior maintainers to design and document systems that improve the flow and quality of content.
+        strategic_three: Work with our content partners (e.g. Packt Publishing) to determine synergies between their content and ours, and how we can make the most use of their educational portfolio.
+        writing: >-
+          The second role is actually writing educational content.
+          As part of our three year plan, we are extending our content beyond content
+          centred on programming languages, to content about programming in general -
+          looking at fundamental programming concepts, design patterns, and the
+          knowledge that makes someone an excellent programmer.
+          You will lead this, planning out and writing the content, supported by both
+          our internal team and our contributor team.
+        media: >-
+          Thirdly we want to bring our content to life with illustrations, animations
+          and video.
+          While we don't expect you to be an artist or great behind the camera, you'll
+          be largely responsible for finding and liasing with partners to make great
+          content.
+          If you are comfortable recording tutorials alongside the content, that will
+          be a huge bonus too.
+      right_for_you:
+        title: Is this job right for you?
+        paragraph_one: >-
+          The right person for this role will be someone who loves programming, is
+          passionate about education, and who shares our values.
+        paragraph_two: >-
+          Central to this role is seeing content in the same way our founders do.
+          We want to create content that embodies a sense of playfulness, fun, and
+          approachability.
+          We want our content to feel conversational, maybe even chatty - maybe more
+          like a blog post than a formal teaching article.
+          Articles will ideally include a lot of visuals.
+          Everything we do is centred around making programming approachable,
+          empowering, and never making anyone feel stupid.
+        examples_intro: 'We’ve pulled out a couple of examples that we feel are aligned to where we want to take Exercism:'
+        example_trees_text: How not to be stumped by trees
+        example_trees_note: '- A great example of conversational content that teaches someone a concept in a fun way.'
+        example_fruit_text: Fruit comparison
+        example_fruit_note: '- A nice example of how visuals can make an idea simple.'
+        example_jit_text: A crash course on JIT compilers
+        example_jit_note: '- A great example of explaining a complex subject without making someone feel stupid.'
+        paragraph_three: >-
+          If these pieces of content feel like the sort of things you'd enjoy writing,
+          then we'd love you to apply.
+          We don't expect you to be a programming expert and there will be lots of
+          support around you to help explain topics you're not familiar with, but we
+          do expect you to have some solid programming proficiency for this role.
+        paragraph_four: >-
+          You might be coming from a developer background wanting to use your knowledge
+          in education, or maybe you're an educator and wanting to focus on programming
+          education.
+          Maybe programming has been a hobby for you and you want others to share in
+          that same passion.
+          We're entirely agnostic about your background, and don't require any specific
+          academic qualifications.
+          Our main criteria for hiring will be the belief that you will be able to
+          execute in the role.
+        paragraph_five: >-
+          At Exercism, we have a shared commitment to kindness, honesty, and curiosity,
+          and strive to build a working environment where everyone can learn, improve
+          and do their best work.
+          We believe that everyone has the right to feel happy, safe and supported at
+          work, and strive to ensure that is the case at Exercism.
+          We celebrate diversity, and do better work because of the different
+          perspectives and insights that different experiences bring.
+          It's important to us that you share these values and want to be part of a
+          team living them out.
+        paragraph_six: >-
+          Finally, we want someone who can get passionate about Exercism.
+          We are passionate about what we're building - about creating a world-class
+          educational resource that everyone can use for free, and it matters to us
+          that everyone in the team shares that passion.
+      other_requirements:
+        title: Other requirements
+        intro: >-
+          We are a fully remote team who communicate in English.
+          We aim to mix effective work with a sense of connectedness, so spend some
+          time during the week on video calls sharing ideas and updates, some time
+          doing simpler work while being on Slack, and some time offline focusing on
+          deeper work.
+        list_intro: 'These lead to the following extra requirements:'
+        timezone: To enable you to interact with the rest of the team, you must reside in a country that's base timezone is UTC-2, UTC-1, UTC, UTC+1 or UTC+2 (if you have Daylight saving which moves you into UTC+3 during summer, that's ok).
+        travel: You are willing to travel once per year for an in-person meetup.
+        english: You are comfortable speaking English, and could write English to a level similar to the example posts listed above.
+        inclusive: You are excited to work in a diverse, inclusive team that cares about culture and where honest, empathic communication is the norm, and self-improvement is a lived value.
+        encouragement_html: >-
+          Research has shown that people from under-represented groups are less likely
+          to apply for jobs if they don't feel they fit
+          <strong>all</strong>
+          of the criteria.
+          If you think you'd enjoy the role and could do a good job, but are not sure
+          if you're fully qualified, please apply anyway!
+      benefits:
+        title: Benefits
+        intro: >-
+          Treating each other fairly is at the core of our individual and company
+          values, and we want the pay and benefits of Exercism to reflect that.
+          We offer the same benefits to all Exercism employees.
+        flexible: A truly flexible, remote-first, working culture.
+        environment: A collaborative, creative and inspiring working environment. No shouty bosses, presenteeism or unexpected deadlines.
+        salary: £50k starting salary, which increases each year (inflation + 2%).
+        pension: Matched pension contributions up to 3%.
+        holiday: 35 days holiday.
+        coworking: We will pay for access to a local co-working space (if desired).
+        working_week: The role is full time, but you may choose to work either 5 days (~40 hours) per week or 4 days (~32 hours) per week. If you opt for the shorter working week, salary and holiday will be prorated accordingly.
+      how_to_apply:
+        title: How to apply
+        thanks: >-
+          Firstly, if you're about to apply, thank you!
+          We're grateful and excited that you're taking the time to do so 🙂
+        email_intro: To apply send an email to
+        email_with: 'with:'
+        item_subject: Subject of "Educational Content Creator"
+        item_intro: A couple of paragraphs introducing yourself and providing some brief background.
+        item_video_html: >-
+          A link to a short video introducing yourself in more detail, telling us why
+          you're interested joining Exercism, and giving us some more information on
+          your experience and why you're right for the role.
+          Don't worry about the quality of the video itself! Try and keep it around
+          5-10 minutes long. We use %{loom_link} for easy recording and sharing.
+        item_sample: A sample article on a programming topic you have written that embeds the values and style we list above
+        item_sample_note: (we will not use the article on Exercism unless we hire you).
+        item_sample_more: >-
+          Everyone applying for this job will be required to write a sample article on
+          one of the topics listed below.
+          However, if you want to link us to a post you've previously written on any
+          programming topic for this stage, that is fine.
+          If you are writing something from scratch, please use one of the following
+          topics:
+        topic_numbers: Types of numbers (e.g. integers, big ints, tiny ints, floating points, decimals)
+        topic_bits: Bit manipulation
+        topic_exceptions: Exceptions
+        topic_randomness: Testing Randomness
+        process_intro: 'The application process will run as follows:'
+        process_one: You send in your application.
+        process_two: We'll get in touch to acknowledge receipt of your application (generally within 2 working days)
+        process_three: We'll review your application and let you know whether we wish to continue the process with you (generally within 7 working days).
+        process_four: We will send you a questionnaire to try and understand more about your experience, then we will review those answers.
+        process_five: If you have not written an article on one of the four topics above, we will ask you to do so, then we will review that article.
+        process_six: We'll invite a final set of applicants to have a video interview with members of the team.
+        process_seven: We hope to make a final decision on who we offer the role during June.
+ru:
+  about:
+    hiring_content:
+      meta_title: Станьте создателем образовательного контента Exercism!
+      meta_description: Нам нужен человек, который будет создавать отличный образовательный контент и поддерживать нашу команду волонтёров-авторов, пока мы строим один из лучших образовательных ресурсов на планете. У вас есть страсть к программированию? Вам нравится писать увлекательные тексты? Если да, эта роль может идеально вам подойти!
+      back_to_listings: Назад ко всем вакансиям
+      job_title: Создатель образовательного контента
+      remote: 100% удалённо
+      salary: 'Зарплата: £50k (~$68k, ~€60k)'
+      intro:
+        heading: Станьте создателем образовательного контента Exercism!
+        body: >-
+          Нам нужен человек, который будет создавать отличный образовательный контент
+          и поддерживать нашу команду волонтёров-авторов, пока мы строим один из лучших
+          образовательных ресурсов на планете.
+          У вас есть страсть к программированию?
+          Вам нравится писать увлекательные тексты?
+          Ищете работу, которая позволит вам быть креативным и находить новые решения?
+          Если да, эта роль может идеально вам подойти!
+      summary:
+        title: Кратко
+        about_link_text: страницах "About Exercism"
+        paragraph_one_html: >-
+          Exercism, это некоммерческая организация, которая бесплатно даёт всем желающим
+          образование по программированию мирового уровня.
+          Наша онлайн-платформа построена вокруг самостоятельного обучения и наставничества
+          волонтёров, и в ней уже почти миллион участников.
+          В ближайшие 5 лет мы хотим стать той самой платформой для обучения программированию,
+          которой сможет бесплатно пользоваться кто угодно и где угодно.
+          Своей работой мы стремимся повысить общемировой уровень программирования и
+          вовлечь в сферу технологий больше людей из недостаточно представленных групп.
+          Больше об Exercism можно узнать на наших %{about_link}.
+        paragraph_two: >-
+          В основе Exercism лежит наш контент.
+          Сейчас у нас тысячи упражнений по программированию более чем на 50 языках,
+          созданных, чтобы обучать концепциям программирования и давать возможность их
+          отрабатывать, и почти всё это написано нашим сообществом волонтёров.
+          Мы хотим дополнить эти упражнения первоклассными объяснениями тем программирования,
+          написанными увлекательно, с юмором, в разговорной манере.
+          Нам нужен человек, который возглавит это направление, будет создавать отличный
+          контент и поддерживать наших волонтёров в том, что создают они.
+          Это практическая роль, где вы будете писать и редактировать контент, а также
+          работать с нашими внутренними и старшими командами сообщества, чтобы продумывать
+          и планировать нашу контент-стратегию.
+        paragraph_three: >-
+          Мы собираем исключительную команду амбициозных, увлечённых людей, которые любят
+          свою работу, отлично её делают и получают от этого удовольствие.
+          Ценности эмпатии, честности и личностного роста лежат в основе всего, что мы
+          делаем.
+          Если вам близко всё это и вы чувствуете, что можете помочь своими навыками,
+          мы будем рады вашей заявке.
+      responsibilities:
+        title: Обязанности
+        intro: Ваша роль условно делится на три направления.
+        strategic_intro: 'Первое, это стратегия, с такими ключевыми обязанностями:'
+        strategic_one: Работать с нашей старшей командой над контент-стратегией, которая позволит создать сотни блестящих статей по программированию.
+        strategic_two: Работать с нашими старшими мейнтейнерами над проектированием и документированием систем, улучшающих поток и качество контента.
+        strategic_three: Работать с нашими контент-партнёрами (например, Packt Publishing), чтобы находить точки соприкосновения между их контентом и нашим и понять, как лучше всего использовать их образовательный портфель.
+        writing: >-
+          Вторая роль, это собственно написание образовательного контента.
+          В рамках нашего трёхлетнего плана мы расширяем контент за пределы материалов
+          о конкретных языках программирования, переходя к контенту о программировании
+          в целом: фундаментальные концепции, паттерны проектирования и те знания, которые
+          делают человека отличным программистом.
+          Вы возглавите это, планируя и создавая контент при поддержке как нашей внутренней
+          команды, так и команды контрибьюторов.
+        media: >-
+          В-третьих, мы хотим оживить наш контент иллюстрациями, анимацией и видео.
+          Мы не ждём, что вы будете художником или мастером съёмки, но вы во многом будете
+          отвечать за поиск партнёров и взаимодействие с ними ради отличного контента.
+          Если вам комфортно записывать туториалы вместе с контентом, это будет огромным
+          плюсом.
+      right_for_you:
+        title: Подходит ли вам эта работа?
+        paragraph_one: >-
+          Подходящий для этой роли человек, это тот, кто любит программирование, увлечён
+          образованием и разделяет наши ценности.
+        paragraph_two: >-
+          Ключевое для этой роли, это видеть контент так же, как его видят наши основатели.
+          Мы хотим создавать контент, в котором есть игривость, лёгкость и открытость.
+          Мы хотим, чтобы наш контент был разговорным, может быть, даже дружеским по тону:
+          скорее как пост в блоге, чем формальная учебная статья.
+          В идеале статьи должны содержать много визуала.
+          Всё, что мы делаем, построено вокруг того, чтобы сделать программирование доступным,
+          вдохновляющим и никогда не заставлять человека чувствовать себя глупо.
+        examples_intro: 'Мы выбрали пару примеров, которые, как нам кажется, совпадают с тем, куда мы хотим вести Exercism:'
+        example_trees_text: How not to be stumped by trees
+        example_trees_note: '- Отличный пример разговорного контента, который весело объясняет концепцию.'
+        example_fruit_text: Fruit comparison
+        example_fruit_note: '- Хороший пример того, как визуал делает идею простой.'
+        example_jit_text: A crash course on JIT compilers
+        example_jit_note: '- Отличный пример объяснения сложной темы без ощущения, что тебя держат за глупого.'
+        paragraph_three: >-
+          Если такие материалы кажутся вам тем, что вам было бы приятно писать, мы будем
+          рады вашей заявке.
+          Мы не ждём, что вы будете экспертом по программированию, и вокруг вас будет
+          много поддержки, чтобы помочь объяснить незнакомые темы, но для этой роли мы
+          всё же ожидаем уверенного владения программированием.
+        paragraph_four: >-
+          Возможно, вы приходите из разработки и хотите применить свои знания в образовании,
+          а может, вы преподаватель и хотите сосредоточиться на обучении программированию.
+          Может, программирование было для вас хобби, и вы хотите разделить эту страсть
+          с другими.
+          Нам совершенно всё равно, каков ваш бэкграунд, и мы не требуем каких-либо конкретных
+          академических квалификаций.
+          Главный критерий при найме, это вера в то, что вы справитесь с ролью.
+        paragraph_five: >-
+          В Exercism у нас общая приверженность доброте, честности и любопытству, и мы
+          стремимся создать рабочую среду, где каждый может учиться, расти и делать свою
+          лучшую работу.
+          Мы верим, что каждый имеет право чувствовать себя счастливым, в безопасности
+          и с поддержкой на работе, и стараемся, чтобы в Exercism так и было.
+          Мы ценим разнообразие и делаем работу лучше благодаря разным точкам зрения и
+          прозрениям, которые дают разные опыты.
+          Для нас важно, чтобы вы разделяли эти ценности и хотели быть частью команды,
+          которая живёт ими.
+        paragraph_six: >-
+          Наконец, нам нужен человек, который может искренне увлечься Exercism.
+          Мы увлечены тем, что строим: созданием образовательного ресурса мирового уровня,
+          которым каждый может пользоваться бесплатно, и нам важно, чтобы эту страсть
+          разделяла вся команда.
+      other_requirements:
+        title: Прочие требования
+        intro: >-
+          Мы полностью удалённая команда, которая общается на английском.
+          Мы стремимся сочетать эффективную работу с чувством связи, поэтому часть недели
+          проводим на видеозвонках, делясь идеями и апдейтами, часть, за более простыми
+          задачами, оставаясь на связи в Slack, а часть, офлайн, сосредотачиваясь на
+          более глубокой работе.
+        list_intro: 'Отсюда вытекают такие дополнительные требования:'
+        timezone: Чтобы вы могли взаимодействовать с остальной командой, вы должны жить в стране, базовый часовой пояс которой UTC-2, UTC-1, UTC, UTC+1 или UTC+2 (если из-за перехода на летнее время вы попадаете в UTC+3 летом, это нормально).
+        travel: Вы готовы раз в год ездить на очную встречу.
+        english: Вам комфортно говорить по-английски, и вы можете писать по-английски на уровне, близком к примерам постов выше.
+        inclusive: Вам интересно работать в разнообразной, инклюзивной команде, которая заботится о культуре и где честное, эмпатичное общение, это норма, а саморазвитие, это живая ценность.
+        encouragement_html: >-
+          Исследования показывают, что люди из недостаточно представленных групп реже
+          откликаются на вакансии, если чувствуют, что не соответствуют
+          <strong>всем</strong>
+          критериям.
+          Если вы думаете, что вам понравилась бы эта роль и вы справились бы, но не
+          уверены, что полностью подходите, пожалуйста, всё равно откликайтесь!
+      benefits:
+        title: Что мы предлагаем
+        intro: >-
+          Честное отношение друг к другу лежит в основе наших личных и корпоративных
+          ценностей, и мы хотим, чтобы оплата и условия в Exercism это отражали.
+          Мы предлагаем одинаковые условия всем сотрудникам Exercism.
+        flexible: По-настоящему гибкая культура работы с приоритетом на удалёнку.
+        environment: Совместная, творческая и вдохновляющая рабочая среда. Никаких крикливых начальников, показной занятости и неожиданных дедлайнов.
+        salary: Стартовая зарплата £50k, которая растёт каждый год (инфляция + 2%).
+        pension: Софинансирование пенсионных взносов до 3%.
+        holiday: 35 дней отпуска.
+        coworking: Мы оплатим доступ к местному коворкингу (по желанию).
+        working_week: Роль на полную занятость, но вы можете выбрать работу либо 5 дней (~40 часов) в неделю, либо 4 дня (~32 часа) в неделю. Если вы выберете более короткую рабочую неделю, зарплата и отпуск будут пропорционально пересчитаны.
+      how_to_apply:
+        title: Как откликнуться
+        thanks: >-
+          Во-первых, если вы собираетесь откликнуться, спасибо!
+          Мы благодарны и рады, что вы находите на это время 🙂
+        email_intro: Чтобы откликнуться, отправьте письмо на
+        email_with: 'со следующим:'
+        item_subject: Тема письма "Educational Content Creator"
+        item_intro: Пара абзацев с рассказом о себе и кратким бэкграундом.
+        item_video_html: >-
+          Ссылка на короткое видео, где вы подробнее рассказываете о себе, о том, почему
+          вам интересно присоединиться к Exercism, и даёте больше информации о своём
+          опыте и о том, почему вы подходите для этой роли.
+          Не переживайте о качестве самого видео! Постарайтесь уложиться примерно в 5-10
+          минут. Для удобной записи и обмена мы используем %{loom_link}.
+        item_sample: Пример статьи на тему программирования, которую вы написали и которая отражает ценности и стиль, описанные выше
+        item_sample_note: (мы не будем использовать эту статью на Exercism, если не наймём вас).
+        item_sample_more: >-
+          Всех, кто откликается на эту вакансию, попросят написать пример статьи на одну
+          из тем ниже.
+          Но если для этого этапа вы хотите прислать нам пост, который написали ранее
+          на любую тему по программированию, это тоже нормально.
+          Если вы пишете что-то с нуля, пожалуйста, используйте одну из следующих тем:
+        topic_numbers: Типы чисел (например, целые, длинные, короткие целые, числа с плавающей точкой, десятичные)
+        topic_bits: Битовые операции
+        topic_exceptions: Исключения
+        topic_randomness: Тестирование случайности
+        process_intro: 'Процесс отбора проходит так:'
+        process_one: Вы присылаете свою заявку.
+        process_two: Мы свяжемся с вами, чтобы подтвердить получение заявки (обычно в течение 2 рабочих дней)
+        process_three: Мы рассмотрим вашу заявку и сообщим, хотим ли мы продолжить процесс с вами (обычно в течение 7 рабочих дней).
+        process_four: Мы пришлём вам анкету, чтобы больше узнать о вашем опыте, а затем изучим ответы.
+        process_five: Если вы не написали статью на одну из четырёх тем выше, мы попросим вас это сделать, а затем изучим эту статью.
+        process_six: Мы пригласим финальную группу кандидатов на видеоинтервью с членами команды.
+        process_seven: Мы надеемся принять окончательное решение о том, кому предложить роль, в течение июня.

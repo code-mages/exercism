@@ -1,0 +1,76 @@
+en:
+  cohorts:
+    show:
+      gohort:
+        intro_cohort: Introducing the %{cohort_name}
+        gohort_intro_large: >
+          What happens when 100 committed learners encourage and help
+          each other on their learning journeys? We've invented the
+          %{cohort_name} to find out! (The "Go cohort", see what we did there?
+          😉)
+        tell_me_more: Tell me more!
+        what_is_gohort: What is the %{cohort_name}?
+        gohort_description_large: >
+          The %{cohort_name} is simple. We'll give you and 99
+          other learners a space to learn together, add in some of our best
+          mentors and Exercism experts, and support you as you work together
+          through the Exercism Go syllabus over 30 days.
+        free_access: 100% free
+        start_date_july: Starts July 1st. Lasts for 30 days.
+        own_time: Work through the track in your own time
+        pair_or_individual: Pair with each other or work as individuals
+        commit_sharing: Commit to sharing your journey, and supporting others
+        notes_programming_experience: >-
+          Notes: Some programming experience is required
+          (if you can write a "Hello World" in any language, you're good
+          enough).
+        sign_up_below: Sign up below!
+        gain_fluency: Gain fluency in Go
+        taste_of_what_youll_learn: Here's a taste of what you'll learn!
+        track_description: >
+          The Go track on Exercism has %{num_concepts} concepts to
+          learn, along with %{num_exercises} coding exercises for you to
+          complete. It's a great way to pick up Go specific concepts and ways of
+          working.
+        mentoring_benefit: >
+          And better still, get mentoring from senior Go developers to
+          discover your knowledge gaps and build a deep understanding of the
+          language.
+        explore_track: Explore the Go track
+ru:
+  cohorts:
+    show:
+      gohort:
+        intro_cohort: Представляем %{cohort_name}
+        gohort_intro_large: >
+          Что происходит, когда 100 увлечённых учеников поддерживают и помогают
+          друг другу в обучении? Мы придумали %{cohort_name}, чтобы это
+          выяснить! («Go cohort», уловили игру слов? 😉)
+        tell_me_more: Расскажите подробнее!
+        what_is_gohort: Что такое %{cohort_name}?
+        gohort_description_large: >-
+          %{cohort_name} устроен просто. Мы дадим вам и ещё 99 ученикам
+          пространство для совместного обучения, добавим лучших наставников и
+          экспертов Exercism и будем поддерживать вас, пока вы вместе проходите
+          учебную программу Exercism по Go за 30 дней.
+        free_access: 100% бесплатно
+        start_date_july: Старт 1 июля. Длится 30 дней.
+        own_time: Проходите трек в удобном для вас темпе
+        pair_or_individual: Объединяйтесь в пары или работайте индивидуально
+        commit_sharing: Возьмите на себя обязательство делиться своим путём и поддерживать других
+        notes_programming_experience: >-
+          Примечание: требуется некоторый опыт программирования
+          (если вы можете написать «Hello World» на любом языке, этого
+          достаточно).
+        sign_up_below: Записывайтесь ниже!
+        gain_fluency: Свободно освойте Go
+        taste_of_what_youll_learn: Вот небольшой пример того, чему вы научитесь!
+        track_description: >
+          На треке Go в Exercism есть %{num_concepts} концепций для
+          изучения, а также %{num_exercises} упражнений по программированию,
+          которые вам предстоит выполнить. Это отличный способ освоить
+          специфичные для Go концепции и подходы к работе.
+        mentoring_benefit: >
+          А ещё лучше, получите наставничество от опытных Go-разработчиков,
+          чтобы обнаружить пробелы в своих знаниях и глубоко понять язык.
+        explore_track: Изучить трек Go

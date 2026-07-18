@@ -24,3 +24,31 @@ en:
         badges: Badges
       external_links:
         external_link_title: This is an external link
+ru:
+  profiles:
+    header:
+      details:
+        location_label: Находится в
+        pronouns_label: Местоимения
+        joined_at: Присоединился %{date}
+      bio:
+        read_more: Читать далее
+        read_less: Свернуть
+      badges:
+        count:
+          one: Собран %{count} значок
+          few: Собрано %{count} значка
+          many: Собрано %{count} значков
+          other: "Собрано %{count} значков"
+        see_all: Показать все
+        badge_name: "Значок: %{name}"
+      tags:
+        exercism_founder: Основатель Exercism
+      tabs:
+        summary: Обзор
+        contributions: Вклад
+        published_solutions: Опубликованные решения
+        testimonials: Отзывы
+        badges: Значки
+      external_links:
+        external_link_title: Это внешняя ссылка

@@ -11,3 +11,16 @@ en:
           editor_button: Start in Editor
           cli_heading: Work locally (via CLI)
           prominent_link: Learn more about solving exercises locally
+ru:
+  tracks:
+    iterations:
+      index:
+        zero_state:
+          heading: Вы ещё не отправили ни одной итерации.
+          body:
+            Вы сможете увидеть все свои итерации с результатами тестов и автоматической
+            обратной связью, как только отправите решение.
+          editor_heading: Через редактор Exercism
+          editor_button: Начать в редакторе
+          cli_heading: Работайте локально (через CLI)
+          prominent_link: Узнать больше о решении упражнений локально

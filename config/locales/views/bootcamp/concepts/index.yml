@@ -1,0 +1,16 @@
+en:
+  bootcamp:
+    concepts:
+      index:
+        all_concepts: All Concepts
+        title: Concepts
+        intro: This is your library of information. Everything you find in the Concept section will be covered throughout the live teaching sessions.
+        refresher: Use these docs as a refresher to go over anything that's unclear.
+ru:
+  bootcamp:
+    concepts:
+      index:
+        all_concepts: Все концепции
+        title: Концепции
+        intro: Это ваша библиотека знаний. Всё, что вы найдёте в разделе концепций, будет разобрано на живых учебных занятиях.
+        refresher: Используйте эти материалы, чтобы освежить память и разобраться с тем, что осталось неясным.

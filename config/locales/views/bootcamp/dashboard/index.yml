@@ -1,0 +1,72 @@
+en:
+  bootcamp:
+    dashboard:
+      index:
+        welcome_to_level: Welcome to Level %{level_idx}!
+        go_to_level: Go to Level %{level_idx}
+        continue_where_you_left_off: Continue where you left off
+        exercise_in_progress: You have an exercise in progress.
+        start_new_exercise: Start new exercise
+        new_exercise_available: You have a new exercise available to work on.
+        all_exercises_completed: All exercises completed 🎉
+        all_exercises_completed_description:
+          Congratulations - you have completed all the exercises currently
+          available to you.
+        upcoming_live_sessions: Upcoming Live Sessions
+        responsive_web_design: "Responsive Web Design:"
+        responsive_web_design_time: "Monday 7th June: 9am UTC"
+        final_live_session: The Final Live Session!
+        final_live_session_time: "Friday 11th June: 9am UTC\""
+        make_the_most: Make the most of the Bootcamp
+        make_the_most_description:
+          The more you take part in all areas of the Bootcamp, the more
+          you'll learn.
+        level: Level %{level_idx}
+        chat_on_discord: Chat on Discord
+        chat_on_discord_description: "Use the exclusive #bootcamp area on Exercism's Discord server to chat to other Bootcamp students and mentors."
+        ask_questions_on_forum: Ask questions on the Forum
+        ask_questions_on_forum_description:
+          Use the Bootcamp Category on the forum to ask questions and get
+          unstuck. Read the pinned post to learn more.
+        switch_to_part: Switch to Part %{part}
+        both_parts_access:
+          You have access to both parts of the bootcamp. You are currently
+          set to working through Part %{active_part}, which means the content
+          on this dashboard will be tailored for Part %{active_part}.
+        switch_anytime: You can switch between parts at any time.
+ru:
+  bootcamp:
+    dashboard:
+      index:
+        welcome_to_level: Добро пожаловать на уровень %{level_idx}!
+        go_to_level: Перейти к уровню %{level_idx}
+        continue_where_you_left_off: Продолжите с того места, где остановились
+        exercise_in_progress: У вас есть упражнение в процессе выполнения.
+        start_new_exercise: Начать новое упражнение
+        new_exercise_available: У вас есть новое доступное упражнение.
+        all_exercises_completed: Все упражнения выполнены 🎉
+        all_exercises_completed_description:
+          Поздравляем, вы выполнили все упражнения, доступные вам на данный
+          момент.
+        upcoming_live_sessions: Ближайшие прямые эфиры
+        responsive_web_design: "Responsive Web Design:"
+        responsive_web_design_time: "Понедельник, 7 июня: 9:00 UTC"
+        final_live_session: Финальный прямой эфир!
+        final_live_session_time: "Пятница, 11 июня: 9:00 UTC\""
+        make_the_most: Используйте буткемп по максимуму
+        make_the_most_description:
+          Чем активнее вы участвуете во всех сферах буткемпа, тем больше
+          узнаёте.
+        level: Уровень %{level_idx}
+        chat_on_discord: Общайтесь в Discord
+        chat_on_discord_description: "Используйте эксклюзивный раздел #bootcamp на сервере Exercism в Discord, чтобы общаться с другими студентами и наставниками буткемпа."
+        ask_questions_on_forum: Задавайте вопросы на форуме
+        ask_questions_on_forum_description:
+          Используйте категорию Bootcamp на форуме, чтобы задавать вопросы и
+          не застревать. Прочитайте закреплённый пост, чтобы узнать больше.
+        switch_to_part: Переключиться на часть %{part}
+        both_parts_access:
+          У вас есть доступ к обеим частям буткемпа. Сейчас вы работаете над
+          частью %{active_part}, а значит содержимое этой панели будет
+          подобрано под часть %{active_part}.
+        switch_anytime: Вы можете переключаться между частями в любое время.

@@ -3,3 +3,8 @@ en:
     api_cli:
       api_cli_settings:
         heading: API & CLI Settings
+ru:
+  settings:
+    api_cli:
+      api_cli_settings:
+        heading: Настройки API и CLI

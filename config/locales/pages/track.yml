@@ -147,3 +147,53 @@ nl:
             title: "Jouw momentum"
             description: "Consistentie is de sleutel tot vooruitgang. Stel jezelf een realistisch weekdoel en volg hier je laatste 8 weken."
             avg_exercises_completed: "Gem. oefeningen voltooid per week"
+
+ru:
+  tracks:
+    show:
+      summary_article:
+        progress_chart:
+          title:
+            just_started: "Вы только что начали трек %{track_title}."
+            good_luck: "Удачи, искатель приключений!"
+            completed_100_percent: "Потрясающе, вы завершили трек!!"
+            achievement: "Вот это достижение! 👏"
+            in_progress: "Вы прошли %{percentage}% трека %{track_title}."
+          progress_bar:
+            completed_icon_alt: "Завершено"
+          key:
+            completed: "Завершено"
+            in_progress: "В процессе"
+            available: "Доступно"
+            locked: "Заблокировано"
+            total_exercises: "Всего упражнений"
+        user_track_completed_percentage_text:
+          range_0_10: "Так держать! 🚀"
+          range_10_20: "Отличное начало! 🚀"
+          range_20_30: "Набираете обороты! 🚀"
+          range_30_40: "Вы действительно продвигаетесь! 🚀"
+          range_40_50: "Почти половина пути! 🚀"
+          range_50_60: "Больше половины позади! 🚀"
+          range_60_70: "В таком темпе вы точно дойдёте до конца! 🚀"
+          range_70_80: "Вот это да, продолжайте в том же духе! 🚀"
+          range_80_90: "Совсем близко! 🚀"
+          range_90_100: "Финишная черта уже видна! 🚀"
+          invalid_percentage: "Некорректный процент."
+        trophy_cabinet:
+          title: "Витрина трофеев трека %{track_title}"
+          description: "Открывайте достижения по мере прохождения трека."
+          learn_more: "Узнать больше"
+        rhs:
+          intro_video:
+            title: "Краткое введение в %{track_title}"
+            description: "Погрузитесь в %{track_title} вместе с Эриком: он разбирает основные возможности языка и решает интересное упражнение."
+          forum:
+            title: "С форума…"
+            latest_by: "Последнее от %{username}"
+            explore_forum: "Загляните на форум %{track_title}"
+          docs:
+            title: "Застряли? Загляните в нашу документацию…"
+          momentum:
+            title: "Ваш темп"
+            description: "Постоянство: ключ к прогрессу. Поставьте себе реалистичную цель на каждую неделю и отслеживайте здесь свои последние 8 недель."
+            avg_exercises_completed: "Ср. количество упражнений в неделю"

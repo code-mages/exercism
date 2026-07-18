@@ -1,0 +1,16 @@
+en:
+  admin:
+    streaming_events:
+      index:
+        title: Streaming events
+        details: Details
+        edit: Edit
+        new: New streaming event
+ru:
+  admin:
+    streaming_events:
+      index:
+        title: Стриминг-события
+        details: Подробнее
+        edit: Изменить
+        new: Новое стриминг-событие

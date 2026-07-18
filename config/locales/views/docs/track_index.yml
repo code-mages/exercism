@@ -10,3 +10,15 @@ en:
         you need to know to make the most of your %{track_title} experience on
         Exercism, from installing %{track_title} to running the tests, learning
         the language, and useful resources.
+ru:
+  docs:
+    track_index:
+      meta_title: Документация по треку %{track_title} на Exercism
+      meta_description: Всё, что нужно знать об использовании %{track_title} на Exercism.
+      track_title: "Документация по %{track_title}"
+      track_subtitle: Всё, что нужно знать об использовании %{track_title} на Exercism.
+      explore_docs_paragraph:
+        Изучите нашу документацию по %{track_title} и узнайте всё, что нужно,
+        чтобы получить максимум от работы с %{track_title} на Exercism, от
+        установки %{track_title} до запуска тестов, изучения языка и полезных
+        ресурсов.

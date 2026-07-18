@@ -1,0 +1,417 @@
+en:
+  about:
+    hiring_rails_developer:
+      meta_title: Become Exercism's next Ruby on Rails Developer
+      back_to_listings: Back to All Job Listings
+      role_title: Ruby on Rails Developer
+      remote: 100% remote
+      salary: 'Salary: £50k (~$68k, ~€60k)'
+      intro:
+        lead: Become Exercism's new Rails developer!
+        body: >-
+          We're looking for some who loves working with Ruby and Rails to
+          continue to develop Exercism's backend. Do you take pride in building
+          well-architected, performant and readable Rails code? Do you enjoy
+          working with Ruby more widely too? Do you have a passion for
+          programming and a growth mindset? If so, this role might be perfect
+          for you.
+      summary:
+        heading: Summary
+        p1: >-
+          Exercism is a not-for-profit organisation providing world-class
+          programming education to anyone for free. Our online platform is
+          centred around self-directed learning and volunteer mentoring, and has
+          nearly one million members. Over the next 5 years, we want to become
+          the defacto programming education platform that anyone, anywhere can
+          use for free. Through our work we aim to improve the global standard of
+          programming and increase participation in tech from under-represented
+          groups.
+        about_link_text: '"About Exercism" pages'
+        about_link_html: You can learn more about Exercism in our %{link}.
+        p2: >-
+          Exercism is a complex, highly-technical platform, with production code
+          running in over 40 languages. Our backend is centered around a Ruby on
+          Rails backend (API, data and service layers) and a service oriented
+          architecture (SOA) orchestrated using Ruby. We run on AWS and use a
+          variety of their different technologies. We're looking for someone to
+          take the lead in the continued development of Exercism's backend,
+          implementing new features in the main Rails app, and extending our SOA
+          with new functionality.
+        p3: >-
+          We are building an exceptional team of ambitious, passionate people who
+          love their work, excel at what they do, and have fun doing it. The
+          values of empathy, integrity and personal-growth are core to
+          everything we do. If that sounds exciting to be part of, and you feel
+          you have the skills to help, we'd love for you to apply.
+      responsibilities:
+        heading: Responsibilities
+        p1: >-
+          You'll be our primary backend developer, working with our team to add
+          new features to Exercism's platform, and evolving and improving the
+          ones that are already there. This will involve working within our Rails
+          codebase, our various microservices (and the piping between them) and
+          working with our AWS account.
+        p2: >-
+          As Exercism is a large and complex site, there is a huge variety in
+          the things we work on day-to-day. Here is an idea of some of the things
+          you'll work on through the first 12 months:
+        item1: Working with the front-end dev to build our new automated mentoring management system.
+        item2: Moving from our current mail provider to SES, writing a webhooks API to store underlying deliverability data (and saving us 90% costs on email!)
+        item3: Developing out a prototype for our new Exercism Teams platform.
+        item4: Adding a variety of action/reaction mechanisms to improve retention.
+        item5_html: Working through many of the <a href="https://github.com/exercism/exercism/issues">open issues</a> that our community have opened.
+        working_with: 'You''ll be working day-to-day with:'
+        team1: Our Head of Open Source, who manages our wider codebase (written in 30 languages) and its integration points into the primary backend.
+        team2: Our front-end developer, whose React code consumes the backend API and presents it to our end-users.
+        team3: Our CEO, who has written most of the existing Rails backend, and will continue to contribute features from time-to-time.
+        p3: >-
+          We'll also encourage you to get involved in our wider community, to tap
+          into their collective knowledge and experience, but this isn't
+          compulsory.
+      technical:
+        heading: Is this job right for you technically?
+        p1: >-
+          The right person for this role will be someone who loves programming,
+          is passionate about education, and who shares our values. We're not
+          worried about your qualifications - what matters to us is that you'll
+          be able to do a great job of developing our backend.
+        p2: 'From a technical perspective, we''re looking for someone who has:'
+        item_ruby: >-
+          Strong Ruby and Rails skills. You should have worked on Rails
+          codebases and solved meaningful problems in Rails. You should "get"
+          Rails, feel comfortable in it, and enjoy using it. You should
+          understand "why" things work as they do - for example do you "get" how
+          Zeitwerk works?
+        item_tests: A fundamental belief in the importance of writing good tests. We generally encourage using TDD, where sensible. At Exercism we use minitest, not spec-based tests.
+        item_sql: An interest in performant SQL (we use MySQL). We can help get you up to speed if you've not got much experience in this area, but we'd like you to care about it.
+        item_aws_html: >-
+          Ideally some experience with AWS. We use Terraform to build our
+          infrastructure (<a href="https://github.com/exercism/terraform">code
+          here</a>). Experience here isn't essential, but it would be good to
+          have someone who has an interest in learning this, even if they
+          haven't done much before.
+        link_controller_action: this controller action
+        link_command: this command
+        link_these: these
+        link_two: two
+        link_track_model: Track model
+        patterns_html: >-
+          One important consideration is that our codebase has several strong
+          conventions and patterns that we use consistently in both our Rails and
+          Ruby apps. At a fundamental level, they revolve around us taking a more
+          functional approach to Ruby and making use of the command pattern. In
+          Rails we have small controllers, small models, and functionality
+          encapsulated into specifically callable function-style classes. We
+          prefer this approach as it allows developers to clearly see the
+          side-effects of code, but it is in stark-contrast with the more Object
+          Oriented approach that many organisations take with Ruby. For example,
+          %{controller_action} calls %{command} to generate the data that is
+          passed to %{these} %{two} serializers to present the data to the user.
+          This results in the %{track_model} being pretty slimline. We love
+          working with these patterns, and it's important that you're going to
+          enjoy working with them too!
+        link_codebase: website's codebase
+        before_applying_html: >-
+          Before applying, please take time to look through the %{codebase} to
+          see if it looks like something you want to work within.
+        interview_stage: We will discuss your thoughts on the codebase further if you make it to the interview stage.
+      personally:
+        heading: Is this job right for you personally?
+        p1: >-
+          Even more than the technical considerations, it matters that you'll
+          enjoy working in our team. There are a few principles that underpin how
+          we work. If these sound exciting to you, then you'll probably enjoy
+          working with us:
+        item1: We take on high levels of personal responsibility and work autonomously. We discuss problems and ideas with other if we get stuck, but don't pair-program.
+        item2: We have a strong tendency towards pragmatism, and tend to make decisions that optimize for the bigger picture over situational-perfection.
+        item3: We write code that makes it easy for others in the team to work with. We choose standards and stick to them. We generally prioritize developer-happiness over technical optimisation.
+        item4: We are dedicated to continous personal development. We each have intrinsic drives to learn, grow and elevate our standards.
+        item5: We believe and trust in each other, support each other, and make time for each other.
+        p2: >-
+          In additon to these things, our whole team have a shared commitment to
+          kindness, honesty, and curiosity, and strive to build a working
+          environment where everyone can learn, improve and do their best work.
+          We believe that everyone has the right to feel happy, safe and
+          supported at work, and strive to ensure that is the case at Exercism.
+          We celebrate diversity, and do better work because of the different
+          perspectives and insights that different experiences bring. It's
+          important to us that you share these values and want to be part of a
+          team living them out.
+        p3: >-
+          Finally, we want to hire someone who can get passionate about Exercism.
+          We care deeply about what we're building - about creating a world-class
+          educational resource that everyone can use for free, and it matters to
+          us that everyone in the team shares that passion.
+      requirements:
+        heading: Other requirements
+        p1: >-
+          We are a fully remote team who communicate in English. We aim to mix
+          effective work with a sense of connectedness, so spend some time during
+          the week on video calls sharing ideas and updates, some time doing
+          simpler work while being on Slack, and some time offline focusing on
+          deeper work.
+        p2: 'These lead to the following extra requirements:'
+        item1: Able to work at least 4 hours per day during 9am - 6pm UTC, to enable you to interact with the rest of the team.
+        item2: You are willing to travel once per year for an in-person meetup.
+        item3_html: You are comfortable speaking English, and could write English to a level similar to <a href="https://github.com/exercism/elixir/blob/main/exercises/concept/lasagna/.docs/introduction.md" target="_blank" rel="noreferrer">this</a>.
+        item4: You are excited to work in a diverse, inclusive team that cares about culture and where honest, empathic communication is the norm, and self-improvement is a lived value.
+        encouragement_html: >-
+          Research has shown that people from under-represented groups are less
+          likely to apply for jobs if they don't feel they fit <strong>all</strong>
+          of the criteria. If you think you'd enjoy the role and could do a good
+          job, but are not sure if you're fully qualified, please apply anyway!
+      benefits:
+        heading: Benefits
+        p1: >-
+          Treating each other fairly is at the core of our individual and company
+          values, and we want the pay and benefits of Exercism to reflect that.
+          We offer the same benefits to all Exercism employees.
+        item1: A truly flexible, remote-first, working culture.
+        item2: A collaborative, creative and inspiring working environment. No shouty bosses, presenteeism or unexpected deadlines.
+        item3: £50k starting salary, which increases each year (inflation + 2%).
+        item4: Matched pension contributions up to 3%.
+        item5: 35 days holiday.
+        item6: We will pay for access to a local co-working space (if desired).
+        p2: >-
+          The role is full time, but you may choose to work either 5 days (~40
+          hours) per week or 4 days (~32 hours) per week. If you opt for the
+          shorter working week, salary and holiday will be prorated accordingly.
+      apply:
+        heading: How to apply
+        p1: >-
+          Firstly, if you're about to apply, thank you! We're grateful and
+          excited that you're taking the time to do so 🙂
+        p2: >-
+          We're expecting a high number of applicants for this role, and so
+          expect there to be a few stages of the application process. We've
+          listed out the process below so you have a clear expectation of how the
+          process will work.
+        email_intro: To apply send an email to
+        email_with: 'with:'
+        item_subject: Subject of "Rails developer"
+        item_intro: A couple of paragraphs introducing yourself and providing some brief background on yourself.
+        item_experience: A couple of paragraphs listing relevant experience and if possible links to code you've written.
+        item_video_html: >-
+          A link to a short video introducing yourself in more detail, telling us
+          why you're interested joining Exercism, and giving us some more
+          information on your experience and why you're right for the role. Don't
+          worry about the quality of the video itself! Try and keep it around
+          5-10 minutes long. We use %{loom} for easy recording and sharing.
+        process_intro: 'The application process will run as follows:'
+        step1: You send in your application.
+        step2: We'll get in touch to acknowledge receipt of your application (generally within 2 working days)
+        step3: We'll review your application and let you know whether we wish to continue the process with you (generally within 7 working days).
+        step4: We will send you a questionnaire to try and understand more about your experience.
+        step5: Based on initial applications and questionnaires, we'll invite some people to complete an asynchronous, untimed coding task to complete.
+        step6: Based on that coding task, we'll invite a set of applicants to have a video interview with the Head of Open Source.
+        step7: Based on that interview, we'll invite a final set of applicants to have a video interview with the CEO.
+        step8: We hope to make a final decision on who we offer the role during April or May.
+ru:
+  about:
+    hiring_rails_developer:
+      meta_title: Станьте следующим Ruby on Rails разработчиком в Exercism
+      back_to_listings: Назад ко всем вакансиям
+      role_title: Ruby on Rails разработчик
+      remote: 100% удалённо
+      salary: 'Зарплата: £50k (~$68k, ~€60k)'
+      intro:
+        lead: Станьте новым Rails разработчиком Exercism!
+        body: >-
+          Мы ищем человека, который любит работать с Ruby и Rails, чтобы
+          продолжить развитие бэкенда Exercism. Вам приятно строить хорошо
+          спроектированный, производительный и читаемый Rails код? Нравится ли
+          вам работать с Ruby и в более широком смысле? Есть ли у вас страсть к
+          программированию и стремление к росту? Если да, эта роль может быть
+          идеальной для вас.
+      summary:
+        heading: Кратко
+        p1: >-
+          Exercism, это некоммерческая организация, которая предоставляет
+          первоклассное образование в программировании любому желающему
+          бесплатно. Наша онлайн-платформа построена вокруг самостоятельного
+          обучения и волонтёрского менторства и насчитывает почти миллион
+          участников. В ближайшие 5 лет мы хотим стать платформой образования в
+          программировании по умолчанию, которой сможет пользоваться любой человек
+          где угодно и бесплатно. Своей работой мы стремимся повысить мировой
+          стандарт программирования и увеличить участие в технологиях со стороны
+          недостаточно представленных групп.
+        about_link_text: страницах "О Exercism"
+        about_link_html: Узнать больше об Exercism можно на наших %{link}.
+        p2: >-
+          Exercism, это сложная, технически насыщенная платформа, чей продакшн
+          код работает более чем на 40 языках. Наш бэкенд построен вокруг Ruby on
+          Rails бэкенда (слои API, данных и сервисов) и сервис-ориентированной
+          архитектуры (SOA), оркестрируемой на Ruby. Мы работаем на AWS и
+          используем множество их технологий. Мы ищем человека, который возьмёт
+          на себя лидерство в дальнейшем развитии бэкенда Exercism, реализуя новые
+          возможности в основном Rails приложении и расширяя нашу SOA новым
+          функционалом.
+        p3: >-
+          Мы собираем исключительную команду амбициозных, увлечённых людей,
+          которые любят свою работу, отлично её делают и получают от этого
+          удовольствие. Ценности эмпатии, честности и личного роста лежат в основе
+          всего, что мы делаем. Если это звучит захватывающе и вы чувствуете, что
+          у вас есть навыки, чтобы помочь, мы будем рады вашей заявке.
+      responsibilities:
+        heading: Обязанности
+        p1: >-
+          Вы будете нашим основным бэкенд-разработчиком, работая вместе с
+          командой над добавлением новых возможностей на платформу Exercism, а
+          также развивая и улучшая уже существующие. Это будет включать работу с
+          нашей Rails кодовой базой, различными микросервисами (и связкой между
+          ними), а также работу с нашим AWS аккаунтом.
+        p2: >-
+          Так как Exercism, это большой и сложный сайт, в наших повседневных
+          задачах огромное разнообразие. Вот представление о некоторых вещах, над
+          которыми вы будете работать в первые 12 месяцев:
+        item1: Работа с фронтенд-разработчиком над созданием нашей новой автоматизированной системы управления менторством.
+        item2: Переход от текущего почтового провайдера к SES, написание webhooks API для хранения данных о доставляемости (и экономия 90% затрат на почту!)
+        item3: Разработка прототипа нашей новой платформы Exercism Teams.
+        item4: Добавление различных механизмов действие/реакция для улучшения удержания.
+        item5_html: Работа над многими из <a href="https://github.com/exercism/exercism/issues">открытых задач</a>, которые создало наше сообщество.
+        working_with: 'Ежедневно вы будете работать вместе с:'
+        team1: Нашим руководителем Open Source, который управляет нашей более широкой кодовой базой (написанной на 30 языках) и её точками интеграции с основным бэкендом.
+        team2: Нашим фронтенд-разработчиком, чей React код потребляет API бэкенда и представляет его нашим конечным пользователям.
+        team3: Нашим CEO, который написал большую часть существующего Rails бэкенда и продолжит время от времени добавлять новые возможности.
+        p3: >-
+          Мы также будем поощрять ваше участие в нашем более широком сообществе,
+          чтобы вы могли пользоваться его коллективными знаниями и опытом, но это
+          не обязательно.
+      technical:
+        heading: Подходит ли вам эта работа технически?
+        p1: >-
+          Подходящий человек для этой роли, это тот, кто любит программирование,
+          увлечён образованием и разделяет наши ценности. Нас не волнуют ваши
+          формальные квалификации, для нас важно, что вы сможете отлично
+          справиться с развитием нашего бэкенда.
+        p2: 'С технической точки зрения мы ищем человека, у которого есть:'
+        item_ruby: >-
+          Сильные навыки Ruby и Rails. Вы должны были работать с Rails кодовыми
+          базами и решать значимые задачи в Rails. Вы должны "понимать" Rails,
+          чувствовать себя в нём комфортно и получать удовольствие от работы с
+          ним. Вы должны понимать "почему" вещи работают именно так, например,
+          "понимаете" ли вы, как работает Zeitwerk?
+        item_tests: Фундаментальную веру в важность написания хороших тестов. Мы обычно поощряем использование TDD, где это разумно. В Exercism мы используем minitest, а не spec-based тесты.
+        item_sql: Интерес к производительному SQL (мы используем MySQL). Мы можем помочь вам разобраться, если у вас немного опыта в этой области, но нам важно, чтобы вам это было небезразлично.
+        item_aws_html: >-
+          В идеале некоторый опыт работы с AWS. Мы используем Terraform для
+          построения инфраструктуры (<a
+          href="https://github.com/exercism/terraform">код здесь</a>). Опыт здесь
+          не обязателен, но было бы хорошо найти человека, которому интересно
+          этому научиться, даже если раньше он мало этим занимался.
+        link_controller_action: этому действию контроллера
+        link_command: эту команду
+        link_these: этим
+        link_two: двум
+        link_track_model: модель Track
+        patterns_html: >-
+          Важно учитывать, что в нашей кодовой базе есть несколько сильных
+          соглашений и паттернов, которые мы последовательно используем как в
+          Rails, так и в Ruby приложениях. На фундаментальном уровне они
+          построены вокруг более функционального подхода к Ruby и использования
+          паттерна команды. В Rails у нас маленькие контроллеры, маленькие модели
+          и функциональность, инкапсулированная в специально вызываемые классы в
+          стиле функций. Мы предпочитаем этот подход, так как он позволяет
+          разработчикам ясно видеть побочные эффекты кода, но он резко
+          контрастирует с более объектно-ориентированным подходом, который многие
+          организации применяют с Ruby. Например, %{controller_action} вызывает
+          %{command}, чтобы сгенерировать данные, которые передаются в %{these}
+          %{two} сериализатора, представляющих данные пользователю. В результате
+          %{track_model} получается довольно лаконичной. Мы обожаем работать с
+          этими паттернами, и нам важно, чтобы вам тоже нравилось с ними работать!
+        link_codebase: кодовую базу сайта
+        before_applying_html: >-
+          Перед подачей заявки, пожалуйста, найдите время просмотреть %{codebase},
+          чтобы понять, похоже ли это на то, с чем вы хотите работать.
+        interview_stage: Мы подробнее обсудим ваши мысли о кодовой базе, если вы дойдёте до этапа собеседования.
+      personally:
+        heading: Подходит ли вам эта работа лично?
+        p1: >-
+          Даже больше технических соображений важно, чтобы вам нравилось работать
+          в нашей команде. Есть несколько принципов, на которых строится наша
+          работа. Если они звучат для вас захватывающе, то вам, вероятно,
+          понравится работать с нами:
+        item1: Мы берём на себя высокий уровень личной ответственности и работаем автономно. Мы обсуждаем проблемы и идеи с другими, если застреваем, но не занимаемся парным программированием.
+        item2: У нас сильная склонность к прагматизму, и мы обычно принимаем решения, оптимизируя ради общей картины, а не ситуативного совершенства.
+        item3: Мы пишем код, с которым легко работать другим членам команды. Мы выбираем стандарты и придерживаемся их. Мы обычно ставим счастье разработчиков выше технической оптимизации.
+        item4: Мы преданы непрерывному личному развитию. У каждого из нас есть внутреннее стремление учиться, расти и повышать свои стандарты.
+        item5: Мы верим и доверяем друг другу, поддерживаем друг друга и находим время друг для друга.
+        p2: >-
+          В дополнение к этому вся наша команда разделяет приверженность доброте,
+          честности и любознательности и стремится создать рабочую среду, где
+          каждый может учиться, совершенствоваться и делать свою лучшую работу. Мы
+          верим, что каждый имеет право чувствовать себя счастливым, безопасно и
+          поддержанным на работе, и стремимся обеспечить это в Exercism. Мы
+          ценим разнообразие и делаем работу лучше благодаря разным взглядам и
+          инсайтам, которые приносит разный опыт. Нам важно, чтобы вы разделяли
+          эти ценности и хотели быть частью команды, которая живёт по ним.
+        p3: >-
+          Наконец, мы хотим нанять человека, который может увлечься Exercism. Нам
+          глубоко небезразлично то, что мы строим, создание первоклассного
+          образовательного ресурса, которым каждый может пользоваться бесплатно, и
+          нам важно, чтобы каждый в команде разделял эту страсть.
+      requirements:
+        heading: Другие требования
+        p1: >-
+          Мы полностью удалённая команда, которая общается на английском. Мы
+          стремимся сочетать эффективную работу с чувством связанности, поэтому
+          часть недели проводим на видеозвонках, делясь идеями и новостями, часть
+          времени делаем более простую работу, находясь в Slack, и часть времени
+          офлайн, сосредотачиваясь на более глубокой работе.
+        p2: 'Из этого следуют такие дополнительные требования:'
+        item1: Готовность работать не менее 4 часов в день в интервале с 9:00 до 18:00 UTC, чтобы вы могли взаимодействовать с остальной командой.
+        item2: Вы готовы раз в год путешествовать ради очной встречи.
+        item3_html: Вам комфортно говорить по-английски, и вы могли бы писать на английском на уровне, похожем на <a href="https://github.com/exercism/elixir/blob/main/exercises/concept/lasagna/.docs/introduction.md" target="_blank" rel="noreferrer">этот</a>.
+        item4: Вам интересно работать в разнообразной, инклюзивной команде, которая заботится о культуре и где честное, эмпатичное общение является нормой, а самосовершенствование, живой ценностью.
+        encouragement_html: >-
+          Исследования показывают, что люди из недостаточно представленных групп
+          реже подают заявки на работу, если чувствуют, что не соответствуют
+          <strong>всем</strong> критериям. Если вы думаете, что вам понравится
+          эта роль и вы могли бы хорошо справиться, но не уверены, что полностью
+          подходите, всё равно подавайте заявку!
+      benefits:
+        heading: Преимущества
+        p1: >-
+          Справедливое отношение друг к другу лежит в основе наших личных и
+          корпоративных ценностей, и мы хотим, чтобы оплата и льготы в Exercism
+          это отражали. Мы предлагаем одинаковые льготы всем сотрудникам Exercism.
+        item1: По-настоящему гибкая, удалённая в первую очередь рабочая культура.
+        item2: Совместная, творческая и вдохновляющая рабочая среда. Никаких крикливых начальников, показухи или неожиданных дедлайнов.
+        item3: Стартовая зарплата £50k, которая увеличивается каждый год (инфляция + 2%).
+        item4: Софинансирование пенсионных взносов до 3%.
+        item5: 35 дней отпуска.
+        item6: Мы оплатим доступ к местному коворкингу (по желанию).
+        p2: >-
+          Роль полная, но вы можете выбрать работу либо 5 дней (~40 часов) в
+          неделю, либо 4 дня (~32 часа) в неделю. Если вы выберете более короткую
+          рабочую неделю, зарплата и отпуск будут пропорционально скорректированы.
+      apply:
+        heading: Как подать заявку
+        p1: >-
+          Прежде всего, если вы собираетесь подать заявку, спасибо! Мы благодарны
+          и рады, что вы находите на это время 🙂
+        p2: >-
+          Мы ожидаем большое количество кандидатов на эту роль, поэтому
+          рассчитываем на несколько этапов процесса отбора. Мы описали процесс
+          ниже, чтобы у вас было ясное представление о том, как он будет
+          проходить.
+        email_intro: Чтобы подать заявку, отправьте письмо на
+        email_with: 'со следующим:'
+        item_subject: Тема письма "Rails developer"
+        item_intro: Пара абзацев, представляющих вас и дающих краткую информацию о вас.
+        item_experience: Пара абзацев с описанием релевантного опыта и, по возможности, ссылками на написанный вами код.
+        item_video_html: >-
+          Ссылка на короткое видео, где вы подробнее представляете себя,
+          рассказываете, почему вам интересно присоединиться к Exercism, и даёте
+          больше информации о своём опыте и о том, почему вы подходите для этой
+          роли. Не переживайте о качестве самого видео! Постарайтесь уложиться в
+          5-10 минут. Мы используем %{loom} для удобной записи и обмена.
+        process_intro: 'Процесс отбора будет проходить так:'
+        step1: Вы присылаете свою заявку.
+        step2: Мы свяжемся с вами, чтобы подтвердить получение заявки (обычно в течение 2 рабочих дней)
+        step3: Мы рассмотрим вашу заявку и сообщим, хотим ли мы продолжить процесс с вами (обычно в течение 7 рабочих дней).
+        step4: Мы отправим вам анкету, чтобы лучше понять ваш опыт.
+        step5: На основе первичных заявок и анкет мы пригласим некоторых людей выполнить асинхронное задание по программированию без ограничения по времени.
+        step6: На основе этого задания мы пригласим часть кандидатов на видеособеседование с руководителем Open Source.
+        step7: На основе этого собеседования мы пригласим финальную группу кандидатов на видеособеседование с CEO.
+        step8: Мы надеемся принять окончательное решение о том, кому предложить роль, в течение апреля или мая.

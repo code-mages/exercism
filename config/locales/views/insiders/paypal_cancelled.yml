@@ -4,3 +4,9 @@ en:
       insiders_title: Exercism Insiders
       paypal_cancelled_message: Your Paypal payment was cancelled. Please try again.
       return_to_insiders: Return to Insiders
+ru:
+  insiders:
+    paypal_cancelled:
+      insiders_title: Exercism Insiders
+      paypal_cancelled_message: Ваш платёж через PayPal был отменён. Пожалуйста, попробуйте снова.
+      return_to_insiders: Вернуться в Insiders

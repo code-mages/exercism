@@ -4,3 +4,9 @@ en:
       hello: "%{hello}!"
       discount_text_html: Everyone in %{country_name} gets a <strong
         class="inline">%{discount_percentage}%% discount!</strong>
+ru:
+  courses:
+    discount_bar:
+      hello: "%{hello}!"
+      discount_text_html: Каждый в %{country_name} получает <strong
+        class="inline">скидку %{discount_percentage}%%!</strong>

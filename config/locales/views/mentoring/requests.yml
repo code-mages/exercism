@@ -4,3 +4,9 @@ en:
       unavailable:
         unavailable: Unavailable.
         back_to_list: Back to list
+ru:
+  mentoring:
+    requests:
+      unavailable:
+        unavailable: Недоступно.
+        back_to_list: Вернуться к списку

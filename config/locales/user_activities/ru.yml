@@ -1,0 +1,17 @@
+ru:
+  user_activities:
+    started_exercise:
+      1: >
+        Вы начали упражнение <strong>%{exercise_title}</strong>
+
+    submitted_iteration:
+      1: >
+        Вы отправили <strong>Итерацию %{iteration_idx}</strong>
+
+    completed_exercise:
+      1: >
+        Вы завершили <strong>%{exercise_title}</strong>
+
+    published_exercise:
+      1: >
+        Вы опубликовали <strong>%{exercise_title}</strong>

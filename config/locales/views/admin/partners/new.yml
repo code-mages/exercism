@@ -1,0 +1,12 @@
+en:
+  admin:
+    partners:
+      new:
+        add_a_new_partner: "Add a new partner"
+        back_to_partners: "Back to partners"
+ru:
+  admin:
+    partners:
+      new:
+        add_a_new_partner: "Добавить нового партнёра"
+        back_to_partners: "Назад к партнёрам"

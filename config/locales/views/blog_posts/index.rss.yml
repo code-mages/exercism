@@ -1,0 +1,16 @@
+en:
+  blog_posts:
+    index:
+      title: Exercism's Blog
+      description: Keep up to date with changes to Exercism, get to know our community, and find out about the new up and coming features!
+    "index.rss":
+      title: Exercism's Blog
+      description: Keep up to date with changes to Exercism, get to know our community, and find out about the new up and coming features!
+ru:
+  blog_posts:
+    index:
+      title: Блог Exercism
+      description: Будьте в курсе изменений в Exercism, знакомьтесь с нашим сообществом и узнавайте о новых готовящихся возможностях!
+    "index.rss":
+      title: Блог Exercism
+      description: Будьте в курсе изменений в Exercism, знакомьтесь с нашим сообществом и узнавайте о новых готовящихся возможностях!

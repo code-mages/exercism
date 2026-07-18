@@ -1,0 +1,119 @@
+en:
+  components:
+    footer:
+      shared:
+        nfp_section:
+          title: Help us keep Exercism free for everyone, everywhere.
+          subtitle: Exercism is open source and 100% free.
+          description:
+            Help us provide opportunity for people of all backgrounds by
+            helping them develop their programming skills through code practice
+            and mentorship.
+        site_links:
+          editions:
+            title: Editions
+            exercism_link: Exercism
+            learn_to_code_link: Learn to Code
+            with: with
+            jiki_link: Jiki
+            teams_link: Exercism for Teams
+            research_link: Exercism Research
+          about:
+            title: About
+            about_exercism_link: About Exercism
+            our_team_link: Our team
+            contributors_link: Contributors
+            partners_link: Partners
+            individual_supporters_link: Individual supporters
+          get_involved:
+            title: Get involved
+            exercism_insiders_link: Exercism Insiders
+            contribute_link: Contribute
+            mentor_link: Mentor
+            donate_link: Donate
+          legal_and_policies:
+            title: Legal & policies
+            terms_of_usage_link: Terms of usage
+            privacy_policy_link: Privacy policy
+            cookie_policy_link: Cookie policy
+            code_of_conduct_link: Code of conduct
+            accessibility_statement_link: Accessibility statement
+          keep_in_touch:
+            title: Keep in touch
+            blog_link: Exercism's blog
+            github_link: Discuss on GitHub
+            contact_us_link: Contact us
+            report_abuse_link: Report abuse
+          get_help:
+            title: Get help
+            docs_link: Exercism's Docs
+            getting_started_link: Getting started
+            faqs_link: FAQs
+            installing_cli_link: Installing the CLI
+            cli_walkthrough_link: Interactive CLI Walkthrough
+        tracks_section:
+          title: "Our programming language tracks"
+          add_language_title: "Want to add a language track to Exercism?"
+          add_language_description_html: >
+            Start a new topic in the <a href="%{forum_url}">forum</a> and let's discuss it.
+        legals:
+          company_info_html: "Exercism is a not-for-profit organisation %{company_link_open}registered in the UK%{company_link_close}. Its trustees are %{katrina_owen_link}, %{jeremy_walker_link} and %{erik_schierboom_link}."
+ru:
+  components:
+    footer:
+      shared:
+        nfp_section:
+          title: Помогите нам сохранить Exercism бесплатным для всех и везде.
+          subtitle: Exercism имеет открытый исходный код и на 100% бесплатен.
+          description:
+            Помогите нам дать возможность людям с любым бэкграундом развивать
+            навыки программирования через практику написания кода и менторство.
+        site_links:
+          editions:
+            title: Издания
+            exercism_link: Exercism
+            learn_to_code_link: Учитесь программировать
+            with: с
+            jiki_link: Jiki
+            teams_link: Exercism для команд
+            research_link: Exercism Research
+          about:
+            title: О проекте
+            about_exercism_link: Об Exercism
+            our_team_link: Наша команда
+            contributors_link: Участники
+            partners_link: Партнёры
+            individual_supporters_link: Индивидуальные спонсоры
+          get_involved:
+            title: Присоединяйтесь
+            exercism_insiders_link: Exercism Insiders
+            contribute_link: Внести вклад
+            mentor_link: Стать ментором
+            donate_link: Пожертвовать
+          legal_and_policies:
+            title: Правовая информация и политики
+            terms_of_usage_link: Условия использования
+            privacy_policy_link: Политика конфиденциальности
+            cookie_policy_link: Политика использования cookie
+            code_of_conduct_link: Кодекс поведения
+            accessibility_statement_link: Заявление о доступности
+          keep_in_touch:
+            title: Оставайтесь на связи
+            blog_link: Блог Exercism
+            github_link: Обсудить на GitHub
+            contact_us_link: Связаться с нами
+            report_abuse_link: Сообщить о нарушении
+          get_help:
+            title: Получить помощь
+            docs_link: Документация Exercism
+            getting_started_link: Начало работы
+            faqs_link: Частые вопросы
+            installing_cli_link: Установка CLI
+            cli_walkthrough_link: Интерактивное руководство по CLI
+        tracks_section:
+          title: "Наши треки по языкам программирования"
+          add_language_title: "Хотите добавить трек по языку в Exercism?"
+          add_language_description_html: >
+            Создайте новую тему на <a href="%{forum_url}">форуме</a>, и мы обсудим это.
+        legals:
+          company_info_html: "Exercism - это некоммерческая организация, %{company_link_open}зарегистрированная в Великобритании%{company_link_close}. Её попечители: %{katrina_owen_link}, %{jeremy_walker_link} и %{erik_schierboom_link}."

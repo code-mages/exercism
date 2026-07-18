@@ -15,16 +15,16 @@
 
 
 .p-32
-  .text-h3.mb-8 Exercises for #48in24
-  .text-h5.mb-4 Key to Symbols
+  .text-h3.mb-8= t('.heading')
+  .text-h5.mb-4= t('.key_to_symbols')
   .text-16
-    .mb-8 💜 = Featured in #48in24
-    .mb-8 ✅ = Present on Track
-    .mb-8 ❌ = Missing from Track (#{link_to('Please add it!', doc_path(:building, 'tracks/practice-exercises'), class: 'font-semibold text-linkColor')})
-    .mb-16 ⛔ = Do not implement on this Track
+    .mb-8= t('.legend_featured')
+    .mb-8= t('.legend_present')
+    .mb-8= t('.legend_missing_html', link: link_to(t('.please_add_it'), doc_path(:building, 'tracks/practice-exercises'), class: 'font-semibold text-linkColor'))
+    .mb-16= t('.legend_do_not_implement')
 
-    Want to implement one of the missing exercises?
-    Start with #{link_to 'this video and docs', doc_path(:building, 'tracks/practice-exercises'), class: 'font-semibold text-linkColor'}.
+    = t('.want_to_implement')
+    = t('.start_with_html', link: link_to(t('.this_video_and_docs'), doc_path(:building, 'tracks/practice-exercises'), class: 'font-semibold text-linkColor'))
   %hr.mt-20.mb-32.border-borderColor5
 
   .flex.items-start{ class: "max-h-[90vh]" }

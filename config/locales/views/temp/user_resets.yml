@@ -3,3 +3,8 @@ en:
     user_resets:
       show:
         account_reset: Account reset
+ru:
+  temp:
+    user_resets:
+      show:
+        account_reset: Сброс аккаунта

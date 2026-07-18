@@ -1,0 +1,28 @@
+en:
+  admin:
+    community_videos:
+      show:
+        video_title: 'Title: %{title}'
+        status: 'Status: %{status}'
+        track: 'Track: %{track}'
+        exercise: 'Exercise: %{exercise}'
+        submitted_by: 'Submitted By: %{name} | @%{handle} | #%{id}'
+        author: 'Author: %{name} | @%{handle} | #%{id}'
+        attributes_heading: 'COMMUNITY VIDEO Attributes:'
+        video_nil: 'COMMUNITY VIDEO is nil'
+        edit_this: 'Edit this community video'
+        back_to_index: 'Back to community videos'
+ru:
+  admin:
+    community_videos:
+      show:
+        video_title: 'Название: %{title}'
+        status: 'Статус: %{status}'
+        track: 'Трек: %{track}'
+        exercise: 'Упражнение: %{exercise}'
+        submitted_by: 'Добавил: %{name} | @%{handle} | #%{id}'
+        author: 'Автор: %{name} | @%{handle} | #%{id}'
+        attributes_heading: 'Атрибуты видео сообщества:'
+        video_nil: 'Видео сообщества отсутствует (nil)'
+        edit_this: 'Редактировать это видео сообщества'
+        back_to_index: 'Назад к видео сообщества'

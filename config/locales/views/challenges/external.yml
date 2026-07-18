@@ -1,0 +1,38 @@
+en:
+  challenges:
+    external:
+      meta_title: "The #48in24 Challenge"
+      meta_description: "Try out a new programming challenge each week. Broaden your horizons and level up your programming skills as your explore the varied paradigms and ideas that different languages embrace. It's free, fun, and useful!"
+      title: "The #48in24 Challenge"
+      intro_html: "Improve your programming skills by digging deep into a <strong class=\"font-semibold\">different programming challenge</strong> every week during 2024."
+      each_week: "Each week, solve a different exercise, explore different approaches and paradigms, try new languages, get mentored by experts, and join in with the community."
+      free_fun: "100% free, fun and invaluable!"
+      get_started: "Get started!"
+      sign_up: "Sign up to get started"
+      log_in: "Log in"
+      why_take_part: "Why take part?"
+      expand_title: "Expand your knowledge"
+      expand_body: "Learning new languages is a great way to explore different paradigms, concepts and ideas. Learning different ways to solve problems is a guaranteed way to make you a better developer."
+      together_title: "Learn together"
+      together_body: "The Challenge is a great way of connecting with other developers. Chat to others on our forums, watch streamers on YouTube or Twitch, or bounce solutions on social media."
+      fun_title: "Have fun!"
+      fun_body: "Coding should be fun! When we get stuck in the same patterns every day it can feel monotonous and boring. Solving challenges in different languages is a great way to reignite your spark."
+ru:
+  challenges:
+    external:
+      meta_title: "Челлендж #48in24"
+      meta_description: "Пробуйте новый programming-челлендж каждую неделю. Расширяйте горизонты и прокачивайте навыки программирования, исследуя разные парадигмы и идеи, которые несут в себе разные языки. Это бесплатно, весело и полезно!"
+      title: "Челлендж #48in24"
+      intro_html: "Прокачайте навыки программирования, погружаясь в <strong class=\"font-semibold\">новый programming-челлендж</strong> каждую неделю в течение 2024 года."
+      each_week: "Каждую неделю решайте новое упражнение, исследуйте разные подходы и парадигмы, пробуйте новые языки, получайте менторскую помощь от экспертов и общайтесь с сообществом."
+      free_fun: "100% бесплатно, весело и бесценно!"
+      get_started: "Начать!"
+      sign_up: "Зарегистрироваться и начать"
+      log_in: "Войти"
+      why_take_part: "Зачем участвовать?"
+      expand_title: "Расширьте свои знания"
+      expand_body: "Изучение новых языков: отличный способ познакомиться с разными парадигмами, концепциями и идеями. Знание разных способов решения задач гарантированно сделает вас более сильным разработчиком."
+      together_title: "Учитесь вместе"
+      together_body: "Челлендж: отличный способ познакомиться с другими разработчиками. Общайтесь на наших форумах, смотрите стримеров на YouTube или Twitch, обсуждайте решения в соцсетях."
+      fun_title: "Получайте удовольствие!"
+      fun_body: "Программирование должно приносить радость! Когда каждый день застреваешь в одних и тех же шаблонах, это может казаться монотонным и скучным. Решать задачи на разных языках: отличный способ вновь зажечь искру."

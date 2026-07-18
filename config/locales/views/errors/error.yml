@@ -5,3 +5,10 @@ en:
       description: An error has occurred - sorry!
       instructions: Please try refreshing, and if that doesn’t work, wait a few
         minutes and try again.
+ru:
+  errors:
+    error:
+      title: Произошла ошибка
+      description: Произошла ошибка, извините!
+      instructions: Попробуйте обновить страницу, а если это не помогло,
+        подождите несколько минут и попробуйте снова.

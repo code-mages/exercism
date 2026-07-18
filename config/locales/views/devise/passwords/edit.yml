@@ -1,0 +1,30 @@
+en:
+  devise:
+    passwords:
+      edit:
+        exercism_logo_alt: Exercism's Logo
+        change_your_password:
+          title: Change your password
+          description:
+            Choose your new password using the form below. If you don't do
+            anything, your password will remain unchanged.
+        new_password_label: New password
+        new_password_placeholder: Enter a new password (min %{minimum_password_length} chars)
+        confirm_new_password_label: Confirm new password
+        confirm_new_password_placeholder: Enter your new password again
+        change_my_password_button: Change my password
+ru:
+  devise:
+    passwords:
+      edit:
+        exercism_logo_alt: Логотип Exercism
+        change_your_password:
+          title: Смена пароля
+          description:
+            Задайте новый пароль с помощью формы ниже. Если вы ничего не
+            сделаете, ваш пароль останется прежним.
+        new_password_label: Новый пароль
+        new_password_placeholder: Введите новый пароль (минимум %{minimum_password_length} символов)
+        confirm_new_password_label: Подтвердите новый пароль
+        confirm_new_password_placeholder: Введите новый пароль ещё раз
+        change_my_password_button: Сменить пароль

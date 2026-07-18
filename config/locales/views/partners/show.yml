@@ -13,3 +13,19 @@ en:
           Visit %{website_domain} to learn more and explore how
           %{partner_name} can help you.
         visit_button: Visit %{website_domain}
+
+ru:
+  partners:
+    show:
+      header:
+        all_perks_link: Смотреть все привилегии Exercism
+        logo_alt: Логотип %{partner_name}
+      lhs:
+        support_heading: Как %{partner_name} поддерживает Exercism
+      rhs:
+        perk_label: Привилегия Exercism
+        learn_more_heading: Хотите узнать больше о %{partner_name}?
+        learn_more_paragraph:
+          Зайдите на %{website_domain}, чтобы узнать больше и понять, чем
+          %{partner_name} может вам помочь.
+        visit_button: Перейти на %{website_domain}

@@ -1,0 +1,22 @@
+en:
+  components:
+    footer:
+      external:
+        title: Code practice and mentorship for everyone
+        description:
+          Develop fluency in %{num_active_tracks} programming languages with
+          our unique blend of learning, practice and mentoring. Exercism is fun,
+          effective and 100% free, forever.
+        signup_button: Sign up for free
+        explore_languages_button: Explore languages
+ru:
+  components:
+    footer:
+      external:
+        title: Практика программирования и менторство для каждого
+        description:
+          Развивайте свободное владение %{num_active_tracks} языками программирования
+          благодаря нашему уникальному сочетанию обучения, практики и менторства.
+          Exercism увлекательный, эффективный и на 100% бесплатный, навсегда.
+        signup_button: Зарегистрироваться бесплатно
+        explore_languages_button: Изучить языки

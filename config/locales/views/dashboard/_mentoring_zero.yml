@@ -7,3 +7,12 @@ en:
         students learn and discover the things they don't know.
       try_mentoring_now_link: Try mentoring now
       learn_more_link: Learn more
+ru:
+  dashboard:
+    mentoring_zero:
+      title: Станьте наставником
+      description:
+        Наставничество - отличный способ закрепить собственные знания и помочь
+        студентам учиться и открывать для себя то, чего они пока не знают.
+      try_mentoring_now_link: Попробовать наставничество сейчас
+      learn_more_link: Узнать больше

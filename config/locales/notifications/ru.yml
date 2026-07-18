@@ -1,0 +1,114 @@
+ru:
+  notifications:
+    # Mentoring
+    mentor_started_discussion:
+      1: >
+        <strong>%{mentor_name}</strong> начал(а) наставничество по вашему решению задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>
+    mentor_replied_to_discussion:
+      1: >
+        <strong>%{mentor_name}</strong> добавил(а) новый комментарий к вашему решению задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>
+    student_replied_to_discussion:
+      1: >
+        <strong>%{student_name}</strong> добавил(а) новый комментарий к решению, по которому вы выступаете наставником, для задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>
+    student_added_iteration:
+      1: >
+        Ваш ученик <strong>%{student_name}</strong> отправил(а) новую итерацию (#%{iteration_idx}) своего решения задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>
+    added_to_contributors_page:
+      1: >
+        Теперь вы отображаетесь на нашей странице участников. Спасибо за ваш вклад в Exercism!
+    automated_feedback_added:
+      1: >
+        К итерации (#%{iteration_idx}) вашего решения задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong> добавлен новый отзыв.
+        Мы %{emphasis}рекомендуем взглянуть.
+
+    onboarding_community:
+      1: >
+        Сообщество, это сердце Exercism. Присоединяйтесь к нашему форуму и серверу Discord, смотрите наши каналы на YouTube и Twitch и получайте наставничество.
+        Узнать больше…
+
+    onboarding_insiders:
+      1: >
+        Exercism Insiders, это наша программа поощрений для всех, кто поддерживает нашу миссию по созданию равных возможностей в сфере технологий.
+        Узнайте больше на странице Insiders.
+
+    nudge_to_request_mentoring:
+      1: >
+        <strong>Пора получить наставничество!</strong>
+        Обучение с нашими наставниками, это отличный способ повысить уровень своих знаний, и это на 100% бесплатно. Выберите одно из своих решений, чтобы начать.
+
+    student_finished_discussion:
+      1: >
+        %{student_name} завершил(а) обсуждение решения, по которому вы выступаете наставником, для %{track_title}:%{exercise_title}
+
+    mentor_finished_discussion:
+      1: >
+        %{mentor_name} завершил(а) обсуждение вашего решения для %{track_title}:%{exercise_title}
+
+    nudge_student_to_reply_in_discussion:
+      1: >
+        <strong>%{mentor_name}</strong> ждёт вашего ответа в обсуждении вашего решения задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>
+
+    nudge_mentor_to_reply_in_discussion:
+      1: >
+        <strong>%{student_name}</strong> ждёт вашего ответа в обсуждении своего решения задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>
+
+    mentor_timed_out_discussion_mentor:
+      1: >
+        Ваша наставническая сессия по решению задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>, отправленному <strong>%{student_name}</strong>, завершилась по тайм-ауту
+
+    mentor_timed_out_discussion_student:
+      1: >
+        Обсуждение вашего решения задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong> завершилось по тайм-ауту
+
+    student_timed_out_discussion_mentor:
+      1: >
+        Ваша наставническая сессия по решению задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>, отправленному <strong>%{student_name}</strong>, завершилась по тайм-ауту
+
+    student_timed_out_discussion_student:
+      1: >
+        Обсуждение вашего решения задачи <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong> завершилось по тайм-ауту
+
+    eligible_for_insiders:
+      1: >
+        Присоединяйтесь к Exercism Insiders!
+
+    eligible_for_lifetime_insiders:
+      1: >
+        Присоединяйтесь к Exercism Lifetime Insiders!
+
+    expired_insiders:
+      1: >
+        Ваше членство в Exercism Insiders истекло.
+
+    upgraded_to_lifetime_insiders:
+      1: >
+        Вы получили повышение до Exercism Lifetime Insiders!
+
+    acquired_trophy:
+      1: >
+        Вам вручён трофей %{trophy_name} в треке %{track_title}
+
+    #########################################
+    # Legacy but possibly still in the wild #
+    #########################################
+    expired_premium:
+      1: >
+        Ваше членство в Exercism Premium истекло.
+
+    ######################################
+    # Not actually used below this point #
+    ######################################
+    acquired_badge:
+      1:
+
+    joined_exercism:
+      1:
+
+    joined_insiders:
+      1:
+
+    joined_lifetime_insiders:
+      1:
+
+    onboarding_product:
+      1:

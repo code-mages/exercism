@@ -21,3 +21,25 @@ en:
           day.</strong> Be sure to share your experiences on Exercism with
           others.
         back_to_discussion_button: Back to the discussion
+ru:
+  temp:
+    modals:
+      badge:
+        new_badge_earned: Получен новый значок
+        badge_name: 2020 Winter Markathon
+        badge_rarity: Легендарный
+        badge_reason: За участие в 2020 Winter Markathon
+        badge_earned_at: Получен %{date}
+      donation_confirmation:
+        thank_you_title_html: Вы успешно пожертвовали %{amount}, спасибо 💙
+        thank_you_message:
+          Мы искренне ценим вашу поддержку. Exercism был бы невозможен без
+          замечательных людей вроде вас. Вскоре вам придёт письмо с
+          подтверждением пожертвования и чеком.
+        badge_earned_html: Вы получили значок <strong>Supporter</strong>!
+        done_button: Рад помочь! У меня всё 👍
+      completed_mentoring_1:
+        thank_you_title_html: Спасибо, что оставили отзыв 💙
+        testimonial_message_html: <strong>Вы порадовали iHiD.</strong>
+          Обязательно поделитесь своим опытом работы с Exercism с другими.
+        back_to_discussion_button: Назад к обсуждению

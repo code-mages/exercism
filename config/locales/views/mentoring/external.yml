@@ -34,3 +34,39 @@ en:
           Soft skills like communication and being able
           to take feedback are paramount in progressing in any field or
           profession.
+ru:
+  mentoring:
+    external:
+      locked:
+        current_reputation: Ваша текущая репутация
+        how_it_works: Как это работает?
+        unlock_reputation_html:
+          Возможность менторства открывается при <a href="%{reputation_url}"
+          class="text-gradient !font-semibold">%{reputation} репутации</a>
+      show:
+        share_knowledge_heading: Делитесь своими знаниями с другими
+        share_knowledge_description:
+          Менторство это увлекательный и полезный способ закрепить
+          собственные знания, помогая при этом другим учиться и открывать то, чего
+          они не знают.
+        earns_reputation: Менторство также приносит репутацию.
+        unsure_mentor:
+          Не уверены, что сможете эффективно быть ментором? Некоторые из наших лучших менторов
+          тоже переживали.
+        signup_button: Зарегистрируйтесь, чтобы попробовать менторство
+        login_button: Войти
+        why_mentor_heading: Зачем становиться ментором?
+        challenge_knowledge_heading: Проверьте свои знания
+        challenge_knowledge_description:
+          Обучение других один из лучших способов укрепить
+          собственные знания, обнаружить свои слабые места и увидеть новаторские идеи,
+          о которых вы и не мечтали.
+        provide_opportunity_heading: Дайте возможность другим
+        provide_opportunity_description: Менторы могут оказать огромное влияние на
+          обучение студентов, стремительно ускоряя развитие их навыков. Станьте тем
+          катализатором перемен в жизни другого человека.
+        develop_soft_skills_heading: Развивайте свои гибкие навыки
+        develop_soft_skills_description:
+          Гибкие навыки, такие как общение и умение
+          воспринимать обратную связь, крайне важны для продвижения в любой сфере или
+          профессии.

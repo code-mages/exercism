@@ -10,3 +10,15 @@ en:
         password_placeholder: Enter your password
         forgot_your_password_link: Forgot your password?
         log_in_button: Log In
+ru:
+  devise:
+    sessions:
+      new:
+        exercism_logo_alt: Логотип Exercism
+        tagline: Практика программирования и менторство для всех
+        log_in_with_github: Войти через GitHub
+        or_divider: или
+        email_placeholder: Введите адрес электронной почты
+        password_placeholder: Введите пароль
+        forgot_your_password_link: Забыли пароль?
+        log_in_button: Войти

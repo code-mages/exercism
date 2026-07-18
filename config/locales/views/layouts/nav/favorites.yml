@@ -1,0 +1,22 @@
+en:
+  layouts:
+    nav:
+      favorites:
+        title: Your Favourites
+        description: Store your favorite solutions from around Exercism and learn from them later.
+        empty: You haven't added any favorites yet. Start exploring community solutions and add some interesting ones to your favorites!
+        get_started: Get started
+        solution_title: "%{handle}'s solution"
+        solution_subtitle: to %{exercise} in %{track}
+        view_all: View all
+ru:
+  layouts:
+    nav:
+      favorites:
+        title: Ваше избранное
+        description: Сохраняйте понравившиеся решения со всего Exercism, чтобы вернуться к ним позже.
+        empty: Вы ещё ничего не добавили в избранное. Начните изучать решения сообщества и добавляйте интересные из них в избранное!
+        get_started: Начать
+        solution_title: решение пользователя %{handle}
+        solution_subtitle: к упражнению %{exercise} в треке %{track}
+        view_all: Показать все

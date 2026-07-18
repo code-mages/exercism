@@ -1,0 +1,12 @@
+en:
+  admin:
+    adverts:
+      new:
+        title: "Adding advert for %{partner_name}"
+        back_to_partner: Back to partner
+ru:
+  admin:
+    adverts:
+      new:
+        title: "Добавление объявления для %{partner_name}"
+        back_to_partner: Назад к партнёру

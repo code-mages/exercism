@@ -13,3 +13,18 @@ en:
         heading_signed_out: Manage all your notifications
         login_prompt: Please log in to manage individual communcation preferences
         login_link: Log in
+ru:
+  unsubscribe:
+    show:
+      title: Управление настройками уведомлений
+      single_email_unsubscribe:
+        heading: Отписаться от этого письма
+        button: Отписаться от письма
+      all_emails_unsubscribe:
+        heading: Отписаться от всех писем
+        button: Отписаться от всех писем
+      manage_notifications:
+        heading_signed_in: Управление всеми вашими уведомлениями
+        heading_signed_out: Управление всеми вашими уведомлениями
+        login_prompt: Войдите, чтобы управлять отдельными настройками уведомлений
+        login_link: Войти

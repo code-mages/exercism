@@ -26,3 +26,31 @@ en:
           To be assigned the correct roles on Discord, please connect your
           Exercism and Discord accounts.
         connect_button: Connect with Discord
+ru:
+  settings:
+    integrations:
+      heading: Интеграции
+      github:
+        heading: GitHub
+        reputation_link_text: репутацию
+        external_link_aria_label: (открывается в новой вкладке)
+        linked_info_html: Ваши аккаунты Exercism и GitHub связаны. За любые
+          пул-реквесты, которые будут смерджены на GitHub, вы получите %{reputation_link}
+          в своём аккаунте Exercism.
+        unlinked_info_html:
+          Чтобы получать %{reputation_link} на Exercism при отправке
+          пул-реквестов на GitHub, пожалуйста, свяжите свои аккаунты с помощью кнопки
+          ниже.
+        connect_button: Связать с GitHub
+      discord:
+        heading: Discord
+        forum_link_text: форуме
+        linked_info_html:
+          Ваши аккаунты Exercism и Discord связаны. Вам должны
+          быть назначены правильные роли в Discord. Если этого не произошло, пожалуйста, создайте
+          обращение на %{forum_link}.
+        disconnect_button: Отвязать от Discord
+        unlinked_info:
+          Чтобы вам были назначены правильные роли в Discord, пожалуйста, свяжите свои
+          аккаунты Exercism и Discord.
+        connect_button: Связать с Discord

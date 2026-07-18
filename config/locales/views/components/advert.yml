@@ -3,3 +3,8 @@ en:
     advert:
       tag_text: Perk
       cta_text: Claim your discount
+ru:
+  components:
+    advert:
+      tag_text: Бонус
+      cta_text: Получить скидку

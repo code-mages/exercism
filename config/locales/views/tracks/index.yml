@@ -6,3 +6,11 @@ en:
         description_html: Become fluent in your chosen programming languages by
           completing these tracks created by our %{contributors_link}
         contributors_link_text: awesome team of contributors
+ru:
+  tracks:
+    index:
+      header:
+        title: "%{num_tracks} языков для освоения"
+        description_html: Овладейте выбранными языками программирования в совершенстве,
+          пройдя эти треки, созданные нашей %{contributors_link}
+        contributors_link_text: замечательной командой участников

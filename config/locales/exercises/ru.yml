@@ -1,0 +1,14 @@
+ru:
+  exercises:
+    documents:
+      welcome: "Добро пожаловать в упражнение %{exercise_title} на треке %{track_title} платформы Exercism."
+      help_reference: "Если вам нужна помощь с запуском тестов или отправкой кода, загляните в `HELP.md`."
+      hints_reference: "Если вы застряли на упражнении, загляните в `HINTS.md`, но сначала попробуйте решить его без подсказок :)"
+      tests_header: "Запуск тестов"
+      submitting_solution_header: "Отправка вашего решения"
+      submitting_solution: "Вы можете отправить своё решение командой `exercism submit %{solution_file_paths}`.\nЭта команда загрузит ваше решение на сайт Exercism и выведет URL страницы с решением.\n\nМожно отправить и неполное решение, что позволяет вам:\n\n- Посмотреть, как другие выполнили это упражнение\n- Попросить помощи у наставника"
+      help_header: "Нужна помощь?"
+      help_intro: "Если вам нужна помощь в решении упражнения, посмотрите следующие страницы:"
+      help_check_pages: "Если этих ресурсов недостаточно, посмотрите следующие страницы:"
+      help_pages: "- [Документация трека %{track_title}](https://exercism.org/docs/tracks/%{track_slug})\n- [Категория программирования трека %{track_title} на форуме](https://forum.exercism.org/c/programming/%{track_slug})\n- [Категория программирования Exercism на форуме](https://forum.exercism.org/c/programming/5)\n- [Часто задаваемые вопросы](https://exercism.org/docs/using/faqs)"
+      help_submit_incomplete: "Если этих ресурсов недостаточно, вы можете отправить своё (неполное) решение, чтобы попросить наставничество."

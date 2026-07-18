@@ -27,3 +27,32 @@ en:
     info_bar:
       time_ago: "%{time_ago_value} ago"
       video_label: Video
+ru:
+  blog_posts:
+    show:
+      share_bar:
+        useful_short_question: Считаете этот пост полезным?
+        useful_short_prompt: Поделитесь им!
+        useful_long_question: Считаете пост интересным или полезным?
+        useful_long_prompt: Поделитесь им, чтобы и другие могли извлечь пользу!
+      content:
+        useful_cta: Оказалось полезным?
+      byline:
+        published_by: Опубликовал
+      other_posts:
+        more_from_blog: Больше из нашего блога
+        community_posts: Другие посты сообщества
+        view_all: Посмотреть все посты сообщества
+    index:
+      header:
+        title: Блог сообщества
+        description_prefix: Видео и статьи от
+        description_link: сообщества Exercism
+      highlighted_post:
+        view_more: Показать больше
+        read_more: Читать далее
+      other_posts:
+        title: Больше постов от сообщества
+    info_bar:
+      time_ago: "%{time_ago_value} назад"
+      video_label: Видео

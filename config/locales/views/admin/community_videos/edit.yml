@@ -1,0 +1,14 @@
+en:
+  admin:
+    community_videos:
+      edit:
+        title: 'Editing community video'
+        show_this: 'Show this community video'
+        back_to_index: 'Back to community videos'
+ru:
+  admin:
+    community_videos:
+      edit:
+        title: 'Редактирование видео сообщества'
+        show_this: 'Показать это видео сообщества'
+        back_to_index: 'Назад к видео сообщества'

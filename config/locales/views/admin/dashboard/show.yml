@@ -1,0 +1,20 @@
+en:
+  admin:
+    dashboard:
+      show:
+        title: 'Admin'
+        community_videos: 'Community Videos'
+        donors: 'Donors'
+        mailshots: 'Mailshots'
+        streaming_events: 'Streaming Events'
+        users: 'Users'
+ru:
+  admin:
+    dashboard:
+      show:
+        title: 'Администрирование'
+        community_videos: 'Видео сообщества'
+        donors: 'Доноры'
+        mailshots: 'Рассылки'
+        streaming_events: 'Стриминговые события'
+        users: 'Пользователи'

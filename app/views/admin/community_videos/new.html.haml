@@ -1,5 +1,5 @@
-%h1 New community video
+%h1= t('.title')
 = render "form", community_video: @community_video
 %br/
 %div
-  = link_to "Back to community videos", admin_community_videos_path
+  = link_to t('.back_to_index'), admin_community_videos_path

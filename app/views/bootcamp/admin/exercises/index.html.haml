@@ -1,17 +1,17 @@
 #page-bootcamp-admin-exercises.page-bootcamp-admin.pt-20
   .lg-container
-    %h1 Exercises
+    %h1= t('.title')
     - @exercises_by_level.each do |level_idx, exercises|
-      %h2 Level #{level_idx}
+      %h2= t('.level', level_idx: level_idx)
       %table
         %thead
           %tr
             %th
-            %th Project
-            %th Exercise
-            %th # Stale
-            %th # Active
-            %th # Done
+            %th= t('.project')
+            %th= t('.exercise')
+            %th= t('.stale')
+            %th= t('.active')
+            %th= t('.done')
         %tbody
           - exercises.each do |exercise|
             %tr

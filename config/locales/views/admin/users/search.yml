@@ -1,0 +1,30 @@
+en:
+  admin:
+    users:
+      search:
+        title: Search User
+        search: Search
+        name_label: 'Name: %{value}'
+        handle_label: 'Handle: %{value}'
+        email_label: 'Email: %{value}'
+        reputation_label: 'Reputation: %{value}'
+        joined_at_label: 'Joined At: %{value}'
+        last_visited_label: 'Last Visited On: %{value}'
+        total_donated_label: 'Total Donated (in cents): %{value}'
+        disabled_at_label: 'Disabled At: %{value}'
+        not_found: Could not find user
+ru:
+  admin:
+    users:
+      search:
+        title: Поиск пользователя
+        search: Найти
+        name_label: 'Имя: %{value}'
+        handle_label: 'Логин: %{value}'
+        email_label: 'Email: %{value}'
+        reputation_label: 'Репутация: %{value}'
+        joined_at_label: 'Дата регистрации: %{value}'
+        last_visited_label: 'Последний визит: %{value}'
+        total_donated_label: 'Всего пожертвовано (в центах): %{value}'
+        disabled_at_label: 'Отключён: %{value}'
+        not_found: Пользователь не найден

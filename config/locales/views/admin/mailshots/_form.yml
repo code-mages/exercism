@@ -1,0 +1,14 @@
+en:
+  admin:
+    mailshots:
+      form:
+        prohibited_this_mailshot: 'prohibited this mailshot from being saved:'
+        slug_custom_template_hint: This slug maps to a custom email template and can't be changed.
+        slug_choose_hint: Choose a custom-template slug from the list, or type a manual one for a standard content mailshot.
+ru:
+  admin:
+    mailshots:
+      form:
+        prohibited_this_mailshot: 'не позволили сохранить эту рассылку:'
+        slug_custom_template_hint: Этот slug привязан к кастомному шаблону письма и не может быть изменён.
+        slug_choose_hint: Выберите slug кастомного шаблона из списка или введите произвольный для обычной контентной рассылки.

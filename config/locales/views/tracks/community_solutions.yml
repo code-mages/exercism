@@ -66,3 +66,73 @@ en:
         meta_description:
           Explore other people's solutions to %{exercise_title} in
           %{track_title}, and learn how others have solved the exercise.
+ru:
+  tracks:
+    community_solutions:
+      tooltip_locked:
+        struggling_question: Возникли сложности с этим упражнением?
+        unlock_community_solutions:
+          Откройте решения сообщества, чтобы увидеть, как участники
+          подошли к решению упражнения %{exercise_title} и решили его.
+        attempt_exercise_first:
+          Вкладка с решениями сообщества доступна, только если вы хотя бы
+          раз попытались выполнить это упражнение.
+        recommendation:
+          Мы настоятельно рекомендуем сначала приложить максимум усилий
+          самостоятельно, не заглядывая во вкладку с решениями сообщества.
+      show:
+        meta_title:
+          "Решение упражнения %{exercise_title} от %{author_handle} на треке %{track_title}
+          на Exercism"
+        meta_description: Посмотрите, как @%{author_handle} решил упражнение %{exercise_title} на треке
+          %{track_title}, и вдохновитесь на собственное решение!
+          Exercism на 100% бесплатен и это отличный способ прокачать навыки
+          программирования более чем на 65 языках.
+        breadcrumbs:
+          tracks: Треки
+          exercises: Упражнения
+          community_solutions: Решения сообщества
+          your_solution: Ваше решение
+          authors_solution: "Решение от %{author_handle}"
+        solution_heading:
+          your_solution: Ваше решение
+          authors_solution: "Решение от %{author_handle}"
+          to: для
+          in: на
+        comments_button:
+          alt_text: Количество комментариев
+        mentoring:
+          mentored_by: Наставник
+          what_is_this: Что это?
+        about_solution:
+          title: Об этом решении
+          description:
+            Мы автоматически группируем похожие решения и собираем статистику
+            об их популярности.
+          submissions:
+            one: Отправка
+            few: Отправки
+            many: Отправок
+            other: Отправок
+          first_submitted_ago: "%{time} назад"
+          first_submitted: Впервые отправлено
+          reputation_alt_text: Репутация
+          max_track_rep: Максимум репутации по треку
+        solution_approach:
+          title: Подход в этом решении
+          description:
+            Изучите плюсы и минусы этого подхода в подробном разборе,
+            написанном сообществом…
+          used_by: Используют %{num_solutions} человек.
+        about_exercise:
+          title: Об
+          exercise_label: упражнении
+        other_solutions:
+          title: Другие решения
+          in_label: на
+          explore_link: Посмотреть другие решения этого упражнения
+      index:
+        meta_title: Решения сообщества для упражнения %{exercise_title} на треке %{track_title} на Exercism
+        meta_description:
+          Изучите решения других участников для упражнения %{exercise_title} на треке
+          %{track_title} и узнайте, как другие справились с этим упражнением.

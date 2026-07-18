@@ -18,3 +18,23 @@ en:
         become_trainer: Become a Trainer →
         sign_up_to_help: Sign up to help us out
         log_in: Log in
+ru:
+  training_data:
+    external:
+      locked:
+        max_reputation_html: Ваша текущая максимальная репутация в треке составляет
+        no_reputation: Вы ещё не заработали репутацию ни в одном треке.
+        how_it_works: Как это работает?
+        unlock_info_html: Возможность использовать Training Hub открывается, когда вы достигаете <a
+          href="%{reputation_link}" class="text-gradient
+          !font-semibold">%{track_min_reputation} репутации</a> в одном треке
+      index:
+        title: Помогите нам сделать Exercism умнее
+        description:
+          Мы используем машинное обучение, чтобы улучшить способность Exercism
+          понимать код, который отправляют люди, сочетая наши данные и
+          усилия сообщества.
+        bonus_reputation: "Бонус: помощь нам приносит репутацию!"
+        become_trainer: Стать тренером →
+        sign_up_to_help: Зарегистрируйтесь, чтобы помочь нам
+        log_in: Войти

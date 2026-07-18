@@ -3,3 +3,8 @@ en:
     new:
       header:
         title: Create your public profile
+ru:
+  profiles:
+    new:
+      header:
+        title: Создайте свой публичный профиль

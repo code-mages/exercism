@@ -8,3 +8,13 @@ en:
           Exercism's mission for equal access to education and opportunity.
           %{insiders_link} get enhanced Perks.
         insiders_link_text: Exercism Insiders
+ru:
+  perks:
+    index:
+      header:
+        title: Бонусы Exercism
+        subtitle_html:
+          Получайте скидки и бесплатные пробные периоды от организаций, которые
+          поддерживают миссию Exercism по равному доступу к образованию и
+          возможностям. %{insiders_link} получают расширенные бонусы.
+        insiders_link_text: Участники Exercism Insiders

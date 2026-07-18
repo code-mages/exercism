@@ -1,0 +1,12 @@
+en:
+  admin:
+    donors:
+      new:
+        new_donor: New donor
+        back_to_donors: Back to donors
+ru:
+  admin:
+    donors:
+      new:
+        new_donor: Новый донор
+        back_to_donors: Назад к донорам

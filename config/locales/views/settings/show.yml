@@ -15,3 +15,20 @@ en:
           heading: Delete account
           info_strong: This option will eliminate your account entirely with all data.
           info_text: You’ll get a chance to confirm your choice.
+ru:
+  settings:
+    show:
+      account_settings:
+        heading: Настройки аккаунта
+        confirmation_email_sent: Мы отправили письмо с подтверждением на %{email}
+        resend_email_button: Отправить письмо повторно
+        reset_account:
+          heading: Сбросить аккаунт
+          info_html:
+            Сброс аккаунта <strong>сбросит ваш прогресс по всем
+            трекам,</strong> сбросит все упражнения и удалит доступ ко всему
+            вашему предыдущему менторству.
+        delete_account:
+          heading: Удалить аккаунт
+          info_strong: Этот вариант полностью удалит ваш аккаунт со всеми данными.
+          info_text: У вас будет возможность подтвердить свой выбор.

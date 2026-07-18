@@ -20,3 +20,25 @@ en:
           the form below and we'll send you another.
         email_placeholder: Enter your email address
         resend_confirmation_instructions_button: Resend confirmation instructions
+ru:
+  devise:
+    confirmations:
+      required:
+        exercism_logo_alt: Логотип Exercism
+        welcome_check_email_title: Добро пожаловать! Проверьте почту.
+        welcome_message: Добро пожаловать в Exercism. Мы отправили вам письмо, чтобы подтвердить, что вы человек.
+        validation_explanation_message:
+          Чтобы защититься от злоупотреблений, мы проверяем, что все
+          адреса электронной почты действительны. Если вы проверите почту прямо сейчас, письмо уже должно
+          быть там. Если вы его не видите, проверьте спам, а затем подождите 10 минут
+          на случай, если всё работает медленно.
+        resend_link_message_html: Если оно не придёт в ближайшее время, %{resend_link}.
+        resend_it_link: мы можем отправить его повторно
+      new:
+        exercism_logo_alt: Логотип Exercism
+        resend_confirmation_instructions_title: Повторно отправить инструкции для подтверждения
+        resend_confirmation_instructions_message:
+          Не получили письмо с подтверждением? Воспользуйтесь
+          формой ниже, и мы отправим вам ещё одно.
+        email_placeholder: Введите ваш адрес электронной почты
+        resend_confirmation_instructions_button: Повторно отправить инструкции для подтверждения

@@ -1,0 +1,12 @@
+en:
+  admin:
+    community_videos:
+      new:
+        title: 'New community video'
+        back_to_index: 'Back to community videos'
+ru:
+  admin:
+    community_videos:
+      new:
+        title: 'Новое видео сообщества'
+        back_to_index: 'Назад к видео сообщества'

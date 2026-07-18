@@ -1,0 +1,20 @@
+en:
+  admin:
+    adverts:
+      form:
+        error:
+          one: "%{count} error"
+          other: "%{count} errors"
+        prohibited_save: "prohibited this advert from being saved:"
+        select_tracks: Select Tracks
+ru:
+  admin:
+    adverts:
+      form:
+        error:
+          one: "%{count} ошибка"
+          few: "%{count} ошибки"
+          many: "%{count} ошибок"
+          other: "%{count} ошибки"
+        prohibited_save: "не позволили сохранить это объявление:"
+        select_tracks: Выберите треки

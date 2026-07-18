@@ -31,3 +31,36 @@ en:
           If you've donated to Exercism, but do not see your donations here
           or have not been awarded the Supporter badge, please email
           <a href="%{email_url}">Jeremy</a> and he'll sort it for you.
+ru:
+  settings:
+    donations:
+      heading: Пожертвования
+      monthly_supporter:
+        heading: Станьте ежемесячным спонсором Exercism
+        info_html:
+          Exercism, это некоммерческая организация, которая развивается благодаря
+          пожертвованиям сообщества. Поддержите %{mission_link}, чтобы помочь всем
+          стать лучше в программировании.
+        mission_link_text: нашу миссию
+        find_out_more_button: Узнать больше
+      summary:
+        total_donated: всего пожертвовано
+        from_recurring: из регулярных
+        from_one_time: из разовых
+      payments_table:
+        date_header: Дата
+        amount_header: Сумма пожертвования
+        type_header: Тип
+        via_header: Способ
+        recurring_donation: Регулярное пожертвование
+        one_time_donation: Разовое пожертвование
+        view_receipt_button: Посмотреть чек
+      no_donations:
+        heading: Ваши пожертвования появятся здесь
+        info_1:
+          После того как вы сделаете пожертвование, вы сможете увидеть здесь
+          историю всех пожертвований.
+        info_2_html: >
+          Если вы сделали пожертвование в Exercism, но не видите его здесь
+          или вам не был выдан значок спонсора, напишите
+          <a href="%{email_url}">Jeremy</a>, и он всё уладит для вас.

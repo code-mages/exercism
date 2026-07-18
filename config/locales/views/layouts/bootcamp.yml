@@ -1,0 +1,22 @@
+en:
+  layouts:
+    bootcamp:
+      title_default: Bootcamp
+      bootcamp: Bootcamp
+      nav_levels: Levels
+      nav_exercises: Exercises
+      nav_concepts: Concepts
+      nav_library: Library
+      nav_faqs: FAQs
+      back_to_exercism: "Back to Exercism →"
+ru:
+  layouts:
+    bootcamp:
+      title_default: Bootcamp
+      bootcamp: Bootcamp
+      nav_levels: Уровни
+      nav_exercises: Упражнения
+      nav_concepts: Концепции
+      nav_library: Библиотека
+      nav_faqs: Частые вопросы
+      back_to_exercism: "Назад в Exercism →"

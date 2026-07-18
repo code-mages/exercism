@@ -16,3 +16,23 @@ en:
           to code submissions that get shared as part of automated feedback on
           solutions.
         find_out_more_button: Find out more on Automation
+ru:
+  mentoring:
+    automation:
+      tooltip_locked:
+        requirements_html:
+          Требуется <strong>%{min_finished_mentoring_sessions}</strong>
+          завершённых сессий менторинга на треке и общий рейтинг
+          удовлетворённости %{min_satisfaction_percentage}%% (сейчас
+          %{satisfaction_percentage}%%)
+        finished_sessions_info:
+          one: 1/%{min} (на треке %{track_title})
+          few: "%{count}/%{min} %{track_title}"
+          many: "%{count}/%{min} %{track_title}"
+          other: "%{count}/%{min} %{track_title}"
+        what_is_automation_heading: Что такое автоматизация?
+        automation_description:
+          Автоматизация позволяет вам отправлять стандартизированные ответы
+          на отправленный код, которые становятся частью автоматической
+          обратной связи по решениям.
+        find_out_more_button: Узнать больше об автоматизации

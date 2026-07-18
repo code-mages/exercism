@@ -3,3 +3,8 @@ en:
     profile:
       badge_icon_alt: "Badge: %{badge_name}"
       founder_title: Exercism Founder
+ru:
+  images:
+    profile:
+      badge_icon_alt: "Значок: %{badge_name}"
+      founder_title: Основатель Exercism

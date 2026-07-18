@@ -1,7 +1,7 @@
 .c-admin-table
   .lg-container
-    %h1.text-h1.mb-8 Users
+    %h1.text-h1.mb-8= t('.title')
 
     %ul.links
       %li
-        = link_to "Search User", search_admin_users_path
+        = link_to t('.search_user'), search_admin_users_path

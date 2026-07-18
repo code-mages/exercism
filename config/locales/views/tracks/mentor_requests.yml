@@ -17,3 +17,22 @@ en:
         reputation_link_text: earning reputation
         donate_link_text: donating to Exercism
         go_to_track_link: Go to track
+ru:
+  tracks:
+    mentor_requests:
+      no_slots_remaining:
+        whoops: Упс!
+        no_slots_available: У вас не осталось доступных слотов для наставничества.
+        replenish_slots:
+          Пополните свои слоты для наставничества, успешно завершая
+          текущие сессии.
+        go_to_track_link: Перейти к треку
+      get_more_slots:
+        whoops: Упс!
+        no_slots_available: У вас не осталось доступных слотов для наставничества.
+        get_more_slots_html:
+          Вы можете получить больше слотов для наставничества, %{reputation_link} или
+          %{donate_link}.
+        reputation_link_text: заработав репутацию
+        donate_link_text: сделав пожертвование Exercism
+        go_to_track_link: Перейти к треку

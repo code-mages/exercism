@@ -1,0 +1,12 @@
+en:
+  bootcamp:
+    exercises:
+      index:
+        exercises: Exercises
+        description: All the exercises you have available, grouped by project.
+ru:
+  bootcamp:
+    exercises:
+      index:
+        exercises: Упражнения
+        description: Все доступные вам упражнения, сгруппированные по проектам.

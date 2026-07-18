@@ -1,0 +1,22 @@
+en:
+  about:
+    partners:
+      packt:
+        see_all_supporters: See all supporters
+        supported_by_prefix: "Exercism is proudly supported by"
+        org_supports_exercism: "How %{org_name} supports Exercism"
+        packt_partnership_description: "Packt Publishing supports Exercism by sharing its expertise and educational resources, helping learners deepen their programming knowledge and grow their skills."
+        about_packt_publishing: About Packt Publishing
+        packt_about_p1: "Packt Publishing is a leading publisher of books and video courses for software developers, helping millions of people around the world put new technologies to work."
+        packt_about_p2: "With a focus on practical, hands-on learning, Packt covers everything from programming languages and web development to data science, cloud and DevOps."
+ru:
+  about:
+    partners:
+      packt:
+        see_all_supporters: Все, кто нас поддерживает
+        supported_by_prefix: "Exercism с гордостью поддерживает"
+        org_supports_exercism: "Как %{org_name} поддерживает Exercism"
+        packt_partnership_description: "Packt Publishing поддерживает Exercism, делясь своим опытом и учебными материалами, помогая учащимся углублять знания в программировании и развивать навыки."
+        about_packt_publishing: О Packt Publishing
+        packt_about_p1: "Packt Publishing, ведущее издательство книг и видеокурсов для разработчиков, помогает миллионам людей по всему миру осваивать новые технологии."
+        packt_about_p2: "Делая упор на практическое обучение, Packt охватывает всё: от языков программирования и веб-разработки до data science, облаков и DevOps."

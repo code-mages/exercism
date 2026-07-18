@@ -56,3 +56,65 @@ en:
         explore_issues:
           one: "Explore 1 issue"
           other: "Explore %{count} issues"
+ru:
+  contributing:
+    dashboard:
+      show:
+        methods_section:
+          header:
+            title: Как вы можете помочь нам развивать Exercism
+          method:
+            proofread_and_update:
+              title: Проверить и обновить
+              tag: Начинающий
+              description:
+                Никогда не участвовали в open source проектах? Попробуйте. Мы
+                поможем вам отправить ваш первый pull request.
+            improve_content:
+              title: Улучшить концепцию или упражнение
+              tag: Средний уровень
+              description:
+                Исправляйте ошибки и улучшайте концепции и упражнения по всему
+                Exercism. Помогите ученикам получить гладкий и безошибочный опыт.
+            create_new_content:
+              title: Создать новое упражнение или концепцию
+              tag: Продвинутый
+              description:
+                Разработайте новое упражнение или концепцию на основе дорожной
+                карты трека. Получайте удовольствие, создавая интерактивный
+                контент, которым будут пользоваться миллионы людей.
+            develop_test_runner:
+              title: Разработать test runner
+              tag: Проект
+              description:
+                Test runner'ы обеспечивают работу нашего онлайн-редактора. У всех
+                треков есть базовые test runner'ы, но многим нужны более
+                продвинутые возможности и функциональность.
+            develop_analyzer:
+              title: Разработать анализатор
+              tag: Проект
+              description:
+                Анализаторы дают ученикам автоматическую обратную связь через
+                анализ AST. Это сложное и по-настоящему интересное программное
+                обеспечение для разработки.
+            develop_representer:
+              title: Разработать representer
+              tag: Проект
+              description:
+                Representer'ы помогают нам находить идентичные решения, чтобы мы
+                могли переиспользовать обратную связь. Проще анализаторов, но
+                увлекательны и интересны для размышлений.
+      tasks_section:
+        issues_needed_help:
+          one: "1 задаче нужна помощь"
+          few: "%{count} задачам нужна помощь"
+          many: "%{count} задачам нужна помощь"
+          other: "%{count} задачам нужна помощь"
+        tracks_list:
+          more_tracks: "+ ещё %{count}"
+          needs_help: "нужна помощь"
+        explore_issues:
+          one: "Изучить 1 задачу"
+          few: "Изучить %{count} задачи"
+          many: "Изучить %{count} задач"
+          other: "Изучить %{count} задач"

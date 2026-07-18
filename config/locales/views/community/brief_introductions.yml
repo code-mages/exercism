@@ -10,3 +10,15 @@ en:
         description_two:
           Check out his latest video to the right, or explore the full
           series below.
+ru:
+  community:
+    brief_introductions:
+      index:
+        title: Серия "Краткое введение"
+        description_one:
+          Знакомьтесь с новыми языками вместе с нашей серией "Краткое введение".
+          Присоединяйтесь к Эрику, который рассматривает историю и основы языка,
+          а затем решает на нём упражнение.
+        description_two:
+          Посмотрите его последнее видео справа или изучите всю
+          серию ниже.

@@ -16,3 +16,23 @@ en:
           one: Student helped
           other: Students helped
         testimonials_received: Testimonials received
+ru:
+  profiles:
+    testimonials:
+      meta_title: "Отзывы о %{user_handle} на Exercism"
+      meta_description: Почитайте отзывы, которые студенты оставили о
+        %{user_handle} на Exercism, и узнайте, насколько они замечательные!
+      introducer:
+        title: Наставники Exercism получают отзывы за выдающееся наставничество
+        description:
+          Студенты оставляют отзывы наставникам, которые помогли им на
+          пути обучения. Небольшие знаки благодарности, которые значат
+          очень многое.
+      stats:
+        solutions_mentored: Курировано решений
+        students_helped:
+          one: Студенту помогли
+          few: Студентам помогли
+          many: Студентам помогли
+          other: Студентам помогли
+        testimonials_received: Получено отзывов

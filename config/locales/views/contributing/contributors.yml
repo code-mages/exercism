@@ -7,3 +7,13 @@ en:
         new_contributor:
           new_label: New
           title: New contributor
+
+ru:
+  contributing:
+    contributors:
+      index:
+        featured_contributor:
+          title: Избранный участник
+        new_contributor:
+          new_label: Новый
+          title: Новый участник

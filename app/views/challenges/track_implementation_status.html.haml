@@ -15,19 +15,19 @@
 
 
 .p-32
-  .text-h3.mb-8 #{@track.title} exercises for #48in24
-  .text-h5.mb-4 Key to Symbols
+  .text-h3.mb-8= t('.title', track: @track.title)
+  .text-h5.mb-4= t('.key_to_symbols')
   .text-16
-    .mb-8 💜 = Featured in #48in24
-    .mb-8 ✅ = Present on Track
-    .mb-8 ❌ = Missing from Track (#{link_to('Please add it!', doc_path(:building, 'tracks/practice-exercises'), class: 'font-semibold text-linkColor')})
-    .mb-16 ⛔ = Do not implement on this Track
+    .mb-8= t('.symbol_featured')
+    .mb-8= t('.symbol_present')
+    .mb-8= raw t('.symbol_missing_html', link: link_to(t('.please_add_it'), doc_path(:building, 'tracks/practice-exercises'), class: 'font-semibold text-linkColor'))
+    .mb-16= t('.symbol_do_not_implement')
 
-    Want to implement one of the missing exercises?
-    Start with #{link_to 'this video and docs', doc_path(:building, 'tracks/practice-exercises'), class: 'font-semibold text-linkColor'}.
+    = t('.want_to_implement')
+    = raw t('.start_with_html', link: link_to(t('.this_video_and_docs'), doc_path(:building, 'tracks/practice-exercises'), class: 'font-semibold text-linkColor'))
 
   .text-16
-    = link_to "Back to tracks overview", implementation_status_challenge_path, class: 'font-semibold text-linkColor'
+    = link_to t('.back_to_tracks_overview'), implementation_status_challenge_path, class: 'font-semibold text-linkColor'
 
   %hr.mt-20.mb-32.border-borderColor5
 
@@ -35,9 +35,9 @@
     %table
       %thead
         %tr.font-semibold.bg-backgroundColorD
-          %th Week
-          %th Exercise
-          %th Status
+          %th= t('.week')
+          %th= t('.exercise')
+          %th= t('.status')
 
       %tbody
         - @featured_exercises.each.with_index do |featured_exercise, idx|

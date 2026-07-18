@@ -6,3 +6,11 @@ en:
       exercise_on: on %{exercise_title}
       time_ago: "%{time_ago} ago"
       see_all_mentoring_link: See everyone you’re mentoring
+ru:
+  dashboard:
+    mentoring_inbox:
+      title: Менторство
+      discussion_aria_label: Посмотреть профиль %{student_handle}
+      exercise_on: по упражнению %{exercise_title}
+      time_ago: "%{time_ago} назад"
+      see_all_mentoring_link: Показать всех, кого вы менторите

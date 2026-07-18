@@ -1,0 +1,12 @@
+en:
+  admin:
+    perks:
+      edit:
+        editing: "Editing %{name}: Perk %{id}"
+        back_to_partner: "Back to partner"
+ru:
+  admin:
+    perks:
+      edit:
+        editing: "Редактирование %{name}: перк %{id}"
+        back_to_partner: "Назад к партнёру"

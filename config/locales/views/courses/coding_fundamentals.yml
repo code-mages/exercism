@@ -1,0 +1,662 @@
+en:
+  courses:
+    coding_fundamentals:
+      nav:
+        bootcamps: Bootcamps
+        watch_first_session: Watch first session 👀
+        enroll_now: Enroll now 👉
+      hero:
+        heading_prefix: Build
+        heading_strong: Rock-Solid
+        heading_suffix: Coding Fundamentals
+        tagline_prefix: The
+        tagline_em: ultimate
+        tagline_mid: way to
+        tagline_strong: Learn to Code.
+        tagline_go_from: Go from
+        tagline_zero_to_confident: zero to confident
+        tagline_in_weeks: in only 12 weeks.
+      bubbles:
+        video: Video
+        tutorials: tutorials
+        fun: Fun
+        projects: projects
+        helpful: Helpful
+        mentors: mentors
+      supported_by:
+        heading: "Exercism's supporters include:"
+      welcome:
+        tutorial_hell_prefix: Don't know where to start? Stuck in
+        tutorial_hell: tutorial hell?
+        not_alone_strong: You're not alone!
+        not_alone_text: If you've tried learning from other websites or videos and found it's not sticking, or you just feel utterly overwhelmed knowing where to start, then you're not alone!
+        courses_suck_prefix: The majority of courses out there
+        courses_suck: suck.
+        courses_suck_mid: They promise you the world then massively underdeliver. They're
+        boring_confusing: boring, confusing,
+        courses_suck_and: and they leave you feeling like
+        not_cut_out: you're not cut out for this.
+        made_to_fix_prefix: We made this course to fix that. If you're looking for something
+        fun_and_creative: fun and creative
+        made_to_fix_mid: where you learn by actually making things, with support when you need it, then this might just be
+        course_for_you: the course for you!
+      story:
+        hi_there: Hi there!
+        im_jeremy_prefix: I'm Jeremy, and I've helped over
+        two_million_people: two million people
+        level_up: level up their coding skills.
+        worrying_trend: But over the last few years, I've seen a really worrying trend...
+        learning_prefix: More and more people are trying to learn to code (🥳) but they seem to be
+        struggling_strong: struggling more than ever (😢).
+        struggling_mid: And they're struggling with things that should be pretty straightforward once you've been learning for a while.
+        not_grasping_fundamentals: People just don't seem to be grasping the fundamentals.
+        crazy_statistic: So I started reading around to see if I could work out what was going on, and found a crazy statistic.
+        give_up_stat: 96% of people who try to learn to code give up
+        how_could_it_be: How could it be that so many people were trying to learn to code, but so few were actually succeeding?
+        investigating: I went investigating… 🕵️
+        watched_prefix: I watched the
+        youtube_videos: most popular YouTube videos (🥱),
+        tried_best: tried the "best"
+        online_courses: online courses (😐),
+        paid_friends: and even paid my friends to try to learn so I could see what happened (a mix of 😭😠🤬🙅‍♀️).
+        dug_into_research: I dug into formal research, spoke to my friends in education, and pretty quickly came to a simple conclusion...
+        teaching_causes_fail: The way people are being taught to code is causing them to fail!
+        started_at_8: I started coding when I was 8. Back then, YouTube didn't exist. There weren't any "learn to code" websites. I didn't even have the internet. There was basically only one way to learn.
+        make_stuff: Make stuff. Lots of stuff!
+        caption_me_short: "1998: Me making the first website I ever got paid for."
+        caption_me_rhodri: "1998: Me and Rhodri making the first website we ever got paid for."
+        made_stuff_prefix: And make stuff I did! I started making games and then graduated to making little bots to play against. And as I grew older I made websites for me and my friends, and
+        eventually_customers: eventually for customers.
+        created_played: I created, I played, I experimented. I had fun!
+        got_good_prefix: And through this, I got really good.
+        coder_mindset: I learned the coder mindset,
+        laid_foundations: and I laid the foundations that I've built my whole career on.
+        not_how_modern: But that's not how these modern courses teach.
+        practice_is_hard: It's much easier to just give you a video to watch, a quiz to take, and a certificate to print out.
+        wont_learn_prefix: But you won't learn that way. You'll be
+        bored_frustrated: bored, frustrated,
+        and_like_most: and like most other people, you'll
+        probably_quit: probably quit 😞😡
+      mastery:
+        get_good_heading: If you want to get good, master the basics
+        best_coders_prefix: The best coders
+        are_not: are not
+        know_the_most: the ones who know the most.
+        best_coders_are_prefix: The best coders are the ones who have
+        total_mastery: gained a total mastery of the basics.
+        everything_easy: Once you've got the basics down, everything will become easy. You can go and learn whatever you want or need.
+        how_to_master: And the way to master the basics? Practice, practice, practice.
+        take_challenges: Take on different challenges. Solve different problems. And have fun learning your craft!
+        which_is_why: Which is why we made this...
+      different:
+        made_different_prefix: We've made a different type of course. One that teaches you the fundamentals of coding differently. It's focused on getting you
+        building_fun: building fun things,
+        solving_problems: on solving interesting problems, on learning the coding mindset that will actually get you good at this.
+        within_12_prefix: Within 12 weeks, you'll go from zero to building games like
+        games_list_1: Space Invaders, Tic Tac Toe, and
+        games_list_2: Breakout.
+        building_bots_prefix: You'll be building bots that can solve mazes, and talking to real APIs like
+        chatgpt: ChatGPT
+        real_world: to build useful real-world projects.
+        make_all_these: ☝️☝️☝️ You'll make all these in the first 12 weeks!
+        focusing_heading: Focusing on what matters.
+        worked_hard_prefix: We've worked really hard to build a course that focusses on the
+        important_stuff: important stuff.
+        written_language: We've written our own programming language that gets out of your way and lets you focus on the actual coding.
+        made_prefix: We've made a
+        kickass_interface: kickass interface
+        fun_easy_mid: that's really fun and easy to use, but gets you coding fast. Everything is focused on giving you rock solid foundations, that will
+        easy_to_learn: make it easy to learn any languages
+        or_technologies: or technologies you want.
+        editor_caption: Our specially designed interface that makes getting started easy!
+      taught:
+        makes_sense_heading: Taught in a way that makes sense
+        teach_concepts_prefix: I'll teach you coding concepts using analogy and imagery, that will mean your
+        brain_absorbs: brain actually absorbs
+        understands: the information and understands what's going on.
+        jiki_caption_prefix: This is
+        jiki_name: Jiki.
+        jiki_caption_suffix: We learn in detail how he runs the code you write!
+        no_abstract_prefix: There are no abstract concepts in this course. There's no hand-waving. If something is complex, I take my time breaking it down
+        until_clear: until it's clear.
+        live_teaching_prefix: We've put together over
+        hours_live_teaching: 40 hours of live teaching
+        watch_explaining: for you to watch, where you can see me explaining the concepts of programming and answering questions from a real beginner audience.
+        community_alumni: We have a great community of alumni and mentors who are there to help you when you get stuck. And I'll be there too, making sure you get the most out of the course!
+        designed_for_prefix: We've designed the course for
+        total_beginners: total beginners
+        entirely_focused: and it's entirely focused on
+        learning_by_doing: learning by doing.
+        coding_from_day_one: You'll be coding from day one, and
+        coding_a_lot: you'll be coding a lot.
+        also_perfect_prefix: It's also perfect if you've
+        been_coding: been coding for a while
+        dont_feel_solid: but you don't feel like you've got a solid grasp on everything yet. About 50% of our students are in that category and love the course.
+        sounds_exciting_prefix: If that sounds exciting, then
+        love_to_join: I'd love for you to join us! 💙
+      syllabus:
+        tag: What we cover
+        menu_prefix: What's on the
+        menu_strong: menu?
+        split_two_halves: The course is split into two halves. The first teaches Coding Fundamentals. The second (optional) part teaches Front-end Web Development.
+        part1_title: Coding Fundamentals 🧑‍🔬
+        part1_bubble: Part 1
+        part1_intro_prefix: The first half of the course focusses on
+        part1_intro_strong: building rock solid foundations.
+        part1_intro_suffix: We'll cover all the core concepts in programming and give you tons of exercises and projects to practice with.
+        part1_li1_strong: Build a solid understanding
+        part1_li1_text: of core programming principles, including flow control, conditionals, data types, functions, and much more, using a beginner-friendly version of JavaScript.
+        part1_li2_strong: Gain the confidence
+        part1_li2_text: to put your knowledge into practice, being able to solve a wide variety of problems, using the right concept at the right time.
+        part1_li3_strong: Develop the Coder's Mind.
+        part1_li3_text: You'll notice that your critical thinking, problem solving, and logic skills are all improving.
+        part1_duration: Takes 12-20 weeks
+        part2_title: Front-End Web Development 🧑‍💻
+        part2_bubble: Part 2
+        part2_intro_prefix: From April to June, we'll build on the fundamentals and look at
+        part2_intro_strong: front-end web development.
+        part2_intro_suffix: You'll gain the skills you need to build beautiful, interactive websites and kickstart your career.
+        part2_li1_strong: Get comfortable with JavaScript.
+        part2_li1_text: We'll build on your knowledge from Part 1 by looking at JavaScript programming techniques essential for web development.
+        part2_li2_strong: Learn HTML and CSS.
+        part2_li2_text: These two languages are the other fundamentals of web development. You'll learn both and use them to create beautiful websites.
+        part2_li3_strong: Learn Visual Studio Code and Git.
+        part2_li3_text: Master these important tools, and how to use them to make your life easier.
+        part2_li4_strong: Build a portfolio of projects.
+        part2_li4_text: Create projects to showcase to potential employers while practicing your skills.
+        part2_duration: Takes ~12 weeks
+      levels:
+        heading_prefix: The
+        heading_strong: 10 Levels
+        heading_suffix: of Coding Fundamentals
+        sideheading: Students normally take 1-2 weeks per level.
+        intro: From day one you'll be building fun things. You'll start by drawing, then animating, then making games, then building intelligence into your programs. Every level has lots of fun challenges!
+        few_things: Here are just a few of the fun things you'll make! 👇
+        level1_prefix: In
+        level1_num: level 1
+        level1_mid: you get familiar with
+        level1_strong: coding basics
+        level1_suffix: through some drawing puzzles.
+        level2_prefix: In
+        level2_num: level 2
+        level2_mid: you'll learn how to
+        level2_strong: animate flipbook-style
+        level2_suffix: using variables and loops.
+        level3_prefix: In
+        level3_num: level 3
+        level3_mid: you'll start
+        level3_strong: building some intelligence
+        level3_suffix: into your code.
+        level4_prefix: In
+        level4_num: level 4
+        level4_mid: you use
+        level4_strong: repeatable chunks
+        level4_suffix: of code eliminate duplication.
+        level5_num: Level 5
+        level5_mid: introduces lists, your first
+        level5_strong: compound data type,
+        level5_suffix: and Wordle!
+        level6_num: Level 6
+        level6_mid: focusses on
+        level6_strong: coding mindset
+        level6_suffix: and introduces your first major project!
+        level7_prefix: In
+        level7_num: Level 7
+        level7_mid: you unlock
+        level7_strong: dictionaries
+        level7_suffix: making Emoji Collector possible.
+        level8_prefix: In
+        level8_num: Level 8
+        level8_mid: you take a big step, learning
+        level8_strong: Object Oriented Programming.
+        level9_num: Level 9
+        level9_mid: introduces
+        level9_strong: methods
+        level9_suffix: and you start to feel like a real coder.
+        level10_prefix: And finally, in
+        level10_num: Level 10
+        level10_mid: you start to make your own
+        level10_strong: classes.
+      certificate:
+        bubble: Celebrate your new skills!
+        heading: Get a verified certificate
+        text1: At the end of the Bootcamp, we'll issue you an official certificate to recognise your participation and completion of the course.
+        text2: Show off your skills on your resume and in the Certifications section of your LinkedIn profile.
+        linkedin: Share your certificate in your network
+      signup:
+        choose_your_prefix: Choose your
+        choose_your_path: Path
+        intro_prefix: Depending on whether you want to learn web development or some other speciality such as data science, we have
+        two_options: two different options.
+        everyone_in: "Everyone in %{country_name} gets a"
+        discount_percent: "%{discount_percentage}% discount!"
+        vpn_many_countries_prefix: 🌐 Many countries have
+        vpn_discounts: discounts
+        vpn_more_affordable: that make this course more affordable
+        vpn_globally: globally! 🌐
+        vpn_please: Please
+        vpn_disable: disable your VPN
+        vpn_refresh: and refresh the page to see if you're eligible.
+        course_bubble_prefix: Only
+        course_bubble_strong: Part 1
+        course_title_prefix: Learn to
+        course_title_strong: Code
+        course_subtitle: Build rock solid coding fundamentals, applicable to every speciality.
+        includes_discount_prefix: Includes a
+        discount_percent_included: "%{discount_percentage}% discount"
+        friends_in: for our friends in
+        course_whos_it_for_heading: Who's it for? 🧑🏽
+        course_whos_it_for_prefix: Anyone looking to develop rock solid
+        course_whos_it_for_strong1: coding fundamentals.
+        course_whos_it_for_mid: Designed for
+        course_whos_it_for_strong2: absolute beginners
+        course_whos_it_for_suffix: or new devs wanting to reinforce their solid foundations.
+        course_duration_heading: Duration ⏳
+        course_duration_text: 3 months, part-time.
+        course_end_heading: Where you'll be by the end 🎉
+        course_end_prefix: You'll have a solid understanding of
+        course_end_strong1: coding fundamentals.
+        course_end_mid: You'll be ready to learn vocational skills like app development or
+        course_end_strong2: data science.
+        course_end_suffix: ""
+        course_included_heading: What's included? 🔎
+        course_included_1: Over 35 hours of live teaching (that you can watch back forever).
+        course_included_2: Weekly sessions to answer your questions.
+        course_included_3: Hundreds of hours of exercises and projects, in a specially designed interface for beginners.
+        course_included_4: A dedicated community Discord server.
+        course_included_5: An official certificate of completion.
+        course_button: Learn Coding Fundamentals 👉
+        bundle_bubble_prefix: The
+        bundle_bubble_strong: Complete Course
+        bundle_title_prefix: Become a
+        bundle_title_strong: Front-End Dev
+        bundle_subtitle: Learn the fundamentals then specialise in front-end web development.
+        bundle_whos_it_for_heading: Who's it for? 🧑🏽
+        bundle_whos_it_for_prefix: Anyone looking to become a
+        bundle_whos_it_for_strong1: web developer.
+        bundle_whos_it_for_mid: Designed for
+        bundle_whos_it_for_strong2: absolute beginners
+        bundle_whos_it_for_suffix: or new devs wanting to reinforce their solid foundations.
+        bundle_duration_heading: Duration ⏳
+        bundle_duration_text: 6 months, part-time.
+        bundle_end_heading: Where you'll be by the end 🎉
+        bundle_end_prefix: You'll be confident creating
+        bundle_end_strong: website front-ends from scratch
+        bundle_end_suffix: and well on your way to a career in web development.
+        bundle_included_heading: What's included? 🔎
+        bundle_included_1: Everything in Part 1.
+        bundle_included_2: An extra 35 hours of live teaching.
+        bundle_included_3: More weekly sessions to answer your questions.
+        bundle_included_4: More exercises and projects, this time for you to solve on your own laptop.
+        bundle_included_5: A second official certificate of completion to put on your resume.
+        bundle_button: Learn Coding & Front-End 👉
+      exercism:
+        heading: What makes Exercism special?
+        intro_prefix: Exercism is a
+        nonprofit: longstanding nonprofit
+        helped_over: that's helped over
+        two_million: 2 million people
+        level_up: level-up their coding skills.
+        students_title: Exercism students
+        students_text: We've grown entirely by word of mouth. Good friends tell their friends about Exercism!
+        testimonials_title: Testimonials
+        testimonials_text: We've been one of the most trusted resources for coding education for over a decade.
+        exercises_title: Exercises Solved
+        exercises_text: Our exercises are trusted by the coding community as the perfect way to level up!
+        mentoring_title: Mentoring Sessions
+        mentoring_text: Our unique mentoring program is one of the best ways to get tips from experts!
+      faqs:
+        heading: Frequently Asked Questions
+        intro: These are the questions we get asked the most. Your question not answered here?
+        ping_email: Ping us an email!
+        q_access: When will I get access and how long for?
+        a_access_1: You gain access to the full Coding Fundamentals course as soon as your pay. You'll have access for life.
+        a_access_2: The Front-End Fundamentals course will run live from April 26th till mid-July. You'll also have access to the course materials beyond that date for life.
+        q_time: How much time will I need to spend each week on the course?
+        a_time: You can spend as long or as little as you like. In general, people who spend an 1-2 hours per day on the course get through each Level in 1-2 weeks.
+        q_hard: How hard is the course? How smart do I need to be?
+        a_hard_1: The course is designed to be accessible to everyone, regardless of your background. We don't believe you need to be "smart" to learn to code. But you do need to put in the effort and be willing to be challenged.
+        a_hard_2: But if you put in the effort, ask for help when you get stuck, and embrace the challenge, you'll be amazed at how far you can go in a short time.
+        q_group: Are there group activities and do I have to take part?
+        a_group: There are no formal group activities. However, we encourage everyone to share their journey and explore programming together in our Discord server. Chatting about code is one of the best ways to improve your programming skills. Many of our students get together (virtually) for unofficial study groups - so you might like to join some of them! You can choose to opt-out of the community aspects if you prefer.
+        q_language: What specific programming language is taught.
+        a_language_1: We're teaching you a special beginner-friendly language called JikiScript. It's a full, normal programming language, but it's been designed specifically to ensure you don't get bogged down by syntax or language oddities.
+        a_language_2: Once you've learnt JikiScript and understand the core programming concepts, you'll find it straight-forward to learn Python, JavaScript, or any other language using Exercism's free courses.
+        q_graded: Are the exercises graded or just for practice? Is there any form of assessment?
+        a_graded: Most exercises can be completed by reaching a certain objective. However, they are not graded and your code isn't assessed or marked. We will explore some (anonymised) code in the weekly sessions and discuss how it could be improved, but our philosophy is that you should be in the trenches coding, not worrying about passing tests.
+        q_nothing: I've signed up but not received anything.
+        a_nothing_html: Firstly, please check your spam. If you still can't find anything, please email %{email} and we'll check everything for you!
+      legals:
+        registered: is a registered
+        nonprofit: not-for-profit organisation.
+ru:
+  courses:
+    coding_fundamentals:
+      nav:
+        bootcamps: Буткемпы
+        watch_first_session: Смотреть первую сессию 👀
+        enroll_now: Записаться сейчас 👉
+      hero:
+        heading_prefix: Постройте
+        heading_strong: железобетонные
+        heading_suffix: основы программирования
+        tagline_prefix: ""
+        tagline_em: Идеальный
+        tagline_mid: способ
+        tagline_strong: научиться программировать.
+        tagline_go_from: Пройдите путь
+        tagline_zero_to_confident: от нуля до уверенности
+        tagline_in_weeks: всего за 12 недель.
+      bubbles:
+        video: Видео
+        tutorials: уроки
+        fun: Увлекательные
+        projects: проекты
+        helpful: Отзывчивые
+        mentors: менторы
+      supported_by:
+        heading: "Exercism поддерживают:"
+      welcome:
+        tutorial_hell_prefix: Не знаете, с чего начать? Застряли в
+        tutorial_hell: аду уроков?
+        not_alone_strong: Вы не одиноки!
+        not_alone_text: Если вы пробовали учиться по другим сайтам или видео и обнаружили, что знания не закрепляются, или вы просто совершенно растеряны и не знаете, с чего начать, то вы не одиноки!
+        courses_suck_prefix: Большинство курсов, что есть на рынке,
+        courses_suck: никуда не годятся.
+        courses_suck_mid: Они обещают вам золотые горы, а на деле дают гораздо меньше. Они
+        boring_confusing: скучные, запутанные,
+        courses_suck_and: и после них вы чувствуете, будто
+        not_cut_out: это не для вас.
+        made_to_fix_prefix: Мы создали этот курс, чтобы это исправить. Если вы ищете что-то
+        fun_and_creative: увлекательное и творческое,
+        made_to_fix_mid: где вы учитесь, действительно создавая вещи, с поддержкой, когда она нужна, то это, возможно, именно
+        course_for_you: тот курс, который вам подходит!
+      story:
+        hi_there: Привет!
+        im_jeremy_prefix: Я Джереми, и я помог более чем
+        two_million_people: двум миллионам человек
+        level_up: прокачать навыки программирования.
+        worrying_trend: Но за последние несколько лет я заметил очень тревожную тенденцию...
+        learning_prefix: Всё больше людей пытаются научиться программировать (🥳), но им, похоже,
+        struggling_strong: тяжелее, чем когда-либо (😢).
+        struggling_mid: И им тяжело даётся то, что должно быть довольно простым, когда вы поучитесь какое-то время.
+        not_grasping_fundamentals: Люди просто не могут ухватить основы.
+        crazy_statistic: Поэтому я начал читать, пытаясь понять, что происходит, и нашёл безумную статистику.
+        give_up_stat: 96% людей, которые пытаются научиться программировать, сдаются
+        how_could_it_be: Как так вышло, что столько людей пытаются научиться программировать, но так мало у кого это получается?
+        investigating: Я начал расследование… 🕵️
+        watched_prefix: Я смотрел
+        youtube_videos: самые популярные видео на YouTube (🥱),
+        tried_best: пробовал "лучшие"
+        online_courses: онлайн-курсы (😐),
+        paid_friends: и даже платил друзьям, чтобы они пробовали учиться, чтобы я мог увидеть, что происходит (смесь 😭😠🤬🙅‍♀️).
+        dug_into_research: Я углубился в научные исследования, поговорил с друзьями из сферы образования и довольно быстро пришёл к простому выводу...
+        teaching_causes_fail: То, как людей учат программировать, приводит их к провалу!
+        started_at_8: Я начал программировать в 8 лет. Тогда YouTube не существовало. Не было никаких сайтов "научись программировать". У меня даже не было интернета. По сути, был только один способ учиться.
+        make_stuff: Создавать. Много всего создавать!
+        caption_me_short: "1998: я делаю первый сайт, за который мне заплатили."
+        caption_me_rhodri: "1998: мы с Родри делаем первый сайт, за который нам заплатили."
+        made_stuff_prefix: И я действительно много всего создавал! Я начал делать игры, потом перешёл к небольшим ботам, чтобы играть против них. А когда стал старше, делал сайты для себя и друзей, а
+        eventually_customers: со временем и для клиентов.
+        created_played: Я создавал, играл, экспериментировал. Мне было весело!
+        got_good_prefix: И благодаря этому я стал по-настоящему хорош.
+        coder_mindset: Я освоил мышление программиста
+        laid_foundations: и заложил тот фундамент, на котором построил всю свою карьеру.
+        not_how_modern: Но современные курсы учат не так.
+        practice_is_hard: Дать вам пространство для практики, игры и экспериментов - это сложно. Гораздо проще просто дать вам видео для просмотра, тест для прохождения и сертификат для распечатки.
+        wont_learn_prefix: Но так вы не научитесь. Вам будет
+        bored_frustrated: скучно, вы будете раздражены,
+        and_like_most: и, как и большинство других людей, вы
+        probably_quit: вероятно, бросите 😞😡
+      mastery:
+        get_good_heading: Если хотите стать хорошим программистом, освойте основы
+        best_coders_prefix: Лучшие программисты
+        are_not: не те,
+        know_the_most: кто знает больше всех.
+        best_coders_are_prefix: Лучшие программисты - это те, кто
+        total_mastery: в совершенстве освоил основы.
+        everything_easy: Как только вы освоите основы, всё станет лёгким. Вы сможете изучить всё, что захотите или что вам понадобится.
+        how_to_master: А как освоить основы? Практика, практика и ещё раз практика.
+        take_challenges: Беритесь за разные задачи. Решайте разные проблемы. И получайте удовольствие, осваивая своё ремесло!
+        which_is_why: Именно поэтому мы создали это...
+      different:
+        made_different_prefix: Мы сделали курс другого типа. Такой, который учит основам программирования иначе. Он сосредоточен на том, чтобы вы
+        building_fun: создавали увлекательные вещи,
+        solving_problems: решали интересные задачи, осваивали мышление программиста, которое действительно сделает вас хорошим специалистом.
+        within_12_prefix: За 12 недель вы пройдёте путь от нуля до создания игр вроде
+        games_list_1: Space Invaders, Tic Tac Toe и
+        games_list_2: Breakout.
+        building_bots_prefix: Вы будете создавать ботов, которые решают лабиринты, и работать с реальными API, такими как
+        chatgpt: ChatGPT,
+        real_world: чтобы создавать полезные реальные проекты.
+        make_all_these: ☝️☝️☝️ Всё это вы создадите за первые 12 недель!
+        focusing_heading: Фокус на том, что важно.
+        worked_hard_prefix: Мы очень постарались создать курс, который сосредоточен на
+        important_stuff: важных вещах.
+        written_language: Мы написали собственный язык программирования, который не мешает вам и позволяет сосредоточиться на самом программировании.
+        made_prefix: Мы сделали
+        kickass_interface: потрясающий интерфейс,
+        fun_easy_mid: который приятный и простой в использовании, но при этом быстро погружает вас в программирование. Всё нацелено на то, чтобы дать вам железобетонный фундамент, который
+        easy_to_learn: облегчит изучение любых языков
+        or_technologies: или технологий, которые вы захотите освоить.
+        editor_caption: Наш специально разработанный интерфейс, с которым легко начать!
+      taught:
+        makes_sense_heading: Преподаётся так, что всё становится понятным
+        teach_concepts_prefix: Я буду объяснять вам концепции программирования через аналогии и образы, чтобы ваш
+        brain_absorbs: мозг действительно усваивал
+        understands: информацию и понимал, что происходит.
+        jiki_caption_prefix: Это
+        jiki_name: Джики.
+        jiki_caption_suffix: Мы подробно узнаём, как он выполняет код, который вы пишете!
+        no_abstract_prefix: В этом курсе нет абстрактных концепций. Нет никаких размытых объяснений. Если что-то сложное, я не тороплюсь и разбираю это
+        until_clear: пока не станет понятно.
+        live_teaching_prefix: Мы собрали более
+        hours_live_teaching: 40 часов живых занятий
+        watch_explaining: которые вы можете смотреть, где я объясняю концепции программирования и отвечаю на вопросы реальной аудитории новичков.
+        community_alumni: У нас отличное сообщество выпускников и менторов, которые готовы помочь, когда вы застрянете. И я тоже буду рядом, следя за тем, чтобы вы получили максимум от курса!
+        designed_for_prefix: Мы разработали курс для
+        total_beginners: полных новичков,
+        entirely_focused: и он полностью сосредоточен на
+        learning_by_doing: обучении через практику.
+        coding_from_day_one: Вы начнёте программировать с первого дня, и
+        coding_a_lot: программировать будете много.
+        also_perfect_prefix: Он также отлично подойдёт, если вы
+        been_coding: программируете уже какое-то время,
+        dont_feel_solid: но не чувствуете, что у вас есть прочное понимание всего. Около 50% наших студентов относятся к этой категории и обожают курс.
+        sounds_exciting_prefix: Если это звучит заманчиво, то
+        love_to_join: я буду очень рад, если вы к нам присоединитесь! 💙
+      syllabus:
+        tag: Что мы разбираем
+        menu_prefix: Что в нашем
+        menu_strong: меню?
+        split_two_halves: Курс разделён на две части. Первая учит основам программирования. Вторая (необязательная) часть учит фронтенд-разработке.
+        part1_title: Основы программирования 🧑‍🔬
+        part1_bubble: Часть 1
+        part1_intro_prefix: Первая половина курса сосредоточена на
+        part1_intro_strong: построении железобетонного фундамента.
+        part1_intro_suffix: Мы разберём все ключевые концепции программирования и дадим вам множество упражнений и проектов для практики.
+        part1_li1_strong: Постройте прочное понимание
+        part1_li1_text: ключевых принципов программирования, включая управление потоком, условия, типы данных, функции и многое другое, используя дружелюбную к новичкам версию JavaScript.
+        part1_li2_strong: Обретите уверенность,
+        part1_li2_text: чтобы применять свои знания на практике, решая широкий спектр задач и используя правильную концепцию в нужный момент.
+        part1_li3_strong: Разовьите мышление программиста.
+        part1_li3_text: Вы заметите, что ваше критическое мышление, навыки решения задач и логика улучшаются.
+        part1_duration: Занимает 12-20 недель
+        part2_title: Фронтенд-разработка 🧑‍💻
+        part2_bubble: Часть 2
+        part2_intro_prefix: С апреля по июнь мы будем развивать основы и займёмся
+        part2_intro_strong: фронтенд-разработкой.
+        part2_intro_suffix: Вы получите навыки, необходимые для создания красивых интерактивных сайтов, и дадите старт своей карьере.
+        part2_li1_strong: Освойтесь с JavaScript.
+        part2_li1_text: Мы будем развивать ваши знания из Части 1, рассматривая приёмы программирования на JavaScript, необходимые для веб-разработки.
+        part2_li2_strong: Изучите HTML и CSS.
+        part2_li2_text: Эти два языка - другие основы веб-разработки. Вы изучите оба и будете использовать их для создания красивых сайтов.
+        part2_li3_strong: Освойте Visual Studio Code и Git.
+        part2_li3_text: Овладейте этими важными инструментами и научитесь использовать их, чтобы облегчить себе жизнь.
+        part2_li4_strong: Соберите портфолио проектов.
+        part2_li4_text: Создавайте проекты, чтобы показать их потенциальным работодателям, одновременно практикуя свои навыки.
+        part2_duration: Занимает ~12 недель
+      levels:
+        heading_prefix: ""
+        heading_strong: 10 уровней
+        heading_suffix: основ программирования
+        sideheading: Обычно студенты проходят один уровень за 1-2 недели.
+        intro: С первого дня вы будете создавать увлекательные вещи. Вы начнёте с рисования, затем анимации, потом создания игр, а после - встраивания интеллекта в свои программы. На каждом уровне множество интересных задач!
+        few_things: Вот лишь некоторые из увлекательных вещей, которые вы создадите! 👇
+        level1_prefix: На
+        level1_num: уровне 1
+        level1_mid: вы познакомитесь с
+        level1_strong: основами программирования
+        level1_suffix: через головоломки с рисованием.
+        level2_prefix: На
+        level2_num: уровне 2
+        level2_mid: вы научитесь
+        level2_strong: анимировать в стиле флипбука,
+        level2_suffix: используя переменные и циклы.
+        level3_prefix: На
+        level3_num: уровне 3
+        level3_mid: вы начнёте
+        level3_strong: встраивать интеллект
+        level3_suffix: в свой код.
+        level4_prefix: На
+        level4_num: уровне 4
+        level4_mid: вы будете использовать
+        level4_strong: повторно используемые блоки
+        level4_suffix: кода, чтобы устранить дублирование.
+        level5_num: Уровень 5
+        level5_mid: знакомит вас со списками, вашим первым
+        level5_strong: составным типом данных,
+        level5_suffix: и с Wordle!
+        level6_num: Уровень 6
+        level6_mid: сосредоточен на
+        level6_strong: мышлении программиста
+        level6_suffix: и знакомит с вашим первым крупным проектом!
+        level7_prefix: На
+        level7_num: уровне 7
+        level7_mid: вы откроете
+        level7_strong: словари,
+        level7_suffix: что сделает возможным Emoji Collector.
+        level8_prefix: На
+        level8_num: уровне 8
+        level8_mid: вы сделаете большой шаг, изучив
+        level8_strong: объектно-ориентированное программирование.
+        level9_num: Уровень 9
+        level9_mid: знакомит с
+        level9_strong: методами,
+        level9_suffix: и вы начинаете чувствовать себя настоящим программистом.
+        level10_prefix: И наконец, на
+        level10_num: уровне 10
+        level10_mid: вы начнёте создавать собственные
+        level10_strong: классы.
+      certificate:
+        bubble: Отпразднуйте свои новые навыки!
+        heading: Получите подтверждённый сертификат
+        text1: В конце буткемпа мы выдадим вам официальный сертификат, подтверждающий ваше участие и завершение курса.
+        text2: Покажите свои навыки в резюме и в разделе сертификатов вашего профиля LinkedIn.
+        linkedin: Поделитесь сертификатом в своей сети
+      signup:
+        choose_your_prefix: Выберите свой
+        choose_your_path: путь
+        intro_prefix: В зависимости от того, хотите ли вы изучать веб-разработку или другую специализацию, например науку о данных, у нас есть
+        two_options: два разных варианта.
+        everyone_in: "Все в стране %{country_name} получают"
+        discount_percent: "скидку %{discount_percentage}%!"
+        vpn_many_countries_prefix: 🌐 Во многих странах есть
+        vpn_discounts: скидки,
+        vpn_more_affordable: которые делают этот курс доступнее
+        vpn_globally: по всему миру! 🌐
+        vpn_please: Пожалуйста,
+        vpn_disable: отключите VPN
+        vpn_refresh: и обновите страницу, чтобы проверить, подходите ли вы под условия.
+        course_bubble_prefix: Только
+        course_bubble_strong: Часть 1
+        course_title_prefix: Научитесь
+        course_title_strong: программировать
+        course_subtitle: Постройте железобетонные основы программирования, применимые к любой специализации.
+        includes_discount_prefix: Включает
+        discount_percent_included: "скидку %{discount_percentage}%"
+        friends_in: для наших друзей из
+        course_whos_it_for_heading: Для кого это? 🧑🏽
+        course_whos_it_for_prefix: Для всех, кто хочет развить железобетонные
+        course_whos_it_for_strong1: основы программирования.
+        course_whos_it_for_mid: Разработано для
+        course_whos_it_for_strong2: абсолютных новичков
+        course_whos_it_for_suffix: или начинающих разработчиков, желающих укрепить свой прочный фундамент.
+        course_duration_heading: Длительность ⏳
+        course_duration_text: 3 месяца, неполная занятость.
+        course_end_heading: Где вы будете к концу 🎉
+        course_end_prefix: У вас будет прочное понимание
+        course_end_strong1: основ программирования.
+        course_end_mid: Вы будете готовы осваивать прикладные навыки, такие как разработка приложений или
+        course_end_strong2: наука о данных.
+        course_end_suffix: ""
+        course_included_heading: Что входит? 🔎
+        course_included_1: Более 35 часов живых занятий (которые вы можете пересматривать всегда).
+        course_included_2: Еженедельные сессии для ответов на ваши вопросы.
+        course_included_3: Сотни часов упражнений и проектов в специально разработанном интерфейсе для новичков.
+        course_included_4: Отдельный сервер сообщества в Discord.
+        course_included_5: Официальный сертификат о прохождении.
+        course_button: Изучать основы программирования 👉
+        bundle_bubble_prefix: Полный
+        bundle_bubble_strong: курс
+        bundle_title_prefix: Станьте
+        bundle_title_strong: фронтенд-разработчиком
+        bundle_subtitle: Изучите основы, а затем специализируйтесь на фронтенд-разработке.
+        bundle_whos_it_for_heading: Для кого это? 🧑🏽
+        bundle_whos_it_for_prefix: Для всех, кто хочет стать
+        bundle_whos_it_for_strong1: веб-разработчиком.
+        bundle_whos_it_for_mid: Разработано для
+        bundle_whos_it_for_strong2: абсолютных новичков
+        bundle_whos_it_for_suffix: или начинающих разработчиков, желающих укрепить свой прочный фундамент.
+        bundle_duration_heading: Длительность ⏳
+        bundle_duration_text: 6 месяцев, неполная занятость.
+        bundle_end_heading: Где вы будете к концу 🎉
+        bundle_end_prefix: Вы будете уверенно создавать
+        bundle_end_strong: фронтенд сайтов с нуля
+        bundle_end_suffix: и будете на верном пути к карьере в веб-разработке.
+        bundle_included_heading: Что входит? 🔎
+        bundle_included_1: Всё из Части 1.
+        bundle_included_2: Дополнительные 35 часов живых занятий.
+        bundle_included_3: Больше еженедельных сессий для ответов на ваши вопросы.
+        bundle_included_4: Больше упражнений и проектов, на этот раз для решения на вашем собственном ноутбуке.
+        bundle_included_5: Второй официальный сертификат о прохождении для вашего резюме.
+        bundle_button: Изучать программирование и фронтенд 👉
+      exercism:
+        heading: Что делает Exercism особенным?
+        intro_prefix: Exercism - это
+        nonprofit: давно существующая некоммерческая организация,
+        helped_over: которая помогла более чем
+        two_million: 2 миллионам человек
+        level_up: прокачать навыки программирования.
+        students_title: Студенты Exercism
+        students_text: Мы выросли исключительно благодаря сарафанному радио. Хорошие друзья рассказывают друзьям об Exercism!
+        testimonials_title: Отзывы
+        testimonials_text: Уже более десяти лет мы остаёмся одним из самых надёжных ресурсов для обучения программированию.
+        exercises_title: Упражнений решено
+        exercises_text: Нашим упражнениям доверяет сообщество программистов как идеальному способу повысить уровень!
+        mentoring_title: Сессий менторства
+        mentoring_text: Наша уникальная программа менторства - один из лучших способов получить советы от экспертов!
+      faqs:
+        heading: Часто задаваемые вопросы
+        intro: Это вопросы, которые нам задают чаще всего. Не нашли ответа на свой вопрос?
+        ping_email: Напишите нам на почту!
+        q_access: Когда я получу доступ и на какой срок?
+        a_access_1: Вы получаете доступ к полному курсу основ программирования сразу после оплаты. Доступ останется у вас навсегда.
+        a_access_2: Курс основ фронтенда будет проходить вживую с 26 апреля до середины июля. У вас также останется доступ к материалам курса после этой даты навсегда.
+        q_time: Сколько времени в неделю мне нужно будет тратить на курс?
+        a_time: Вы можете тратить столько времени, сколько захотите. В целом люди, которые уделяют курсу 1-2 часа в день, проходят каждый уровень за 1-2 недели.
+        q_hard: Насколько сложен курс? Насколько умным мне нужно быть?
+        a_hard_1: Курс разработан так, чтобы быть доступным для каждого, независимо от вашего бэкграунда. Мы не считаем, что нужно быть "умным", чтобы научиться программировать. Но вам нужно приложить усилия и быть готовым к вызовам.
+        a_hard_2: Но если вы приложите усилия, попросите о помощи, когда застрянете, и примете вызов, вы удивитесь, как далеко можно продвинуться за короткое время.
+        q_group: Есть ли групповые занятия и обязательно ли в них участвовать?
+        a_group: Формальных групповых занятий нет. Однако мы поощряем всех делиться своим путём и вместе исследовать программирование на нашем сервере в Discord. Обсуждение кода - один из лучших способов улучшить навыки программирования. Многие наши студенты собираются (виртуально) для неофициальных учебных групп, так что вы можете к ним присоединиться! Если хотите, вы можете отказаться от участия в жизни сообщества.
+        q_language: Какой именно язык программирования преподаётся.
+        a_language_1: Мы обучаем вас особому дружелюбному к новичкам языку под названием JikiScript. Это полноценный, обычный язык программирования, но он специально разработан так, чтобы вы не увязали в синтаксисе или языковых странностях.
+        a_language_2: После того как вы изучите JikiScript и поймёте ключевые концепции программирования, вам будет несложно освоить Python, JavaScript или любой другой язык с помощью бесплатных курсов Exercism.
+        q_graded: Упражнения оцениваются или они только для практики? Есть ли какая-то форма оценивания?
+        a_graded: Большинство упражнений можно выполнить, достигнув определённой цели. Однако они не оцениваются, и ваш код не проверяется и не оценивается. Мы разберём часть (обезличенного) кода на еженедельных сессиях и обсудим, как его можно улучшить, но наша философия в том, что вы должны быть в гуще программирования, а не переживать о прохождении тестов.
+        q_nothing: Я записался, но ничего не получил.
+        a_nothing_html: Сначала проверьте папку со спамом. Если вы всё равно ничего не находите, напишите на %{email}, и мы всё для вас проверим!
+      legals:
+        registered: является зарегистрированной
+        nonprofit: некоммерческой организацией.

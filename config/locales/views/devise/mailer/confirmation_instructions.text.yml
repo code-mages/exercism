@@ -1,0 +1,32 @@
+en:
+  devise:
+    mailer:
+      "confirmation_instructions.text":
+        body_markdown: >
+          Welcome to Exercism!
+
+
+          To check you're a real person and not a bot, we need to confirm this
+          is a real email address.
+
+          Click the button below to confirm your account and start using
+          Exercism.
+
+
+          [Confirm your account](%{confirmation_url})
+ru:
+  devise:
+    mailer:
+      "confirmation_instructions.text":
+        body_markdown: >
+          Добро пожаловать в Exercism!
+
+
+          Чтобы убедиться, что вы реальный человек, а не бот, нам нужно подтвердить, что это
+          действительный адрес электронной почты.
+
+          Нажмите кнопку ниже, чтобы подтвердить аккаунт и начать пользоваться
+          Exercism.
+
+
+          [Подтвердить аккаунт](%{confirmation_url})

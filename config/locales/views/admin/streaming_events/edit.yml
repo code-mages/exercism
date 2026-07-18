@@ -1,0 +1,14 @@
+en:
+  admin:
+    streaming_events:
+      edit:
+        title: Editing streaming event
+        show: Show this streaming event
+        back: Back to streaming events
+ru:
+  admin:
+    streaming_events:
+      edit:
+        title: Редактирование стриминг-события
+        show: Открыть это стриминг-событие
+        back: Назад к стриминг-событиям

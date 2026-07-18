@@ -1,0 +1,16 @@
+en:
+  admin:
+    community_videos:
+      index:
+        title: 'Community videos'
+        details: 'Details'
+        edit: 'Edit'
+        new: 'New community video'
+ru:
+  admin:
+    community_videos:
+      index:
+        title: 'Видео сообщества'
+        details: 'Подробнее'
+        edit: 'Редактировать'
+        new: 'Новое видео сообщества'

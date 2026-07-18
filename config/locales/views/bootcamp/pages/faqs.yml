@@ -1,0 +1,16 @@
+en:
+  bootcamp:
+    pages:
+      faqs:
+        heading: Frequently Asked Questions
+        intro: >-
+          Welcome to our FAQs.
+          We've collated the most common questions we're asked about the Bootcamp below.
+ru:
+  bootcamp:
+    pages:
+      faqs:
+        heading: Часто задаваемые вопросы
+        intro: >-
+          Добро пожаловать в раздел FAQ.
+          Ниже мы собрали самые частые вопросы, которые нам задают о буткемпе.

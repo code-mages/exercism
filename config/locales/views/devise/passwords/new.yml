@@ -1,0 +1,27 @@
+en:
+  devise:
+    passwords:
+      new:
+        exercism_logo_alt: Exercism's Logo
+        forgot_your_password:
+          title: Forgot your password?
+          description:
+            If you've forgotten your password, use the form below to request a
+            link to change it. Many people who think they've forgotten their
+            password originally signed in using GitHub so you may like to try
+            that too.
+        email_placeholder: Enter your email address
+        send_instructions_button: Send instructions
+ru:
+  devise:
+    passwords:
+      new:
+        exercism_logo_alt: Логотип Exercism
+        forgot_your_password:
+          title: Забыли пароль?
+          description:
+            Если вы забыли пароль, воспользуйтесь формой ниже, чтобы запросить
+            ссылку для его смены. Многие, кто думает, что забыл пароль,
+            изначально входили через GitHub, так что попробуйте и этот способ.
+        email_placeholder: Введите адрес электронной почты
+        send_instructions_button: Отправить инструкции

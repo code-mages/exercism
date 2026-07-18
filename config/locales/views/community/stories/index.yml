@@ -1,0 +1,16 @@
+en:
+  community:
+    stories:
+      index:
+        title: Hear our Community's Stories
+        description:
+          Listen to the stories of those who have built, contributed to, and
+          learnt from Exercism.
+ru:
+  community:
+    stories:
+      index:
+        title: Послушайте истории нашего сообщества
+        description:
+          Послушайте истории тех, кто создавал Exercism, вносил в него вклад и
+          учился на нём.

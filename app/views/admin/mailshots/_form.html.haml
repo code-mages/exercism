@@ -3,7 +3,7 @@
     .mb-12.text-red
       %h2
         = pluralize(mailshot.errors.count, "error")
-        prohibited this mailshot from being saved:
+        = t('.prohibited_this_mailshot')
       %ul
         - mailshot.errors.each do |error|
           %li= error.full_message
@@ -13,13 +13,13 @@
       = form.label :slug, class: "block mb-4"
       - if mailshot.persisted? && mailshot.custom_mailer?
         = form.text_field :slug, readonly: true, class: 'w-fill'
-        .text-p-small.mt-4.text-textColor6 This slug maps to a custom email template and can't be changed.
+        .text-p-small.mt-4.text-textColor6= t('.slug_custom_template_hint')
       - else
         = form.text_field :slug, list: "mailshot-slugs", class: 'w-fill'
         %datalist#mailshot-slugs
           - MailshotsMailer::CUSTOM_MAILER_SLUGS.each do |slug|
             %option{ value: slug }
-        .text-p-small.mt-4.text-textColor6 Choose a custom-template slug from the list, or type a manual one for a standard content mailshot.
+        .text-p-small.mt-4.text-textColor6= t('.slug_choose_hint')
     .mb-12
       = form.label :subject, class: "block mb-4"
       = form.text_field :subject, class: 'w-fill'

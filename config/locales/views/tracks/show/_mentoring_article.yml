@@ -1,0 +1,64 @@
+en:
+  tracks:
+    show:
+      mentoring_article:
+        mentoring_locked_icon_alt: Mentoring is locked
+        unlock_mentoring:
+          Unlock mentoring for %{track_title} by completing ”Hello,
+          World!” and starting a new exercise
+        your_mentoring_slots:
+          title: Your mentoring slots
+          filled:
+            one: 1 mentoring slot filled
+            other: "%{count} mentoring slots filled"
+        current_reputation:
+          title: Your current Reputation is
+        max_mentoring_slots: You have the maximum available mentoring slots
+        unlocked_icon_alt: Unlocked
+        next_slot_unlocks_at_html: Next slot unlocks at <strong>%{reputation_amount}</strong> rep.
+        donate_to_exercism_html: >
+          Or <a href="%{insiders_path}" class="text-prominentLinkColor font-semibold">Donate to Exercism</a> to unlock all mentoring slots.
+        learn_more_link: Learn More.
+        mentor_discussion_with: with
+        your_turn_to_respond: Your turn to respond
+        review_your_mentor: Review your mentor
+        comments_count:
+          one: 1 comment
+          other: "%{count} comments"
+        waiting_on_mentor: Waiting on a mentor…
+        mentoring_slot_locked: Mentoring slot locked
+        learn_more_about_mentored_link: Learn more about getting mentored
+ru:
+  tracks:
+    show:
+      mentoring_article:
+        mentoring_locked_icon_alt: Наставничество заблокировано
+        unlock_mentoring:
+          Разблокируйте наставничество для %{track_title}, выполнив ”Hello,
+          World!” и начав новое упражнение
+        your_mentoring_slots:
+          title: Ваши слоты наставничества
+          filled:
+            one: Заполнен 1 слот наставничества
+            few: "Заполнено %{count} слота наставничества"
+            many: "Заполнено %{count} слотов наставничества"
+            other: "Заполнено %{count} слотов наставничества"
+        current_reputation:
+          title: Ваша текущая репутация
+        max_mentoring_slots: У вас максимальное количество доступных слотов наставничества
+        unlocked_icon_alt: Разблокировано
+        next_slot_unlocks_at_html: Следующий слот разблокируется при <strong>%{reputation_amount}</strong> репутации.
+        donate_to_exercism_html: >
+          Или <a href="%{insiders_path}" class="text-prominentLinkColor font-semibold">поддержите Exercism пожертвованием</a>, чтобы разблокировать все слоты наставничества.
+        learn_more_link: Узнать больше.
+        mentor_discussion_with: с
+        your_turn_to_respond: Ваша очередь отвечать
+        review_your_mentor: Оцените вашего наставника
+        comments_count:
+          one: 1 комментарий
+          few: "%{count} комментария"
+          many: "%{count} комментариев"
+          other: "%{count} комментариев"
+        waiting_on_mentor: Ожидание наставника…
+        mentoring_slot_locked: Слот наставничества заблокирован
+        learn_more_about_mentored_link: Узнать больше о получении наставничества

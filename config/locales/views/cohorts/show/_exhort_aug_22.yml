@@ -1,0 +1,77 @@
+en:
+  cohorts:
+    show:
+      exhort_aug_22:
+        intro_cohort: Introducing the %{cohort_name}
+        exhort_intro:
+          What happens when a few committed learners encourage and help each
+          other on their learning journeys? We've invented the Exhort to find
+          out! (The "Elixir cohort", see what we did there? 😉)
+        tell_me_more: Tell me more!
+        what_is_exhort: What is the Exhort?
+        exhort_description:
+          The Exhort is simple. We'll give you and a bunch of other
+          learners a space to learn together, add in some of our best mentors
+          and Exercism experts, and support you as you work together through the
+          Exercism Elixir syllabus over 30 days.
+        free_access: 100% free
+        start_date: Starts August 8th. Lasts for 30 days.
+        own_time: Work through the track in your own time
+        pair_or_individual: Pair with each other or work as individuals
+        commit_sharing: Commit to sharing your journey, and supporting others
+        notes_programming_experience:
+          'Notes: Some programming experience is required
+          (if you can write a "Hello World" in any language, you''re good
+          enough).'
+        sign_up_below: Sign up below!
+        gain_fluency_elixir: Gain fluency in Elixir
+        taste_of_what_youll_learn: Here's a taste of what you'll learn!
+        elixir_track_description:
+          The Elixir track on Exercism has %{num_concepts}
+          concepts to learn, along with %{num_exercises} coding exercises for
+          you to complete. It’s a great way to pick up Elixir specific concepts
+          and ways of working.
+        mentoring_benefit_elixir:
+          And better still, get mentoring from senior Elixir
+          developers to discover your knowledge gaps and build a deep
+          understanding of the language.
+        explore_elixir_track: Explore the Elixir track
+        elixir_alt: Elixir
+ru:
+  cohorts:
+    show:
+      exhort_aug_22:
+        intro_cohort: Представляем %{cohort_name}
+        exhort_intro:
+          Что происходит, когда несколько увлечённых учеников поддерживают и
+          помогают друг другу в обучении? Мы придумали Exhort, чтобы это
+          выяснить! («Elixir cohort», уловили игру слов? 😉)
+        tell_me_more: Расскажите подробнее!
+        what_is_exhort: Что такое Exhort?
+        exhort_description:
+          Exhort устроен просто. Мы дадим вам и группе других учеников
+          пространство для совместного обучения, добавим лучших наставников и
+          экспертов Exercism и будем поддерживать вас, пока вы вместе проходите
+          учебную программу Exercism по Elixir за 30 дней.
+        free_access: 100% бесплатно
+        start_date: Старт 8 августа. Длится 30 дней.
+        own_time: Проходите трек в удобном для вас темпе
+        pair_or_individual: Объединяйтесь в пары или работайте индивидуально
+        commit_sharing: Возьмите на себя обязательство делиться своим путём и поддерживать других
+        notes_programming_experience:
+          'Примечание: требуется некоторый опыт программирования
+          (если вы можете написать «Hello World» на любом языке, этого
+          достаточно).'
+        sign_up_below: Записывайтесь ниже!
+        gain_fluency_elixir: Свободно освойте Elixir
+        taste_of_what_youll_learn: Вот небольшой пример того, чему вы научитесь!
+        elixir_track_description:
+          На треке Elixir в Exercism есть %{num_concepts} концепций для
+          изучения, а также %{num_exercises} упражнений по программированию,
+          которые вам предстоит выполнить. Это отличный способ освоить
+          специфичные для Elixir концепции и подходы к работе.
+        mentoring_benefit_elixir:
+          А ещё лучше, получите наставничество от опытных Elixir-разработчиков,
+          чтобы обнаружить пробелы в своих знаниях и глубоко понять язык.
+        explore_elixir_track: Изучить трек Elixir
+        elixir_alt: Elixir

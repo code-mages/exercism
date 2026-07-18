@@ -1,0 +1,14 @@
+en:
+  admin:
+    mailshots:
+      edit:
+        editing_mailshot: Editing mailshot
+        manage_this_mailshot: Manage this mailshot
+        back_to_mailshots: Back to mailshots
+ru:
+  admin:
+    mailshots:
+      edit:
+        editing_mailshot: Редактирование рассылки
+        manage_this_mailshot: Управлять этой рассылкой
+        back_to_mailshots: Назад к рассылкам

@@ -15,3 +15,20 @@ en:
         easy: Easy
         medium: Medium
         hard: Hard
+ru:
+  tracks:
+    exercise_header:
+      breadcrumbs:
+        tracks: Треки
+        exercises: Упражнения
+      completed_heading:
+        text: Вы завершили %{exercise_title}.
+        discover_more_link: Найти больше упражнений
+      completed_icon_alt: Упражнение завершено
+      exercise_type_tag:
+        tutorial: Обучающее упражнение
+        learning: Учебное упражнение
+      difficulty_tag:
+        easy: Лёгкое
+        medium: Среднее
+        hard: Сложное

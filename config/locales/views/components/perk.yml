@@ -3,3 +3,8 @@ en:
     perk:
       logo_alt_text: Logo of %{partner_name}
       learn_more_button: Learn more
+ru:
+  components:
+    perk:
+      logo_alt_text: Логотип %{partner_name}
+      learn_more_button: Узнать больше

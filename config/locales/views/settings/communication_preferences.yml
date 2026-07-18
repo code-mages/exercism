@@ -3,3 +3,8 @@ en:
     communication_preferences:
       communication_preferences:
         heading: Communication Preferences
+ru:
+  settings:
+    communication_preferences:
+      communication_preferences:
+        heading: Настройки уведомлений

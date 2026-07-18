@@ -69,3 +69,74 @@ en:
         contact_suffix: Co-founder & CEO
       testimonials_section:
         title: Over 85,000 students have left testimonials to thank their mentors.
+ru:
+  about:
+    impact:
+      meta_title: Отчёт о влиянии Exercism
+      meta_description:
+        Мы предоставили более 310 миллионов минут бесплатного обучения
+        более чем миллиону человек. Узнайте больше в нашем отчёте о влиянии!
+      header:
+        title: Отчёт о влиянии Exercism
+        provided_text_html: >
+          Мы предоставили %{highlight_open}%{count}%{highlight_close}
+          %{highlight_unit_open}минут%{highlight_unit_close}
+          бесплатного образования.
+        daily_minutes_provided: И мы предоставляем ещё примерно 285 340 минут каждый день!
+        funding_info: И всё это в рамках бесплатного проекта с открытым исходным кодом, который финансируют такие же люди, как вы.
+      stats:
+        students: Учащиеся
+        exercise_submissions: Отправленные решения упражнений
+        mentoring_discussions: Обсуждения с наставниками
+      languages_taught:
+        Exercism обучает %{num_languages} языкам программирования, от
+        %{first_language} до %{last_language}, используя уникальное сочетание обучения,
+        практики и наставничества.
+      everything_is_free: Всё на Exercism на 100% бесплатно.
+      live_activity: Активность на Exercism в реальном времени
+      testimonials:
+        dapritchard_html: >-
+          %{twitter_handle} просто невероятен. Моё решение не проходило тесты…
+          Я попросил помощи у наставника, чтобы разобраться, и в течение 15 минут
+          мне написали и объяснили мою ошибку.
+        zippkode_html: >-
+          …Я работал над упражнениями по строкам в Ruby на %{twitter_handle} Эта
+          платформа заставляет меня замедлиться и действительно логически решать
+          задачи…
+        alebaffa_html: >-
+          Я всегда любил %{twitter_handle}, потому что здесь ты изучаешь не только
+          синтаксис языка, но и его среду разработки: как настроить
+          тесты, упаковку и сборку. Потрясающий ресурс!
+      volunteers_section:
+        title: Exercism работает благодаря огромной команде замечательных волонтёров.
+        mentors_label: Наставники
+        code_contributors_label: Контрибьюторы кода
+        full_time_staff_label: Штатные сотрудники
+      support_section:
+        emoji_aria_label: Аплодирующие руки
+        call_to_action_title: Помог ли вам Exercism стать лучшим разработчиком?
+        call_to_action_paragraph_one:
+          Если Exercism помог вашим карьерным перспективам или
+          принёс вам радость, пожалуйста, подумайте о том, чтобы поддержать нас финансово.
+        call_to_action_paragraph_two: Только 1% людей, которые пользуются Exercism, поддерживают нас. Пожалуйста, станьте одним из них.
+        support_button: Узнайте, как вы можете нас поддержать
+      partners_section:
+        title: Особая благодарность этим организациям…
+        donors_sentence_html: >
+          И более <a href="%{donors_url}" class="underline hover:text-lightBlue">700 индивидуальным жертвователям!</a>
+      growth_section:
+        title: Мы выросли до более чем %{num_users} учащихся исключительно благодаря сарафанному радио.
+        description:
+          Мы тесно работаем с нашим сообществом, чтобы понять, как развивать
+          Exercism, чтобы он был настолько хорош, насколько это возможно, и они вознаграждают нас, делясь
+          с друзьями.
+      mission_cta:
+        title: Станьте ракетным топливом для нашей миссии
+        description:
+          Мы построили всё это менее чем за 500 000 долларов. Представьте, что мы могли бы сделать
+          при более значительном финансировании! Могли бы вы стать тем, кто воплотит это в жизнь?
+        organization_support_title: Хотите поддержать Exercism как организация?
+        contact_prefix: Свяжитесь с
+        contact_suffix: Сооснователь и CEO
+      testimonials_section:
+        title: Более 85 000 учащихся оставили отзывы, чтобы поблагодарить своих наставников.

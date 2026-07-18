@@ -1,0 +1,12 @@
+en:
+  admin:
+    adverts:
+      edit:
+        title: "Editing %{partner_name}: Advert %{advert_id}"
+        back_to_partner: Back to partner
+ru:
+  admin:
+    adverts:
+      edit:
+        title: "Редактирование %{partner_name}: объявление %{advert_id}"
+        back_to_partner: Назад к партнёру

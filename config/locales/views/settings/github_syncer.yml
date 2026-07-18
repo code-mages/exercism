@@ -4,3 +4,9 @@ en:
       show:
         github_syncer:
           heading: GitHub Syncer
+ru:
+  settings:
+    github_syncer:
+      show:
+        github_syncer:
+          heading: GitHub Syncer

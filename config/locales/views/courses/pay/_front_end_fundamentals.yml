@@ -1,0 +1,38 @@
+en:
+  courses:
+    pay:
+      front_end_fundamentals:
+        exercises_projects_html: Hundreds of hours of <strong>exercises and
+          projects</strong> that will help your brain really master the
+          fundamentals of front-end development.
+        live_teaching_html:
+          Over 35 hours of <strong>live teaching</strong> (that you
+          can watch back forever!)
+        answer_questions_html: Weekly sessions to <strong>answer your questions.</strong>
+        technologies_html:
+          Learn <strong>HTML, CSS, JavaScript, Git and VSCode.</strong>
+          And how to piece them all together to make <strong>awesome web
+          projects!</strong>
+        community_html: A <strong>dedicated community</strong> Discord server.
+        certificate_html:
+          An <strong>official certificate</strong> of completion to put
+          on your resume.
+ru:
+  courses:
+    pay:
+      front_end_fundamentals:
+        exercises_projects_html: Сотни часов <strong>упражнений и
+          проектов</strong>, которые помогут вашему мозгу по-настоящему освоить
+          основы фронтенд-разработки.
+        live_teaching_html:
+          Более 35 часов <strong>живого обучения</strong> (которое вы
+          сможете пересматривать сколько угодно!)
+        answer_questions_html: Еженедельные встречи, чтобы <strong>ответить на ваши вопросы.</strong>
+        technologies_html:
+          Изучите <strong>HTML, CSS, JavaScript, Git и VSCode.</strong>
+          И то, как собрать всё это вместе, чтобы создавать <strong>потрясающие
+          веб-проекты!</strong>
+        community_html: <strong>Отдельное сообщество</strong> на сервере Discord.
+        certificate_html:
+          <strong>Официальный сертификат</strong> о прохождении курса, который
+          можно добавить в резюме.

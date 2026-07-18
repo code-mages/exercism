@@ -1,0 +1,22 @@
+en:
+  admin:
+    adverts:
+      show:
+        title: 'Advert %{partner_name}#%{advert_id}'
+        status: 'Status: %{status}'
+        track_slugs: 'Track slugs: %{track_slugs}'
+        url: 'URL: %{url}'
+        num_impressions: 'Num Impressions: %{num_impressions}'
+        num_clicks: 'Num Clicks: %{num_clicks}'
+        back_to_partner: 'Back to partner'
+ru:
+  admin:
+    adverts:
+      show:
+        title: 'Реклама %{partner_name}#%{advert_id}'
+        status: 'Статус: %{status}'
+        track_slugs: 'Слаги треков: %{track_slugs}'
+        url: 'URL: %{url}'
+        num_impressions: 'Число показов: %{num_impressions}'
+        num_clicks: 'Число кликов: %{num_clicks}'
+        back_to_partner: 'Назад к партнёру'

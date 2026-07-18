@@ -1,0 +1,16 @@
+en:
+  devise:
+    shared:
+      information:
+        heading: Exercism is free for all people, everywhere
+        tagline_html: Level up your programming skills with <strong>%{exercises} exercises across %{languages} languages</strong>, and insightful discussion with our dedicated team of welcoming mentors.
+        free_forever: Exercism is 100% free forever.
+        more_count: +48 more
+ru:
+  devise:
+    shared:
+      information:
+        heading: Exercism бесплатен для всех и повсюду
+        tagline_html: Прокачивайте навыки программирования с <strong>%{exercises} упражнениями по %{languages} языкам</strong>, а также обсуждайте всё интересное с нашей дружелюбной командой менторов.
+        free_forever: Exercism на 100% бесплатен навсегда.
+        more_count: ещё +48

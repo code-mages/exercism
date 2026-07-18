@@ -121,3 +121,142 @@ en:
             Consistency is the key to progress. Set yourself a realistic target
             to try and aim for each week, then track your last 8 weeks here.
           avg_exercises_completed_per_week: Avg. exercises completed per week
+ru:
+  tracks:
+    show:
+      updates_section:
+        whats_going_on: Что происходит с %{track_title}
+        title: Что происходит с %{track_title}
+      stats_box_mastered_concepts:
+        concepts_mastered:
+          one: Концепция освоена
+          few: Концепции освоены
+          many: Концепций освоено
+          other: Концепций освоено
+      stats_box_available_exercises:
+        exercises_available:
+          one: Упражнение доступно
+          few: Упражнения доступны
+          many: Упражнений доступно
+          other: Упражнений доступно
+      stats_box_locked_exercises:
+        exercises_locked:
+          one: Упражнение заблокировано
+          few: Упражнения заблокированы
+          many: Упражнений заблокировано
+          other: Упражнений заблокировано
+      stats_box_in_progress_exercises:
+        exercises_in_progress:
+          one: Упражнение в процессе
+          few: Упражнения в процессе
+          many: Упражнений в процессе
+          other: Упражнений в процессе
+      mentoring_article:
+        mentoring_locked_icon_alt: Наставничество заблокировано
+        unlock_mentoring:
+          Разблокируйте наставничество для %{track_title}, выполнив ”Hello,
+          World!” и начав новое упражнение
+        your_mentoring_slots:
+          title: Ваши слоты наставничества
+          filled:
+            one: Заполнен 1 слот наставничества
+            few: "Заполнено %{count} слота наставничества"
+            many: "Заполнено %{count} слотов наставничества"
+            other: "Заполнено %{count} слотов наставничества"
+        current_reputation:
+          title: Ваша текущая репутация
+        max_mentoring_slots: У вас максимальное количество доступных слотов наставничества
+        unlocked_icon_alt: Разблокировано
+        next_slot_unlocks_at_html: Следующий слот разблокируется при <strong>%{reputation_amount}</strong> репутации.
+        donate_to_exercism_html: >
+          Или <a href="%{insiders_path}" class="text-prominentLinkColor font-semibold">поддержите Exercism пожертвованием</a>, чтобы разблокировать все слоты наставничества.
+        learn_more_link: Узнать больше.
+        mentor_discussion_with: с
+        your_turn_to_respond: Ваша очередь отвечать
+        review_your_mentor: Оцените вашего наставника
+        comments_count:
+          one: 1 комментарий
+          few: "%{count} комментария"
+          many: "%{count} комментариев"
+          other: "%{count} комментариев"
+        waiting_on_mentor: Ожидание наставника…
+        mentoring_slot_locked: Слот наставничества заблокирован
+        learn_more_about_mentored_link: Узнать больше о получении наставничества
+      contributors_section:
+        title: "Контрибьюторы %{track_title}"
+        top_contributors_aria_label: Лучшие контрибьюторы
+        view_profile_aria_label: Посмотреть профиль %{contributor_handle}
+        other_contributors_aria_label: Другие значимые контрибьюторы
+        see_all_link: Смотреть все
+        see_all_contributors_aria_label: Посмотреть всех контрибьюторов этого трека
+        cta:
+          we_love_contributors_html: >
+            Мы <span aria-label="love">💙</span> наших контрибьюторов
+          exercism_relies_on_open_source:
+            Exercism полагается на контрибьюторов из открытого исходного кода, чтобы
+            создавать наши языковые треки и наставлять учащихся.
+          contribute_link: Внести вклад в трек %{track_title} ->
+      start_track_section:
+        introduce_yourself_html:
+          Представьтесь миру %{track_title}, выполнив
+          <strong>”Hello, World!”</strong>
+        familiarize_yourself:
+          Познакомьтесь с тем, как работает Exercism, и отправьте
+          свой первый код на платформу, выполнив учебное упражнение “Hello,
+          World!”.
+        go_to_hello_world_exercise_link: Перейти к упражнению “Hello, World!”
+      stats_box_completed_exercises:
+        exercises_completed:
+          one: Упражнение выполнено
+          few: Упражнения выполнены
+          many: Упражнений выполнено
+          other: Упражнений выполнено
+      activities_zero_state_section:
+        activity_zero_state_message: Здесь будет отображаться ваша активность на треке,
+          как только вы начнёте выполнять упражнения
+      stats_box_learnt_concepts:
+        concepts_learnt:
+          one: Концепция изучена
+          few: Концепции изучены
+          many: Концепций изучено
+          other: Концепций изучено
+      ticker:
+        live_on_track: Прямо сейчас на треке %{track_title}…
+      summary_article:
+        progress_chart:
+          just_started_track: Вы только что начали трек %{track_title}.
+            <strong>Удачи, искатель приключений!</strong>
+          track_completed:
+            Потрясающе, вы прошли весь трек!! <strong>Какое
+            достижение! 👏</strong>
+          through_track_html:
+            Вы прошли <em>%{completed_percentage}%</em>
+            трека %{track_title}.
+          completed_icon_alt: Завершено
+          status:
+            completed: Завершено
+            in_progress: В процессе
+            available: Доступно
+            locked: Заблокировано
+            total_exercises: Всего упражнений
+        trophy_cabinet:
+          title: "Шкаф трофеев %{track_title}"
+          subtitle_html: "Разблокируйте достижения по мере прохождения трека. %{learn_more_link}"
+          learn_more: Узнать больше
+        intro_video:
+          title: Краткое введение в %{track_title}
+          description:
+            Погрузитесь в %{track_title} вместе с Эриком, который исследует основные возможности
+            и решает интересное упражнение.
+        forum_section:
+          title: С форума…
+          latest_by: Последнее от %{poster_username}
+          explore_forum_link: Изучить форум %{track_title}
+        docs_section:
+          title: Застряли? Загляните в нашу документацию…
+        momentum_section:
+          title: Ваш темп
+          description:
+            Постоянство, ключ к прогрессу. Поставьте себе реалистичную цель,
+            к которой будете стремиться каждую неделю, и отслеживайте последние 8 недель здесь.
+          avg_exercises_completed_per_week: Среднее число упражнений, выполненных за неделю

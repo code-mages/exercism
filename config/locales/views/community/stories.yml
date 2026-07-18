@@ -12,3 +12,17 @@ en:
         description:
           Listen to the stories of those who have built, contributed to, and
           learnt from Exercism.
+ru:
+  community:
+    stories:
+      show:
+        back_to_community: Назад к сообществу
+        watch_on_youtube: Смотреть на Youtube
+        more_stories:
+          title: Больше историй от нашего сообщества
+          description: Слушайте, учитесь и вдохновляйтесь участниками нашего сообщества.
+      index:
+        title: Послушайте истории нашего сообщества
+        description:
+          Послушайте истории тех, кто создавал Exercism, вносил в него вклад и
+          учился на нём.

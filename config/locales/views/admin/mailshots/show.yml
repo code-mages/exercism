@@ -1,0 +1,46 @@
+en:
+  admin:
+    mailshots:
+      show:
+        slug: 'Slug: %{slug}'
+        subject: 'Subject: %{subject}'
+        preference_key: 'Preference Key: %{key}'
+        num_sends: 'Num Sends: %{count}'
+        created_at: 'Created at: %{date}'
+        test_sent: 'Test Sent?: %{answer}'
+        'yes': 'Yes'
+        'no': 'No'
+        sent_to_audiences: Sent to audiences
+        sending_options: Sending Options
+        send_test: Send test
+        send_to_audience_confirm: Are you sure you want to send it to this audience?
+        send_to_audience: Send to audience
+        edit_mailshot: Edit this mailshot
+        preview_html: Preview HTML
+        preview_text: Preview Text
+        destroy_mailshot: Destroy this mailshot
+        destroy_confirm: 'Are you sure? Destroy %{slug}?'
+        back_to_all: Back to all mailshots
+ru:
+  admin:
+    mailshots:
+      show:
+        slug: 'Слаг: %{slug}'
+        subject: 'Тема: %{subject}'
+        preference_key: 'Ключ предпочтений: %{key}'
+        num_sends: 'Количество отправок: %{count}'
+        created_at: 'Создано: %{date}'
+        test_sent: 'Тестовое отправлено?: %{answer}'
+        'yes': 'Да'
+        'no': 'Нет'
+        sent_to_audiences: Отправлено аудиториям
+        sending_options: Параметры отправки
+        send_test: Отправить тест
+        send_to_audience_confirm: Вы уверены, что хотите отправить это данной аудитории?
+        send_to_audience: Отправить аудитории
+        edit_mailshot: Редактировать эту рассылку
+        preview_html: Предпросмотр HTML
+        preview_text: Предпросмотр текста
+        destroy_mailshot: Удалить эту рассылку
+        destroy_confirm: 'Вы уверены? Удалить %{slug}?'
+        back_to_all: Назад ко всем рассылкам

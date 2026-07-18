@@ -3,3 +3,8 @@ en:
     unlocks:
       new:
         resend_unlock_instructions: Resend unlock instructions
+ru:
+  devise:
+    unlocks:
+      new:
+        resend_unlock_instructions: Повторно отправить инструкции по разблокировке

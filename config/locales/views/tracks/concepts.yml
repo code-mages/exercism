@@ -81,3 +81,94 @@ en:
           unlock_practice_exercises:
             one: Unlock 1 more exercise to practice %{concept_name}
             other: Unlock %{count} more exercises to practice %{concept_name}
+ru:
+  tracks:
+    concepts:
+      index:
+        meta_title: "Ключевые концепции %{track_title} на Exercism"
+        meta_description: Изучите и освойте %{num_concepts} ключевых концепций в
+          %{track_title} на Exercism.
+        external_cta:
+          title: Освойте %{num_concepts} ключевых концепций в %{track_title}
+          description: Все рассматриваемые концепции объясняются в контексте
+            парадигм и соглашений конкретного языка.
+          button: Присоединиться к треку %{track_title}
+          join_button: Присоединиться к треку %{track_title}
+        page_header:
+          title: Ваш путь по %{track_title}
+          description: Изучайте и осваивайте концепции, чтобы достичь свободного владения %{track_title}.
+      tooltip:
+        summary:
+          in: в
+          exercises_locked:
+            one: 1 упражнение
+            few: "%{count} упражнения"
+            many: "%{count} упражнений"
+            other: "%{count} упражнений"
+          exercises_completed: "%{num_completed}/%{num_total} %{count} выполнено"
+        status_tag:
+          locked: Заблокировано
+          mastered: Освоено
+        info:
+          locked_prerequisite: Изучите %{prerequisite_names}, чтобы разблокировать эту концепцию.
+          locked_tutorial: Завершите "Hello, World!", чтобы разблокировать концепции.
+          mastered: Вы освоили %{concept_name}!
+          learnt: Вы изучили %{concept_name}.
+          available: "%{concept_name} доступна для изучения."
+          locked:
+            prerequisite: Изучите %{prerequisite_names}, чтобы разблокировать эту концепцию.
+            hello_world: Завершите "Hello, World!", чтобы разблокировать концепции.
+          mastered_message: Вы освоили %{concept_name}!
+          learnt_message: Вы изучили %{concept_name}.
+          available_message: "%{concept_name} доступна для изучения."
+        explore_button: Изучить концепцию
+        header:
+          summary:
+            title:
+              in_text: в
+            num_exercises:
+              locked:
+                one: 1 упражнение
+                few: "%{count} упражнения"
+                many: "%{count} упражнений"
+                other: "%{count} упражнений"
+              completed: "%{num_completed}/%{count} выполнено"
+          status_tag:
+            locked: Заблокировано
+            mastered: Освоено
+        explore_concept_button: Изучить концепцию
+      show:
+        header:
+          breadcrumbs:
+            tracks: Треки
+            syllabus: Программа
+          concept_info:
+            in: в
+            exercises_count:
+              one: 1 упражнение
+              few: "%{count} упражнения"
+              many: "%{count} упражнений"
+              other: "%{count} упражнений"
+        mastered_heading:
+          text: Вы освоили %{concept_name} в %{track_title}.
+          explore_link: Изучить больше концепций
+        about:
+          title: О концепции %{concept_name}
+          learn_more_links:
+            title: Узнать больше
+            external_link_aria_label: (внешняя ссылка)
+        extra_info:
+          edit_via_github: Редактировать через GitHub
+          github_link_aria_label: Ссылка открывается в новом окне или вкладке
+        learnt:
+          learnt_concept_message: Вы изучили %{concept_name}!
+          mastered_concept_message: Вы освоили %{concept_name}!
+          practice_concept_message: Практиковать %{concept_name}
+        learn:
+          learn_concept_message: Изучить %{concept_name}
+          practice_locked_bar_aria_label: Практика заблокирована
+          unlock_practice_exercises:
+            one: Разблокируйте ещё 1 упражнение, чтобы практиковать %{concept_name}
+            few: Разблокируйте ещё %{count} упражнения, чтобы практиковать %{concept_name}
+            many: Разблокируйте ещё %{count} упражнений, чтобы практиковать %{concept_name}
+            other: Разблокируйте ещё %{count} упражнений, чтобы практиковать %{concept_name}

@@ -1,0 +1,144 @@
+en:
+  challenges:
+    "12in23":
+      month_label: Month 12 of #12in23
+      title: It's December Diversions! ✨
+      intro: >-
+        This month for #12in23 we're exploring these.
+        We're digging into the following languages: ColdFusion, Groovy, Lua, VimScript and Wren, with interviews and live streaming and lots of fun exercises for you to complete!
+      video_heading: Start by watching our December Diversions overview video  👉
+      video_description: Our introductory video gives a quick overview to the month, explores how these languages are different, looks at where they're useful, and finally gives a quick comparison between the featured languages this month.
+      video_cta: Take a watch and leave a comment!
+      learn_earn_heading: Learn and Earn (the badge)!
+      learn_earn_description: Earn the December Diversions badge for completing and publishing 5 exercises in one of the following languages.
+      syllabus_prefix: Consider starting with a language with a syllabus (
+      syllabus_suffix: ).
+      recommended_intro: "You can solve any exercises in these tracks to get the badge, but we recommend the following as interesting challenges to approach in these languages:"
+      exercise_all_your_base_title: 'All Your Base:'
+      exercise_all_your_base_desc: Convert a number, represented as a sequence of digits, to another base.
+      exercise_flatten_array_title: 'Flatten Array:'
+      exercise_flatten_array_desc: Take a nested collection and return a single, non-nested collection.
+      exercise_queen_attack_title: 'Queen Attack:'
+      exercise_queen_attack_desc: Determine whether two queens on a chess board can attack each other.
+      exercise_dnd_character_title: 'DND Character:'
+      exercise_dnd_character_desc: Randomly generate Dungeons & Dragons characters.
+      exercise_run_length_encoding_title: 'Run-Length Encoding:'
+      exercise_run_length_encoding_desc: Implement run-length encoding and decoding.
+      learn_from_others_heading: Learn from others… 🎥
+      learn_from_others_intro: Throughout the month we'll have interviews, walkthroughs from Exercism track contributors, and live streams of the community solving exercises. Our streaming team is really growing so definitely check out what's on!
+      subscribe_prefix: Subscribe to our
+      twitch_channel: Twitch Channel
+      and: and
+      youtube_channel: YouTube Channel
+      subscribe_suffix: to not miss out!
+      schedule_note: There's also a schedule at the top right of this page.
+      join_conversation_heading: Join the conversation… 💬
+      conversation_prefix: Join in the conversation by using the
+      forum_tag: '#12in23 tag on our forums'
+      conversation_discord_prefix: chatting on our
+      discord_server: Discord Server
+      conversation_hashtag_prefix: or using the
+      conversation_hashtag_suffix: hashtag around social media!
+      streaming_schedule_heading: Upcoming Streaming Schedule
+      streaming_schedule_intro: This schedule is regularly updated. All events will stream on our
+      streaming_schedule_subscribe: '- subscribe so not to miss out!'
+      times_utc: All times in UTC.
+      how_it_works_heading: How does #12in23 work?
+      how_it_works_description: Each month has a different theme and featured languages. Solve exercises in a featured language during that month. Check out our two introductory videos for more details!
+      video_thumbnail_alt: A video thumbnail
+      video_hows_it_going: How's your #12in23 going?
+      video_official_calendar: The Official #12in23 Calendar
+      track_progress_note: Track your progress at the bottom of the page.
+      donate_heading: Enjoying #12in23? Please donate 🙏
+      donate_description: We keep Exercism free so that anyone can use it. But we rely on the generosity of people that could afford it to make that possible. If you're enjoying #12in23 and are financially able, please consider donating to keep Exercism going!
+      donate_now: Donate now
+      year_badge_heading: The year-long #12in23 badge
+      year_badge_description: At the end of the year we'll be awarding an exclusive badge to anyone who completes all the featured exercises in the correct paradigms. You can complete the exercise any time during 2023.
+      year_badge_hover_prefix: Hover over the exercises below or view
+      this_forum_post: this forum post
+      year_badge_hover_suffix: for more details.
+      published_exercises: Published Exercises
+      badge_progress_count: (%{earned} / %{total} so far)
+      solved_in: Solved in %{track}
+      completed: Completed
+      solve_in: Solve %{slug} in %{tracks}
+      no_solutions: You've not yet submitted any valid solutions.
+      progress_heading: Your #12in23 Progress
+      progress_intro: >-
+        Below you'll see a list of all the languages you've used during 2023.
+        Aim to complete 12 languages by the end of the year!
+      progress_cta: Submit 5 exercises (not including "Hello World") in a track to tick off that language!
+      exercises_completed: "%{count} exercises completed"
+      exercises_completed_of: "%{count} / 5 exercises completed"
+ru:
+  challenges:
+    "12in23":
+      month_label: Месяц 12 из #12in23
+      title: Пришло время December Diversions! ✨
+      intro: >-
+        В этом месяце в рамках #12in23 мы исследуем вот что.
+        Мы погружаемся в следующие языки: ColdFusion, Groovy, Lua, VimScript и Wren, с интервью, прямыми трансляциями и множеством увлекательных упражнений, которые вам предстоит решить!
+      video_heading: Начните с просмотра нашего обзорного видео о December Diversions  👉
+      video_description: Наше вводное видео даёт краткий обзор месяца, показывает, чем эти языки отличаются друг от друга, где они полезны, и в конце сравнивает языки, представленные в этом месяце.
+      video_cta: Посмотрите и оставьте комментарий!
+      learn_earn_heading: Учитесь и зарабатывайте (значок)!
+      learn_earn_description: Получите значок December Diversions за выполнение и публикацию 5 упражнений на одном из следующих языков.
+      syllabus_prefix: Стоит начать с языка, у которого есть учебный план (
+      syllabus_suffix: ).
+      recommended_intro: "Чтобы получить значок, вы можете решать любые упражнения в этих треках, но мы рекомендуем следующие как интересные задачи для этих языков:"
+      exercise_all_your_base_title: 'All Your Base:'
+      exercise_all_your_base_desc: Преобразуйте число, представленное последовательностью цифр, в другую систему счисления.
+      exercise_flatten_array_title: 'Flatten Array:'
+      exercise_flatten_array_desc: Возьмите вложенную коллекцию и верните одну плоскую коллекцию.
+      exercise_queen_attack_title: 'Queen Attack:'
+      exercise_queen_attack_desc: Определите, могут ли два ферзя на шахматной доске атаковать друг друга.
+      exercise_dnd_character_title: 'DND Character:'
+      exercise_dnd_character_desc: Случайным образом сгенерируйте персонажей Dungeons & Dragons.
+      exercise_run_length_encoding_title: 'Run-Length Encoding:'
+      exercise_run_length_encoding_desc: Реализуйте кодирование и декодирование методом длин серий.
+      learn_from_others_heading: Учитесь у других… 🎥
+      learn_from_others_intro: В течение месяца у нас будут интервью, разборы от контрибьюторов треков Exercism и прямые трансляции того, как сообщество решает упражнения. Наша команда стримеров активно растёт, так что обязательно посмотрите, что происходит!
+      subscribe_prefix: Подпишитесь на наш
+      twitch_channel: канал Twitch
+      and: и
+      youtube_channel: канал YouTube
+      subscribe_suffix: чтобы ничего не пропустить!
+      schedule_note: В правом верхнем углу этой страницы также есть расписание.
+      join_conversation_heading: Присоединяйтесь к обсуждению… 💬
+      conversation_prefix: Присоединяйтесь к обсуждению, используя
+      forum_tag: тег #12in23 на нашем форуме
+      conversation_discord_prefix: общаясь в нашем
+      discord_server: Discord-сервере
+      conversation_hashtag_prefix: или используя хэштег
+      conversation_hashtag_suffix: в социальных сетях!
+      streaming_schedule_heading: Ближайшее расписание трансляций
+      streaming_schedule_intro: Это расписание регулярно обновляется. Все события транслируются на нашем
+      streaming_schedule_subscribe: '- подпишитесь, чтобы ничего не пропустить!'
+      times_utc: Всё время указано в UTC.
+      how_it_works_heading: Как работает #12in23?
+      how_it_works_description: У каждого месяца своя тема и свои избранные языки. Решайте упражнения на избранном языке в течение соответствующего месяца. Посмотрите два наших вводных видео, чтобы узнать больше!
+      video_thumbnail_alt: Превью видео
+      video_hows_it_going: Как продвигается ваш #12in23?
+      video_official_calendar: Официальный календарь #12in23
+      track_progress_note: Отслеживайте свой прогресс внизу страницы.
+      donate_heading: Нравится #12in23? Поддержите нас 🙏
+      donate_description: Мы делаем Exercism бесплатным, чтобы им мог пользоваться каждый. Но это возможно благодаря щедрости тех, кто может себе это позволить. Если вам нравится #12in23 и у вас есть финансовая возможность, пожалуйста, поддержите нас, чтобы Exercism продолжал работать!
+      donate_now: Поддержать сейчас
+      year_badge_heading: Годовой значок #12in23
+      year_badge_description: В конце года мы вручим эксклюзивный значок каждому, кто выполнит все избранные упражнения в правильных парадигмах. Вы можете выполнить упражнение в любое время в течение 2023 года.
+      year_badge_hover_prefix: Наведите курсор на упражнения ниже или посмотрите
+      this_forum_post: этот пост на форуме
+      year_badge_hover_suffix: чтобы узнать больше.
+      published_exercises: Опубликованные упражнения
+      badge_progress_count: (%{earned} / %{total} на данный момент)
+      solved_in: Решено в %{track}
+      completed: Завершено
+      solve_in: Решите %{slug} в %{tracks}
+      no_solutions: Вы ещё не отправили ни одного корректного решения.
+      progress_heading: Ваш прогресс #12in23
+      progress_intro: >-
+        Ниже вы увидите список всех языков, которые использовали в 2023 году.
+        Стремитесь освоить 12 языков к концу года!
+      progress_cta: Отправьте 5 упражнений (не считая "Hello World") в треке, чтобы отметить этот язык!
+      exercises_completed: "%{count} упражнений выполнено"
+      exercises_completed_of: "%{count} / 5 упражнений выполнено"

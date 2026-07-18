@@ -1,0 +1,59 @@
+ru:
+  user_reputation_tokens:
+    exercise_author:
+      1: >
+        Вы создали упражнение <strong>%{exercise_title}</strong>
+    exercise_contribution:
+      1: >
+        Вы внесли вклад в упражнение <strong>%{exercise_title}</strong>
+    concept_author:
+      1: >
+        Вы создали концепцию <strong>%{concept_name}</strong>
+    concept_contribution:
+      1: >
+        Вы внесли вклад в концепцию <strong>%{concept_name}</strong>
+    exercise_article_author:
+      1: >
+        Вы написали статью <strong>%{article_title}</strong> для упражнения <strong>%{exercise_title}</strong>
+    exercise_article_contribution:
+      1: >
+        Вы внесли вклад в статью <strong>%{article_title}</strong> для упражнения <strong>%{exercise_title}</strong>
+    exercise_approach_author:
+      1: >
+        Вы написали подход <strong>%{approach_title}</strong> для упражнения <strong>%{exercise_title}</strong>
+    exercise_approach_contribution:
+      1: >
+        Вы внесли вклад в подход <strong>%{approach_title}</strong> для упражнения <strong>%{exercise_title}</strong>
+    exercise_approach_introduction_author:
+      1: >
+        Вы написали введение к подходам для упражнения <strong>%{exercise_title}</strong>
+    exercise_approach_introduction_contribution:
+      1: >
+        Вы внесли вклад во введение к подходам для упражнения <strong>%{exercise_title}</strong>
+    code_contribution:
+      1: >
+        Вы создали <strong>PR#%{pr_number}</strong> в <strong>%{repo}</strong>: %{pr_title}
+    code_review:
+      1: >
+        Вы проверили <strong>PR#%{pr_number}</strong> в <strong>%{repo}</strong>: %{pr_title}
+    code_merge:
+      1: >
+        Вы влили <strong>PR#%{pr_number}</strong> в <strong>%{repo}</strong>: %{pr_title}
+    mentored:
+      1: >
+        Вы наставляли <strong>%{student_handle}</strong> по упражнению <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>
+    published_solution:
+      1: >
+        Вы опубликовали своё решение упражнения <strong>%{exercise_title}</strong> в треке <strong>%{track_title}</strong>
+    issue_author:
+      1: >
+        Вы открыли <strong>issue#%{issue_number}</strong> в <strong>%{repo}</strong>: %{issue_title}
+    arbitrary:
+      1: >
+        %{reason}
+    automation_feedback_author:
+      1: >
+        Вы написали отзыв для автоматизации по упражнению <strong>%{exercise_title}</strong>
+    automation_feedback_editor:
+      1: >
+        Вы отредактировали отзыв для автоматизации по упражнению <strong>%{exercise_title}</strong>

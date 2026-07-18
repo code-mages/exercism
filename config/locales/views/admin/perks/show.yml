@@ -1,0 +1,30 @@
+en:
+  admin:
+    perks:
+      show:
+        perk_title: "Perk %{name}#%{id}"
+        status: "Status:"
+        num_clicks: "Num Clicks: %{count}"
+        preview_text: "Preview Text:"
+        general_offer: "General offer"
+        insiders_offer: "Insiders offer"
+        url: "URL: %{value}"
+        offer_summary: "Offer Summary: %{value}"
+        button_text: "Button Text: %{value}"
+        offer_details: "Offer Details: %{value}"
+        back_to_partner: "Back to partner"
+ru:
+  admin:
+    perks:
+      show:
+        perk_title: "Перк %{name}#%{id}"
+        status: "Статус:"
+        num_clicks: "Число кликов: %{count}"
+        preview_text: "Текст превью:"
+        general_offer: "Общее предложение"
+        insiders_offer: "Предложение для Insiders"
+        url: "URL: %{value}"
+        offer_summary: "Краткое описание предложения: %{value}"
+        button_text: "Текст кнопки: %{value}"
+        offer_details: "Детали предложения: %{value}"
+        back_to_partner: "Назад к партнёру"

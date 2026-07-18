@@ -1,8 +1,8 @@
 .lg-container
-  %h1.text-h1 Editing mailshot
+  %h1.text-h1= t('.editing_mailshot')
   = render "form", mailshot: @mailshot, communication_preferences_keys: @communication_preferences_keys
   %br/
   %div
-    = link_to "Manage this mailshot", @amailshot
+    = link_to t('.manage_this_mailshot'), @amailshot
     |
-    = link_to "Back to mailshots", admin_mailshots_path
+    = link_to t('.back_to_mailshots'), admin_mailshots_path

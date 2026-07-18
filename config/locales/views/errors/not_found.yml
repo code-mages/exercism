@@ -3,3 +3,8 @@ en:
     not_found:
       title: Page not found
       description: Looks like we can’t find that page. Sorry!
+ru:
+  errors:
+    not_found:
+      title: Страница не найдена
+      description: Похоже, мы не можем найти эту страницу. Извините!

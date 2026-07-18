@@ -5,3 +5,10 @@ en:
       meta_description: Explore the different ways to solve %{ps_data_title}.
       title: "%{exercise_title} approaches"
       back_to_exercise: ← Back to the exercise
+ru:
+  generic_exercises:
+    approaches:
+      meta_title: Изучите разные способы решения %{ps_data_title} на Exercism
+      meta_description: Изучите разные способы решения %{ps_data_title}.
+      title: "Подходы к %{exercise_title}"
+      back_to_exercise: ← Назад к упражнению

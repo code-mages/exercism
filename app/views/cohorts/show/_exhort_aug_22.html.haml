@@ -4,7 +4,7 @@
       .icons.flex.items-center.mb-24.md:mb-36.self-center
         = graphical_icon "exercism-face"
         %span 💙
-        = image_tag user_track.track.icon_url, alt: "Elixir"
+        = image_tag user_track.track.icon_url, alt: t('.elixir_alt')
 
       %h1.text-h0.text-center.mb-12.md:mb-16= t('.intro_cohort', cohort_name: cohort.name)
       %p.text-p-2xlarge= t('.exhort_intro')

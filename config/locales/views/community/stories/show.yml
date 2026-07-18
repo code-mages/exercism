@@ -1,0 +1,18 @@
+en:
+  community:
+    stories:
+      show:
+        back_to_community: Back to Community
+        watch_on_youtube: Watch on YouTube
+        more_stories:
+          title: More Stories
+          description: Watch more inspiring interviews from the Exercism community.
+ru:
+  community:
+    stories:
+      show:
+        back_to_community: Назад в сообщество
+        watch_on_youtube: Смотреть на YouTube
+        more_stories:
+          title: Больше историй
+          description: Смотрите больше вдохновляющих интервью из сообщества Exercism.

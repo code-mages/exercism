@@ -1,0 +1,14 @@
+en:
+  admin:
+    insiders:
+      index:
+        insiders: Insiders
+        num_subscribers: 'Num Subscribers:'
+        total_recurring_donations: 'Total recurring donations:'
+ru:
+  admin:
+    insiders:
+      index:
+        insiders: Инсайдеры
+        num_subscribers: 'Число подписчиков:'
+        total_recurring_donations: 'Всего регулярных пожертвований:'

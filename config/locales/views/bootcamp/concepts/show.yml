@@ -1,0 +1,16 @@
+en:
+  bootcamp:
+    concepts:
+      show:
+        all_concepts: All Concepts
+        subconcepts: Subconcepts
+        exercises: Exercises
+        exercises_description: These exercises have been designed to help you practice this concept.
+ru:
+  bootcamp:
+    concepts:
+      show:
+        all_concepts: Все концепции
+        subconcepts: Подконцепции
+        exercises: Упражнения
+        exercises_description: Эти упражнения созданы, чтобы помочь вам попрактиковаться в этой концепции.

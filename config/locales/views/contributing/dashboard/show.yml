@@ -1,0 +1,64 @@
+en:
+  contributing:
+    dashboard:
+      show:
+        methods_section:
+          header:
+            title: Ways to contribute
+          method:
+            proofread_and_update:
+              title: Proofread and update
+              tag: Beginner
+              description: Help us keep our content accurate and up to date by proofreading and fixing existing exercises.
+            improve_content:
+              title: Improve content
+              tag: Intermediary
+              description: Make our exercises better by improving their instructions, tests and example solutions.
+            create_new_content:
+              title: Create new content
+              tag: Advanced
+              description: Design and build brand new concept and practice exercises for our tracks.
+            develop_test_runner:
+              title: Develop a test runner
+              tag: Project
+              description: Build the tooling that automatically runs the tests for solutions submitted to a track.
+            develop_analyzer:
+              title: Develop an analyzer
+              tag: Project
+              description: Build the tooling that automatically analyzes solutions and provides feedback to students.
+            develop_representer:
+              title: Develop a representer
+              tag: Project
+              description: Build the tooling that normalizes solutions so mentors can give feedback more efficiently.
+ru:
+  contributing:
+    dashboard:
+      show:
+        methods_section:
+          header:
+            title: Способы помочь проекту
+          method:
+            proofread_and_update:
+              title: Вычитка и обновление
+              tag: Начальный
+              description: Помогите поддерживать точность и актуальность контента, вычитывая и исправляя существующие упражнения.
+            improve_content:
+              title: Улучшение контента
+              tag: Средний
+              description: Сделайте наши упражнения лучше, улучшая их инструкции, тесты и примеры решений.
+            create_new_content:
+              title: Создание нового контента
+              tag: Продвинутый
+              description: Проектируйте и создавайте новые концептуальные и практические упражнения для наших треков.
+            develop_test_runner:
+              title: Разработка тест-раннера
+              tag: Проект
+              description: Создайте инструмент, который автоматически запускает тесты для решений, отправленных в трек.
+            develop_analyzer:
+              title: Разработка анализатора
+              tag: Проект
+              description: Создайте инструмент, который автоматически анализирует решения и даёт обратную связь студентам.
+            develop_representer:
+              title: Разработка представителя
+              tag: Проект
+              description: Создайте инструмент, который нормализует решения, чтобы менторы могли давать обратную связь эффективнее.

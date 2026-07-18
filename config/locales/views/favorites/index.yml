@@ -1,0 +1,26 @@
+en:
+  favorites:
+    index:
+      title: Your Favorites
+      intro_html: >-
+        Star your favorite solutions as you use Exercism, then come back here to learn from them at any time.
+        What solutions can you find that
+        <strong class="font-semibold">impress, inspire or excite you?</strong>
+      insider_benefit_html: Favorites is one of the benefits of your %{insiders_link} membership.
+      insiders_link_text: Exercism Insiders
+      unlock_prompt: Unlock the full Favorites functionality with
+      upgrade_link_text: Upgrade your account
+      unlock_suffix: to store more than 10 favourites and add searching and filtering!
+ru:
+  favorites:
+    index:
+      title: Ваше избранное
+      intro_html: >-
+        Отмечайте звёздочкой любимые решения, пока пользуетесь Exercism, а затем возвращайтесь сюда, чтобы учиться на них в любое время.
+        Какие решения вы можете найти, которые
+        <strong class="font-semibold">впечатляют, вдохновляют или увлекают вас?</strong>
+      insider_benefit_html: Избранное - одно из преимуществ вашего членства %{insiders_link}.
+      insiders_link_text: Exercism Insiders
+      unlock_prompt: Откройте полную функциональность избранного вместе с
+      upgrade_link_text: Улучшите свой аккаунт
+      unlock_suffix: чтобы хранить более 10 избранных решений, а также добавить поиск и фильтрацию!

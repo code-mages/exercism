@@ -1,0 +1,14 @@
+en:
+  devise:
+    registrations:
+      new:
+        exercism_logo_alt: Exercism's Logo
+        tagline: Code practice and mentorship for everyone
+        sign_up_with_github: Sign Up with GitHub
+ru:
+  devise:
+    registrations:
+      new:
+        exercism_logo_alt: Логотип Exercism
+        tagline: Практика кода и наставничество для всех
+        sign_up_with_github: Зарегистрироваться через GitHub

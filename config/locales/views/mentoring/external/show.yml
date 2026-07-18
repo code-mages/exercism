@@ -1,0 +1,34 @@
+en:
+  mentoring:
+    external:
+      show:
+        share_knowledge_heading: Share your knowledge and help the world learn
+        share_knowledge_description: Mentoring on Exercism is a wonderful way to give back to the community and help others grow as developers. It's rewarding, fun, and
+        earns_reputation: earns you reputation.
+        unsure_mentor: Not sure if you'd be a good mentor? If you can program, you can mentor. We'll guide you through the process.
+        signup_button: Sign up
+        login_button: Log in
+        why_mentor_heading: Why mentor on Exercism?
+        challenge_knowledge_heading: Challenge your knowledge
+        challenge_knowledge_description: Explaining concepts to others is one of the best ways to deepen your own understanding and spot gaps in your knowledge.
+        provide_opportunity_heading: Provide opportunity
+        provide_opportunity_description: Help people from all backgrounds gain the skills and confidence they need to build a career in software.
+        develop_soft_skills_heading: Develop your soft skills
+        develop_soft_skills_description: Practice communication, empathy and patience, skills that make you a better developer and colleague.
+ru:
+  mentoring:
+    external:
+      show:
+        share_knowledge_heading: Делитесь знаниями и помогайте миру учиться
+        share_knowledge_description: Наставничество на Exercism, замечательный способ отблагодарить сообщество и помочь другим расти как разработчикам. Это полезно, интересно и
+        earns_reputation: приносит вам репутацию.
+        unsure_mentor: Не уверены, что из вас выйдет хороший наставник? Если вы умеете программировать, вы можете быть наставником. Мы проведём вас через весь процесс.
+        signup_button: Зарегистрироваться
+        login_button: Войти
+        why_mentor_heading: Зачем становиться наставником на Exercism?
+        challenge_knowledge_heading: Проверьте свои знания
+        challenge_knowledge_description: Объяснение концепций другим, один из лучших способов углубить собственное понимание и найти пробелы в знаниях.
+        provide_opportunity_heading: Дайте возможность
+        provide_opportunity_description: Помогите людям с любым опытом получить навыки и уверенность, нужные для карьеры в разработке.
+        develop_soft_skills_heading: Развивайте гибкие навыки
+        develop_soft_skills_description: Тренируйте общение, эмпатию и терпение, навыки, которые делают вас лучшим разработчиком и коллегой.

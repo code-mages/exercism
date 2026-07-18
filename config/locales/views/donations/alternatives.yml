@@ -9,3 +9,14 @@ en:
       jeremy: Jeremy
       paypal_button: Donate with Paypal
       github_sponsors_button: Donate via GitHub Sponsors
+ru:
+  donations:
+    alternatives:
+      heading: Ищете другой платёжный сервис?
+      text_html: >
+        Сейчас в качестве альтернативных платёжных сервисов мы поддерживаем
+        Paypal и GitHub Sponsors. Свяжитесь с <a href="%{jeremy_url}">Jeremy</a>,
+        если есть другой сервис, который, по вашему мнению, нам стоит добавить.
+      jeremy: Jeremy
+      paypal_button: Пожертвовать через Paypal
+      github_sponsors_button: Пожертвовать через GitHub Sponsors

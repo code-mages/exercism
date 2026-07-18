@@ -1,0 +1,10 @@
+en:
+  bootcamp:
+    dashboard:
+      exercise:
+        part: 'Part %{num}.'
+ru:
+  bootcamp:
+    dashboard:
+      exercise:
+        part: 'Часть %{num}.'

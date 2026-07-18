@@ -1,0 +1,42 @@
+en:
+  cohorts:
+    show:
+      gohort_aug_22:
+        intro_cohort: "Welcome to the %{cohort_name} cohort!"
+        gohort_intro: Learn Go for free with a supportive community by your side.
+        tell_me_more: Tell me more
+        what_is_gohort: What is a Gohort?
+        gohort_description: "A Gohort is a group of people learning Go together at the same time. Here's how it works:"
+        free_access: Free access to the entire Go track.
+        start_date: Everyone starts on the same date.
+        own_time: Work through the exercises in your own time.
+        pair_or_individual: Pair up with someone or work on your own.
+        commit_sharing: Commit to sharing your progress along the way.
+        notes_programming_experience: This cohort assumes you already have some programming experience.
+        sign_up_below: Sign up below
+        gain_fluency: Gain fluency
+        taste_of_what_youll_learn: Get a taste of what you'll learn
+        track_description: The Go track has %{num_concepts} concepts and %{num_exercises} exercises to help you master the language.
+        mentoring_benefit: Get feedback from experienced mentors as you go.
+        explore_track: Explore the Go track
+ru:
+  cohorts:
+    show:
+      gohort_aug_22:
+        intro_cohort: "Добро пожаловать в поток %{cohort_name}!"
+        gohort_intro: Учите Go бесплатно вместе с дружелюбным сообществом.
+        tell_me_more: Расскажите подробнее
+        what_is_gohort: Что такое Gohort?
+        gohort_description: "Gohort - это группа людей, которые изучают Go вместе и одновременно. Вот как это работает:"
+        free_access: Бесплатный доступ ко всему треку Go.
+        start_date: Все начинают в один и тот же день.
+        own_time: Проходите упражнения в удобном для вас темпе.
+        pair_or_individual: Работайте в паре с кем-то или самостоятельно.
+        commit_sharing: Договоритесь делиться своим прогрессом по ходу дела.
+        notes_programming_experience: Этот поток рассчитан на тех, у кого уже есть опыт программирования.
+        sign_up_below: Записаться ниже
+        gain_fluency: Достигните свободного владения
+        taste_of_what_youll_learn: Попробуйте на вкус то, чему вы научитесь
+        track_description: В треке Go есть %{num_concepts} концепций и %{num_exercises} упражнений, которые помогут вам освоить язык.
+        mentoring_benefit: Получайте обратную связь от опытных менторов по ходу обучения.
+        explore_track: Изучить трек Go

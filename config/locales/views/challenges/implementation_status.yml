@@ -1,0 +1,26 @@
+en:
+  challenges:
+    implementation_status:
+      heading: Exercises for #48in24
+      key_to_symbols: Key to Symbols
+      legend_featured: "💜 = Featured in #48in24"
+      legend_present: "✅ = Present on Track"
+      legend_missing_html: "❌ = Missing from Track (%{link})"
+      legend_do_not_implement: "⛔ = Do not implement on this Track"
+      please_add_it: Please add it!
+      want_to_implement: Want to implement one of the missing exercises?
+      start_with_html: Start with %{link}.
+      this_video_and_docs: this video and docs
+ru:
+  challenges:
+    implementation_status:
+      heading: Упражнения для #48in24
+      key_to_symbols: Обозначения
+      legend_featured: "💜 = В подборке #48in24"
+      legend_present: "✅ = Есть в треке"
+      legend_missing_html: "❌ = Отсутствует в треке (%{link})"
+      legend_do_not_implement: "⛔ = Не реализовывать в этом треке"
+      please_add_it: Пожалуйста, добавьте его!
+      want_to_implement: Хотите реализовать одно из недостающих упражнений?
+      start_with_html: Начните с %{link}.
+      this_video_and_docs: этого видео и документации

@@ -1,0 +1,12 @@
+en:
+  about:
+    testimonials:
+      meta_title: "Exercism's Impact"
+      meta_description: "See the impact Exercism has had on people learning to code around the world, in their own words."
+      heading: The impact Exercism has on people around the world
+ru:
+  about:
+    testimonials:
+      meta_title: "Влияние Exercism"
+      meta_description: "Узнайте, какое влияние Exercism оказал на людей, которые учатся программировать по всему миру, их собственными словами."
+      heading: Как Exercism влияет на людей по всему миру

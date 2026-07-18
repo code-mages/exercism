@@ -1,0 +1,58 @@
+en:
+  mailers:
+    mailshots_mailer:
+      jiki_launch.text:
+        sponsor_banner: Sponsored by ElevenLabs (%{url}). Get 50%% off Creator.
+        greeting: Hi %{handle},
+        intro: 'It''s been a while since I sent an Exercism newsletter! That''s because we''ve been super-busy building our brand new platform for learning to code in the LLM era - Jiki (https://jiki.io). And I''m very excited to tell you that we''re now live and you can sign up today: https://jiki.io'
+        ama_invite: 'If you''d like to know more, I''m hosting an Ask Me Anything to discuss Jiki, Exercism, and the future of coding in general on Saturday 11th July at 12:00 UTC. You can set a reminder on YouTube now: https://www.youtube.com/watch?v=ZYDSF2jtKkg'
+        introducing_heading: INTRODUCING JIKI
+        introducing_body: 'Jiki (https://jiki.io) is a brand new platform by the team behind Exercism. It''s designed for beginners, juniors and vibe-coders wanting to understand what''s going on under the hood. It has two halves:'
+        coding_fundamentals_bullet: '* Coding Fundamentals: The most fun and effective way to get a solid understanding of coding basics, with hundreds of hours of exercises to solve, projects to build, and videos to learn from.'
+        build_with_jeremy_bullet: '* Build with Jeremy: A series of livestreams where I build real products and teach you everything I know along the way, then set you projects where you put that knowledge into action. Even if you''re experienced at coding, this might be a fun way to explore new areas!'
+        pricing_body: 'Jiki is 100%% free to sign up to with Premium options if you want some bonus features. The Coding Fundamentals part is currently available for JavaScript (with Python coming later in the year), and the Build with Jeremy half starts on July 11th (set a reminder here: https://www.youtube.com/watch?v=aEmZE-VnxsQ).'
+        translating_heading: TRANSLATING EXERCISM AND JIKI
+        translating_body: 'I''m also excited to announce that we''re going to be rolling out translations of both Exercism (https://exercism.org) and Jiki (https://jiki.io) to dozens of languages over the next two months. We''ll be hosting a translatathon (like a hackathon but less code and more translating) later in the month.'
+        translator_signed_up: 'You previously signed up to help with translating Exercism. If you''d still like to be involved, please sign up to Jiki and join our forum there, where we''ll be managing this. There''s a category for each language, where you can introduce yourself! I''ll also email you again nearer the translatathon at the end of the month.'
+        translator_invite: 'If you''d like to be involved, please sign up to Jiki and join Jiki''s forum, where we''ll be managing this. I''ll be emailing everyone that joins Jiki with more details later in the month.'
+        elevenlabs_body: 'As part of this, we''re also translating our videos into multiple languages, and for that we''re using ElevenLabs (%{url}). They provide (by far!) the most realistic set of voices, and their APIs make it quick and easy to translate anything. They''re also sponsoring Exercism this quarter.'
+        sponsor_offer_heading: SPONSOR OFFER
+        sponsor_offer_body: 'Made by engineers, for engineers. Use the ElevenLabs API to generate speech, translate audio, or build conversational agents. Build with a full audio stack in one product. Get 50%% off Creator to start building with real AI audio. Claim the offer here: %{url}'
+        exercism_update_heading: AN UPDATE ON EXERCISM
+        exercism_update_body: 'Exercism itself has been going from strength to strength. Our wonderful team of maintainers continue to improve our content and exercises, and our mentors are always there to support you. In the next few days we will hit 3 million users (https://exercism.org/about/impact), which is a huge milestone.'
+        thanks_body: 'I want to thank everyone who''s been part of our journey so far. As the world of coding changes, we''re here to try and help developers keep up to date with the skills they need, and enjoy all that programming has to offer!'
+        signoff: Thanks for reading,
+        signature_name: Jeremy Walker
+        signature_title: Exercism Co-founder
+        why_receiving_heading: Why am I receiving this?
+        why_receiving_body: 'You''re receiving this because you''ve previously signed up to Exercism (%{root_url}) (the free, not-for-profit programming education platform) and are subscribed to our update emails, where we let you know about new things on the site.'
+        unsubscribe_body: You can unsubscribe from this email (%{unsubscribe_url}) or change your notification settings (%{settings_url}) to opt out of some or all emails.
+ru:
+  mailers:
+    mailshots_mailer:
+      jiki_launch.text:
+        sponsor_banner: 'Спонсор выпуска, ElevenLabs (%{url}). Получите скидку 50%% на тариф Creator.'
+        greeting: Привет, %{handle}!
+        intro: 'Давно я не присылал рассылку Exercism! Это потому, что мы были очень заняты созданием нашей новой платформы для обучения программированию в эпоху LLM - Jiki (https://jiki.io). И я очень рад сообщить, что мы уже запустились и вы можете зарегистрироваться прямо сегодня: https://jiki.io'
+        ama_invite: 'Если хотите узнать больше, я провожу сессию вопросов и ответов (Ask Me Anything) про Jiki, Exercism и будущее программирования в целом в субботу 11 июля в 12:00 UTC. Уже сейчас можно поставить напоминание на YouTube: https://www.youtube.com/watch?v=ZYDSF2jtKkg'
+        introducing_heading: ЗНАКОМЬТЕСЬ, JIKI
+        introducing_body: 'Jiki (https://jiki.io) - совершенно новая платформа от команды, стоящей за Exercism. Она создана для новичков, джунов и вайб-кодеров, которые хотят понять, что происходит под капотом. Она состоит из двух частей:'
+        coding_fundamentals_bullet: '* Основы программирования: самый увлекательный и эффективный способ разобраться в базе программирования, с сотнями часов упражнений, проектов для сборки и обучающих видео.'
+        build_with_jeremy_bullet: '* Build with Jeremy: серия стримов, где я создаю реальные продукты и попутно рассказываю всё, что знаю, а затем даю вам проекты, где вы применяете эти знания на практике. Даже если вы опытный разработчик, это может стать интересным способом освоить новые области!'
+        pricing_body: 'Регистрация в Jiki на 100%% бесплатна, а Premium-опции доступны, если вам нужны дополнительные возможности. Часть с основами программирования сейчас доступна для JavaScript (Python появится позже в этом году), а часть Build with Jeremy стартует 11 июля (поставьте напоминание здесь: https://www.youtube.com/watch?v=aEmZE-VnxsQ).'
+        translating_heading: ПЕРЕВОД EXERCISM И JIKI
+        translating_body: 'Я также рад сообщить, что в ближайшие два месяца мы начнём переводить и Exercism (https://exercism.org), и Jiki (https://jiki.io) на десятки языков. Позже в этом месяце мы проведём транслатон (это как хакатон, только меньше кода и больше перевода).'
+        translator_signed_up: 'Ранее вы записывались помочь с переводом Exercism. Если вы всё ещё хотите поучаствовать, пожалуйста, зарегистрируйтесь в Jiki и присоединяйтесь к нашему форуму там, где мы будем всё это координировать. Для каждого языка есть отдельная категория, где вы можете представиться! Я также напишу вам ближе к транслатону в конце месяца.'
+        translator_invite: 'Если вы хотите поучаствовать, пожалуйста, зарегистрируйтесь в Jiki и присоединяйтесь к форуму Jiki, где мы будем всё это координировать. Позже в этом месяце я напишу всем, кто присоединился к Jiki, с более подробной информацией.'
+        elevenlabs_body: 'В рамках этого мы также переводим наши видео на несколько языков и для этого используем ElevenLabs (%{url}). Они предоставляют (безусловно!) самый реалистичный набор голосов, а их API делают перевод чего угодно быстрым и простым. В этом квартале они также спонсируют Exercism.'
+        sponsor_offer_heading: ПРЕДЛОЖЕНИЕ ОТ СПОНСОРА
+        sponsor_offer_body: 'Сделано инженерами для инженеров. Используйте API ElevenLabs, чтобы генерировать речь, переводить аудио или создавать разговорных агентов. Стройте на полном аудиостеке в одном продукте. Получите скидку 50%% на тариф Creator, чтобы начать создавать с настоящим ИИ-аудио. Заберите предложение здесь: %{url}'
+        exercism_update_heading: НОВОСТИ EXERCISM
+        exercism_update_body: 'У самого Exercism дела идут всё лучше и лучше. Наша замечательная команда мейнтейнеров продолжает улучшать контент и упражнения, а наши менторы всегда готовы вас поддержать. В ближайшие дни мы достигнем 3 миллионов пользователей (https://exercism.org/about/impact), и это огромная веха.'
+        thanks_body: 'Хочу поблагодарить всех, кто был частью нашего пути до сих пор. Мир программирования меняется, и мы здесь, чтобы помочь разработчикам оставаться в курсе нужных им навыков и получать удовольствие от всего, что может предложить программирование!'
+        signoff: Спасибо, что читаете,
+        signature_name: Jeremy Walker
+        signature_title: Сооснователь Exercism
+        why_receiving_heading: Почему я получаю это письмо?
+        why_receiving_body: 'Вы получаете это письмо, потому что ранее зарегистрировались на Exercism (%{root_url}) (бесплатной некоммерческой платформе для обучения программированию) и подписаны на наши письма с обновлениями, в которых мы рассказываем о новом на сайте.'
+        unsubscribe_body: Вы можете отписаться от этого письма (%{unsubscribe_url}) или изменить настройки уведомлений (%{settings_url}), чтобы отказаться от части или всех писем.

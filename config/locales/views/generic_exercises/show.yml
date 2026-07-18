@@ -26,3 +26,33 @@ en:
           one: So far you've completed it in 1 language.
           other: So far you've completed it in %{count} languages.
         not_yet_completed: You've not yet completed it in any languages.
+ru:
+  generic_exercises:
+    show:
+      meta_title: Решите %{ps_data_title} на Exercism
+      meta_description:
+        Сможете ли вы решить %{ps_data_title}? Развивайте навыки
+        программирования и решения задач при поддержке нашей команды менторов
+        мирового уровня.
+      deep_dive_section:
+        title: Погрузитесь глубже в %{exercise_title}!
+      instructions_section:
+        title: Инструкции
+        intro_video_text: Посмотрите наше видео "Introduction to Hello, World", чтобы начать 👇
+      source_section:
+        title: Источник
+        explore_source_html: >
+          Изучите <a href="%{source_url}" target="_blank" rel="noopener noreferrer">источник этого упражнения</a>.
+      featured_in_2024_section:
+        challenge_title: "Часть #48in24"
+        challenge_text_html: "%{exercise_title} представлено в рамках
+          %{challenge_link}. Решите его на %{languages}, чтобы получить золотую награду."
+        challenge_link_text: "челлендж #48in24"
+      track_variants_section:
+        title: Попробуйте %{exercise_title} на %{size} разных языках…
+        completed_languages:
+          one: Пока вы решили его на %{count} языке.
+          few: Пока вы решили его на %{count} языках.
+          many: Пока вы решили его на %{count} языках.
+          other: Пока вы решили его на %{count} языках.
+        not_yet_completed: Вы ещё не решили его ни на одном языке.

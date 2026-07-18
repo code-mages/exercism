@@ -49,3 +49,54 @@ en:
         strong_text_1: Totally new?
         strong_text_2: Tutorial Hell?
         explore_button: Get started - it's free!
+ru:
+  layouts:
+    nav:
+      insiders:
+        title: Exercism Insiders
+        tagline: Exercism нужна ваша помощь, чтобы выжить и развиваться!
+        description_html:
+          Поддержите Exercism пожертвованием и получите доступ к закулисью и
+          бонусным возможностям, таким как %{strong_text_1}, %{strong_text_2}, %{strong_text_3},
+          %{strong_text_4} и не только.
+        strong_text_1: тёмная тема
+        strong_text_2: интеграция с ChatGPT
+        strong_text_3: дополнительные слоты для менторства
+        strong_text_4: эксклюзивные значки
+        learn_more_button: Узнать больше
+        non_profit_info:
+          Exercism, это зарегистрированная некоммерческая организация. Все пожертвования
+          идут на работу и улучшение платформы.
+      challenge_48in24:
+        title: "Челлендж #48in24"
+        subtitle:
+          Каждую неделю в 2024 году, новый программистский челлендж, подобранный
+          и сопровождаемый нами!
+        description_p1: Прокачивайте навыки программирования шаг за шагом, неделя за неделей.
+        description_p2:
+          Присоединяйтесь к нашему сообществу, каждую неделю мы разбираем новое упражнение
+          и смотрим, как его можно решить на разных языках и в разных
+          парадигмах.
+        explore_button: "Изучить #48in24"
+        feature_info:
+          На каждую неделю мы выбрали отдельное упражнение с
+          подходами, разборами, видео и не только.
+      tracks:
+        your_recent_tracks: Ваши недавние треки
+        see_all_button: Показать все
+        last_touched: Последняя активность %{time_ago}
+      journey:
+        reputation_label: Репутация
+        badges_label: Значки
+        history_label: История
+        and_more_label: И не только…
+      coding_fundamentals:
+        title: Jiki
+        bubble: Только что запущено!
+        subtitle: Учитесь программировать и создавать в эпоху LLM.
+        description_p1_html:
+          Программирование изменилось. То, как вы учитесь, тоже должно измениться. Jiki, это совершенно новая платформа, созданная, чтобы помочь вам научиться программировать и создавать в эпоху LLM.
+          Рассчитана на <strong>новичков, джуниоров и вайб-кодеров.</strong>.
+        strong_text_1: Совсем новичок?
+        strong_text_2: Застряли в аду туториалов?
+        explore_button: Начать, это бесплатно!

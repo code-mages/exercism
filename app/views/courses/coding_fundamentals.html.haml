@@ -5,44 +5,44 @@
     = image_tag "bootcamp/exercism-face-light.svg", class: 'exercism-face'
     .content.mr-auto
       %strong Exercism
-      %span.hidden.md:inline-block Bootcamps
-    = link_to "Watch first session 👀", "https://www.youtube.com/live/bOAL_EIFwhg&start=1400", class: "first-session hidden md:block", target: "_blank", rel: 'noopener'
-    = link_to "Enroll now 👉", course_start_enrolling_path(@course.slug), class: "button"
+      %span.hidden.md:inline-block= t('.nav.bootcamps')
+    = link_to t('.nav.watch_first_session'), "https://www.youtube.com/live/bOAL_EIFwhg&start=1400", class: "first-session hidden md:block", target: "_blank", rel: 'noopener'
+    = link_to t('.nav.enroll_now'), course_start_enrolling_path(@course.slug), class: "button"
 #nav-sticky.nav
 
 .hero
   .md-container
     .text-center
       %h1.rock-solid
-        Build
-        %strong Rock-Solid
-        Coding Fundamentals
+        = t('.hero.heading_prefix')
+        %strong= t('.hero.heading_strong')
+        = t('.hero.heading_suffix')
       .tagline{ class: "max-w-[650px]" }
-        The
-        %em ultimate
-        way to
-        %strong.font-semibold Learn to Code.
+        = t('.hero.tagline_prefix')
+        %em= t('.hero.tagline_em')
+        = t('.hero.tagline_mid')
+        %strong.font-semibold= t('.hero.tagline_strong')
         %span.inline-block
-          Go from
-          %strong zero to confident
-          in only 12 weeks.
+          = t('.hero.tagline_go_from')
+          %strong= t('.hero.tagline_zero_to_confident')
+          = t('.hero.tagline_in_weeks')
 
     .bubbles
       .bubble
         = image_tag "bootcamp/video-tutorial.svg"
         .text
-          %strong Video
-          tutorials
+          %strong= t('.bubbles.video')
+          = t('.bubbles.tutorials')
       .bubble
         = image_tag "bootcamp/fun.svg"
         .text
-          %strong Fun
-          projects
+          %strong= t('.bubbles.fun')
+          = t('.bubbles.projects')
       .bubble
         = image_tag "bootcamp/help.svg"
         .text
-          Helpful
-          %strong mentors
+          = t('.bubbles.helpful')
+          %strong= t('.bubbles.mentors')
         -#
           - if @has_discount
             .flag= flag_for_country_code(@country_code_2)
@@ -62,7 +62,7 @@
         <script src="https://player.vimeo.com/api/player.js"></script>
 
     .supported-by
-      %h3 Exercism's supporters include:
+      %h3= t('.supported_by.heading')
       .logos
         = image_tag "bootcamp/google.png", class: 'google'
         = image_tag "bootcamp/chicago.svg", class: 'chicago'
@@ -77,129 +77,122 @@
     .flex.flex-col.items-center.gap-40
       .flex.flex-col.items-stretch
         %h2.mb-12
-          Don't know where to start? Stuck in
-          %span.font-semibold.intro-aspiring-coder.rough-highlight tutorial hell?
+          = t('.welcome.tutorial_hell_prefix')
+          %span.font-semibold.intro-aspiring-coder.rough-highlight= t('.welcome.tutorial_hell')
         %p
-          %strong You're not alone!
-          If you've tried learning from other websites or videos and found it's not sticking, or you just feel utterly overwhelmed knowing where to start, then you're not alone!
+          %strong= t('.welcome.not_alone_strong')
+          = t('.welcome.not_alone_text')
         %p
-          The majority of courses out there
-          %strong suck.
-          They promise you the world then massively underdeliver.
-          They're
-          %strong.rough-highlight boring, confusing,
-          and they leave you feeling like
-          %strong you're not cut out for this.
+          = t('.welcome.courses_suck_prefix')
+          %strong= t('.welcome.courses_suck')
+          = t('.welcome.courses_suck_mid')
+          %strong.rough-highlight= t('.welcome.boring_confusing')
+          = t('.welcome.courses_suck_and')
+          %strong= t('.welcome.not_cut_out')
         %p
-          We made this course to fix that.
-          If you're looking for something
-          %strong.font-regular.intro-fun-and-creative.rough-highlight fun and creative
-          where you learn by actually making things, with support when you need it, then this might just be
+          = t('.welcome.made_to_fix_prefix')
+          %strong.font-regular.intro-fun-and-creative.rough-highlight= t('.welcome.fun_and_creative')
+          = t('.welcome.made_to_fix_mid')
           %strong.font-medium
-            %span.intro-you the course for you!
+            %span.intro-you= t('.welcome.course_for_you')
         .flex.flex-col.items-center.mt-8.mb-12.mr-80{ class: "scale-x-[-1]" }
           = image_tag "bootcamp/arrow-1.svg", class: 'bootcamp-arrow-1'
 
     %h3
-      Hi there!
+      = t('.story.hi_there')
       %span.waving-hand
         👋
-      I'm Jeremy, and I've helped over
-      .inline.rough-highlight two million people
-      level up their coding skills.
+      = t('.story.im_jeremy_prefix')
+      .inline.rough-highlight= t('.story.two_million_people')
+      = t('.story.level_up')
     %p
-      But over the last few years, I've seen a really worrying trend...
+      = t('.story.worrying_trend')
     %p
-      More and more people are trying to learn to code (🥳) but they seem to be
-      %strong struggling more than ever (😢).
-      And they're struggling with things that should be pretty straightforward once you've been learning for a while.
-      %strong People just don't seem to be grasping the fundamentals.
+      = t('.story.learning_prefix')
+      %strong= t('.story.struggling_strong')
+      = t('.story.struggling_mid')
+      %strong= t('.story.not_grasping_fundamentals')
 
-    %p So I started reading around to see if I could work out what was going on, and found a crazy statistic.
+    %p= t('.story.crazy_statistic')
     %h3
-      %span.inline.rough-highlight 96% of people who try to learn to code give up
+      %span.inline.rough-highlight= t('.story.give_up_stat')
       🤯
 
-    %p How could it be that so many people were trying to learn to code, but so few were actually succeeding?
-    %p I went investigating… 🕵️
+    %p= t('.story.how_could_it_be')
+    %p= t('.story.investigating')
     %p
-      I watched the
-      %strong most popular YouTube videos (🥱),
-      tried the "best"
-      %strong online courses (😐),
-      and even paid my friends to try to learn so I could see what happened (a mix of 😭😠🤬🙅‍♀️).
+      = t('.story.watched_prefix')
+      %strong= t('.story.youtube_videos')
+      = t('.story.tried_best')
+      %strong= t('.story.online_courses')
+      = t('.story.paid_friends')
 
-    %p I dug into formal research, spoke to my friends in education, and pretty quickly came to a simple conclusion...
+    %p= t('.story.dug_into_research')
 
     %h3
-      %span.inline.rough-highlight The way people are being taught to code is causing them to fail!
+      %span.inline.rough-highlight= t('.story.teaching_causes_fail')
     %p
-      I started coding when I was 8.
-      Back then, YouTube didn't exist. There weren't any "learn to code" websites. I didn't even have the internet.
-      There was basically only one way to learn.
-      %strong Make stuff. Lots of stuff!
+      = t('.story.started_at_8')
+      %strong= t('.story.make_stuff')
 
     .sm:float-right.mt-20.sm:ml-24.sm:mb-24{ class: "xl:mr-[-100px] mr-0" }
       %div{ class: 'border-white border-[8px] rounded-[5px] lg:w-[300px] sm:w-[220px] w-full', style: "box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);" }
         = image_tag "bootcamp/with-rhodri.jpg", class: 'w-[100%] border-[#aaa] border-[1px] rounded-[1px]'
         .text-14.text-center.font-normal.pt-8.px-8{ class: "leading-[140%]" }
-          %span.lg:hidden.inline 1998: Me making the first website I ever got paid for.
-          %span.lg:inline.hidden 1998: Me and Rhodri making the first website we ever got paid for.
+          %span.lg:hidden.inline= t('.story.caption_me_short')
+          %span.lg:inline.hidden= t('.story.caption_me_rhodri')
 
     %p.mt-16
-      And make stuff I did! I started making games and then graduated to making little bots to play against. And as I grew older I made websites for me and my friends, and
-      %span.sm:hidden.inline eventually for customers.
+      = t('.story.made_stuff_prefix')
+      %span.sm:hidden.inline= t('.story.eventually_customers')
       %span.sm:inline.hidden.relative
         %span#eventually-underline.rough-underline.whitespace-nowrap
-          eventually for customers.
+          = t('.story.eventually_customers')
         %span#rhodri.arrow-animation
 
-    %p I created, I played, I experimented. I had fun!
+    %p= t('.story.created_played')
     %p
-      And through this, I got really good.
-      %strong I learned the coder mindset,
-      and I laid the foundations that I've built my whole career on.
+      = t('.story.got_good_prefix')
+      %strong= t('.story.coder_mindset')
+      = t('.story.laid_foundations')
     %p
-      %strong.rough-highlight But that's not how these modern courses teach.
-      Giving you a space to practice and play and experiment is hard.
-      It's much easier to just give you a video to watch, a quiz to take, and a certificate to print out.
+      %strong.rough-highlight= t('.story.not_how_modern')
+      = t('.story.practice_is_hard')
     %p
-      But you won't learn that way.
-      You'll be
-      %strong bored, frustrated,
-      and like most other people, you'll
-      %strong probably quit 😞😡
+      = t('.story.wont_learn_prefix')
+      %strong= t('.story.bored_frustrated')
+      = t('.story.and_like_most')
+      %strong= t('.story.probably_quit')
 
     %h3
-      %span.rough-highlight If you want to get good, master the basics
+      %span.rough-highlight= t('.mastery.get_good_heading')
 
     %p
-      The best coders
-      %strong are not
-      the ones who know the most.
+      = t('.mastery.best_coders_prefix')
+      %strong= t('.mastery.are_not')
+      = t('.mastery.know_the_most')
     %p
-      The best coders are the ones who have
-      %strong.rough-highlight gained a total mastery of the basics.
-      Once you've got the basics down, everything will become easy.
-      You can go and learn whatever you want or need.
+      = t('.mastery.best_coders_are_prefix')
+      %strong.rough-highlight= t('.mastery.total_mastery')
+      = t('.mastery.everything_easy')
     %p
-      And the way to master the basics? Practice, practice, practice.
+      = t('.mastery.how_to_master')
     %p
-      Take on different challenges. Solve different problems. And have fun learning your craft!
+      = t('.mastery.take_challenges')
     %h3
-      %span.rough-highlight Which is why we made this...
+      %span.rough-highlight= t('.mastery.which_is_why')
 
     %p
-      We've made a different type of course. One that teaches you the fundamentals of coding differently. It's focused on getting you
-      %strong building fun things,
-      on solving interesting problems, on learning the coding mindset that will actually get you good at this.
+      = t('.different.made_different_prefix')
+      %strong= t('.different.building_fun')
+      = t('.different.solving_problems')
     %p
-      Within 12 weeks, you'll go from zero to building games like
-      %strong Space Invaders, Tic Tac Toe, and
-      %strong Breakout.
-      You'll be building bots that can solve mazes, and talking to real APIs like
-      %strong ChatGPT
-      to build useful real-world projects.
+      = t('.different.within_12_prefix')
+      %strong= t('.different.games_list_1')
+      %strong= t('.different.games_list_2')
+      = t('.different.building_bots_prefix')
+      %strong= t('.different.chatgpt')
+      = t('.different.real_world')
 
     .grid.grid-cols-4.gap-10.my-16
       = image_tag "bootcamp/space-invaders.gif", class: "w-full border-2 border-bootcamp-purple rounded-[5px]"
@@ -207,161 +200,156 @@
       = image_tag "bootcamp/breakout.gif", class: "w-full border-2 border-bootcamp-purple rounded-[5px]"
       = image_tag "bootcamp/maze.gif", class: "w-full border-2 border-bootcamp-purple rounded-[5px]"
 
-    %p ☝️☝️☝️ You'll make all these in the first 12 weeks!
+    %p= t('.different.make_all_these')
 
     %h3
-      %span.rough-highlight Focusing on what matters.
+      %span.rough-highlight= t('.different.focusing_heading')
 
     %p
-      We've worked really hard to build a course that focusses on the
-      %strong important stuff.
-      We've written our own programming language that gets out of your way and lets you focus on the actual coding.
+      = t('.different.worked_hard_prefix')
+      %strong= t('.different.important_stuff')
+      = t('.different.written_language')
     %p
-      We've made a
-      %strong kickass interface
-      that's really fun and easy to use, but gets you coding fast.
-      Everything is focused on giving you rock solid foundations, that will
-      %strong.rough-highlight make it easy to learn any languages
-      or technologies you want.
+      = t('.different.made_prefix')
+      %strong= t('.different.kickass_interface')
+      = t('.different.fun_easy_mid')
+      %strong.rough-highlight= t('.different.easy_to_learn')
+      = t('.different.or_technologies')
 
     .mt-20.mb-20
       %div{ class: 'border-bootcamp-purple border-[8px] rounded-[5px] w-full', style: "box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);" }
         = image_tag "bootcamp/editor.png", class: 'w-[100%] border-[#aaa] border-[1px] rounded-[1px]'
         .text-17.text-center.font-medium.pt-16.pb-6.px-8.bg-bootcamp-purple.text-white{ class: "leading-[140%] " }
-          %span Our specially designed interface that makes getting started easy!
+          %span= t('.different.editor_caption')
 
     %h3.mt-32
-      %span.rough-highlight Taught in a way that makes sense
+      %span.rough-highlight= t('.taught.makes_sense_heading')
 
     %p
-      I'll teach you coding concepts using analogy and imagery, that will mean your
-      %strong brain actually absorbs
-      the information and understands what's going on.
+      = t('.taught.teach_concepts_prefix')
+      %strong= t('.taught.brain_absorbs')
+      = t('.taught.understands')
 
     .sm:float-right.sm:ml-24.sm:mb-24{ class: "xl:mr-[-100px] mr-0" }
       %div{ class: 'border-white border-[8px] rounded-[5px] lg:w-[300px] sm:w-[220px] w-full', style: "box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);" }
         = image_tag "bootcamp/jiki-slide.png", class: 'w-[100%] border-[#aaa] border-[1px] rounded-[1px]'
         .text-14.text-center.font-normal.pt-8.px-8{ class: "leading-[140%]" }
-          %span This is
-          %strong Jiki.
-          We learn in detail how he runs the code you write!
+          %span= t('.taught.jiki_caption_prefix')
+          %strong= t('.taught.jiki_name')
+          = t('.taught.jiki_caption_suffix')
 
     %p.mt-20
-      There are no abstract concepts in this course.
-      There's no hand-waving.
-      If something is complex, I take my time breaking it down
+      = t('.taught.no_abstract_prefix')
       %span#jiki-underline.rough-underline.whitespace-nowrap
-        until it's clear.
+        = t('.taught.until_clear')
       %span.sm:inline.hidden.relative
         %span#jiki.arrow-animation
 
     %p
-      We've put together over
-      %strong 40 hours of live teaching
-      for you to watch, where you can see me explaining the concepts of programming and answering questions from a real beginner audience.
+      = t('.taught.live_teaching_prefix')
+      %strong= t('.taught.hours_live_teaching')
+      = t('.taught.watch_explaining')
     %p
-      We have a great community of alumni and mentors who are there to help you when you get stuck.
-      And I'll be there too, making sure you get the most out of the course!
+      = t('.taught.community_alumni')
     %p
-      We've designed the course for
-      %strong total beginners
-      and it's entirely focused on
-      %strong learning by doing.
-      You'll be coding from day one, and
-      %strong.font-semibold.rough-highlight you'll be coding a lot.
+      = t('.taught.designed_for_prefix')
+      %strong= t('.taught.total_beginners')
+      = t('.taught.entirely_focused')
+      %strong= t('.taught.learning_by_doing')
+      = t('.taught.coding_from_day_one')
+      %strong.font-semibold.rough-highlight= t('.taught.coding_a_lot')
     %p
-      It's also perfect if you've
-      %strong been coding for a while
-      but you don't feel like you've got a solid grasp on everything yet. About 50% of our students are in that category and love the course.
+      = t('.taught.also_perfect_prefix')
+      %strong= t('.taught.been_coding')
+      = t('.taught.dont_feel_solid')
     %p
-      If that sounds exciting, then
-      %strong I'd love for you to join us! 💙
+      = t('.taught.sounds_exciting_prefix')
+      %strong= t('.taught.love_to_join')
 
 %section#bootcamp
   .lg-container
     .container.syllabus
-      .tag What we cover
+      .tag= t('.syllabus.tag')
       %h2
-        What's on the
-        %strong menu?
+        = t('.syllabus.menu_prefix')
+        %strong= t('.syllabus.menu_strong')
       %p.intro.mb-24.text-balance{ class: 'max-w-[820px]' }
-        The course is split into two halves.
-        The first teaches Coding Fundamentals. The second (optional) part teaches Front-end Web Development.
+        = t('.syllabus.split_two_halves')
 
       .sections
         .section.mb-32
           .flex.flex-row
             .lhs
               %h3.mb-8
-                Coding Fundamentals 🧑‍🔬
-                .bubble Part 1
+                = t('.syllabus.part1_title')
+                .bubble= t('.syllabus.part1_bubble')
 
               .part-intro.mb-20
-                The first half of the course focusses on
-                %span.rough-highlight.font-medium building rock solid foundations.
-                We'll cover all the core concepts in programming and give you tons of exercises and projects to practice with.
+                = t('.syllabus.part1_intro_prefix')
+                %span.rough-highlight.font-medium= t('.syllabus.part1_intro_strong')
+                = t('.syllabus.part1_intro_suffix')
 
               %ul
                 %li
                   = image_tag "bootcamp/understanding.svg"
                   .text
-                    %strong Build a solid understanding
-                    of core programming principles, including flow control, conditionals, data types, functions, and much more, using a beginner-friendly version of JavaScript.
+                    %strong= t('.syllabus.part1_li1_strong')
+                    = t('.syllabus.part1_li1_text')
                 %li
                   = image_tag "bootcamp/confidence.svg"
                   .text
-                    %strong Gain the confidence
-                    to put your knowledge into practice, being able to solve a wide variety of problems, using the right concept at the right time.
+                    %strong= t('.syllabus.part1_li2_strong')
+                    = t('.syllabus.part1_li2_text')
                 %li
                   = image_tag "bootcamp/coders-mind.svg"
                   .text
-                    %strong Develop the Coder's Mind.
-                    You'll notice that your critical thinking, problem solving, and logic skills are all improving.
+                    %strong= t('.syllabus.part1_li3_strong')
+                    = t('.syllabus.part1_li3_text')
             .rhs
               .dates.h3-sideheading.relative
                 = image_tag "bootcamp/calendar.svg"
-                Takes 12-20 weeks
+                = t('.syllabus.part1_duration')
               = image_tag "bootcamp/part-1.png", class: 'w-[350px] -mr-32 -mt-[60px]'
 
         .section.relative
           #part-2-arrow.arrow-animation
           .lhs
             %h3.mb-8
-              Front-End Web Development 🧑‍💻
-              .bubble Part 2
+              = t('.syllabus.part2_title')
+              .bubble= t('.syllabus.part2_bubble')
             .part-intro
-              From April to June, we'll build on the fundamentals and look at
-              %span.rough-highlight.font-medium front-end web development.
-              You'll gain the skills you need to build beautiful, interactive websites and kickstart your career.
+              = t('.syllabus.part2_intro_prefix')
+              %span.rough-highlight.font-medium= t('.syllabus.part2_intro_strong')
+              = t('.syllabus.part2_intro_suffix')
 
             %ul
               %li
                 = image_tag "bootcamp/javascript.svg"
                 .text
-                  %strong Get comfortable with JavaScript.
-                  We'll build on your knowledge from Part 1 by looking at JavaScript programming techniques essential for web development.
+                  %strong= t('.syllabus.part2_li1_strong')
+                  = t('.syllabus.part2_li1_text')
 
               %li
                 = image_tag "bootcamp/html.svg"
                 .text
-                  %strong Learn HTML and CSS.
-                  These two languages are the other fundamentals of web development. You'll learn both and use them to create beautiful websites.
+                  %strong= t('.syllabus.part2_li2_strong')
+                  = t('.syllabus.part2_li2_text')
 
               %li
                 = image_tag "bootcamp/work-locally.svg"
                 .text
-                  %strong Learn Visual Studio Code and Git.
-                  Master these important tools, and how to use them to make your life easier.
+                  %strong= t('.syllabus.part2_li3_strong')
+                  = t('.syllabus.part2_li3_text')
 
               %li
                 = image_tag "bootcamp/portfolio.svg"
                 .text
-                  %strong Build a portfolio of projects.
-                  Create projects to showcase to potential employers while practicing your skills.
+                  %strong= t('.syllabus.part2_li4_strong')
+                  = t('.syllabus.part2_li4_text')
           .rhs
             .dates.h3-sideheading.z-overlay
               = image_tag "bootcamp/calendar.svg"
-              Takes ~12 weeks
+              = t('.syllabus.part2_duration')
             = image_tag "bootcamp/part-2.png", class: 'w-[350px] -mr-32 -mt-[60px]'
 
   .lg-container
@@ -369,104 +357,103 @@
       #portfolio-arrow.arrow-animation
       .flex.flex-col.mb-8{ class: 'lg:flex-row' }
         %h2.mr-auto
-          The
-          %strong 10 Levels
-          of Coding Fundamentals
+          = t('.levels.heading_prefix')
+          %strong= t('.levels.heading_strong')
+          = t('.levels.heading_suffix')
         .h3-sideheading
-          Students normally take 1-2 weeks per level.
+          = t('.levels.sideheading')
       %p.mb-8
-        From day one you'll be building fun things. You'll start by drawing, then animating, then making games, then building intelligence into your programs. Every level has lots of fun challenges!
+        = t('.levels.intro')
       %p.mb-16
-        %strong Here are just a few of the fun things you'll make! 👇
+        %strong= t('.levels.few_things')
 
         .levels
           .level
             = image_tag "bootcamp/penguin.png"
             %h4
-              In
-              %strong level 1
-              you get familiar with
-              %strong coding basics
-              through some drawing puzzles.
+              = t('.levels.level1_prefix')
+              %strong= t('.levels.level1_num')
+              = t('.levels.level1_mid')
+              %strong= t('.levels.level1_strong')
+              = t('.levels.level1_suffix')
 
 
           .level
             = image_tag "bootcamp/flower.gif"
             %h4
-              In
-              %strong level 2
-              you'll learn how to
-              %strong animate flipbook-style
-              using variables and loops.
+              = t('.levels.level2_prefix')
+              %strong= t('.levels.level2_num')
+              = t('.levels.level2_mid')
+              %strong= t('.levels.level2_strong')
+              = t('.levels.level2_suffix')
 
           .level
             = image_tag "bootcamp/space-invaders.gif"
             %h4
-              In
-              %strong level 3
-              you'll start
-              %strong building some intelligence
-              into your code.
+              = t('.levels.level3_prefix')
+              %strong= t('.levels.level3_num')
+              = t('.levels.level3_mid')
+              %strong= t('.levels.level3_strong')
+              = t('.levels.level3_suffix')
 
           .level
             = image_tag "bootcamp/wall.gif"
             %h4
-              In
-              %strong level 4
-              you use
-              %strong repeatable chunks
-              of code eliminate duplication.
+              = t('.levels.level4_prefix')
+              %strong= t('.levels.level4_num')
+              = t('.levels.level4_mid')
+              %strong= t('.levels.level4_strong')
+              = t('.levels.level4_suffix')
 
           .level
             = image_tag "bootcamp/wordle.png"
             %h4
-              %strong Level 5
-              introduces lists, your first
-              %strong compound data type,
-              and Wordle!
+              %strong= t('.levels.level5_num')
+              = t('.levels.level5_mid')
+              %strong= t('.levels.level5_strong')
+              = t('.levels.level5_suffix')
 
           .level
             = image_tag "bootcamp/tic-tac-toe.gif"
             %h4
-              %strong Level 6
-              focusses on
-              %strong coding mindset
-              and introduces
-              your first major project!
+              %strong= t('.levels.level6_num')
+              = t('.levels.level6_mid')
+              %strong= t('.levels.level6_strong')
+              = t('.levels.level6_suffix')
 
           .level
             = image_tag "bootcamp/maze.gif"
             %h4
-              In
-              %strong Level 7
-              you unlock
-              %strong dictionaries
-              making Emoji Collector possible.
+              = t('.levels.level7_prefix')
+              %strong= t('.levels.level7_num')
+              = t('.levels.level7_mid')
+              %strong= t('.levels.level7_strong')
+              = t('.levels.level7_suffix')
 
           .level
             = image_tag "bootcamp/weather.gif"
             %h4
-              In
-              %strong Level 8
-              you take a big step, learning
-              %strong Object Oriented Programming.
+              = t('.levels.level8_prefix')
+              %strong= t('.levels.level8_num')
+              = t('.levels.level8_mid')
+              %strong= t('.levels.level8_strong')
 
           .level
           .level
             = image_tag "bootcamp/breakout.gif"
             %h4
-              %strong Level 9
-              introduces
-              %strong methods
-              and you start to feel like a real coder.
+              %strong= t('.levels.level9_num')
+              = t('.levels.level9_mid')
+              %strong= t('.levels.level9_strong')
+              = t('.levels.level9_suffix')
 
           .level
             = image_tag "bootcamp/dreaming-house.gif"
             %h4
-              And finally, in
-              %strong Level 10
-              you start to make your own
-              %strong classes.
+              = t('.levels.level10_prefix')
+              %strong= t('.levels.level10_num')
+              = t('.levels.level10_mid')
+              %strong= t('.levels.level10_strong')
 
   .lg-container
     .subcontainer
@@ -475,17 +462,17 @@
         .flex.lg:flex-row.flex-col.items-center.gap-0
 
           .lhs.flex.flex-col.items-start
-            .bubble Celebrate your new skills!
-            %h3.mb-8 Get a verified certificate
-            %p.text-16.mb-12 At the end of the Bootcamp, we'll issue you an official certificate to recognise your participation and completion of the course.
-            %p.text-16 Show off your skills on your resume and in the Certifications section of your LinkedIn profile.
+            .bubble= t('.certificate.bubble')
+            %h3.mb-8= t('.certificate.heading')
+            %p.text-16.mb-12= t('.certificate.text1')
+            %p.text-16= t('.certificate.text2')
 
           = image_tag "bootcamp/certificate-arrow.png", class: 'w-[100px] self-middle mt-[100px] mb-10 mr-40 my-10 lg:block hidden'
           .certificate.flex-shrink-0.mt-24.lg:mt-0
             = image_tag "bootcamp/certificate.png", class: 'lg:w-[350px] w-100 rounded-[5px]', style: 'box-shadow: 0 0 20px rgba(0,0,0,0.4)'
         .linkedin
           = image_tag "bootcamp/linkedin.png"
-          %span Share your certificate in your network
+          %span= t('.certificate.linkedin')
 
 = render "testimonials", quotes: @quotes
 
@@ -494,30 +481,29 @@
   .rhs-bg
   .lg-container
     %h2.text-center.font-normal
-      Choose
-      your
-      %strong.font-semibold Path
+      = t('.signup.choose_your_prefix')
+      %strong.font-semibold= t('.signup.choose_your_path')
     %p.intro.text-balance
-      Depending on whether you want to learn web development or some other speciality such as data science, we have
-      %strong.font-medium two different options.
+      = t('.signup.intro_prefix')
+      %strong.font-medium= t('.signup.two_options')
     - if @has_discount
       #discount-bar
         .flag= flag_for_country_code(@country_code_2)
         - if @hello.present?
           %strong #{@hello}!
-        Everyone in #{@country_name} gets a
-        %strong.inline #{@discount_percentage}% discount!
+        = t('.signup.everyone_in', country_name: @country_name)
+        %strong.inline= t('.signup.discount_percent', discount_percentage: @discount_percentage)
 
     - elsif @using_vpn
       #vpn-bar
         %span.inline-block
-          🌐 Many countries have
-          %strong discounts
-          that make this course more affordable
-          %strong globally! 🌐
-        Please
-        %strong disable your VPN
-        and refresh the page to see if you're eligible.
+          = t('.signup.vpn_many_countries_prefix')
+          %strong= t('.signup.vpn_discounts')
+          = t('.signup.vpn_more_affordable')
+          %strong= t('.signup.vpn_globally')
+        = t('.signup.vpn_please')
+        %strong= t('.signup.vpn_disable')
+        = t('.signup.vpn_refresh')
 
     .grid.md:grid-cols-2.grid-cols-1.gap-40
       .container
@@ -526,59 +512,60 @@
           .flex.flex-col.items-start
             .bubbles
               .bubble
-                Only
-                %strong Part 1
+                = t('.signup.course_bubble_prefix')
+                %strong= t('.signup.course_bubble_strong')
 
             %h2
-              Learn to
-              %strong Code
-            %p Build rock solid coding fundamentals, applicable to every speciality.
+              = t('.signup.course_title_prefix')
+              %strong= t('.signup.course_title_strong')
+            %p= t('.signup.course_subtitle')
           - if @has_discount
             .price
               %strong $#{@course_price}
               %span{ class: "text-[26px] line-through text-[#777] font-normal" } $#{@course.full_price}
             .discount
 
-              Includes a
-              %strong #{@discount_percentage}% discount
-              for our friends in
+              = t('.signup.includes_discount_prefix')
+              %strong= t('.signup.discount_percent_included', discount_percentage: @discount_percentage)
+              = t('.signup.friends_in')
               %span.flag= flag_for_country_code(@country_code_2)
-              #{@country_name}!
+              = "#{@country_name}!"
           - else
             .price
               %strong $#{@course.full_price}
         .body
           .point
-            %h4 Who's it for? 🧑🏽
+            %h4= t('.signup.course_whos_it_for_heading')
             %p
-              Anyone looking to develop rock solid
-              %strong coding fundamentals.
-              Designed for
-              %strong absolute beginners
-              or new devs wanting to reinforce their solid foundations.
+              = t('.signup.course_whos_it_for_prefix')
+              %strong= t('.signup.course_whos_it_for_strong1')
+              = t('.signup.course_whos_it_for_mid')
+              %strong= t('.signup.course_whos_it_for_strong2')
+              = t('.signup.course_whos_it_for_suffix')
 
           .point
-            %h4 Duration ⏳
-            %p.mb-12 3 months, part-time.
+            %h4= t('.signup.course_duration_heading')
+            %p.mb-12= t('.signup.course_duration_text')
 
           .point
-            %h4 Where you'll be by the end 🎉
+            %h4= t('.signup.course_end_heading')
             %p
-              You'll have a solid understanding of
-              %strong coding fundamentals.
-              You'll be ready to learn vocational skills like app development or
-              %strong data science.
+              = t('.signup.course_end_prefix')
+              %strong= t('.signup.course_end_strong1')
+              = t('.signup.course_end_mid')
+              %strong= t('.signup.course_end_strong2')
+              = t('.signup.course_end_suffix')
 
           .point
-            %h4 What's included? 🔎
+            %h4= t('.signup.course_included_heading')
             %ul.list-disc
-              %li Over 35 hours of live teaching (that you can watch back forever).
-              %li Weekly sessions to answer your questions.
-              %li Hundreds of hours of exercises and projects, in a specially designed interface for beginners.
-              %li A dedicated community Discord server.
-              %li An official certificate of completion.
+              %li= t('.signup.course_included_1')
+              %li= t('.signup.course_included_2')
+              %li= t('.signup.course_included_3')
+              %li= t('.signup.course_included_4')
+              %li= t('.signup.course_included_5')
 
-          = link_to "Learn Coding Fundamentals 👉", course_start_enrolling_path(@course.slug, course_or_bundle: "course"), class: "button"
+          = link_to t('.signup.course_button'), course_start_enrolling_path(@course.slug, course_or_bundle: "course"), class: "button"
 
       .container
         .header
@@ -586,12 +573,12 @@
 
           .bubbles
             .bubble
-              The
-              %strong Complete Course
+              = t('.signup.bundle_bubble_prefix')
+              %strong= t('.signup.bundle_bubble_strong')
           %h2
-            Become a
-            %strong Front-End Dev
-          %p Learn the fundamentals then specialise in front-end web development.
+            = t('.signup.bundle_title_prefix')
+            %strong= t('.signup.bundle_title_strong')
+          %p= t('.signup.bundle_subtitle')
 
           -# %p.mb-12{class: "!font-semibold"} One-time payment. Lifetime access. Money-back guarantee.
           - if @has_discount
@@ -599,134 +586,129 @@
               %strong $#{@bundle_price}
               %span{ class: "text-[26px] line-through text-[#777] font-normal" } $#{@bundle.full_price}
             .discount
-              Includes a
-              %strong #{@discount_percentage}% discount
-              for our friends in
+              = t('.signup.includes_discount_prefix')
+              %strong= t('.signup.discount_percent_included', discount_percentage: @discount_percentage)
+              = t('.signup.friends_in')
               %span.flag= flag_for_country_code(@country_code_2)
-              #{@country_name}.
+              = "#{@country_name}."
           - else
             .price
               %strong $#{@bundle.full_price}
         .body
           .point
-            %h4 Who's it for? 🧑🏽
+            %h4= t('.signup.bundle_whos_it_for_heading')
             %p
-              Anyone looking to become a
-              %strong web developer.
-              Designed for
-              %strong absolute beginners
-              or new devs wanting to reinforce their solid foundations.
+              = t('.signup.bundle_whos_it_for_prefix')
+              %strong= t('.signup.bundle_whos_it_for_strong1')
+              = t('.signup.bundle_whos_it_for_mid')
+              %strong= t('.signup.bundle_whos_it_for_strong2')
+              = t('.signup.bundle_whos_it_for_suffix')
 
           .point
-            %h4 Duration ⏳
-            %p.mb-12 6 months, part-time.
+            %h4= t('.signup.bundle_duration_heading')
+            %p.mb-12= t('.signup.bundle_duration_text')
 
           .point
-            %h4 Where you'll be by the end 🎉
+            %h4= t('.signup.bundle_end_heading')
             %p
-              You'll be confident creating
-              %strong website front-ends from scratch
-              and well on your way to a career in web development.
+              = t('.signup.bundle_end_prefix')
+              %strong= t('.signup.bundle_end_strong')
+              = t('.signup.bundle_end_suffix')
 
           .point
-            %h4 What's included? 🔎
+            %h4= t('.signup.bundle_included_heading')
             %ul.list-disc
-              %li Everything in Part 1.
-              %li An extra 35 hours of live teaching.
-              %li More weekly sessions to answer your questions.
-              %li More exercises and projects, this time for you to solve on your own laptop.
-              %li A second official certificate of completion to put on your resume.
+              %li= t('.signup.bundle_included_1')
+              %li= t('.signup.bundle_included_2')
+              %li= t('.signup.bundle_included_3')
+              %li= t('.signup.bundle_included_4')
+              %li= t('.signup.bundle_included_5')
 
-          = link_to "Learn Coding & Front-End 👉", course_start_enrolling_path(@course.slug, course_or_bundle: "bundle"), class: "button"
+          = link_to t('.signup.bundle_button'), course_start_enrolling_path(@course.slug, course_or_bundle: "bundle"), class: "button"
 
 = image_tag "bootcamp/divider.png", class: 'w-[100px] mx-auto my-64'
 
 %section#exercism
   .lg-container
-    %h2 What makes Exercism special?
+    %h2= t('.exercism.heading')
     %p.intro.text-balance
-      Exercism is a
-      %strong.font-medium longstanding nonprofit
-      that's helped over
-      %strong.font-medium.whitespace-nowrap 2 million people
-      level-up their coding skills.
+      = t('.exercism.intro_prefix')
+      %strong.font-medium= t('.exercism.nonprofit')
+      = t('.exercism.helped_over')
+      %strong.font-medium.whitespace-nowrap= t('.exercism.two_million')
+      = t('.exercism.level_up')
     %ul
       %li
         .emoji 🧑‍💻
         .count 2,100,000
-        .title Exercism students
-        %p We've grown entirely by word of mouth. Good friends tell their friends about Exercism!
+        .title= t('.exercism.students_title')
+        %p= t('.exercism.students_text')
 
       %li
         .emoji 👏
         .count 85,000
-        .title Testimonials
-        %p We've been one of the most trusted resources for coding education for over a decade.
+        .title= t('.exercism.testimonials_title')
+        %p= t('.exercism.testimonials_text')
 
       %li
         .emoji 🧩
         .count 47,082,260
-        .title Exercises Solved
-        %p Our exercises are trusted by the coding community as the perfect way to level up!
+        .title= t('.exercism.exercises_title')
+        %p= t('.exercism.exercises_text')
 
       %li
         .emoji 👯
         .count 384,906
-        .title Mentoring Sessions
-        %p Our unique mentoring program is one of the best ways to get tips from experts!
+        .title= t('.exercism.mentoring_title')
+        %p= t('.exercism.mentoring_text')
 
 = image_tag "bootcamp/divider.png", class: 'w-[100px] mx-auto my-64'
 
 %section#faqs
   .background
   .md-container.relative
-    %h2 Frequently Asked Questions
+    %h2= t('.faqs.heading')
     %p.intro
-      These are the questions we get asked the most. Your question not answered here?
-      = link_to "Ping us an email!", "mailto:bootcamp@exercism.org"
+      = t('.faqs.intro')
+      = link_to t('.faqs.ping_email'), "mailto:bootcamp@exercism.org"
 
     .faq
-      %h4 When will I get access and how long for?
-      %p You gain access to the full Coding Fundamentals course as soon as your pay. You'll have access for life.
-      %p The Front-End Fundamentals course will run live from April 26th till mid-July. You'll also have access to the course materials beyond that date for life.
+      %h4= t('.faqs.q_access')
+      %p= t('.faqs.a_access_1')
+      %p= t('.faqs.a_access_2')
 
     .faq
-      %h4 How much time will I need to spend each week on the course?
-      %p You can spend as long or as little as you like. In general, people who spend an 1-2 hours per day on the course get through each Level in 1-2 weeks.
+      %h4= t('.faqs.q_time')
+      %p= t('.faqs.a_time')
 
     .faq
-      %h4 How hard is the course? How smart do I need to be?
-      %p The course is designed to be accessible to everyone, regardless of your background. We don't believe you need to be "smart" to learn to code. But you do need to put in the effort and be willing to be challenged.
-      %p But if you put in the effort, ask for help when you get stuck, and embrace the challenge, you'll be amazed at how far you can go in a short time.
+      %h4= t('.faqs.q_hard')
+      %p= t('.faqs.a_hard_1')
+      %p= t('.faqs.a_hard_2')
 
     .faq
-      %h4 Are there group activities and do I have to take part?
+      %h4= t('.faqs.q_group')
       %p
-        There are no formal group activities.
-        However, we encourage everyone to share their journey and explore programming together in our Discord server.
-        Chatting about code is one of the best ways to improve your programming skills.
-        Many of our students get together (virtually) for unofficial study groups - so you might like to join some of them!
-        You can choose to opt-out of the community aspects if you prefer.
+        = t('.faqs.a_group')
 
     .faq
-      %h4 What specific programming language is taught.
+      %h4= t('.faqs.q_language')
       %p
-        We're teaching you a special beginner-friendly language called JikiScript.
-        It's a full, normal programming language, but it's been designed specifically to ensure you don't get bogged down by syntax or language oddities.
+        = t('.faqs.a_language_1')
       %p
-        Once you've learnt JikiScript and understand the core programming concepts, you'll find it straight-forward to learn Python, JavaScript, or any other language using Exercism's free courses.
+        = t('.faqs.a_language_2')
 
     .faq
-      %h4 Are the exercises graded or just for practice? Is there any form of assessment?
-      %p Most exercises can be completed by reaching a certain objective. However, they are not graded and your code isn't assessed or marked. We will explore some (anonymised) code in the weekly sessions and discuss how it could be improved, but our philosophy is that you should be in the trenches coding, not worrying about passing tests.
+      %h4= t('.faqs.q_graded')
+      %p= t('.faqs.a_graded')
 
     .faq
-      %h4 I've signed up but not received anything.
-      %p Firstly, please check your spam. If you still can't find anything, please email #{link_to 'bootcamp@exercism.org', 'mailto:bootcamp@exercism.org', class: 'font-semibold text-[blue]'} and we'll check everything for you!
+      %h4= t('.faqs.q_nothing')
+      %p= t('.faqs.a_nothing_html', email: link_to('bootcamp@exercism.org', 'mailto:bootcamp@exercism.org', class: 'font-semibold text-[blue]')).html_safe
 
 %section#legals
   .md-container.text-center
     %strong Exercism
-    is a registered
-    %strong not-for-profit organisation.
+    = t('.legals.registered')
+    %strong= t('.legals.nonprofit')
     %span.whitespace-nowrap © #{Date.current.year} Exercism

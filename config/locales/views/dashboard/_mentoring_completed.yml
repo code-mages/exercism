@@ -3,3 +3,8 @@ en:
     mentoring_completed:
       title: No mentoring discussions left
       description: Looks like your workspace and the queue have been cleared. Woohoo!
+ru:
+  dashboard:
+    mentoring_completed:
+      title: Обсуждений для менторинга больше не осталось
+      description: Похоже, ваше рабочее пространство и очередь очищены. Ура!

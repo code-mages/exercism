@@ -17,3 +17,22 @@ en:
         course_bubble_strong: This Course
         bundle_bubble_prefix: The
         bundle_bubble_strong: Complete Bundle
+ru:
+  courses:
+    start_enrolling:
+      tag: Давайте начнём программировать!
+      heading_prefix: Записаться на
+      intro_strong: Отличное решение!
+      intro_text: Мы очень рады, что вы решили к нам присоединиться! 🎉
+      form:
+        name_label: Имя
+        name_placeholder: Ваше имя
+        email_label: Email
+        email_placeholder: Введите ваш адрес электронной почты
+        package_label: Выберите ваш пакет
+        button_text: Перейти к курсу
+      package_selector:
+        course_bubble_prefix: Только
+        course_bubble_strong: Этот курс
+        bundle_bubble_prefix: Полный
+        bundle_bubble_strong: комплект

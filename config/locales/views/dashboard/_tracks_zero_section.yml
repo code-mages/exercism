@@ -6,3 +6,11 @@ en:
       description_part_2: "%{num_tracks} language tracks,"
       description_part_3: from the every day to downright odd, start your code practice now.
       browse_tracks_link: Browse %{num_tracks} language tracks
+ru:
+  dashboard:
+    tracks_zero_section:
+      title: Вы ещё не присоединились ни к одному треку.
+      description_part_1: Выбирайте из более чем
+      description_part_2: "%{num_tracks} языковых треков,"
+      description_part_3: от повседневных до совсем необычных, начните практиковаться в коде прямо сейчас.
+      browse_tracks_link: Посмотреть %{num_tracks} языковых треков

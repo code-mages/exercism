@@ -5,3 +5,10 @@ en:
       featuring_exercise: We're featuring %{exercise_title}
       watch_deep_dive: 👇 Watch our Deep Dive with Erik & Jeremy!
       explore_all_link: "Explore all of #48in24"
+ru:
+  dashboard:
+    48in24:
+      week_of_challenge: "Неделя %{week} челленджа #48in24"
+      featuring_exercise: В центре внимания %{exercise_title}
+      watch_deep_dive: 👇 Смотрите наш подробный разбор с Эриком и Джереми!
+      explore_all_link: "Смотреть весь #48in24"

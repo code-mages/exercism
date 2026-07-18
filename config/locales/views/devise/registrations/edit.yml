@@ -1,0 +1,36 @@
+en:
+  devise:
+    registrations:
+      edit:
+        edit_resource: Edit %{resource_name}
+        pending_confirmation_message: "Currently waiting confirmation for: %{unconfirmed_email}"
+        password_hint: (leave blank if you don't want to change it)
+        password_minimum_characters:
+          one: 1 character minimum
+          other: "%{count} characters minimum"
+        current_password_hint: (we need your current password to confirm your changes)
+        update_button: Update
+        cancel_account_title: Cancel my account
+        unhappy_prompt: Unhappy?
+        cancel_my_account_button: Cancel my account
+        cancel_account_confirm: Are you sure?
+        back_link: Back
+ru:
+  devise:
+    registrations:
+      edit:
+        edit_resource: Редактировать %{resource_name}
+        pending_confirmation_message: "Сейчас ожидается подтверждение для: %{unconfirmed_email}"
+        password_hint: (оставьте пустым, если не хотите его менять)
+        password_minimum_characters:
+          one: минимум 1 символ
+          few: "минимум %{count} символа"
+          many: "минимум %{count} символов"
+          other: "минимум %{count} символа"
+        current_password_hint: (нам нужен ваш текущий пароль, чтобы подтвердить изменения)
+        update_button: Обновить
+        cancel_account_title: Удалить мой аккаунт
+        unhappy_prompt: Что-то не так?
+        cancel_my_account_button: Удалить мой аккаунт
+        cancel_account_confirm: Вы уверены?
+        back_link: Назад

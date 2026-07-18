@@ -3,3 +3,8 @@ en:
     user_preferences:
       general_preferences:
         heading: General Preferences
+ru:
+  settings:
+    user_preferences:
+      general_preferences:
+        heading: Общие настройки

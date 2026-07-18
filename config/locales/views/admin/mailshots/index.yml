@@ -1,0 +1,22 @@
+en:
+  admin:
+    mailshots:
+      index:
+        mailshots: Mailshots
+        slug: Slug
+        subject: Subject
+        send_count: Send count
+        details: Details
+        edit: Edit
+        new_mailshot: New mailshot
+ru:
+  admin:
+    mailshots:
+      index:
+        mailshots: Рассылки
+        slug: Slug
+        subject: Тема
+        send_count: Число отправок
+        details: Подробнее
+        edit: Редактировать
+        new_mailshot: Новая рассылка

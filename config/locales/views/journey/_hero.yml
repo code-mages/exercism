@@ -7,3 +7,12 @@ en:
       title: Your Journey
       subtitle: Exploring your time on Exercism
       more_tracks: + %{count} more
+ru:
+  journey:
+    hero:
+      privacy:
+        private: Приватно
+        explanation: Кроме вас, это никто не видит
+      title: Ваш путь
+      subtitle: Обзор вашего времени на Exercism
+      more_tracks: + ещё %{count}

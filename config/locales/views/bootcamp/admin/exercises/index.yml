@@ -1,0 +1,24 @@
+en:
+  bootcamp:
+    admin:
+      exercises:
+        index:
+          title: Exercises
+          level: 'Level %{level_idx}'
+          project: Project
+          exercise: Exercise
+          stale: '# Stale'
+          active: '# Active'
+          done: '# Done'
+ru:
+  bootcamp:
+    admin:
+      exercises:
+        index:
+          title: Упражнения
+          level: 'Уровень %{level_idx}'
+          project: Проект
+          exercise: Упражнение
+          stale: '# Устаревшие'
+          active: '# Активные'
+          done: '# Завершённые'

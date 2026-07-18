@@ -205,3 +205,226 @@ en:
           description:
             Unlock more exercises as you progress. They’re great practice and
             fun to do!
+ru:
+  tracks:
+    exercises:
+      show:
+        view_track_documentation: Посмотреть документацию трека
+        action_box_solve_locked:
+          title: Решите упражнение
+        action_box_locked:
+          title: Разблокируйте %{exercise_title}
+          description_html: >
+            Это упражнение сейчас недоступно для начала.
+            Выполните следующие упражнения, чтобы разблокировать
+            <span class="font-semibold">%{exercise_title}</span> или
+            %{activate_practice_mode}.
+          activate_practice_mode_text: отключите режим обучения
+        action_box_publish_locked:
+          title: Опубликуйте своё решение
+        action_solve_locked:
+          title: Решите упражнение
+        action_box_solve:
+          solve_button: "Решить"
+          start_button: "Начать"
+          continue_work: "Продолжите работу над этим упражнением."
+          available_to_start: "Это упражнение доступно для начала."
+          solve_description: "Решите его во встроенном редакторе Exercism в браузере или локально в своём окружении, используя наш CLI для загрузки и отправки."
+          via_editor_heading: "Через редактор Exercism"
+          start_in_editor_button: "Начать в редакторе"
+          work_locally_heading: "Работать локально (через CLI)"
+          learn_more_link: "Узнать больше о локальном решении упражнений"
+        action_box_dig_deeper_community_solutions:
+          explored_community_solutions: Изученные решения сообщества
+          explore_community_solutions: Изучить решения сообщества
+          explore_text:
+            Посмотрите, как другие решили это упражнение, и узнайте новые идеи
+            в нашем разделе
+          community_solutions_link: Решения сообщества
+        action_box_solved:
+          title: Упражнение решено
+          description_html: "Вы отправили %{link} для этого упражнения. Вы можете отправлять новые итерации по мере развития своих знаний или если хотите поэкспериментировать с новыми идеями."
+          iteration_word:
+            one: "итерацию"
+            few: "итерации"
+            many: "итераций"
+            other: "итерации"
+        action_box_dig_deeper_concept_exercise:
+          title: Копните глубже
+          description: Не существует слишком много правильных способов решить наши обучающие упражнения, но всё же полезно посмотреть, как другие подходят к упражнению.
+        action_box_dig_deeper_locked:
+          title: Копните глубже
+        action_box_join_track:
+          title: Готовы начать %{exercise_title}?
+          description_html: "Присоединяйтесь к треку %{track_title}, где вас уже ждут %{links_html}!"
+          description_with_two_links_html: "Присоединяйтесь к треку %{track_title}, где вас уже ждут %{concepts_link} и %{exercises_link}!"
+          description_with_one_link_html: "Присоединяйтесь к треку %{track_title}, где вас уже ждут %{exercises_link}!"
+          concept_plural:
+            one: 1 концепция
+            few: "%{count} концепции"
+            many: "%{count} концепций"
+            other: "%{count} концепции"
+          exercise_plural:
+            one: 1 упражнение
+            few: "%{count} упражнения"
+            many: "%{count} упражнений"
+            other: "%{count} упражнения"
+          join_track_button: Присоединиться к треку %{track_title}
+          see_all_exercises_button: Посмотреть все упражнения трека %{track_title}
+        action_box_complete_locked:
+          title: Завершите своё решение
+        action_box_dig_deeper_mentoring:
+          code_review_finished:
+            title: "Ревью кода завершено"
+            description_html: "Ваше обсуждение с наставником @%{mentor_handle} завершено. Вы можете посмотреть обсуждение или начать новое во %{link}."
+            link_text: "вкладке «Ревью кода»"
+          code_review_in_progress:
+            title: "Ревью кода в процессе"
+            mentor_finished_description: "Ваш разговор с @%{mentor_handle} завершён. Пожалуйста, найдите время, чтобы оставить отзыв."
+            finish_discussion_button: "Завершить обсуждение"
+            awaiting_mentor_description: "Ваше решение проверяет @%{mentor_handle}. Вы получите уведомление, когда он ответит."
+            go_to_code_review_link: "Перейти к ревью кода"
+            your_turn_description_html: "<strong class='font-semibold'>Ваша очередь ответить.</strong> Пообщайтесь с наставником, задавайте вопросы и дорабатывайте свой код. Не забудьте поблагодарить его за то, что нашёл время помочь вам."
+            go_to_code_review_button: "Перейти к ревью кода"
+          code_review_requested:
+            title: "Ревью кода запрошено"
+            description: "Ваше решение отправлено нашим наставникам на проверку. Оно в очереди, и один из них скоро возьмёт его и начнёт разговор."
+            view_mentoring_request_link: "Посмотреть запрос на наставничество"
+          request_code_review:
+            title: "Запросить ревью кода"
+            description: "Получите помощь от настоящего наставника, который поможет выявить пробелы в ваших знаниях. Это на 100% бесплатно."
+            button: "Запросить ревью кода"
+        action_box_dig_deeper_practice_exercise:
+          title: "Копните глубже"
+          description: "Решение упражнения - это лишь первый шаг к совершенствованию. Теперь время учиться у других. Эти шаги необязательны, но они значительно расширят ваши знания."
+        action_box_completed:
+          exercise_published:
+            title: "Упражнение опубликовано"
+            description: "Вы опубликовали своё упражнение, чтобы другие могли учиться на нём. Спасибо! Вы можете посмотреть и управлять своим опубликованным решением ниже. Вы можете"
+            change_published_iteration_button: "изменить опубликованную итерацию"
+            or_text: "или"
+            unpublish_solution_button: "снять решение с публикации."
+          exercise_completed:
+            title: "Упражнение выполнено"
+            description: "Вы отметили это упражнение как выполненное."
+          publish_exercise:
+            title: "Опубликуйте своё упражнение"
+            description: "Опубликуйте своё упражнение, чтобы заработать репутацию и помочь другим найти новые советы и приёмы."
+        action_box_dig_deeper_approaches:
+          viewed_approach:
+            title: "Просмотренный подход"
+            description_html: "Изучите различные распространённые подходы к этому упражнению в нашем %{link}."
+            link_text: "разделе «Копните глубже»"
+          discover_approaches:
+            title: Откройте разные подходы
+            description_html: "Изучите различные распространённые подходы к этому упражнению в нашем %{link}."
+            link_text: разделе «Копните глубже»
+        action_box_dig_deeper_youtube_video:
+          title: Посмотрите наш подробный разбор
+        action_box_locked_by_hello_world:
+          unlock_title: "Разблокируйте %{exercise_title}"
+          unlock_description_html: "Это упражнение сейчас недоступно для начала. Выполните <strong>Hello, World!</strong>, чтобы разблокировать это упражнение."
+        instructions:
+          introduction_heading: "Введение"
+          hello_world_intro_html: "«Hello, World!» поможет вам написать немного кода на %{track_title} и познакомиться с рабочим процессом Exercism. <strong>Его выполнение открывает остальную часть трека %{track_title}.</strong>"
+          watch_video_prompt: 'Посмотрите наше видео «Introduction to Hello, World», чтобы начать 👇'
+          instructions_heading: "Инструкции"
+          source_heading: "Источник"
+          explore_source_html: >
+            Изучите <a href="%{source_url}" target="_blank" rel="noopener noreferrer">источник этого упражнения</a>.
+          edit_via_github: "Редактировать через GitHub"
+          new_window_icon_alt: "Ссылка открывается в новом окне или вкладке"
+        action_box_complete:
+          tutorial:
+            title: Завершите упражнение
+            paragraph_1:
+              Как только вы закончите с упражнением, отметьте его как выполненное. Вы
+              также можете опубликовать своё решение, чтобы поделиться с другими при
+              завершении упражнения.
+            paragraph_2:
+              Отметка Hello World как выполненного открывает первые упражнения
+              трека.
+          concept_exercise:
+            title: Закончили с упражнением?
+            paragraph_1:
+              Чувствуете, что понимаете концепции, которым учит это упражнение? Отметьте
+              его как выполненное, чтобы двигаться дальше.
+          general:
+            title: Закончили с упражнением?
+            paragraph:
+              Прошли это упражнение настолько, насколько хотели? Вычеркните его из своего списка и
+              при желании опубликуйте своё решение, чтобы сообщество могло на нём учиться.
+        concepts_section:
+          learning_goals_title: Цели обучения упражнения
+          learning_goals_description_html: Это обучающее упражнение помогло развить ваши знания о %{concepts}.
+          unlocked_concepts:
+            title: Вы разблокировали
+            count:
+              one: 1 концепцию
+              few: "%{count} концепции"
+              many: "%{count} концепций"
+              other: "%{count} концепции"
+          unlocked_exercises:
+            title: Вы разблокировали
+            count:
+              one: 1 упражнение
+              few: "%{count} упражнения"
+              many: "%{count} упражнений"
+              other: "%{count} упражнения"
+        external:
+          deep_dive_title: Погрузитесь глубже в %{exercise_title}!
+        uncompleted_concepts_section:
+          learning_goals_title: Цели обучения упражнения
+          learning_goals_description: Выполняя %{exercise_title}, вы изучите
+          concept_plural:
+            one: 1 концепцию
+            few: "%{count} концепции"
+            many: "%{count} концепций"
+            other: "%{count} концепции"
+        action_box_join_exercism:
+          title: Готовы начать %{exercise_title}?
+          description_html:
+            Зарегистрируйтесь в Exercism, чтобы изучить и освоить %{track_link} с
+            %{concept_link}%{exercise_link} и настоящим наставничеством от живых людей,
+            <strong>и всё это бесплатно.</strong>
+          concept_plural:
+            one: 1 концепцию
+            few: "%{count} концепции"
+            many: "%{count} концепций"
+            other: "%{count} концепции"
+          exercise_plural:
+            one: 1 упражнение
+            few: "%{count} упражнения"
+            many: "%{count} упражнений"
+            other: "%{count} упражнения"
+          signup_button: Зарегистрируйтесь, это бесплатно!
+          login_button: Войти в Exercism
+      no_test_runner:
+        editor_unavailable_title: Редактор недоступен.
+        test_runner_not_working_title: Этот трек нельзя решить в редакторе Exercism
+        test_runner_not_working_description_html:
+          У этого трека пока нет рабочего
+          средства запуска тестов, поэтому редактор отключён. Мы работаем над решением
+          этой проблемы. Если вы хотите помочь, посмотрите Issues в
+          %{github_link}.
+        github_repo_link_text: репозитории GitHub
+        editor_unsupported_title: Извините, это упражнение нельзя решить в редакторе.
+        editor_unsupported_description:
+          Вероятно, это потому, что запуск тестов
+          для этого упражнения занимает слишком много времени. Пожалуйста, используйте свой локальный редактор, чтобы решить
+          его, и загрузите через наш CLI.
+        back_to_exercise_button: Назад к упражнению
+      index:
+        meta_title: "Упражнения %{track_title} на Exercism"
+        meta_description: Изучите %{num_exercises} упражнений %{track_title} на Exercism
+        external_cta:
+          title: Попрактикуйтесь в %{num_exercises} упражнениях трека %{track_title}
+          description:
+            Изучайте и практикуйте %{track_title}, выполняя %{num_exercises}
+            упражнений, которые раскрывают разные концепции и идеи.
+          join_track_button: Присоединиться к треку %{track_title}
+        page_header:
+          title: Изучите упражнения %{track_title} на Exercism
+          description:
+            Открывайте больше упражнений по мере продвижения. Они отлично подходят для практики и
+            их приятно выполнять!

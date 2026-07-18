@@ -1,0 +1,82 @@
+en:
+  tracks:
+    show:
+      summary_article:
+        progress_chart:
+          just_started_track: You've just started the %{track_title} track.
+            <strong>Good luck, adventurer!</strong>
+          track_completed:
+            Amazing - you've completed the track!! <strong>What an
+            achievement! 👏</strong>
+          through_track_html:
+            You're <em>%{completed_percentage}%</em> through the
+            %{track_title} track.
+          completed_icon_alt: Completed
+          status:
+            completed: Completed
+            in_progress: In-progress
+            available: Available
+            locked: Locked
+            total_exercises: Total Exercises
+        trophy_cabinet:
+          title: "%{track_title} Trophy Cabinet"
+          subtitle_html: "Unlock for achievements as you progress through the track. %{learn_more_link}"
+          learn_more: Learn more
+        intro_video:
+          title: A Brief Introduction to %{track_title}
+          description:
+            Dig into %{track_title} with Erik as he explores its main features
+            and solves an interesting exercise.
+        forum_section:
+          title: From the Forum…
+          latest_by: Latest by %{poster_username}
+          explore_forum_link: Explore the %{track_title} Forum
+        docs_section:
+          title: Stuck? Explore our docs…
+        momentum_section:
+          title: Your momentum
+          description:
+            Consistency is the key to progress. Set yourself a realistic target
+            to try and aim for each week, then track your last 8 weeks here.
+          avg_exercises_completed_per_week: Avg. exercises completed per week
+ru:
+  tracks:
+    show:
+      summary_article:
+        progress_chart:
+          just_started_track: Вы только что начали трек %{track_title}.
+            <strong>Удачи, искатель приключений!</strong>
+          track_completed:
+            Потрясающе, вы прошли весь трек!! <strong>Какое
+            достижение! 👏</strong>
+          through_track_html:
+            Вы прошли <em>%{completed_percentage}%</em>
+            трека %{track_title}.
+          completed_icon_alt: Завершено
+          status:
+            completed: Завершено
+            in_progress: В процессе
+            available: Доступно
+            locked: Заблокировано
+            total_exercises: Всего упражнений
+        trophy_cabinet:
+          title: "Шкаф трофеев %{track_title}"
+          subtitle_html: "Разблокируйте достижения по мере прохождения трека. %{learn_more_link}"
+          learn_more: Узнать больше
+        intro_video:
+          title: Краткое введение в %{track_title}
+          description:
+            Погрузитесь в %{track_title} вместе с Эриком, который исследует основные возможности
+            и решает интересное упражнение.
+        forum_section:
+          title: С форума…
+          latest_by: Последнее от %{poster_username}
+          explore_forum_link: Изучить форум %{track_title}
+        docs_section:
+          title: Застряли? Загляните в нашу документацию…
+        momentum_section:
+          title: Ваш темп
+          description:
+            Постоянство, ключ к прогрессу. Поставьте себе реалистичную цель,
+            к которой будете стремиться каждую неделю, и отслеживайте последние 8 недель здесь.
+          avg_exercises_completed_per_week: Среднее число упражнений, выполненных за неделю

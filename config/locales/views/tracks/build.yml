@@ -297,3 +297,328 @@ en:
       completions: Completions
       mentoring_requests: Mentoring requests
       attempts_value: "%{num_submitted} (avg. %{avg_submitted})"
+ru:
+  tracks:
+    build:
+      analyzer_tooltip:
+        analyzer_title: Анализатор %{track_title}
+        feedback:
+          exemplar:
+            Даёт отзывы на %{display_rate_percentage}% отправленных
+            итераций!
+          healthy:
+            Даёт отзывы на %{display_rate_percentage}% отправленных
+            итераций.
+          needs_attention: Отзывы пока не даются.
+          missing: Анализатор ещё не реализован.
+        comments_made:
+          one: Оставлен 1 комментарий.
+          few: "Оставлено %{count} комментария."
+          many: "Оставлено %{count} комментариев."
+          other: "Оставлено %{count} комментариев."
+        analyzer_heading: Анализатор %{track_title}
+        feedback_exemplar: Даёт отзывы на %{display_rate_percentage}% отправленных
+          итераций!
+        feedback_healthy:
+          Даёт отзывы на %{display_rate_percentage}% отправленных
+          итераций.
+        feedback_needs_attention: Отзывы пока не даются.
+        feedback_missing: Анализатор ещё не реализован.
+      syllabus_tooltip:
+        syllabus_title: Программа %{track_title}
+        feedback:
+          exemplar: Впечатляюще, преподаётся %{count} концепций!
+          healthy: Достойно, преподаётся %{count} концепций.
+          needs_attention:
+            one: Нужно реализовать ещё 1 концепцию.
+            few: Нужно реализовать ещё %{count} концепции.
+            many: Нужно реализовать ещё %{count} концепций.
+            other: Нужно реализовать ещё %{count} концепций.
+          missing: Ни одна концепция не реализована.
+        syllabus_heading: Программа %{track_title}
+        syllabus_exemplar: Впечатляюще, преподаётся %{count} концепций!
+        syllabus_healthy: Достойно, преподаётся %{count} концепций.
+        syllabus_needs_attention:
+          one: Нужно реализовать ещё 1 концепцию.
+          few: Нужно реализовать ещё %{count} концепции.
+          many: Нужно реализовать ещё %{count} концепций.
+          other: Нужно реализовать ещё %{count} концепций.
+        syllabus_missing: Ни одна концепция не реализована.
+      representer_tooltip:
+        representer_title: Репрезентер %{track_title}
+        feedback:
+          exemplar: Работает образцово!
+          healthy: Работает хорошо.
+          needs_attention: Отзывы через репрезентации пока не даются.
+          missing: Репрезентер ещё не реализован.
+        comments_made:
+          one: Оставлен 1 комментарий.
+          few: "Оставлено %{count} комментария."
+          many: "Оставлено %{count} комментариев."
+          other: "Оставлено %{count} комментариев."
+        representer_heading: Репрезентер %{track_title}
+        representer_exemplar: Работает образцово!
+        representer_healthy: Работает хорошо.
+        representer_needs_attention: Отзывы через репрезентации пока не даются.
+        representer_missing: Репрезентер ещё не реализован.
+      show_analyzer:
+        analyzer_heading: Анализатор
+        learn_more_button: Узнать больше
+        analyzer_description: "Создайте анализатор для %{track_title}: анализаторы
+          Exercism автоматически оценивают решения студентов и дают
+          комментарии в стиле ментора."
+        missing_analyzer_next_goal: "Следующая цель: создать анализатор."
+        find_out_more_button: Узнать подробнее.
+        current_version_label: "Текущая версия:"
+        deploy_time_notice: (Развёртывание занимает до 10 минут)
+        total_analyzer_runs_label: Всего запусков анализатора
+        total_analysis_comments_made_label: Всего комментариев анализа
+        feedback_given_frequency_label: Частота выдачи отзывов
+      show_practice_exercises:
+        practice_exercises_heading: Практические упражнения
+        learn_more_button: Узнать больше
+        practice_exercises_description:
+          Практические упражнения созданы для того,
+          чтобы студенты решали произвольную задачу, применяя
+          концепции, которые они изучили до этого момента.
+        synced_repo_label: "Синхронизированный основной репозиторий:"
+        updates_instant_notice: (Обновления должны применяться мгновенно)
+        next_goal_implement_exercises: "Следующая цель: реализовать %{additional_text}%{count} практических упражнений."
+        find_out_more_button: Узнать подробнее.
+        active_exercises_summary: "%{count} активных практических упражнений"
+        started_column: Начато
+        attempts_column: Попытки
+        completions_column: Завершения
+        mentoring_requests_column: Запросы менторства
+        attempts_value: "%{num_submitted} (в среднем %{avg_submitted})"
+        deprecated_exercises_summary: "%{count} устаревших практических упражнений"
+        unimplemented_exercises_summary:
+          one: 1 нереализованное практическое упражнение
+          few: "%{count} нереализованных практических упражнения"
+          many: "%{count} нереализованных практических упражнений"
+          other: "%{count} нереализованных практических упражнений"
+        view_data_link: Посмотреть данные
+        foregone_exercises_summary:
+          one: 1 отклонённое практическое упражнение
+          few: "%{count} отклонённых практических упражнения"
+          many: "%{count} отклонённых практических упражнений"
+          other: "%{count} отклонённых практических упражнений"
+      index_syllabus:
+        syllabus_heading: "Программа %{track_title}"
+        learn_more_button: Узнать больше
+        syllabus_description:
+          "Помогите создать программу трека: это набор концепций и
+          обучающих упражнений, собранных вместе, чтобы обучить основам
+          языка программирования."
+        next_goal_syllabus_concepts:
+          "Следующая цель: создать полную программу с не менее чем
+          %{count} концепциями."
+        find_out_more_button: Узнать подробнее.
+        concepts_being_taught_summary: "%{count} преподаваемых концепций"
+        students_learnt_count: "%{count} изучили"
+        active_learning_exercises_summary: "%{count} активных обучающих упражнений"
+        started_column: Начато
+        attempts_column: Попытки
+        completions_column: Завершения
+        mentoring_requests_column: Запросы менторства
+        attempts_value: "%{num_submitted} (в среднем %{avg_submitted})"
+        deprecated_learning_exercises_summary: "%{count} устаревших обучающих упражнений"
+      show_tags:
+        programming_tags_heading: Теги программирования
+        learn_more_button: Узнать больше
+        tags_description:
+          Помогите управлять тегами, которые используются для группировки, фильтрации
+          и рекомендации решений, подходов и статей.
+        tags_summary: "%{count} тегов"
+      test_runner_tooltip:
+        test_runner_heading: Запускатель тестов %{track_title}
+        health_exemplar: Реализует последнюю версию спецификации.
+        health_healthy: Можно обновить с версии %{current_version} до %{target_version}.
+        health_needs_attention:
+          Следует обновить с версии %{current_version} до
+          %{target_version}.
+        health_missing: Запускатель тестов ещё не реализован.
+        iterations_tested:
+          one: Протестирована 1 итерация.
+          few: "Протестировано %{count} итерации."
+          many: "Протестировано %{count} итераций."
+          other: "Протестировано %{count} итераций."
+      index_practice_exercises:
+        practice_exercises_title: Практические упражнения
+        learn_more_button: Узнать больше
+        practice_exercises_description:
+          Практические упражнения созданы для того,
+          чтобы студенты решали произвольную задачу, применяя
+          концепции, которые они изучили до этого момента.
+        synced_primary_repo_label: "Синхронизированный основной репозиторий:"
+        updates_instant_message: (Обновления должны применяться мгновенно)
+        next_goal_message: "Следующая цель: реализовать %{include_at_least}%{count} практических упражнений."
+        find_out_more_link: Узнать подробнее.
+        active_exercises_summary:
+          one: 1 активное практическое упражнение
+          few: "%{count} активных практических упражнения"
+          many: "%{count} активных практических упражнений"
+          other: "%{count} активных практических упражнений"
+        started_label: Начато
+        attempts_label: Попытки
+        completions_label: Завершения
+        mentoring_requests_label: Запросы менторства
+        attempts_value: "%{num_submitted} (в среднем %{num_submitted_average})"
+        deprecated_exercises_summary:
+          one: 1 устаревшее практическое упражнение
+          few: "%{count} устаревших практических упражнения"
+          many: "%{count} устаревших практических упражнений"
+          other: "%{count} устаревших практических упражнений"
+        unimplemented_exercises_summary:
+          one: 1 нереализованное практическое упражнение
+          few: "%{count} нереализованных практических упражнения"
+          many: "%{count} нереализованных практических упражнений"
+          other: "%{count} нереализованных практических упражнений"
+        view_data_link: Посмотреть данные
+        foregone_exercises_summary:
+          one: 1 отклонённое практическое упражнение
+          few: "%{count} отклонённых практических упражнения"
+          many: "%{count} отклонённых практических упражнений"
+          other: "%{count} отклонённых практических упражнений"
+      show:
+        meta_title: "Влияние и статус %{track_title} на Exercism"
+        meta_description: Изучите влияние и статус %{track_title} на Exercism.
+        track_management_title: "Управление треком %{track_title}"
+        track_management_description:
+          Эта страница предоставляет сообществу Exercism
+          информацию и инструменты, необходимые для управления треком %{track_title}.
+        students_stat: Студенты
+        submissions_stat: Отправки
+        mentoring_discussions_stat: Обсуждения с менторами
+        track_status_title: Трек %{track_title}
+        tooling_status_building: В разработке
+        aria_label_syllabus: Статус программы для %{track_title}
+        aria_label_test_runner: Статус запускателя тестов для %{track_title}
+        aria_label_analyzer: Статус анализатора для %{track_title}
+        aria_label_representer: Статус репрезентера для %{track_title}
+        aria_label_practice_exercises: Статус практических упражнений для %{track_title}
+        volunteers_label:
+          one: 1 волонтёр
+          few: "%{count} волонтёра"
+          many: "%{count} волонтёров"
+          other: "%{count} волонтёров"
+        more_volunteers_link: + ещё %{count}
+        love_volunteers_title: Мы 💙 наших волонтёров
+        love_volunteers_description:
+          Exercism полагается на волонтёров из open-source, которые создают
+          наши языковые треки и наставляют студентов.
+        become_volunteer_link: Стать волонтёром Exercism
+      practice_exercises_tooltip:
+        practice_exercises_tooltip_title: Практические упражнения %{track_title}
+        practice_exercises_tooltip_exemplar: "Реализовано превосходное количество практических упражнений: %{count}!"
+        practice_exercises_tooltip_healthy: Реализовано %{count} практических упражнений.
+        practice_exercises_tooltip_needs_attention:
+          one: Нужно реализовать ещё %{count} практическое упражнение.
+          few: Нужно реализовать ещё %{count} практических упражнения.
+          many: Нужно реализовать ещё %{count} практических упражнений.
+          other: Нужно реализовать ещё %{count} практических упражнений.
+        practice_exercises_tooltip_missing: Ни одно практическое упражнение не реализовано.
+      show_syllabus:
+        syllabus_heading: "Программа %{track_title}"
+        learn_more_button: Узнать больше
+        syllabus_description:
+          "Помогите создать программу трека: это набор концепций и
+          обучающих упражнений, собранных вместе, чтобы обучить основам
+          языка программирования."
+        next_goal_create_syllabus:
+          "Следующая цель: создать полную программу с не менее чем
+          %{num_active_target} концепциями."
+        find_out_more_button: Узнать подробнее.
+        concepts_taught_summary: "%{count} преподаваемых концепций"
+        num_students_learnt: "%{count} изучили"
+        active_learning_exercises_summary: "%{count} активных обучающих упражнений"
+        started_label: Начато
+        attempts_label: Попытки
+        completions_label: Завершения
+        mentoring_requests_label: Запросы менторства
+        attempts_value: "%{num_submitted} (в среднем %{num_submitted_average})"
+        deprecated_learning_exercises_summary: "%{count} устаревших обучающих упражнений"
+      index_analyzer:
+        analyzer_heading: Анализатор
+        learn_more_button: Узнать больше
+        analyzer_description: "Создайте анализатор для %{track_title}: анализаторы
+          Exercism автоматически оценивают решения студентов и дают
+          комментарии в стиле ментора."
+        next_goal_build_analyzer: "Следующая цель: создать анализатор."
+        find_out_more_button: Узнать подробнее.
+        current_version_label: "Текущая версия:"
+        deploy_time_notice: (Развёртывание новых версий на всех серверах может занять несколько минут).
+        total_analyzer_runs_label: Всего запусков анализатора
+        total_analysis_comments_made_label: Всего комментариев анализа
+        feedback_given_frequency_label: Частота выдачи отзывов
+      index_representer:
+        representer_heading: Репрезентер
+        learn_more_button: Узнать больше
+        representer_description:
+          "Создайте репрезентер: небольшой фрагмент кода, единственная
+          задача которого, принять решение и вернуть его нормализованное
+          представление."
+        next_goal_build_representer: "Следующая цель: создать репрезентер."
+        find_out_more_button: Узнать подробнее.
+        current_version_label: "Текущая версия:"
+        deploy_time_notice: (Развёртывание новых версий на всех серверах может занять несколько минут).
+        total_representer_runs_label: Всего запусков репрезентера
+        total_representation_comments_made_label: Всего комментариев к представлениям
+        feedback_given_frequency_label: Частота выдачи отзывов
+      show_representer:
+        representer_heading: "Репрезентер"
+        learn_more_button: "Узнать больше"
+        representer_description: >
+          Создайте репрезентер: небольшой фрагмент кода, единственная задача
+          которого, принять решение и вернуть его нормализованное представление.
+        next_goal_build_representer: "Следующая цель: создать репрезентер."
+        find_out_more_button: "Узнать подробнее."
+        current_version_label: "Текущая версия:"
+        deploy_time_notice_short: "(Развёртывание занимает до 10 минут)"
+        total_representer_runs_label: "Всего запусков репрезентера"
+        total_representation_comments_made_label: "Всего комментариев к представлениям"
+        feedback_given_frequency_label: "Частота выдачи отзывов"
+      show_test_runner:
+        test_runner_heading: Запускатель тестов
+        learn_more_button: Узнать больше
+        test_runner_description:
+          Создавайте запускатели тестов, единственная задача которых,
+          принять решение, запустить все тесты и вернуть стандартизированный
+          вывод.
+        next_goal_build_test_runner: "Следующая цель: создать запускатель тестов."
+        find_out_more_button: Узнать подробнее.
+        current_version_label: "Текущая версия:"
+        deploy_time_notice_short: (Развёртывание занимает до 10 минут)
+        next_goal_get_test_runners: "Следующая цель: обновить запускатели тестов до версии
+          %{version_target}. %{track_title} сейчас использует запускатель тестов
+          версии %{version}."
+        total_test_runner_runs_label: Всего запусков запускателя тестов
+        test_run_pass_rate_label: Доля успешных прогонов тестов
+        test_run_fail_rate_label: Доля проваленных прогонов тестов
+        test_run_error_rate_label: Доля прогонов тестов с ошибками
+      index_test_runner:
+        test_runner_heading: Запускатель тестов
+        learn_more_button: Узнать больше
+        test_runner_description:
+          Создавайте запускатели тестов, единственная задача которых,
+          принять решение, запустить все тесты и вернуть стандартизированный
+          вывод.
+        next_goal_build_test_runner: "Следующая цель: создать запускатель тестов."
+        find_out_more_button: Узнать подробнее.
+        current_version_label: "Текущая версия:"
+        deploy_time_notice: (Развёртывание новых версий на всех серверах может занять несколько минут).
+        next_goal_get_test_runners: "Следующая цель: обновить запускатели тестов до версии
+          %{version_target}. %{track_title} сейчас использует запускатель тестов
+          версии %{version}."
+        total_test_runner_runs_label: Всего запусков запускателя тестов
+        test_run_pass_rate_label: Доля успешных прогонов тестов
+        test_run_fail_rate_label: Доля проваленных прогонов тестов
+        test_run_error_rate_label: Доля прогонов тестов с ошибками
+    shared:
+      learn_more: Узнать больше
+      find_out_more: Узнать подробнее.
+      started: Начато
+      attempts: Попытки
+      completions: Завершения
+      mentoring_requests: Запросы менторства
+      attempts_value: "%{num_submitted} (в среднем %{avg_submitted})"

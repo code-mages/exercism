@@ -1,0 +1,24 @@
+en:
+  about:
+    partners:
+      gobridge:
+        see_all_supporters: See all supporters
+        supported_by: "Exercism is proudly supported by"
+        gobridge_alt: GoBridge
+        how_gobridge_supports_exercism: How GoBridge supports Exercism
+        support_description: "GoBridge generously supports Exercism by helping to fund and maintain the Go track, ensuring that learners around the world have free access to high-quality Go programming education."
+        about_gobridge_title: About GoBridge
+        about_gobridge_description: "%{gobridge_text} is part of the %{go_developer_network_text}, a community dedicated to making the Go programming language more accessible and welcoming to everyone through mentorship, education and outreach."
+        go_developer_network_text: Go Developer Network
+ru:
+  about:
+    partners:
+      gobridge:
+        see_all_supporters: Все, кто нас поддерживает
+        supported_by: "Exercism с гордостью поддерживает"
+        gobridge_alt: GoBridge
+        how_gobridge_supports_exercism: Как GoBridge поддерживает Exercism
+        support_description: "GoBridge щедро поддерживает Exercism, помогая финансировать и развивать трек Go, чтобы у учащихся по всему миру был бесплатный доступ к качественному обучению программированию на Go."
+        about_gobridge_title: О GoBridge
+        about_gobridge_description: "%{gobridge_text} входит в %{go_developer_network_text}, сообщество, которое делает язык Go доступнее и дружелюбнее для всех через наставничество, обучение и просветительскую работу."
+        go_developer_network_text: Go Developer Network

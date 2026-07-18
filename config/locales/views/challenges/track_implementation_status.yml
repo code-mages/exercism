@@ -1,0 +1,34 @@
+en:
+  challenges:
+    track_implementation_status:
+      title: '%{track} exercises for #48in24'
+      key_to_symbols: Key to Symbols
+      symbol_featured: 💜 = Featured in #48in24
+      symbol_present: ✅ = Present on Track
+      symbol_missing_html: '❌ = Missing from Track (%{link})'
+      please_add_it: Please add it!
+      symbol_do_not_implement: ⛔ = Do not implement on this Track
+      want_to_implement: Want to implement one of the missing exercises?
+      start_with_html: Start with %{link}.
+      this_video_and_docs: this video and docs
+      back_to_tracks_overview: Back to tracks overview
+      week: Week
+      exercise: Exercise
+      status: Status
+ru:
+  challenges:
+    track_implementation_status:
+      title: 'Упражнения %{track} для #48in24'
+      key_to_symbols: Обозначения символов
+      symbol_featured: 💜 = В подборке #48in24
+      symbol_present: ✅ = Есть на треке
+      symbol_missing_html: '❌ = Отсутствует на треке (%{link})'
+      please_add_it: Пожалуйста, добавьте!
+      symbol_do_not_implement: ⛔ = Не реализовывать на этом треке
+      want_to_implement: Хотите реализовать одно из недостающих упражнений?
+      start_with_html: Начните с %{link}.
+      this_video_and_docs: этого видео и документации
+      back_to_tracks_overview: Назад к обзору треков
+      week: Неделя
+      exercise: Упражнение
+      status: Статус

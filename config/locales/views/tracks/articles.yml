@@ -18,3 +18,23 @@ en:
         other_articles:
           title: Other Articles for %{exercise_title}
           description: Explore more ideas about this exercise
+ru:
+  tracks:
+    articles:
+      show:
+        meta_title:
+          Изучите статью '%{article_title}' для %{exercise_title} в
+          %{track_title} на Exercism
+        meta_description:
+          Изучите статью '%{article_title}' для %{exercise_title}
+          в %{track_title} на Exercism. %{article_blurb}
+        in_track: в %{track_title}
+        share_bar:
+          short_question: Статья оказалась полезной?
+          short_action: Поделитесь ею!
+          long_question: Статья показалась интересной или полезной?
+          long_action: Поделитесь ею, чтобы и другие получили пользу!
+        useful_question: Оказалось полезным?
+        other_articles:
+          title: Другие статьи для %{exercise_title}
+          description: Изучите больше идей об этом упражнении

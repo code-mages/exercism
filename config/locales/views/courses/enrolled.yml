@@ -36,3 +36,41 @@ en:
           motivating for us to hear about who's joining the Bootcamp, and also
           means we can better tailor what we're making!
         thanks_for_trusting: Thanks for trusting us with your learning 🙂
+ru:
+  courses:
+    enrolled:
+      bundle_coding_front_end:
+        welcome_message: Мы очень рады, что вы с нами! 💙
+        logged_in_access_html:
+          <strong>Вашему аккаунту Exercism предоставлен доступ к
+          Bootcamp.</strong> Нажмите кнопку ниже, чтобы начать.
+        email_welcome_html:
+          Скоро вы получите приветственное письмо с просьбой
+          поздороваться. <strong>Пожалуйста, ответьте на него</strong> и расскажите
+          вашу историю - нам невероятно приятно узнавать, кто проходит
+          наши курсы, и это помогает нам лучше подстраивать то, что мы
+          создаём!
+        support_email_html:
+          Если у вас есть вопросы, напишите нам на <strong><span
+          class="font-medium">%{email}</span></strong>, и мы будем рады
+          помочь.
+        go_to_bootcamp: Перейти к Bootcamp
+        not_logged_in_access_html:
+          "<strong>Так как вы не вошли в свой аккаунт Exercism,
+          нам нужно всё для вас настроить.</strong> Сначала,
+          пожалуйста, убедитесь, что у вас есть аккаунт Exercism:"
+        login_if_account_exists: Если он есть, вход должен открыть вам доступ.
+        create_account_instructions_html:
+          Если аккаунта нет, проще всего получить доступ,
+          %{sign_up_link} с адресом почты «%{email}». Если вы используете
+          другой адрес и доступ не появится, напишите нам на <strong><span
+          class="font-medium">bootcamp@exercism.org</span></strong>, указав ваше
+          имя пользователя/handle в Exercism и адрес почты, с которым вы записались
+          (%{email}), и мы выдадим вам доступ вручную.
+        email_welcome_not_logged_in_html:
+          Также скоро вы получите приветственное
+          письмо с просьбой поздороваться. <strong>Пожалуйста,
+          ответьте на него</strong> и расскажите вашу историю - нам невероятно
+          приятно узнавать, кто присоединяется к Bootcamp, и это
+          помогает нам лучше подстраивать то, что мы создаём!
+        thanks_for_trusting: Спасибо, что доверяете нам своё обучение 🙂

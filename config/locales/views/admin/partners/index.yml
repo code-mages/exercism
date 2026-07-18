@@ -1,0 +1,18 @@
+en:
+  admin:
+    partners:
+      index:
+        partners: "Partners"
+        partner: "Partner"
+        details: "Details"
+        edit: "Edit"
+        add_new_partner: "Add new partner"
+ru:
+  admin:
+    partners:
+      index:
+        partners: "Партнёры"
+        partner: "Партнёр"
+        details: "Подробнее"
+        edit: "Редактировать"
+        add_new_partner: "Добавить нового партнёра"

@@ -1,0 +1,50 @@
+en:
+  tracks:
+    concepts:
+      show:
+        header:
+          breadcrumbs:
+            tracks: Tracks
+            syllabus: Syllabus
+          concept_info:
+            in: in
+            exercises_count:
+              one: 1 exercise
+              other: "%{count} exercises"
+        mastered_heading:
+          text: You've mastered %{concept_name} in %{track_title}.
+          explore_link: Explore more concepts
+        about:
+          title: About %{concept_name}
+          learn_more_links:
+            title: Learn More
+            external_link_aria_label: (external link)
+        extra_info:
+          edit_via_github: Edit via GitHub
+          github_link_aria_label: The link opens in a new window or tab
+ru:
+  tracks:
+    concepts:
+      show:
+        header:
+          breadcrumbs:
+            tracks: Треки
+            syllabus: Программа
+          concept_info:
+            in: в
+            exercises_count:
+              one: 1 упражнение
+              few: "%{count} упражнения"
+              many: "%{count} упражнений"
+              other: "%{count} упражнений"
+        mastered_heading:
+          text: Вы освоили %{concept_name} в %{track_title}.
+          explore_link: Изучить больше концепций
+        about:
+          title: О концепции %{concept_name}
+          learn_more_links:
+            title: Узнать больше
+            external_link_aria_label: (внешняя ссылка)
+        extra_info:
+          edit_via_github: Редактировать через GitHub
+          github_link_aria_label: Ссылка открывается в новом окне или вкладке

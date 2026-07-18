@@ -68,3 +68,72 @@ en:
           effective and 100% free, forever.
         signup_button: Sign up for free
         explore_languages_button: Explore languages
+ru:
+  components:
+    footer:
+      shared:
+        nfp_section:
+          title: Помогите нам сохранить Exercism бесплатным для всех и везде.
+          subtitle: Exercism имеет открытый исходный код и на 100% бесплатен.
+          description:
+            Помогите нам дать возможность людям с любым бэкграундом развивать
+            навыки программирования через практику написания кода и менторство.
+        site_links:
+          editions:
+            title: Издания
+            exercism_link: Exercism
+            learn_to_code_link: Учитесь программировать
+            with: с
+            jiki_link: Jiki
+            front_end_course_link: Курс по фронтенду
+            bootcamp_link: Exercism Bootcamp
+            teams_link: Exercism для команд
+            research_link: Exercism Research
+          about:
+            title: О проекте
+            about_exercism_link: Об Exercism
+            our_team_link: Наша команда
+            contributors_link: Участники
+            partners_link: Партнёры
+            individual_supporters_link: Индивидуальные спонсоры
+          get_involved:
+            title: Присоединяйтесь
+            exercism_insiders_link: Exercism Insiders
+            contribute_link: Внести вклад
+            mentor_link: Стать ментором
+            donate_link: Пожертвовать
+          legal_and_policies:
+            title: Правовая информация и политики
+            terms_of_usage_link: Условия использования
+            privacy_policy_link: Политика конфиденциальности
+            cookie_policy_link: Политика использования cookie
+            code_of_conduct_link: Кодекс поведения
+            accessibility_statement_link: Заявление о доступности
+          keep_in_touch:
+            title: Оставайтесь на связи
+            blog_link: Блог Exercism
+            github_link: Обсудить на GitHub
+            contact_us_link: Связаться с нами
+            report_abuse_link: Сообщить о нарушении
+          get_help:
+            title: Получить помощь
+            docs_link: Документация Exercism
+            getting_started_link: Начало работы
+            faqs_link: Частые вопросы
+            installing_cli_link: Установка CLI
+            cli_walkthrough_link: Интерактивное руководство по CLI
+        tracks_section:
+          title: "Наши треки по языкам программирования"
+          add_language_title: "Хотите добавить трек по языку в Exercism?"
+          add_language_description_html: >
+            Создайте новую тему на <a href="%{forum_url}">форуме</a>, и мы обсудим это.
+        legals:
+          company_info_html: "Exercism - это некоммерческая организация, %{company_link_open}зарегистрированная в Великобритании%{company_link_close}. Её попечители: %{katrina_owen_link}, %{jeremy_walker_link} и %{erik_schierboom_link}."
+      external:
+        title: Практика программирования и менторство для каждого
+        description:
+          Развивайте свободное владение %{num_active_tracks} языками программирования
+          с помощью нашего уникального сочетания обучения, практики и менторства.
+          Exercism - это интересно, эффективно и на 100% бесплатно, навсегда.
+        signup_button: Зарегистрироваться бесплатно
+        explore_languages_button: Изучить языки

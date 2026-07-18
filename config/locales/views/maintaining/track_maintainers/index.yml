@@ -1,0 +1,52 @@
+en:
+  maintaining:
+    track_maintainers:
+      index:
+        title: Track Maintainers
+        legend: Legend
+        active_desc: Active = Member of track team and their building reputation meets the member minimum threshold.
+        inactive_desc: Inactive = Member of track team but their building reputation does not meet the member minimum threshold.
+        candidates_desc: Candidates = Not member of track team but their building reputation meet the candidate minimum threshold.
+        contributors_desc: Contributors = Not member of track team and their building reputation does not meet the candidate minimum threshold.
+        unlinked_desc: Unlinked = Member of track team but no user found linked to that GitHub username.
+        shows_exercism_login: Shows the user's Exercism login.
+        shows_github_username: Shows the user's GitHub username.
+        cutoff_values_used: Cutoff values used
+        min_rep_member: 'Minimum reputation for member: %{value}'
+        min_rep_candidate: 'Minimum reputation for candidate: %{value}'
+        last_months_rep: 'Last number of months for reputation: %{value}'
+        th_track: Track
+        th_active: Active
+        th_inactive: Inactive
+        th_candidates: Candidates
+        th_contributors: Contributors
+        th_unlinked: Unlinked
+        commits: commits
+        clear_cache: Clear cache
+        clear_cache_confirm: Are you sure? This is an expensive operation
+ru:
+  maintaining:
+    track_maintainers:
+      index:
+        title: Мейнтейнеры трека
+        legend: Легенда
+        active_desc: Active = участник команды трека, и его накопленная репутация достигает минимального порога для участника.
+        inactive_desc: Inactive = участник команды трека, но его накопленная репутация не достигает минимального порога для участника.
+        candidates_desc: Candidates = не участник команды трека, но его накопленная репутация достигает минимального порога для кандидата.
+        contributors_desc: Contributors = не участник команды трека, и его накопленная репутация не достигает минимального порога для кандидата.
+        unlinked_desc: Unlinked = участник команды трека, но не найден пользователь, связанный с этим именем на GitHub.
+        shows_exercism_login: Показывает логин пользователя на Exercism.
+        shows_github_username: Показывает имя пользователя на GitHub.
+        cutoff_values_used: Используемые пороговые значения
+        min_rep_member: 'Минимальная репутация для участника: %{value}'
+        min_rep_candidate: 'Минимальная репутация для кандидата: %{value}'
+        last_months_rep: 'Число последних месяцев для расчёта репутации: %{value}'
+        th_track: Трек
+        th_active: Активные
+        th_inactive: Неактивные
+        th_candidates: Кандидаты
+        th_contributors: Контрибьюторы
+        th_unlinked: Не связанные
+        commits: коммиты
+        clear_cache: Очистить кеш
+        clear_cache_confirm: Вы уверены? Это ресурсоёмкая операция

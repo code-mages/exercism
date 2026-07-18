@@ -1,0 +1,23 @@
+// namespace: components/student/tracks-list
+export default {
+  'orderSelect.sortByLastTouched': 'Сортировать по последнему обращению',
+  'track.learningMode': 'Режим обучения',
+  'track.thisTrackIsNew': 'Этот трек новый',
+  'track.new': 'Новый',
+  'track.joined': 'Присоединился',
+  'track.numberOfExercises': '{{count}} упражнение',
+  'track.numberOfExercises_one': '{{count}} упражнение',
+  'track.numberOfExercises_other': '{{count}} упражнений',
+  'track.numberOfConcepts': '{{count}} концепция',
+  'track.numberOfConcepts_one': '{{count}} концепция',
+  'track.numberOfConcepts_other': '{{count}} концепций',
+  'track.lastTouched': 'Последнее обращение {{time}}',
+  'list.noResultsFound': 'Ничего не найдено',
+  'list.resetSearchAndFilters': 'Сбросить поиск и фильтры',
+  'tagsFilter.filterBy': 'Фильтровать по',
+  'tagsFilter.showingAll_one': 'Показаны все {{count}} трек',
+  'tagsFilter.showingAll_other': 'Показаны все {{count}} треков',
+  'tagsFilter.resetFilters': 'Сбросить фильтры',
+  'tagOptionList.apply': 'Применить',
+  'tagOptionList.close': 'Закрыть',
+}

@@ -3,3 +3,8 @@ en:
     blog_post:
       new_label: new
       published_time: "%{time_ago} ago"
+ru:
+  components:
+    blog_post:
+      new_label: новое
+      published_time: "%{time_ago} назад"

@@ -1,0 +1,36 @@
+ru:
+  communication_preferences:
+    receive_product_updates: "Присылать письма о крупных обновлениях Exercism (частота: 4 - 12 раз в год)"
+    email_on_new_discussion_post: "Присылать письмо, когда ментор комментирует моё решение"
+    email_on_solution_approved: "Присылать письмо, когда ментор одобряет моё решение"
+    email_on_new_solution_comment_for_solution_user: "Присылать письмо, когда кто-то комментирует моё опубликованное решение"
+    email_on_new_solution_comment_for_other_commenter: "Присылать письмо, когда кто-то отвечает на мой комментарий к опубликованному решению"
+    email_on_new_discussion_post_for_mentor: "Присылать письмо, когда студент комментирует решение, которое я менторю"
+    email_on_new_iteration_for_mentor: "Присылать письмо, когда студент публикует новую итерацию решения, которое я менторю"
+    email_on_remind_mentor: "Присылать письмо, когда меня вот-вот отключат от решения по таймауту"
+    email_on_mentor_heartbeat: "Присылать мне еженедельные сводки ментора"
+
+    email_on_mentor_started_discussion_notification: "Присылать письмо, когда ментор начинает менторить моё решение"
+    email_on_mentor_finished_discussion_notification: "Присылать письмо, когда ментор завершает обсуждение моего решения"
+    email_on_mentor_replied_to_discussion_notification: "Присылать письмо, когда ментор отвечает в обсуждении моего решения"
+
+    email_on_nudge_student_to_reply_in_discussion_notification: "Присылать письмо, когда ментор ждёт моего ответа в обсуждении моего решения"
+    email_on_nudge_mentor_to_reply_in_discussion_notification: "Присылать письмо, когда студент ждёт моего ответа в обсуждении моего решения"
+    email_on_student_timed_out_discussion_notification: "Присылать письмо, когда обсуждение закрылось по таймауту из-за того, что студент не ответил"
+    email_on_mentor_timed_out_discussion_notification: "Присылать письмо, когда обсуждение закрылось по таймауту из-за того, что ментор не ответил"
+
+    email_on_student_replied_to_discussion_notification: "Присылать письмо, когда студент отвечает в обсуждении, которое я менторю"
+    email_on_student_finished_discussion_notification: "Присылать письмо, когда студент завершает обсуждение, которое я менторю"
+    email_on_student_added_iteration_notification: "Присылать письмо, когда студент добавляет итерацию к решению, которое я менторю"
+
+    email_on_automated_feedback_added_notification: "Присылать письмо, когда к моему решению добавляется автоматический отзыв"
+
+    email_on_nudge_notification: "Присылать мне подсказки о том, как получить максимум от Exercism"
+    email_about_fundraising_campaigns: "Присылать письма о кампаниях по сбору средств"
+    email_about_events: "Присылать письма о событиях (например, Functional February) или интервью."
+    receive_onboarding_emails: "Присылать мне подсказки о том, как получить максимум от Exercism"
+    email_about_insiders: "Присылать письма о моём членстве в Exercism Insiders"
+
+    email_on_general_update_notification: "Присылать письма о других необязательных обновлениях моего аккаунта"
+    email_on_acquired_badge_notification: "Присылать письмо, когда я открываю новый значок"
+    email_on_acquired_trophy_notification: "Присылать письмо, когда я открываю новый трофей"

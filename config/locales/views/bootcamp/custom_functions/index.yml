@@ -1,0 +1,35 @@
+en:
+  bootcamp:
+    custom_functions:
+      index:
+        your_functions: Your Functions
+        library: Library
+        intro: >-
+          This is your library of functions. Create and reuse functions
+          throughout your code by creating them here then importing them in the
+          exercises.
+        watch_video: Watch this video
+        to_learn_more: to learn more!
+        active_functions: Active Functions
+        active_description: These functions are available for use in your exercises.
+        inactive_functions: Inactive Functions
+        inactive_description: These are functions that are disabled. Get the tests passing to activate them.
+        new_function: New Function
+        new_function_description: Create a new function for whatever reusable code you feel is appropriate!
+ru:
+  bootcamp:
+    custom_functions:
+      index:
+        your_functions: Ваши функции
+        library: Библиотека
+        intro: >-
+          Это ваша библиотека функций. Создавайте функции и переиспользуйте их в
+          своём коде: создайте их здесь, а затем импортируйте в упражнениях.
+        watch_video: Посмотрите это видео
+        to_learn_more: чтобы узнать больше!
+        active_functions: Активные функции
+        active_description: Эти функции доступны для использования в ваших упражнениях.
+        inactive_functions: Неактивные функции
+        inactive_description: Это отключённые функции. Пройдите тесты, чтобы активировать их.
+        new_function: Новая функция
+        new_function_description: Создайте новую функцию для любого переиспользуемого кода, который сочтёте подходящим!

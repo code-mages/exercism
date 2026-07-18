@@ -1,0 +1,20 @@
+en:
+  bootcamp:
+    admin:
+      settings:
+        show:
+          title: Application Settings
+          current_level: Current Level
+          level: 'Level %{level_idx}'
+          increment_level: Increment Level
+          confirm: Are you sure you want to increment the level?
+ru:
+  bootcamp:
+    admin:
+      settings:
+        show:
+          title: Настройки приложения
+          current_level: Текущий уровень
+          level: 'Уровень %{level_idx}'
+          increment_level: Повысить уровень
+          confirm: Вы уверены, что хотите повысить уровень?

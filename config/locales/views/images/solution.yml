@@ -5,3 +5,10 @@ en:
       solution_to: solution to
       solution_on_exercism_track: on Exercism's
       solution_track_title: "%{track_title} Track."
+ru:
+  images:
+    solution:
+      solution_by_handle: "%{handle}:"
+      solution_to: решение упражнения
+      solution_on_exercism_track: на треке Exercism
+      solution_track_title: "%{track_title}."

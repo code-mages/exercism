@@ -1,0 +1,532 @@
+en:
+  courses:
+    bootcamp:
+      countdown:
+        late_enrollments: Late enrollments currently accepted.
+        watch_back: Watch back
+        first_live_session: the first live session
+      nav:
+        bootcamp: Bootcamp
+        watch_first_session: Watch first session 👀
+        enroll_now: Enroll now 👉
+      hero:
+        build_rock_solid: Build rock solid coding
+        foundations: foundations
+        tagline_start: A unique part-time remote
+        coding_bootcamp: coding bootcamp
+        tagline_end: by the team behind Exercism.
+        starts: Starts
+        start_date: Jan 2025.
+        live: Live
+        teaching: teaching
+        fun: Fun
+        projects: projects
+        only: Only
+        supporters_include: "Exercism's supporters include:"
+      welcome:
+        are_you_ready: Are you ready to
+        learn_to_code: learn to code?
+        maybe_youve_tried: Maybe you've tried learning from some other websites or videos but it's not sticking? (it's them, not you!) Or maybe you're brand new to this?
+        looking_for_something: Are you looking for something
+        fun_and_creative: fun and creative
+        where_you: where you
+        learn_by_making: learn by making things?
+        world_class: With a world-class instructor, live teaching sessions and support when you need it?
+        well_then: Well then, this might just be
+        course_for_you: the course for you!
+        hi_there: Hi there!
+        im_jeremy: I'm Jeremy, and I've helped over
+        two_million_people: two million people
+        level_up_skills: level up their coding skills.
+        worrying_trend: But over the last few years, I've seen a really worrying trend...
+        more_and_more: More and more people are trying to learn to code (🥳) but they seem to be
+        struggling_more: struggling more than ever (😢).
+        struggling_with: And they're struggling with things that should be pretty straightforward once you've been learning for a while. People just don't seem to be getting the fundamentals.
+        started_reading: So I started reading around to see if I could work out what was going on, and found a crazy statistic.
+        give_up_stat: 96% of people who try to learn to code give up
+        how_could_it_be: How could it be that so many people were trying to learn to code, but so few were actually succeeding?
+        went_investigating: I went investigating… 🕵️
+        i_watched: I watched the
+        popular_videos: most popular YouTube videos (🥱),
+        tried_the_best: tried the "best"
+        online_courses: online courses (😐),
+        paid_my_friends: and even paid my friends to try to learn so I could see what happened (a mix of 😭😠🤬🙅‍♀️).
+        dug_into_research: I dug into formal research, spoke to my friends in education, and pretty quickly came to a simple conclusion...
+        taught_to_fail: The way people are being taught to code is causing them to fail!
+        started_at_8: There was basically only one way to learn.
+        make_stuff: Make stuff. Lots of stuff!
+        caption_me: "1998: Me making the first website I ever got paid for."
+        caption_me_rhodri: "1998: Me and Rhodri making the first website we ever got paid for."
+        make_stuff_i_did: And make stuff I did! I started making games and then graduated to making little bots to play against. And as I grew older I made websites for me and my friends, and
+        eventually_customers: eventually for customers.
+        i_created: I created, I played, I experimented. I had fun!
+        got_really_good: And through this, I got really good.
+        learned_mindset: I learned the coder mindset,
+        laid_foundations: and I laid the foundations that I've built my whole career on.
+        not_how_modern: But that's not how these modern courses teach.
+        space_to_practice: Giving you a space to practice and play and experiment is hard. It's much easier to just give you a video to watch, a quiz to take, and a certificate to print out.
+        wont_learn_that_way: But you won't learn that way. You'll be
+        bored_frustrated: bored, frustrated,
+        probably_quit_lead: and like most other people, you'll
+        probably_quit: probably quit 😞😡
+        master_the_basics: If you want to get good, master the basics
+        best_coders: The best coders
+        are_not: are not
+        know_the_most: the ones who know the most.
+        best_coders_are: The best coders are the ones who have
+        total_mastery: gained a total mastery of the basics.
+        once_basics_down: Once you've got the basics down, everything will become easy. You can go and learn whatever you want or need.
+        way_to_master: And the way to master the basics? Practice, practice, practice.
+        take_on_challenges: Take on different challenges. Solve different problems. And have fun learning your craft!
+        so_thats_what: So that's what we're doing...
+        last_year: For the last year, we've been building a new type of course. It's designed for
+        total_beginners: total beginners
+        entirely_focused: and it's entirely focused on
+        learning_by_doing: learning by doing.
+        coding_from_day_one: You'll be coding from day one, and
+        coding_a_lot: you'll be coding a lot.
+        once_just_once: And once (just once!) we're going to run it as an
+        interactive_bootcamp: interactive bootcamp,
+        where: where
+        guide_you: I'll be there to guide you.
+        explore_ideas: I'll be there to explore ideas with you, help you if you get stuck, and have fun with you! ✨
+        for_3_months: For 3 months, I'll teach you the fundamentals of programming and
+        think_like_coder: how to think like a coder.
+        then_web_dev: Then for those who want to go into web development, I'll spend another 3 months teaching you how to build beautiful, interactive websites.
+        if_sounds_exciting: If that sounds exciting, then
+        love_to_join: I'd love for you to join us! 💙
+      works:
+        how_it_works: How it works
+        bootcamp: Bootcamp
+        split_two_halves: The bootcamp is split into two halves. Depending on your goals, you can take part in either Part 1 or the Full Course.
+        part1_title: Learn to code 🧑‍🔬
+        part1_bubble: Part 1
+        part1_intro_start: From January to March, we'll focus on
+        part1_foundations: building rock solid foundations.
+        part1_intro_end: We'll cover all the core concepts in programming and give you tons of exercises and projects to practice with.
+        solid_understanding_lead: Build a solid understanding
+        solid_understanding: of core programming principles, including flow control, conditionals, data types, functions, and much more, using a beginner-friendly version of JavaScript.
+        confidence_lead: Gain the confidence
+        confidence: to put your knowledge into practice, being able to solve a wide variety of problems, using the right concept at the right time.
+        coders_mind_lead: Develop the Coder's Mind.
+        coders_mind: You'll notice that your critical thinking, problem solving, and logic skills are all improving.
+        part1_dates: January - March 2025
+        part2_title: Front-End Web Development 🧑‍💻
+        part2_bubble: Part 2
+        part2_intro_start: From April to June, we'll build on the fundamentals and look at
+        part2_frontend: front-end web development.
+        part2_intro_end: You'll gain the skills you need to build beautiful, interactive websites and kickstart your career.
+        javascript_lead: Get comfortable with JavaScript.
+        javascript: We'll build on your knowledge from Part 1 by looking JavaScript programming techniques essential for web development.
+        html_css_lead: Learn HTML and CSS.
+        html_css: These two languages are the other fundamentals of web development. You'll learn both and use them to create beautiful websites.
+        vscode_git_lead: Learn Visual Studio Code and Git.
+        vscode_git: Master these important tools, and how to use them to make your life easier.
+        portfolio_lead: Build a portfolio of projects.
+        portfolio: Create projects to showcase to potential employers while practicing your skills.
+        part2_dates: April - June 2025
+      schedule:
+        your_week: What your week will look like 🔎
+        hours_teaching: 3 hours teaching
+        hours_project_work: 5 hours project work
+        mix_of_sessions: Each week we'll have a mix of live sessions and fun projects for you to work on!
+        teaching_sessions_title: 2x 90min teaching sessions 🧑‍🏫
+        teaching_sessions_body: In these core sessions, I'll explain the next core programming concepts, and we'll solve a coding challenge together. Join live to participate or watch back on demand.
+        fun_coding_title: 5+ hours of having fun coding 🧑‍💻
+        fun_coding_body: The most important part of the bootcamp! The more you code, the better your brain starts to piece everything together. If you get too busy in a week to do everything, this is the bit to focus on!
+        get_help_title: 1x 90min "get help" session 💊
+        get_help_body: No-one's getting stuck in this bootcamp! Each week we'll dedicate time to working through people's problems together. If you can't attend, message me where you're stuck and then watch back later!
+        discussing_title: 1 hour of discussing code 🗣️
+        discussing_body: Discussing code is another great way to reinforce your skills. Invest some time into answering questions and helping other students get unstuck, and you'll quickly level up your own knowledge.
+      portfolio:
+        things_well_build: A few things we'll build together ✨
+        build_your_portfolio: Build your portfolio during the bootcamp!
+        focus_from_day_one: Our focus from day one is to get you building fun things. You'll make classic games (and bots to beat them!), interesting websites, and integrate with APIs like ChatGPT to make cutting edge projects!
+        snake_start: Recreate the classic
+        snake_name: Nokia Snake
+        snake_end: game
+        tetris_start: Create a
+        tetris_name: Tetris
+        tetris_end: clone. A tricky one!
+        breakout_start: "Recreate my childhood favourite:"
+        breakout_name: Breakout
+        ttt_start: Create your first bot to beat
+        ttt_name: Tic Tac Toe
+        weather_start: Design a responsive
+        weather_name: Weather App
+        story_start: Create a story along with
+        story_name: ChatGPT
+        positive_start: Calm your world with a
+        positive_name: Positive news
+        positive_end: filter
+        piano_start: Get musical with a
+        piano_name: Piano Composer
+        piano_end: app
+      certificate:
+        celebrate: Celebrate your new skills!
+        get_verified: Get a verified certificate
+        at_the_end: At the end of the Bootcamp, we'll issue you with an official certificate to recognise your participation and completion of the course.
+        show_off: Show off your skills on your resume and in the Certifications section of your LinkedIn profile.
+        share_in_network: Share your certificate in your network
+      testimonial:
+        quote: Exercism is an incredible platform and Jeremy is an outstanding teacher. This is going to be an amazing bootcamp.
+        role: Senior Consultant
+      signup:
+        choose_journey: Choose your Journey
+        two_options: Depending on whether you want to learn web development or some other speciality such as data science, we have two different options.
+        everyone_in: "Everyone in %{country} gets a"
+        percent_discount: "%{percentage}% discount!"
+        percent_discount_plain: "%{percentage}% discount"
+        only: Only
+        part_1: Part 1
+        learn_to: Learn to
+        code: Code
+        part1_fundamentals: Build rock solid coding fundamentals, applicable to every speciality.
+        includes_a: Includes a
+        for_friends_in: for our friends in
+        whos_it_for: Who's it for? 🧑🏽
+        part1_who_start: Anyone looking to develop rock solid
+        coding_fundamentals: coding fundamentals.
+        designed_for: Designed for
+        absolute_beginners: absolute beginners
+        new_devs: or new devs wanting to reinforce their solid foundations.
+        duration: Duration ⏳
+        part1_duration: 3 months, part-time.
+        where_by_end: Where you'll be by the end 🎉
+        part1_end_start: You'll have a solid understanding of
+        part1_end_mid: You'll be ready to learn vocational skills like app development or
+        data_science: data science.
+        whats_included: What's included? 🔎
+        part1_included_1: Over 35 hours of live teaching (that you can watch back forever).
+        part1_included_2: Weekly sessions to answer your questions.
+        part1_included_3: Hundreds of hours of exercises and projects, in a specially designed interface for beginners.
+        part1_included_4: A dedicated community Discord server.
+        part1_included_5: An official certificate of completion.
+        enroll_now: Enroll now 👉
+        the: The
+        complete_course: Complete Course
+        become_a: Become a
+        frontend_dev: Front-End Dev
+        complete_expand: Expand your knowledge to front-end web development.
+        complete_who_start: Anyone looking to become a
+        web_developer: web developer.
+        complete_duration: 6 months, part-time.
+        complete_end_start: You'll be confident creating
+        frontends_scratch: website front-ends from scratch
+        complete_end_end: and well on your way to a career in web development.
+        complete_included_1: Everything in Part 1.
+        complete_included_2: An extra 35 hours of live teaching.
+        complete_included_3: More weekly sessions to answer your questions.
+        complete_included_4: More exercises and projects, this time for you to solve on your own laptop.
+        complete_included_5: A second official certificate of completion to put on your resume.
+      exercism:
+        what_makes_special: What makes Exercism special?
+        exercism_is_a: Exercism is a
+        longstanding_nonprofit: longstanding nonprofit
+        thats_helped: that's helped over
+        two_million: 2 million people
+        level_up: level-up their coding skills.
+        students_title: Exercism students
+        students_body: We've grown entirely by word of mouth. Good friends tell their friends about Exercism!
+        testimonials_title: Testimonials
+        testimonials_body: We've been one of the most trusted resources for coding education for over a decade.
+        exercises_title: Exercises Solved
+        exercises_body: Our exercises are trusted by the coding community as the perfect way to level up!
+        mentoring_title: Mentoring Sessions
+        mentoring_body: Our unique mentoring program is one of the best ways to get tips from experts!
+      faqs:
+        title: Frequently Asked Questions
+        intro: These are the questions we get asked the most. Your question not answered here?
+        ping_email: Ping us an email!
+        q_start: When does the Bootcamp start?
+        a_start: The first session will be on January 11th 2025 at 18:00 UTC.
+        q_time: How much time will I need to spend each week on the bootcamp?
+        a_time: We're aiming for about 8 hours per week (See the "What your week will look like" for more details). If you can put in an hour per day, that will be enough for you to get through the main work. If you can invest an extra few hours per week, you'll be able to also complete any more advanced exercises.
+        q_join_later: Can I join Part 1 now and then sign up for the rest of the course later?
+        a_join_later: Yes, you can. But it will be more expensive to sign up for Part 2 later than it is to sign up for the full course now. We recommend signing up for the full course now if you're confident you want to learn web development.
+        q_group: Are there group activities and do I have to take part?
+        a_group: There are no formal group activities. However, we encourage everyone to share their journey and explore programming together in our Discord server. Exploring other people's code is one of the best ways to improve your programming skills. You can choose to opt-out of the community aspects if you prefer.
+        q_language: What specific programming language will be taught in Part 1?
+        a_language: We'll be teaching you a special beginner-friendly version of JavaScript. We've designed it specifically to ensure you don't get bogged down by syntax or language oddities. The focus is on your learning how to code and then being able to apply that to any language, but you'll also get a big head start on JavaScript preparing you for Part 2.
+        q_limit: Is there a limit to the number of students who can join the live sessions?
+        a_limit: No, the sessions will be streamed online and everyone will be able to ask questions and participate. You can watch them back at any time in the future.
+        q_graded: Are the exercises graded or just for practice? Is there any form of assessment?
+        a_graded: Most exercises can be completed by reaching a certain objective. However, they are not graded and your code isn't assessed or marked. We will explore some (anonymised) code in the weekly sessions and discuss how it could be improved, but our philosophy is that you should be in the trenches coding, not worrying about passing tests.
+        q_job_ready: Will I be job-ready by the end of the bootcamp?
+        a_job_ready: A few exceptional students might be in a position where they're confident applying for junior jobs. But for most people, we'll recommend spending a few more months honing your skills before entering your first programming job. Job hunting can be tough, and the more refined your skills, the more likely you'll be to get that first job!
+        q_discount: "How does the discount for %{country} work?"
+        a_discount: "We understand that $%{price} is a significant amount of money in countries with currencies that are weak against the dollar. So we're offering a %{percentage}% discount to people in %{country} to ensure they can take part."
+        a_discount_2: Simply click the "Enroll now" button and the discount will be automatically applied at checkout.
+        q_discounts_offered: Do you offer any discounts for students, unemployed or people in countries with weak currencies?
+        a_discounts_offered_html: "Yes, we do. We want to ensure as many people can benefit from this bootcamp as possible. Email %{email}, tell me your situation, and I'll see what we can do for you."
+        q_nothing_received: I've signed up but not received anything.
+        a_nothing_received_html: "The bootcamp starts on January 11th 2025, so you won't have access to anything until then. However, you should receive emails giving you more information. If you don't recieve those, please email %{email} and we'll check everything for you."
+      legals:
+        registered: is a registered
+        not_for_profit: not-for-profit organisation.
+ru:
+  courses:
+    bootcamp:
+      countdown:
+        late_enrollments: Поздняя запись сейчас доступна.
+        watch_back: Пересмотрите
+        first_live_session: первую живую сессию
+      nav:
+        bootcamp: Буткемп
+        watch_first_session: Смотреть первую сессию 👀
+        enroll_now: Записаться 👉
+      hero:
+        build_rock_solid: Заложите прочный фундамент
+        foundations: в программировании
+        tagline_start: Уникальный дистанционный буткемп
+        coding_bootcamp: по программированию
+        tagline_end: с частичной занятостью от команды Exercism.
+        starts: Старт
+        start_date: январь 2025.
+        live: Живое
+        teaching: обучение
+        fun: Весёлые
+        projects: проекты
+        only: Всего
+        supporters_include: "Exercism поддерживают:"
+      welcome:
+        are_you_ready: Готовы ли вы
+        learn_to_code: научиться программировать?
+        maybe_youve_tried: Может, вы уже пробовали учиться по другим сайтам или видео, но ничего не откладывается? (дело в них, а не в вас!) Или, может, вы совсем новичок в этом?
+        looking_for_something: Ищете что-то
+        fun_and_creative: весёлое и творческое,
+        where_you: где вы будете
+        learn_by_making: учиться, создавая вещи?
+        world_class: С преподавателем мирового уровня, живыми занятиями и поддержкой, когда она вам нужна?
+        well_then: Что ж, тогда это, возможно, как раз
+        course_for_you: тот самый курс для вас!
+        hi_there: Привет!
+        im_jeremy: Я Джереми, и я помог более чем
+        two_million_people: двум миллионам человек
+        level_up_skills: прокачать навыки программирования.
+        worrying_trend: Но за последние несколько лет я заметил очень тревожную тенденцию...
+        more_and_more: Всё больше людей пытаются научиться программировать (🥳), но, похоже, им
+        struggling_more: сложнее, чем когда-либо (😢).
+        struggling_with: И они мучаются с вещами, которые должны быть довольно простыми, если вы учитесь уже какое-то время. Люди просто не усваивают основы.
+        started_reading: Тогда я стал читать разные материалы, чтобы понять, что происходит, и нашёл безумную статистику.
+        give_up_stat: 96% людей, которые пытаются научиться программировать, бросают
+        how_could_it_be: Как так вышло, что столько людей пытались научиться программировать, но лишь единицы действительно преуспевали?
+        went_investigating: Я начал разбираться… 🕵️
+        i_watched: Я смотрел
+        popular_videos: самые популярные видео на YouTube (🥱),
+        tried_the_best: пробовал "лучшие"
+        online_courses: онлайн-курсы (😐),
+        paid_my_friends: и даже платил друзьям, чтобы они учились, а я мог понаблюдать, что происходит (смесь 😭😠🤬🙅‍♀️).
+        dug_into_research: Я погрузился в научные исследования, поговорил с друзьями из сферы образования и довольно быстро пришёл к простому выводу...
+        taught_to_fail: То, как людей учат программировать, приводит их к неудаче!
+        started_at_8: По сути, был только один способ научиться.
+        make_stuff: Делайте вещи. Много вещей!
+        caption_me: "1998: я делаю первый сайт, за который мне заплатили."
+        caption_me_rhodri: "1998: мы с Родри делаем первый сайт, за который нам заплатили."
+        make_stuff_i_did: И я делал вещи! Я начал делать игры, а потом дорос до маленьких ботов, чтобы играть против них. А когда стал старше, делал сайты для себя и друзей, и
+        eventually_customers: со временем для клиентов.
+        i_created: Я создавал, играл, экспериментировал. Мне было весело!
+        got_really_good: И благодаря этому я стал по-настоящему хорош.
+        learned_mindset: Я освоил мышление программиста
+        laid_foundations: и заложил фундамент, на котором построил всю свою карьеру.
+        not_how_modern: Но современные курсы учат не так.
+        space_to_practice: Дать вам пространство для практики, игры и экспериментов сложно. Гораздо проще просто дать вам видео для просмотра, тест для прохождения и сертификат для распечатки.
+        wont_learn_that_way: Но так вы ничему не научитесь. Вам будет
+        bored_frustrated: скучно, вы будете разочарованы,
+        probably_quit_lead: и, как большинство других людей, вы
+        probably_quit: скорее всего, бросите 😞😡
+        master_the_basics: Если хотите стать хорошим, освойте основы
+        best_coders: Лучшие программисты
+        are_not: не те,
+        know_the_most: кто знает больше всего.
+        best_coders_are: Лучшие программисты те, кто
+        total_mastery: полностью овладел основами.
+        once_basics_down: Как только вы усвоите основы, всё станет лёгким. Вы сможете изучать всё, что захотите или что вам нужно.
+        way_to_master: А как овладеть основами? Практика, практика и ещё раз практика.
+        take_on_challenges: Беритесь за разные задачи. Решайте разные проблемы. И получайте удовольствие, оттачивая своё мастерство!
+        so_thats_what: Вот этим мы и занимаемся...
+        last_year: Последний год мы создавали курс нового типа. Он рассчитан на
+        total_beginners: полных новичков
+        entirely_focused: и полностью сосредоточен на
+        learning_by_doing: обучении через практику.
+        coding_from_day_one: Вы будете программировать с первого дня, и
+        coding_a_lot: вы будете программировать много.
+        once_just_once: И однажды (всего один раз!) мы проведём его как
+        interactive_bootcamp: интерактивный буткемп,
+        where: где
+        guide_you: я буду рядом, чтобы направлять вас.
+        explore_ideas: Я буду рядом, чтобы исследовать идеи вместе с вами, помогать, если вы застряли, и веселиться вместе с вами! ✨
+        for_3_months: За 3 месяца я научу вас основам программирования и
+        think_like_coder: тому, как мыслить как программист.
+        then_web_dev: Затем для тех, кто хочет заняться веб-разработкой, я потрачу ещё 3 месяца, обучая вас созданию красивых интерактивных сайтов.
+        if_sounds_exciting: Если это звучит увлекательно, то
+        love_to_join: я буду очень рад видеть вас с нами! 💙
+      works:
+        how_it_works: Как это работает
+        bootcamp: Буткемп
+        split_two_halves: Буткемп разделён на две половины. В зависимости от ваших целей, вы можете пройти либо Часть 1, либо Полный курс.
+        part1_title: Научиться программировать 🧑‍🔬
+        part1_bubble: Часть 1
+        part1_intro_start: С января по март мы сосредоточимся на
+        part1_foundations: создании прочного фундамента.
+        part1_intro_end: Мы разберём все ключевые концепции программирования и дадим вам массу упражнений и проектов для практики.
+        solid_understanding_lead: Постройте прочное понимание
+        solid_understanding: ключевых принципов программирования, включая управление потоком, условия, типы данных, функции и многое другое, используя дружелюбную к новичкам версию JavaScript.
+        confidence_lead: Обретите уверенность,
+        confidence: чтобы применять свои знания на практике, решая широкий круг задач и используя нужную концепцию в нужный момент.
+        coders_mind_lead: Развейте мышление программиста.
+        coders_mind: Вы заметите, что ваше критическое мышление, навыки решения задач и логика улучшаются.
+        part1_dates: январь - март 2025
+        part2_title: Фронтенд веб-разработка 🧑‍💻
+        part2_bubble: Часть 2
+        part2_intro_start: С апреля по июнь мы будем развивать основы и изучим
+        part2_frontend: фронтенд веб-разработку.
+        part2_intro_end: Вы получите навыки, необходимые для создания красивых интерактивных сайтов и старта карьеры.
+        javascript_lead: Освойтесь с JavaScript.
+        javascript: Мы будем опираться на ваши знания из Части 1, изучая приёмы программирования на JavaScript, необходимые для веб-разработки.
+        html_css_lead: Изучите HTML и CSS.
+        html_css: Эти два языка - остальные основы веб-разработки. Вы изучите оба и будете использовать их для создания красивых сайтов.
+        vscode_git_lead: Изучите Visual Studio Code и Git.
+        vscode_git: Освойте эти важные инструменты и научитесь использовать их, чтобы упростить свою жизнь.
+        portfolio_lead: Соберите портфолио проектов.
+        portfolio: Создавайте проекты, чтобы показать их потенциальным работодателям, оттачивая свои навыки.
+        part2_dates: апрель - июнь 2025
+      schedule:
+        your_week: Как будет выглядеть ваша неделя 🔎
+        hours_teaching: 3 часа обучения
+        hours_project_work: 5 часов работы над проектами
+        mix_of_sessions: Каждую неделю у нас будет сочетание живых сессий и весёлых проектов для вас!
+        teaching_sessions_title: 2 обучающие сессии по 90 минут 🧑‍🏫
+        teaching_sessions_body: На этих основных сессиях я объясню следующие ключевые концепции программирования, и мы вместе решим задачу. Присоединяйтесь вживую, чтобы участвовать, или смотрите в записи по запросу.
+        fun_coding_title: 5+ часов весёлого программирования 🧑‍💻
+        fun_coding_body: Самая важная часть буткемпа! Чем больше вы программируете, тем лучше ваш мозг начинает складывать всё воедино. Если за неделю вы слишком заняты, чтобы сделать всё, сосредоточьтесь именно на этом!
+        get_help_title: 1 сессия "получить помощь" по 90 минут 💊
+        get_help_body: В этом буткемпе никто не застревает! Каждую неделю мы будем выделять время, чтобы вместе разобрать проблемы участников. Если вы не можете присутствовать, напишите мне, где застряли, а потом посмотрите в записи!
+        discussing_title: 1 час обсуждения кода 🗣️
+        discussing_body: Обсуждение кода - ещё один отличный способ закрепить навыки. Потратьте немного времени на ответы на вопросы и помощь другим студентам, и вы быстро прокачаете собственные знания.
+      portfolio:
+        things_well_build: Немного из того, что мы создадим вместе ✨
+        build_your_portfolio: Соберите своё портфолио во время буткемпа!
+        focus_from_day_one: Наша задача с первого дня - дать вам создавать классные вещи. Вы сделаете классические игры (и ботов, чтобы их обыгрывать!), интересные сайты и интегрируетесь с API вроде ChatGPT, чтобы делать передовые проекты!
+        snake_start: Воссоздайте классическую игру
+        snake_name: Nokia Snake
+        snake_end: ""
+        tetris_start: Создайте клон
+        tetris_name: Tetris
+        tetris_end: . Задачка с подвохом!
+        breakout_start: "Воссоздайте любимую игру моего детства:"
+        breakout_name: Breakout
+        ttt_start: Создайте своего первого бота, чтобы обыграть
+        ttt_name: крестики-нолики
+        weather_start: Сделайте адаптивное
+        weather_name: приложение погоды
+        story_start: Создайте историю вместе с
+        story_name: ChatGPT
+        positive_start: Успокойте свой мир с помощью
+        positive_name: фильтра позитивных новостей
+        positive_end: ""
+        piano_start: Займитесь музыкой с помощью
+        piano_name: приложения Piano Composer
+        piano_end: ""
+      certificate:
+        celebrate: Отпразднуйте свои новые навыки!
+        get_verified: Получите подтверждённый сертификат
+        at_the_end: В конце буткемпа мы выдадим вам официальный сертификат, подтверждающий ваше участие и завершение курса.
+        show_off: Покажите свои навыки в резюме и в разделе "Сертификаты" вашего профиля LinkedIn.
+        share_in_network: Поделитесь сертификатом в своей сети
+      testimonial:
+        quote: Exercism - невероятная платформа, а Джереми - выдающийся преподаватель. Это будет потрясающий буткемп.
+        role: Старший консультант
+      signup:
+        choose_journey: Выберите свой путь
+        two_options: В зависимости от того, хотите ли вы изучать веб-разработку или другую специальность вроде data science, у нас есть два разных варианта.
+        everyone_in: "Каждый в стране %{country} получает"
+        percent_discount: "скидку %{percentage}%!"
+        percent_discount_plain: "скидку %{percentage}%"
+        only: Только
+        part_1: Часть 1
+        learn_to: Научитесь
+        code: программировать
+        part1_fundamentals: Заложите прочные основы программирования, применимые к любой специальности.
+        includes_a: Включает
+        for_friends_in: для наших друзей в стране
+        whos_it_for: Для кого это? 🧑🏽
+        part1_who_start: Для всех, кто хочет развить прочные
+        coding_fundamentals: основы программирования.
+        designed_for: Рассчитано на
+        absolute_beginners: полных новичков
+        new_devs: или начинающих разработчиков, желающих укрепить свой фундамент.
+        duration: Продолжительность ⏳
+        part1_duration: 3 месяца, частичная занятость.
+        where_by_end: Где вы будете к концу 🎉
+        part1_end_start: У вас будет прочное понимание
+        part1_end_mid: Вы будете готовы осваивать прикладные навыки вроде разработки приложений или
+        data_science: data science.
+        whats_included: Что входит? 🔎
+        part1_included_1: Более 35 часов живого обучения (которое вы можете пересматривать вечно).
+        part1_included_2: Еженедельные сессии для ответов на ваши вопросы.
+        part1_included_3: Сотни часов упражнений и проектов в специально разработанном для новичков интерфейсе.
+        part1_included_4: Отдельный сервер сообщества в Discord.
+        part1_included_5: Официальный сертификат об окончании.
+        enroll_now: Записаться 👉
+        the: ""
+        complete_course: Полный курс
+        become_a: Станьте
+        frontend_dev: фронтенд-разработчиком
+        complete_expand: Расширьте свои знания до фронтенд веб-разработки.
+        complete_who_start: Для всех, кто хочет стать
+        web_developer: веб-разработчиком.
+        complete_duration: 6 месяцев, частичная занятость.
+        complete_end_start: Вы будете уверенно создавать
+        frontends_scratch: фронтенды сайтов с нуля
+        complete_end_end: и будете на верном пути к карьере в веб-разработке.
+        complete_included_1: Всё из Части 1.
+        complete_included_2: Дополнительные 35 часов живого обучения.
+        complete_included_3: Больше еженедельных сессий для ответов на ваши вопросы.
+        complete_included_4: Больше упражнений и проектов, на этот раз для решения на собственном ноутбуке.
+        complete_included_5: Второй официальный сертификат об окончании для вашего резюме.
+      exercism:
+        what_makes_special: Чем Exercism особенный?
+        exercism_is_a: Exercism - это
+        longstanding_nonprofit: давняя некоммерческая организация,
+        thats_helped: которая помогла более чем
+        two_million: 2 миллионам человек
+        level_up: прокачать навыки программирования.
+        students_title: Студентов Exercism
+        students_body: Мы выросли исключительно благодаря сарафанному радио. Хорошие друзья рассказывают друзьям об Exercism!
+        testimonials_title: Отзывов
+        testimonials_body: Уже более десяти лет мы один из самых надёжных ресурсов для обучения программированию.
+        exercises_title: Решённых упражнений
+        exercises_body: Наши упражнения пользуются доверием сообщества как идеальный способ прокачаться!
+        mentoring_title: Менторских сессий
+        mentoring_body: Наша уникальная программа менторства - один из лучших способов получить советы от экспертов!
+      faqs:
+        title: Часто задаваемые вопросы
+        intro: Это вопросы, которые нам задают чаще всего. Не нашли здесь ответа на свой вопрос?
+        ping_email: Напишите нам!
+        q_start: Когда начинается буткемп?
+        a_start: Первая сессия состоится 11 января 2025 года в 18:00 UTC.
+        q_time: Сколько времени в неделю мне нужно будет уделять буткемпу?
+        a_time: Мы ориентируемся примерно на 8 часов в неделю (см. раздел "Как будет выглядеть ваша неделя" для подробностей). Если вы сможете уделять час в день, этого будет достаточно, чтобы пройти основную работу. Если вложите пару дополнительных часов в неделю, сможете также выполнить более продвинутые упражнения.
+        q_join_later: Могу ли я записаться на Часть 1 сейчас, а на остальной курс позже?
+        a_join_later: Да, можете. Но записаться на Часть 2 позже будет дороже, чем на полный курс сейчас. Мы рекомендуем записаться на полный курс сейчас, если вы уверены, что хотите изучать веб-разработку.
+        q_group: Есть ли групповые активности и обязательно ли в них участвовать?
+        a_group: Формальных групповых активностей нет. Однако мы призываем всех делиться своим путём и вместе исследовать программирование на нашем сервере в Discord. Изучение чужого кода - один из лучших способов улучшить навыки программирования. Вы можете отказаться от участия в сообществе, если предпочитаете.
+        q_language: Какой именно язык программирования будет изучаться в Части 1?
+        a_language: Мы будем учить вас специальной дружелюбной к новичкам версии JavaScript. Мы разработали её специально, чтобы вы не увязли в синтаксисе или особенностях языка. Основной упор делается на то, чтобы вы научились программировать и могли применить это к любому языку, но вы также получите хороший задел по JavaScript, подготавливающий вас к Части 2.
+        q_limit: Есть ли ограничение на число студентов, которые могут присоединиться к живым сессиям?
+        a_limit: Нет, сессии будут транслироваться онлайн, и каждый сможет задавать вопросы и участвовать. Вы можете пересматривать их в любое время в будущем.
+        q_graded: Оцениваются ли упражнения или они только для практики? Есть ли какая-то форма аттестации?
+        a_graded: Большинство упражнений можно выполнить, достигнув определённой цели. Однако они не оцениваются, и ваш код не проверяется и не ставится оценка. Мы разберём некоторый (обезличенный) код на еженедельных сессиях и обсудим, как его можно улучшить, но наша философия в том, что вы должны быть в гуще кода, а не переживать о прохождении тестов.
+        q_job_ready: Буду ли я готов к работе к концу буткемпа?
+        a_job_ready: Несколько исключительных студентов, возможно, будут уверенно подавать заявки на junior-позиции. Но большинству мы порекомендуем потратить ещё несколько месяцев на оттачивание навыков перед первой работой программистом. Поиск работы может быть непростым, и чем отточеннее ваши навыки, тем вероятнее вы получите первую работу!
+        q_discount: "Как работает скидка для страны %{country}?"
+        a_discount: "Мы понимаем, что $%{price} - значительная сумма в странах с валютами, слабыми по отношению к доллару. Поэтому мы предлагаем скидку %{percentage}% людям в стране %{country}, чтобы они могли участвовать."
+        a_discount_2: Просто нажмите кнопку "Записаться", и скидка будет автоматически применена при оформлении.
+        q_discounts_offered: Предлагаете ли вы скидки для студентов, безработных или людей из стран со слабой валютой?
+        a_discounts_offered_html: "Да, предлагаем. Мы хотим, чтобы как можно больше людей смогли воспользоваться этим буткемпом. Напишите на %{email}, расскажите о своей ситуации, и я посмотрю, что мы можем для вас сделать."
+        q_nothing_received: Я записался, но ничего не получил.
+        a_nothing_received_html: "Буткемп начинается 11 января 2025 года, так что до этого у вас не будет доступа ни к чему. Однако вы должны получать письма с дополнительной информацией. Если вы их не получаете, напишите на %{email}, и мы всё для вас проверим."
+      legals:
+        registered: является зарегистрированной
+        not_for_profit: некоммерческой организацией.

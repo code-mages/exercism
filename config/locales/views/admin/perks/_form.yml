@@ -1,0 +1,24 @@
+en:
+  admin:
+    perks:
+      form:
+        prohibited_from_saving: "prohibited this perk from being saved:"
+        general_offer: "General offer"
+        insiders_offer: "Insiders offer"
+        url: "URL"
+        summary_markdown: "Summary (Markdown)"
+        button_text: "Button Text"
+        offer_details: "Offer details (appears on perk page)"
+        voucher_code: "Voucher Code (optional)"
+ru:
+  admin:
+    perks:
+      form:
+        prohibited_from_saving: "не позволили сохранить этот перк:"
+        general_offer: "Общее предложение"
+        insiders_offer: "Предложение для Insiders"
+        url: "URL"
+        summary_markdown: "Краткое описание (Markdown)"
+        button_text: "Текст кнопки"
+        offer_details: "Детали предложения (отображаются на странице перка)"
+        voucher_code: "Код ваучера (необязательно)"

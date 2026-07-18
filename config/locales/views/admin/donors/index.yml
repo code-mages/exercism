@@ -1,0 +1,22 @@
+en:
+  admin:
+    donors:
+      index:
+        donors: Donors
+        name: Name
+        handle: Handle
+        email: Email
+        total_donated_in_cents: Total donated in cents
+        became_donor_at: Became donor at
+        new_donor: New donor
+ru:
+  admin:
+    donors:
+      index:
+        donors: Доноры
+        name: Имя
+        handle: Никнейм
+        email: Email
+        total_donated_in_cents: Всего пожертвовано (в центах)
+        became_donor_at: Стал донором
+        new_donor: Новый донор

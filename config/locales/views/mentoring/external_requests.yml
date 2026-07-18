@@ -21,3 +21,26 @@ en:
         description: You'll need to register as a mentor first to get started.
         register_mentor_button: Register as mentor
         learn_more_button: Learn more
+ru:
+  mentoring:
+    external_requests:
+      exercise_tag:
+        track_title_html: в %{track_title}
+      show_logged_out:
+        heading: Хотите стать ментором для %{user_handle}?
+        description: Exercism позволяет вам менторить других и помогать им улучшать свой код.
+        signup_button: Зарегистрироваться бесплатно
+        login_button: Войти
+        registration_note: Возможно, после регистрации вам потребуется вернуться по этой ссылке.
+      show:
+        heading: Хотите стать ментором для %{user_handle}?
+        description:
+          "%{user_handle} отправил вам личное приглашение стать ментором для
+          своего решения."
+        accept_button: Принять приглашение
+        decline_button: Отклонить
+      show_not_mentor:
+        heading: Хотите стать ментором для %{user_handle}?
+        description: Чтобы начать, сначала нужно зарегистрироваться как ментор.
+        register_mentor_button: Зарегистрироваться как ментор
+        learn_more_button: Узнать больше

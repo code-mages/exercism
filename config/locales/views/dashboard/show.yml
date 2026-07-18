@@ -35,3 +35,41 @@ en:
         full_message_html: "This schedule is regularly updated, and all events will stream on our %{twitch_channel_link} — subscribe so not to miss out!"
         twitch_channel: Twitch Channel
         all_times_utc: All times in UTC.
+
+ru:
+  dashboard:
+    show:
+      summary_bar:
+        badges:
+          more: + ещё %{count}
+        journey_link: Посмотрите свой путь на Exercism
+      header_intro:
+        welcome: С возвращением, %{user_handle}!
+        welcome_message:
+          Решайте задачи по программированию и получайте помощь наставников,
+          чтобы свободно освоить выбранные языки программирования.
+        exercism_status: Exercism с открытым исходным кодом и без коммерческой цели.
+      where_to_start: С чего начать…
+      actions:
+        continue_learning: Продолжите обучение на своих треках
+        try_mentoring: Попробуйте себя в роли наставника
+        get_involved: Присоединяйтесь к сообществу
+        donate: Поддержите нас, чтобы мы могли устойчиво расти
+      community_posts:
+        title: Записи сообщества
+        see_all_link: Смотреть все записи сообщества
+      new_on_exercism:
+        title: Новое на Exercism
+      live_event:
+        live_now: В эфире
+      watch_on_one_html: "Смотрите на %{twitch_link}"
+      watch_on_both_html: "Смотрите на %{twitch_link} или %{youtube_link}"
+      featured_event:
+        coming_soon: Скоро
+        live_at: Эфир в
+        save_the_date: Отметьте дату!
+      scheduled_events:
+        title: Ближайшее расписание трансляций
+        full_message_html: "Это расписание регулярно обновляется, и все трансляции будут проходить на нашем %{twitch_channel_link}, подпишитесь, чтобы ничего не пропустить!"
+        twitch_channel: канале Twitch
+        all_times_utc: Всё время указано в UTC.

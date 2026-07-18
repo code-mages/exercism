@@ -10,3 +10,21 @@ en:
       mentors:
         one: "%{count} mentor"
         other: "%{count} mentors"
+ru:
+  tracks:
+    header:
+      students:
+        one: студент
+        few: студента
+        many: студентов
+        other: студентов
+      contributors:
+        one: "%{count} участник"
+        few: "%{count} участника"
+        many: "%{count} участников"
+        other: "%{count} участников"
+      mentors:
+        one: "%{count} наставник"
+        few: "%{count} наставника"
+        many: "%{count} наставников"
+        other: "%{count} наставников"

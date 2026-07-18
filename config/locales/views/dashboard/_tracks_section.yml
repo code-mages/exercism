@@ -8,3 +8,15 @@ en:
       exercises_completed: "%{completed} / %{total} exercises completed"
       view_all_tracks_link: View all your tracks
       discover_more_tracks_link: Discover more tracks
+ru:
+  dashboard:
+    tracks_section:
+      title: Ваши треки
+      track_count_aria_label:
+        one: 1 трек
+        few: "%{count} трека"
+        many: "%{count} треков"
+        other: "%{count} треков"
+      exercises_completed: "%{completed} / %{total} упражнений выполнено"
+      view_all_tracks_link: Посмотреть все ваши треки
+      discover_more_tracks_link: Найти больше треков

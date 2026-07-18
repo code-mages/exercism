@@ -8,3 +8,13 @@ en:
         description:
           See %{user_handle}'s contributions to Exercism, along with the
           exercises and concepts they authored for various tracks.
+ru:
+  profiles:
+    contributions:
+      meta_title: "Вклад пользователя %{user_handle} в Exercism"
+      meta_description: Посмотрите, как %{user_handle} внёс вклад в Exercism
+      introducer:
+        title: Exercism создают такие люди, как %{user_handle} и вы
+        description:
+          Посмотрите на вклад пользователя %{user_handle} в Exercism, а также на
+          упражнения и концепции, которые он создал для разных треков.

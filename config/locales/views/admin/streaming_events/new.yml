@@ -1,0 +1,12 @@
+en:
+  admin:
+    streaming_events:
+      new:
+        title: New streaming event
+        back: Back to streaming events
+ru:
+  admin:
+    streaming_events:
+      new:
+        title: Новое стриминг-событие
+        back: Назад к стриминг-событиям

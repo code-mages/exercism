@@ -1,0 +1,12 @@
+en:
+  admin:
+    mailshots:
+      new:
+        new_mailshot: New mailshot
+        back_to_mailshots: Back to mailshots
+ru:
+  admin:
+    mailshots:
+      new:
+        new_mailshot: Новая рассылка
+        back_to_mailshots: Назад к рассылкам

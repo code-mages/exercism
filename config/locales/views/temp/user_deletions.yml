@@ -3,3 +3,8 @@ en:
     user_deletions:
       show:
         account_deleted: Account deleted
+ru:
+  temp:
+    user_deletions:
+      show:
+        account_deleted: Аккаунт удалён

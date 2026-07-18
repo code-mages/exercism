@@ -102,3 +102,107 @@ en:
             If you haven't started this process, please email us at [support@exercism.io](mailto:support@exercism.io) immediately.
           %{unconfirmed_email}
             We're contacting you to notify you that your email has been changed to %{resource_email}.
+ru:
+  devise:
+    mailer:
+      unlock_instructions:
+        greeting: Здравствуйте, %{email}!
+        locked_account_message:
+          Ваш аккаунт заблокирован из-за слишком большого числа
+          неудачных попыток входа.
+        unlock_link_prompt: "Нажмите на ссылку ниже, чтобы разблокировать аккаунт:"
+        unlock_my_account_link: Разблокировать мой аккаунт
+        body_markdown: >
+          Здравствуйте, %{email}!
+
+
+          Ваш аккаунт заблокирован из-за слишком большого числа
+          неудачных попыток входа.
+
+
+          Нажмите на ссылку ниже, чтобы разблокировать аккаунт:
+
+
+          [Разблокировать мой аккаунт](%{unlock_url})
+      reset_password_instructions:
+        greeting: Здравствуйте,
+        password_reset_request_message:
+          Кто-то запросил ссылку для смены вашего
+          пароля. Сделать это можно по ссылке ниже.
+        change_my_password_button: Сменить пароль
+        ignore_email_message: Если вы этого не запрашивали, просто проигнорируйте это письмо.
+        password_unchanged_message:
+          Ваш пароль не изменится, пока вы не перейдёте по ссылке
+          выше и не создадите новый.
+        body_markdown: >
+          Здравствуйте,
+
+
+          Кто-то запросил ссылку для смены вашего пароля. Сделать это можно
+          по ссылке ниже.
+
+
+          [Сменить пароль](%{edit_password_url})
+
+
+          Если вы этого не запрашивали, просто проигнорируйте это письмо.
+
+
+          Ваш пароль не изменится, пока вы не перейдёте по ссылке выше и не создадите
+          новый.
+      password_change:
+        greeting: Привет, @%{user_handle},
+        password_changed_notification: Сообщаем вам, что ваш пароль был изменён.
+        contact_support_message: Если это были не вы, немедленно напишите нам на %{support_link}.
+        body_markdown: >
+          Привет, @%{user_handle},
+
+
+          Сообщаем вам, что ваш пароль был
+          изменён.
+
+
+          Если это были не вы, немедленно напишите нам на
+          [support@exercism.io](mailto:support@exercism.io).
+      confirmation_instructions:
+        welcome_message: Добро пожаловать в Exercism!
+        confirmation_message:
+          Чтобы убедиться, что вы реальный человек, а не бот, нам нужно
+          подтвердить, что это действительный адрес электронной почты. Нажмите кнопку ниже, чтобы
+          подтвердить аккаунт и начать пользоваться Exercism.
+        confirm_account_button: Подтвердить аккаунт
+        body_markdown: >
+          Добро пожаловать в Exercism!
+
+
+          Чтобы убедиться, что вы реальный человек, а не бот, нам нужно подтвердить, что это
+          действительный адрес электронной почты.
+
+          Нажмите кнопку ниже, чтобы подтвердить аккаунт и начать пользоваться
+          Exercism.
+
+
+          [Подтвердить аккаунт](%{confirmation_url})
+      email_changed:
+        greeting: Привет, @%{user_handle},
+        email_change_pending_notification:
+          Сообщаем вам, что ваш
+          адрес электронной почты меняется на %{unconfirmed_email}. Вы получите
+          письмо с подтверждением на новый адрес, чтобы завершить процесс.
+        email_change_pending_contact_support:
+          Если вы не запускали этот процесс,
+          немедленно напишите нам на %{support_link}.
+        email_changed_notification:
+          Сообщаем вам, что ваш адрес электронной почты
+          был изменён на %{email}.
+        body_markdown: >
+          Привет, @%{user_handle},
+
+
+          %{unconfirmed_email}
+            Сообщаем вам, что ваш адрес электронной почты меняется на %{resource_unconfirmed_email}.
+            Вы получите письмо с подтверждением на новый адрес, чтобы завершить процесс.
+
+            Если вы не запускали этот процесс, немедленно напишите нам на [support@exercism.io](mailto:support@exercism.io).
+          %{unconfirmed_email}
+            Сообщаем вам, что ваш адрес электронной почты был изменён на %{resource_email}.

@@ -1,0 +1,10 @@
+en:
+  components:
+    user_activities:
+      completed_exercise:
+        time_ago: "%{time_ago} ago"
+ru:
+  components:
+    user_activities:
+      completed_exercise:
+        time_ago: "%{time_ago} назад"

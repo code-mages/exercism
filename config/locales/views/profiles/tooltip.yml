@@ -2,3 +2,7 @@ en:
   profiles:
     tooltip:
       location_label: Located in
+ru:
+  profiles:
+    tooltip:
+      location_label: Находится в

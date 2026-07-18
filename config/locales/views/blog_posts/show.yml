@@ -1,0 +1,32 @@
+en:
+  blog_posts:
+    show:
+      share_bar:
+        useful_short_question: Find this post useful?
+        useful_short_prompt: Share it around!
+        useful_long_question: Find the post interesting or useful?
+        useful_long_prompt: Share it around and have others benefit too!
+      content:
+        useful_cta: Found it useful?
+      byline:
+        published_by: Published by
+      other_posts:
+        more_from_blog: More from our blog
+        community_posts: Other community posts
+        view_all: View all community blog posts
+ru:
+  blog_posts:
+    show:
+      share_bar:
+        useful_short_question: Считаете этот пост полезным?
+        useful_short_prompt: Поделитесь им!
+        useful_long_question: Считаете пост интересным или полезным?
+        useful_long_prompt: Поделитесь им, чтобы и другие могли извлечь пользу!
+      content:
+        useful_cta: Оказалось полезным?
+      byline:
+        published_by: Опубликовал
+      other_posts:
+        more_from_blog: Больше из нашего блога
+        community_posts: Другие посты сообщества
+        view_all: Посмотреть все посты сообщества

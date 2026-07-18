@@ -38,3 +38,43 @@ en:
           description:
             You’ll get to showcase your awesome solutions on your profile,
             which others can read, analyse and learn from
+ru:
+  profiles:
+    intro:
+      locked:
+        reputation:
+          label: Ваша текущая репутация
+          how_it_works: Как это работает?
+          unlock_message_html:
+            Создание профиля открывается при <a href="%{reputation_doc_url}"
+            class="text-gradient !font-semibold">%{profile_min_reputation}
+            репутации</a>
+      top_section:
+        title: Покажите свою работу на Exercism
+        description_unlocked_html: |-
+          Создание публичного профиля - отличный способ показать ваши
+          опубликованные решения, отзывы и вклад в проекты
+          с открытым исходным кодом.
+        description_locked_html: |-
+          Создание публичного профиля - отличный способ показать ваши
+          опубликованные решения, отзывы и вклад в проекты
+          с открытым исходным кодом. <a href="%{reputation_doc_url}" class="text-gradient font-semibold">Наберите %{profile_min_reputation} репутации, чтобы открыть создание профиля.</a>
+
+        create_profile_button: Создать публичный профиль
+      reasons_section:
+        title: Зачем создавать публичный профиль?
+        improve_cv:
+          title: Улучшите своё резюме
+          description:
+            Многие работодатели положительно оценивают вклад в проекты
+            с открытым исходным кодом и активность при рассмотрении резюме кандидатов
+        community_awareness:
+          title: Станьте известны в сообществе
+          description:
+            Публичный профиль позволяет другим больше узнать о вас,
+            кто вы и над чем вы работали
+        help_awareness:
+          title: Помогите другим находить и учиться
+          description:
+            Вы сможете показать свои классные решения в профиле,
+            которые другие смогут читать, анализировать и на них учиться

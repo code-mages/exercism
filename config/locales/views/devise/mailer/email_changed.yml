@@ -1,0 +1,30 @@
+en:
+  devise:
+    mailer:
+      email_changed:
+        body_markdown: >
+          Hey @%{user_handle},
+
+
+          %{unconfirmed_email}
+            We're contacting you to notify you that your email is being changed to %{resource_unconfirmed_email}.
+            You'll get a confirmation email to your new address to complete the process.
+
+            If you haven't started this process, please email us at [support@exercism.io](mailto:support@exercism.io) immediately.
+          %{unconfirmed_email}
+            We're contacting you to notify you that your email has been changed to %{resource_email}.
+ru:
+  devise:
+    mailer:
+      email_changed:
+        body_markdown: >
+          Привет, @%{user_handle},
+
+
+          %{unconfirmed_email}
+            Сообщаем вам, что ваш адрес электронной почты меняется на %{resource_unconfirmed_email}.
+            Вы получите письмо с подтверждением на новый адрес, чтобы завершить процесс.
+
+            Если вы не запускали этот процесс, немедленно напишите нам на [support@exercism.io](mailto:support@exercism.io).
+          %{unconfirmed_email}
+            Сообщаем вам, что ваш адрес электронной почты был изменён на %{resource_email}.

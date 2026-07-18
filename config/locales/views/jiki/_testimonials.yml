@@ -10,3 +10,15 @@ en:
         explanation, each exercise turn this course into a masterpiece. I really
         enjoy it.
       primary_quote_description: Coding Newbie
+ru:
+  jiki:
+    testimonials:
+      heading: Что думают наши студенты?
+      subheading_html: Это несколько отрывков из отзывов наших бета-пользователей. %{link_to_read_more}
+      subheading_link: Читайте полные версии здесь!
+      primary_quote_text:
+        Видя, сколько усилий, размышлений и даже любви вложено в этот курс,
+        быть здесь студентом, это огромное удовольствие. Каждое объяснение,
+        каждое упражнение превращают этот курс в шедевр. Мне это правда
+        нравится.
+      primary_quote_description: Новичок в программировании

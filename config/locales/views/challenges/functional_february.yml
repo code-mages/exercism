@@ -1,0 +1,150 @@
+en:
+  challenges:
+    functional_february:
+      month_label: Month 2 of #12in23
+      title: It's Functional February! ✨
+      intro: This month for #12in23 we're exploring functional languages. We've got interviews with language creators, lots of live streaming, exclusive functional swag and more.
+      video:
+        heading: Start by watching our Functional February overview video  👉
+        description: We've put together an introductory video to get you started. Its split into two parts. In part 1, we'll tell your what's in store for the month. In part 2 we'll take a brief look at what makes functional programming so interesting!
+        cta: Take a watch and leave a comment!
+      learn_and_earn:
+        heading: Learn and Earn (the badge)!
+        description: Earn the Functional February badge for completing and publishing 5 exercises in one of the following languages.
+      recommended:
+        description: 'You can solve any exercises in these tracks to get the badge, but we recommend the following as interesting challenges to approach from a functional perspective:'
+        hamming:
+          name: 'Hamming:'
+          detail: Explore higher order functions
+        collatz:
+          name: 'Collatz Conjecture:'
+          detail: Try out recursion
+        robot:
+          name: 'Robot Simulator:'
+          detail: Explore immutability, records, pattern matching
+        yacht:
+          name: 'Yacht:'
+          detail: Practice pattern-matching and higher-order functions
+        protein:
+          name: 'Protein Translation:'
+          detail: Practice higher-order functions and pattern matching further
+      learn_from_others:
+        heading: Learn from others… 🎥
+        intro: Throughout the month we'll have interviews, including Jose Valim, the creator of Elixir, and Louis Pilfold, the creator or Gleam, walkthroughs from Exercism track contributors, and live streams of the community solving exercises.
+        subscribe_to: Subscribe to our
+        twitch: Twitch Channel
+        and: and
+        youtube: YouTube Channel
+        not_miss: to not miss out!
+        schedule_note: There is a schedule at the top right of this page.
+      join:
+        heading: Join the conversation… 💬
+        resources:
+          before: Help us compile the
+          link: definitive list of great resources
+          after: for learning and mastering functional programming languages in our dedicated forum thread.
+        tag:
+          before: Join in the conversation by using the
+          link: '#12in23 tag on our forums'
+          middle: or the
+          after: hashtag around social media!
+        swag: We have exclusive "functional" swag that will only be available this month coming soon. Keep an eye on the swag store for details!
+      streaming:
+        heading: Upcoming Streaming Schedule
+        description: This schedule is regularly updated. All events will stream on our
+        twitch: Twitch Channel
+        subscribe: subscribe so not to miss out!
+        times_utc: All times in UTC.
+      how_it_works:
+        heading: How does #12in23 work?
+        description: Each month has a different theme and featured languages. Solve exercises in a featured language during that month. Check out our two introductory videos for more details!
+        thumbnail_alt: A video thumbnail
+        take_challenge: Take the #12in23 Challenge
+        official_calendar: The Official #12in23 Calendar
+        track_progress: You can track your progress at the bottom of the page.
+      donate:
+        heading: Enjoying #12in23? Please donate 🙏
+        description: We keep Exercism free so that anyone can use it. But we rely on the generosity of people that could afford it to make that possible. If you're enjoying #12in23 and are financially able, please consider donating to keep Exercism going!
+        button: Donate now
+      progress:
+        heading: Your #12in23 Progress
+        description: Below you'll see a list of all the languages you've used during 2023. Aim to complete 12 languages by the end of the year!
+        cta: Submit 5 exercises (not including "Hello World") in a track to tick off that language!
+        completed_label: Completed
+        exercises_completed: '%{count} exercises completed'
+        exercises_of_five: '%{count} / 5 exercises completed'
+ru:
+  challenges:
+    functional_february:
+      month_label: Месяц 2 из #12in23
+      title: Настал Функциональный февраль! ✨
+      intro: В этом месяце в рамках #12in23 мы изучаем функциональные языки. Вас ждут интервью с создателями языков, множество прямых трансляций, эксклюзивный функциональный мерч и не только.
+      video:
+        heading: Начните с просмотра обзорного видео о Функциональном феврале  👉
+        description: Мы подготовили вводное видео, чтобы помочь вам начать. Оно разделено на две части. В первой части мы расскажем, что вас ждёт в этом месяце. Во второй части кратко посмотрим, что делает функциональное программирование таким интересным!
+        cta: Посмотрите и оставьте комментарий!
+      learn_and_earn:
+        heading: Учитесь и получайте (значок)!
+        description: Получите значок Функционального февраля, решив и опубликовав 5 упражнений на одном из следующих языков.
+      recommended:
+        description: 'Чтобы получить значок, можно решать любые упражнения из этих треков, но мы рекомендуем следующие как интересные задачи, к которым стоит подойти с функциональной точки зрения:'
+        hamming:
+          name: 'Hamming:'
+          detail: изучите функции высшего порядка
+        collatz:
+          name: 'Collatz Conjecture:'
+          detail: попробуйте рекурсию
+        robot:
+          name: 'Robot Simulator:'
+          detail: изучите неизменяемость, записи и сопоставление с образцом
+        yacht:
+          name: 'Yacht:'
+          detail: попрактикуйтесь в сопоставлении с образцом и функциях высшего порядка
+        protein:
+          name: 'Protein Translation:'
+          detail: продолжите практиковать функции высшего порядка и сопоставление с образцом
+      learn_from_others:
+        heading: Учитесь у других… 🎥
+        intro: В течение месяца у нас будут интервью, включая Жозе Валима, создателя Elixir, и Луиса Пилфолда, создателя Gleam, разборы от участников треков Exercism и прямые трансляции, где сообщество решает упражнения.
+        subscribe_to: Подпишитесь на наш
+        twitch: канал в Twitch
+        and: и
+        youtube: канал на YouTube
+        not_miss: чтобы ничего не пропустить!
+        schedule_note: Расписание есть в правом верхнем углу этой страницы.
+      join:
+        heading: Присоединяйтесь к беседе… 💬
+        resources:
+          before: Помогите нам составить
+          link: подробный список отличных ресурсов
+          after: для изучения и освоения функциональных языков программирования в нашей специальной ветке на форуме.
+        tag:
+          before: Присоединяйтесь к беседе, используя
+          link: тег #12in23 на нашем форуме
+          middle: или
+          after: хэштег в социальных сетях!
+        swag: У нас появится эксклюзивный "функциональный" мерч, доступный только в этом месяце. Следите за магазином мерча, чтобы узнать подробности!
+      streaming:
+        heading: Ближайшее расписание трансляций
+        description: Это расписание регулярно обновляется. Все события транслируются на нашем
+        twitch: канале в Twitch
+        subscribe: подпишитесь, чтобы ничего не пропустить!
+        times_utc: Всё время указано в UTC.
+      how_it_works:
+        heading: Как работает #12in23?
+        description: У каждого месяца своя тема и языки в центре внимания. Решайте упражнения на выбранном языке в течение этого месяца. Посмотрите два наших вводных видео, чтобы узнать подробности!
+        thumbnail_alt: Превью видео
+        take_challenge: Примите вызов #12in23
+        official_calendar: Официальный календарь #12in23
+        track_progress: Вы можете отслеживать свой прогресс внизу страницы.
+      donate:
+        heading: Нравится #12in23? Поддержите нас пожертвованием 🙏
+        description: Мы делаем Exercism бесплатным, чтобы им мог пользоваться каждый. Но мы полагаемся на щедрость тех, кто может себе это позволить, чтобы это оставалось возможным. Если вам нравится #12in23 и у вас есть финансовая возможность, пожалуйста, подумайте о пожертвовании, чтобы поддержать Exercism!
+        button: Пожертвовать
+      progress:
+        heading: Ваш прогресс в #12in23
+        description: Ниже вы увидите список всех языков, которые использовали в 2023 году. Стремитесь освоить 12 языков к концу года!
+        cta: Отправьте 5 упражнений (не считая "Hello World") в треке, чтобы отметить этот язык!
+        completed_label: Завершено
+        exercises_completed: 'упражнений завершено: %{count}'
+        exercises_of_five: '%{count} / 5 упражнений завершено'

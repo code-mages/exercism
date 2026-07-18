@@ -17,3 +17,22 @@ en:
         meta_description:
           Explore different approaches and videos on how to solve
           %{exercise_title} in %{track_title}.
+ru:
+  tracks:
+    dig_deeper:
+      tooltip_locked:
+        title: Возникли сложности с этим упражнением?
+        unlock_dig_deeper:
+          Откройте вкладку Dig Deeper, чтобы увидеть, как сообщество подошло
+          к решению %{exercise_title} и справилось с ним.
+        attempt_exercise_first:
+          Вы можете открыть вкладку Dig Deeper для этого упражнения,
+          только если попробовали решить его хотя бы один раз.
+        recommendation:
+          Мы настоятельно рекомендуем сначала выложиться по максимуму,
+          не заглядывая во вкладку Dig Deeper.
+      show:
+        meta_title: Изучите %{exercise_title} глубже в %{track_title} на Exercism
+        meta_description:
+          Познакомьтесь с разными подходами и видео о том, как решить
+          %{exercise_title} в %{track_title}.

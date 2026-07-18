@@ -1,0 +1,12 @@
+en:
+  admin:
+    perks:
+      new:
+        adding_perk: "Adding perk for %{name}"
+        back_to_partner: "Back to partner"
+ru:
+  admin:
+    perks:
+      new:
+        adding_perk: "Добавление перка для %{name}"
+        back_to_partner: "Назад к партнёру"

@@ -1,0 +1,36 @@
+en:
+  community:
+    videos:
+      rhs:
+        live_event:
+          status: Live now
+        watch_on_both_html: Watch on %{twitch_link} or %{youtube_link}
+        watch_on_one_html: Watch on %{twitch_link}
+        featured_event:
+          status: Featured event
+          live_at: 'Live at'
+          save_date: Save the date!
+        scheduled_events:
+          title: Upcoming events
+          description_one: We stream regularly on our
+          twitch_channel: Twitch channel
+          description_two: Come and hang out with us!
+          description_three: "Here's what's coming up next:"
+ru:
+  community:
+    videos:
+      rhs:
+        live_event:
+          status: В эфире
+        watch_on_both_html: Смотрите на %{twitch_link} или %{youtube_link}
+        watch_on_one_html: Смотрите на %{twitch_link}
+        featured_event:
+          status: Избранное событие
+          live_at: 'В эфире'
+          save_date: Сохраните дату!
+        scheduled_events:
+          title: Предстоящие события
+          description_one: Мы регулярно ведём трансляции на нашем
+          twitch_channel: канале Twitch
+          description_two: Присоединяйтесь к нам!
+          description_three: "Вот что нас ждёт дальше:"

@@ -11,3 +11,16 @@ en:
         you eligible for %{link_to_insiders}.
       exercism_insiders: Exercism Insiders
       go_to_dashboard: Go to your dashboard
+ru:
+  donations:
+    donated:
+      title: Пожертвование прошло успешно
+      thank_you_message_html:
+        Большое спасибо за поддержку нашей работы! Ваше пожертвование
+        поможет нам продолжать улучшать Exercism и делать его бесплатным для
+        всех.
+      insiders_eligibility_html:
+        Если ваше пожертвование превысило $9.99, оно даёт
+        вам право на %{link_to_insiders}.
+      exercism_insiders: Exercism Insiders
+      go_to_dashboard: Перейти в личный кабинет

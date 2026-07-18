@@ -1,0 +1,12 @@
+en:
+  admin:
+    users:
+      index:
+        title: Users
+        search_user: Search User
+ru:
+  admin:
+    users:
+      index:
+        title: Пользователи
+        search_user: Поиск пользователя

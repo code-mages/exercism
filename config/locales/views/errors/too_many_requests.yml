@@ -1,0 +1,16 @@
+en:
+  errors:
+    too_many_requests:
+      heading: Too Many Requests
+      lead: You've done too many things in too short a space of time.
+      body: "Exercism gets constantly attacked by bots so we have rate-limits to stop abuse. Please wait one minute then try again (note: hammering refresh will reset the time-out...)"
+      contact_html: If you see this frequently, please let us know %{forum_link}!
+      forum_link_text: on the forum
+ru:
+  errors:
+    too_many_requests:
+      heading: Слишком много запросов
+      lead: Вы сделали слишком много действий за слишком короткое время.
+      body: "Exercism постоянно атакуют боты, поэтому у нас есть ограничения по частоте запросов, чтобы предотвратить злоупотребления. Пожалуйста, подождите одну минуту и попробуйте снова (учтите: если беспрерывно жать обновление, тайм-аут сбросится...)"
+      contact_html: Если вы видите это часто, пожалуйста, сообщите нам %{forum_link}!
+      forum_link_text: на форуме

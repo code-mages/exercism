@@ -15,3 +15,20 @@ en:
         subtitle:
           We asked our students if they'd enjoyed the course. Here's what they
           said...
+ru:
+  courses:
+    testimonials:
+      top_discount_bar:
+        text_html: Загляните в наши курсы %{coding_fundamentals_link} и
+          %{front_end_fundamentals_link}.
+        coding_fundamentals_link_text: Основы программирования
+        front_end_fundamentals_link_text: Основы фронтенда
+      nav:
+        exercism_text: Exercism
+        bootcamps_text: Буткемпы
+        enroll_now_button: Записаться 👉
+      header:
+        title: Отзывы
+        subtitle:
+          Мы спросили наших студентов, понравился ли им курс. Вот что они
+          ответили...

@@ -1,0 +1,22 @@
+en:
+  bootcamp:
+    projects:
+      show:
+        breadcrumb: Projects
+        completed: Completed
+        exercises: Exercises
+        progress: You have completed %{num_completed} of %{num_unlocked} unlockable exercises in this project.
+        your_drawings: Your Drawings
+        drawings_intro: Create your own drawings using code!
+        new_drawing: New Drawing
+ru:
+  bootcamp:
+    projects:
+      show:
+        breadcrumb: Проекты
+        completed: Завершено
+        exercises: Упражнения
+        progress: Вы выполнили %{num_completed} из %{num_unlocked} открываемых упражнений в этом проекте.
+        your_drawings: Ваши рисунки
+        drawings_intro: Создавайте собственные рисунки с помощью кода!
+        new_drawing: Новый рисунок

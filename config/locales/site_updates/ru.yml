@@ -1,0 +1,13 @@
+ru:
+  site_updates:
+    new_exercise:
+      1: >
+        <em>%{maker_handles}</em> опубликовал новое упражнение: <a href="%{exercise_url}">%{exercise_title}</a>
+
+    new_concept:
+      1: >
+        <em>%{maker_handles}</em> опубликовал новую концепцию: <a href="%{concept_url}">%{concept_name}</a>
+
+    arbitrary:
+      1: >
+        <em>%{author_handle}</em> опубликовал новое обновление.

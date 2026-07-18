@@ -1,0 +1,18 @@
+en:
+  admin:
+    community_videos:
+      form:
+        error: 'error'
+        prohibited_saved: 'prohibited this community_video from being saved:'
+        track: 'Track: %{track}'
+        exercise: 'Exercise: %{exercise}'
+        submitted_by: 'Submitted By: %{name} | @%{handle} | #%{id}'
+ru:
+  admin:
+    community_videos:
+      form:
+        error: 'ошибка'
+        prohibited_saved: 'не позволили сохранить это видео сообщества:'
+        track: 'Трек: %{track}'
+        exercise: 'Упражнение: %{exercise}'
+        submitted_by: 'Добавил: %{name} | @%{handle} | #%{id}'

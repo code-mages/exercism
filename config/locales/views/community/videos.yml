@@ -16,3 +16,21 @@ en:
           twitch_channel: Twitch Channel
           description_two: Subscribe and don't miss out!
           description_three: All times are in UTC.
+ru:
+  community:
+    videos:
+      rhs:
+        live_event:
+          status: "В эфире"
+        watch_on_one_html: "Смотреть на %{twitch_link}"
+        watch_on_both_html: "Смотреть на %{twitch_link} или %{youtube_link}"
+        featured_event:
+          status: Скоро
+          live_at: В эфире в
+          save_date: Отметь дату!
+        scheduled_events:
+          title: Расписание предстоящих трансляций
+          description_one: Это расписание регулярно обновляется. Все трансляции проходят на нашем
+          twitch_channel: канале Twitch
+          description_two: Подпишись и ничего не пропусти!
+          description_three: Всё время указано в UTC.

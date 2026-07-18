@@ -9,3 +9,14 @@ en:
       published_solutions:
         title: Published Solutions
         see_all_link: See all of %{user_name}'s solutions
+ru:
+  profiles:
+    show:
+      meta_title: "Профиль %{user_handle} на Exercism"
+      meta_description:
+        Узнайте, чем занимался %{user_handle} на Exercism. Изучите
+        его самые интересные решения, лучшие вклады и самые вдохновляющие
+        отзывы.
+      published_solutions:
+        title: Опубликованные решения
+        see_all_link: Посмотреть все решения %{user_name}
