@@ -22,9 +22,13 @@ diverges from upstream in important ways; read this before making changes.
 - **No server-side test-runner / tooling pipeline.** Learners solve locally with the CLI:
   `exercism configure -a https://exercism.apps.aintools.ru/api/v2 -t <token>`
   (token from `/settings/api_cli`). NOTE: base URL is **`/api/v2`**, not `/api/v1`.
-  The full CLI-facing API (`solutions/:uuid/submissions`, `iterations`, ...) is under the
-  `scope :v2` block in `config/routes/api.rb`; `/api/v1` only exposes a stripped-down
-  `solutions#show/update`, so `/api/v1` lets `download` work but makes `submit` 404 (HTML).
+  The CLI uses ONE base URL for everything, but `config/routes/api.rb` split the API:
+  `download` needs `solutions/latest` (+ `files/*filepath`), historically under
+  `namespace :v1`; `submit` needs `solutions/:uuid/submissions` + `iterations`, only under
+  the `scope :v2` block. So neither `/api/v1` nor `/api/v2` alone worked. Fix: `solutions/latest`
+  is now aliased into v2 (`get :latest, to: "v1/solutions#latest"`), so `/api/v2` serves both
+  download and submit. (File downloads use an absolute `api_host/v1/.../files/` URL from the
+  solution response, so they work regardless of base.)
 - **Submission storage = LocalStack S3 via a bridge.** `Submission::File`
   (`app/models/submission/file.rb`) uploads file content to `Exercism.s3_client`, whose
   endpoint the `exercism-config` gem **hardcodes** to `http://localhost:3040` for

@@ -42,11 +42,10 @@ class GenericExercisesController < ApplicationController
 
   private
   def use_exercise!
-    begin
-      @exercise = Track.find_by(slug: 'elixir').exercises.find(params[:id])
-    rescue ActiveRecord::RecordNotFound
-      @exercise = Exercise.find(params[:id])
-    end
+    # Upstream looks the exercise up in the hardcoded 'elixir' reference track
+    # first; this custom-tracks-only fork has no elixir track, so that `nil.exercises`
+    # 500'd. Resolve the exercise by slug across whatever tracks exist (friendly_id).
+    @exercise = Exercise.find(params[:id])
 
     @ps_data = @exercise.generic_exercise
     render_404 unless @ps_data

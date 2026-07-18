@@ -166,6 +166,12 @@ namespace :api do
     resources :streaming_events, only: [:index]
 
     resources :solutions, only: %i[index show update], param: :uuid do
+      # The CLI uses ONE api base URL for everything. `download` hits
+      # solutions/latest (implemented only in the v1 controller), while `submit`
+      # hits submissions/iterations (only under this v2 scope). Expose latest here
+      # too so a single base (/api/v2) serves both; the action reads track_id /
+      # exercise_id query params, so routing it to the v1 controller is clean.
+      get :latest, on: :collection, to: "v1/solutions#latest"
       member do
         get :diff
 
