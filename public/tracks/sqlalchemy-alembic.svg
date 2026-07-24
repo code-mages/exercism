@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SQLAlchemy + Alembic">
+  <rect width="64" height="64" rx="14" fill="#0F766E"/>
+  <g fill="#fff">
+    <ellipse cx="32" cy="19" rx="15" ry="6"/>
+    <path d="M17 19v11c0 3.3 6.7 6 15 6s15-2.7 15-6V19c0 3.3-6.7 6-15 6s-15-2.7-15-6z" opacity=".95"/>
+    <path d="M17 32v11c0 3.3 6.7 6 15 6s15-2.7 15-6V32c0 3.3-6.7 6-15 6s-15-2.7-15-6z" opacity=".8"/>
+  </g>
+</svg>
